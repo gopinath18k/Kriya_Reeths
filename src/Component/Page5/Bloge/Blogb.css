@@ -1,0 +1,305 @@
+
+.blogb-main{
+    overflow: hidden;
+    margin-top: 7%;
+}
+.beer1{
+    width: 88%;
+    object-fit: cover;
+    height: 500px;
+    object-position: top;
+    border-radius: 10px;
+   
+}
+.beer1-head{
+    display: flex;
+    justify-content: end;
+}
+.beer2{
+    width: 100%;
+    border-radius: 8px;
+    
+    
+}
+.tony-headb{
+    display: flex;
+    margin-top:3% ;
+    
+}
+.tonyb{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.tony-textb{
+    margin-top: 0.8%;
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+}
+.tony-textb p{
+    margin-top: 0;
+}
+.tony-textb h6{
+    margin-bottom: 0;
+}
+.beer2-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.blogb-head{
+    padding: 0 8%;
+    margin-top: 3%;
+}
+.blogb-head-sub h6{
+    color: #EAAA00;
+}
+
+.blogb-head-sub h4{
+    font-weight: 600;
+    font-size: 30px;
+}
+.blogb-head-sub h5{
+    font-weight: 600;
+    font-size: 23px;
+}
+.sub-head-par{
+    font-weight: 500;
+    font-size: 19px;
+    color: #222222;
+    margin-top: 30px;
+}
+@media screen and (min-width: 820px) and (max-width: 1024px){
+    .tony-headb{
+        display: flex;
+        margin-top:3% ;
+        
+    }
+    .tonyb{
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+    }
+    .tony-textb{
+        margin-top: 0.8%;
+        margin-left: 10px;
+        color: rgb(0, 0, 0);
+    }
+    .tony-textb p{
+        margin-top: 0;
+        font-size: 12px;
+    }
+    .tony-textb h6{
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+    .beer2-head{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    .blogb-head{
+        padding: 0 8%;
+        margin-top: 3%;
+    }
+    .blogb-head-sub h6{
+        color: #EAAA00;
+    }
+    
+    .blogb-head-sub h4{
+        font-weight: 600;
+        font-size: 30px;
+    } 
+    .blogb-head-sub p{
+        font-size: 14.5px;
+    }
+}
+@media screen and (min-width: 550px) and (max-width: 820px){
+    .tony-headb{
+        display: flex;
+        margin-top:3% ;
+        
+    }
+    .tonyb{
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+    }
+    .tony-textb{
+        margin-top: 0.8%;
+        margin-left: 10px;
+        color: rgb(0, 0, 0);
+    }
+    .tony-textb p{
+        margin-top: 0;
+        font-size: 12px;
+    }
+    .tony-textb h6{
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+    .beer2-head{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    .blogb-head{
+        padding: 0 8%;
+        margin-top: 3%;
+    }
+    .blogb-head-sub h6{
+        color: #EAAA00;
+    }
+    
+    .blogb-head-sub h4{
+        font-weight: 600;
+        font-size: 25px;
+    } 
+    .blogb-head-sub p{
+        font-size: 12px;
+    }
+    .blogb-head-sub h6{
+        color: #EAAA00;
+        font-size: 12px;
+    }
+    .blogb-main{
+        overflow: hidden;
+        margin-top: 6%;
+    }
+    .beer1{
+        width: 89%;
+        object-fit: cover;
+        height: 250px;
+        object-position: top;
+        border-radius: 10px;
+       
+    }
+}
+@media screen and (min-width: 365px) and (max-width: 550px){
+    .tony-headb{
+        display: flex;
+        margin-top:3% ;
+        
+    }
+    .blogb-head-sub h5 {
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .beer1{
+        width: 89%;
+        object-fit: cover;
+        height: 200px;
+        object-position: top;
+        border-radius: 10px;
+       
+    }
+    .tonyb{
+        width: 25px;
+        height: 25px;
+        object-fit: cover;
+    }
+    .tony-textb{
+        margin-top: 3%;
+        margin-left: 6px;
+        color: rgb(0, 0, 0);
+    }
+    .tony-textb p{
+        margin-top: 0;
+        font-size: 6px;
+        
+    }
+    .tony-textb h6{
+        margin-bottom: 0;
+        font-size: 8px;
+    }
+    .beer2-head{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    .blogb-head{
+        padding: 0 8%;
+        margin-top: 3%;
+    }
+    .blogb-head-sub h6{
+        color: #EAAA00;
+    }
+    
+    .blogb-head-sub h4{
+        font-weight: 600;
+        font-size: 20px;
+    } 
+    .blogb-head-sub p{
+        font-size: 11.5px;
+    }
+    .blogb-head-sub h6{
+        color: #EAAA00;
+        font-size: 11px;
+    }
+    .blogb-main{
+        overflow: hidden;
+        margin-top: 6%;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 365px){
+    .tony-headb{
+        display: flex;
+        margin-top:3% ;
+        
+    }
+    .tonyb{
+        width: 19px;
+        height: 19px;
+        object-fit: cover;
+    }
+    .beer1{
+        width: 89%;
+        object-fit: cover;
+        height: 200px;
+        object-position: top;
+        border-radius: 10px;
+       
+    }
+    .tony-textb{
+        margin-top: 8%;
+        margin-left: 4px;
+        color: rgb(0, 0, 0);
+    }
+    .tony-textb p{
+        margin-top: 0;
+        font-size: 4px;
+        
+    }
+    .tony-textb h6{
+        margin-bottom: 0;
+        font-size: 6px;
+    }
+    .beer2-head{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    .blogb-head{
+        padding: 0 8%;
+        margin-top: 3%;
+    }
+    .blogb-head-sub h6{
+        color: #EAAA00;
+    }
+    
+    .blogb-head-sub h4{
+        font-weight: 600;
+        font-size: 18px;
+    } 
+    .blogb-head-sub p{
+        font-size: 11px;
+    }
+    .blogb-head-sub h6{
+        color: #EAAA00;
+        font-size: 11px;
+    }
+    .blogb-main{
+        overflow: hidden;
+        margin-top: 6%;
+    }
+}

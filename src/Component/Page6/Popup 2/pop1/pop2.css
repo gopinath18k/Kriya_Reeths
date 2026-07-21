@@ -1,0 +1,479 @@
+/* pop2.css */
+  /* Hide the spinner for number input */
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none; /* Chrome, Safari, Edge */
+    margin: 0; /* Remove margin */
+  }
+  
+  input[type="number"] {
+    -moz-appearance: textfield; /* Firefox */
+  }
+.overlay-container-intern {
+  position: fixed;
+  top: 0;
+  left: -2%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.dropdown{
+  display: flex;
+  justify-content: flex-start;
+}
+.select-container{
+  margin: 0;
+}
+.work-site{
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  
+}
+.inner-dropdown-intern{
+  display: flex;
+}
+.button-container {
+  display: flex;
+  justify-content: start;
+  color: black;
+}
+.content-section{
+  text-align: left;
+}
+.flex-row{
+  display: flex;
+  align-items: center;
+  gap: 2%;
+}
+.popup-box-intern {
+  background-color: rgba(0, 0, 0, 0.562);
+  backdrop-filter: blur(5px);
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  width: 115%;
+  max-width: 900px;
+  max-height: 90vh; /* Set a maximum height for the popup */
+  padding: 5%;
+  border: 1px solid white;
+  letter-spacing: -1px;
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+.light-txt{
+  font-weight: 300;
+  color: white;
+  
+}
+.exp-section{
+  text-align: start;
+}
+.title-text {
+  text-align: left;
+  color: white;
+}
+
+.submit-button {
+  width: 80px;
+  background: #ffffff;
+  font-size: 15px;
+  border-radius: 3px;
+  padding: 4px 0;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 4%;
+  color: black;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  cursor: pointer;
+  font-size: 30px;
+  color: white;
+}
+
+.dropdown-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 4%; 
+  margin-right: 200px;
+  
+}
+.labeltxt-color{
+  color: white;
+}
+.head-labeltxt-color{
+  color: white;
+}
+.dropdown-single{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.date-picker-container {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  
+}
+
+.custom-date-picker {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 200px;
+  transition: all 0.3s ease;
+  background-color: #00000044;
+  color: white;
+}
+
+.custom-date-picker:focus {
+  border-color:none;
+  box-shadow: 0 0 8px rgba(57, 57, 57, 0.5);
+}
+
+.custom-date-picker::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  filter: invert(0.5);
+}
+.radio-row-intern{
+  display: flex;
+  gap: 20%;
+}
+.radio-label{
+  display: flex;
+  flex-direction: column;
+}
+.label-radio{
+
+  color: white;
+}
+.popup-success {
+  position: fixed;
+  top: 20px; /* Adjust the top position */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000; /* Ensure the popup appears above other content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sucessed-popup-content {
+  background-color: #00000048; /* Success green */
+  backdrop-filter: blur(10px);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 30px 100px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  font-size: 21px;
+  font-weight: 600;
+  border: 1px solid white;
+}
+
+.success-message-popup h5 {
+  font-size: 15px;
+  margin-top: 3px;
+}
+
+/* Responsive Styles */
+@media (max-width: 440px) {
+  .popup-box-intern {
+    letter-spacing: -1px;
+    padding: 5%;
+  }
+
+  .submit-button {
+    width: 80px;
+    background: #ffffff;
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 4px 0;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 7%;
+    text-align: center;
+  }
+
+  .title-text {
+    text-align: center;
+    color: white;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .dropdown-container {
+    display: flex;
+    gap: 0px;
+    margin-top: 4%;
+    flex-wrap: wrap;
+  }
+  .input-label{
+    font-size: 11px;
+  }
+}
+
+/* place.css */
+
+.input-wrapper {
+  position: relative;
+  margin: 20px 0;
+  background-color: none;
+}
+
+.input-label {
+  position: absolute;
+  left: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.2s ease-out;
+  pointer-events: none;
+  color: rgb(143, 143, 143);
+  font-size: 19px;
+}
+
+.input-wrapper.input-focused .input-label,
+.input-wrapper input:not(:placeholder-shown) + .input-label {
+  top: 0;
+  transform: translateY(-100%);
+  font-size: 19px;
+  color: rgb(255, 255, 255);
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  color: rgb(233, 233, 233);
+  outline: none;
+  background-color: transparent;
+}
+
+input::placeholder {
+  font-size: 22px;
+}
+
+.underline {
+  height: 2px;
+  width: 280px;
+  background: rgb(255, 255, 255);
+  margin-left: 0.6%;
+}
+
+.underline-long {
+  height: 2px;
+  width: 650px;
+  background: rgb(255, 255, 255);
+  margin-left: 0.6%;
+}
+
+.input-group{
+  display: flex;
+  gap: 30px;
+}
+
+.single-input {
+  display: flex;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: -5%;
+}
+
+@media screen and (min-width: 820px) and (max-width: 1024px) {
+  .underline {
+    height: 2px;
+    width: 200px;
+    background: rgb(255, 255, 255);
+    margin-left: 0.6%;
+  }
+
+  .underline-long {
+    height: 2px;
+    width: 530px;
+    background: rgb(255, 255, 255);
+    margin-left: 0.6%;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    background-color: transparent;
+  }
+
+  input::placeholder {
+    font-size: 20px;
+  }
+
+  .input-wrapper.input-focused .input-label,
+  .input-wrapper input:not(:placeholder-shown) + .input-label {
+    top: 0;
+    transform: translateY(-100%);
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+  }
+}
+
+@media screen and (min-width: 440px) and (max-width: 820px) {
+  .underline {
+    height: 1px;
+    width: 180px;
+    background: rgb(255, 255, 255);
+    margin-left: 0.6%;
+  }
+
+  .underline-long {
+    height: 1px;
+    width: 350px;
+    background: rgb(255, 255, 255);
+    margin-left: 0.6%;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    background-color: transparent;
+  }
+
+  input::placeholder {
+    font-size: 19px;
+  }
+
+  .input-wrapper.input-focused .input-label,
+  .input-wrapper input:not(:placeholder-shown) + .input-label {
+    top: 0;
+    transform: translateY(-100%);
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+  }
+
+  .input-group {
+    display: flex;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 440px){
+  .flex-row{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    flex-wrap: wrap;
+  }
+  .underline {
+    height: 2px;
+    width: 140px;
+    background: rgb(255, 255, 255);
+    margin-left: 0.6%;
+  }
+  
+  .underline-long {
+    height: 2px;
+    width: 300px;
+    background: rgb(255, 255, 255);
+    margin-left: 0.6%;
+  }
+  .input-label {
+    position: absolute;
+    left: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.2s ease-out;
+    pointer-events: none;
+    color: rgb(143, 143, 143);
+    font-size: 15px;
+  }
+  .dropdown-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 4%; 
+    margin-right: 0px;
+    justify-content: start;
+    text-align: start;
+    
+  }
+  .input-group {
+    display: flex;
+    gap: 0px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .custom-date-picker {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 200px;
+    transition: all 0.3s ease;
+    background-color: #00000044;
+    color: white;
+  }
+  .labeltxt-color{
+    color: white;
+    font-size: 16px;
+    letter-spacing: -0px;
+  }
+  .head-labeltxt-color{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 12px;
+    outline: none;
+    background-color: transparent;
+  }
+  .mob-underline{
+    height: 2px;
+    width: 300px;
+    background: rgb(255, 255, 255);
+    margin-left: 0.6%;
+  }
+  .input-wrapper.input-focused .input-label,
+.input-wrapper input:not(:placeholder-shown) + .input-label {
+  top: 0;
+  transform: translateY(-100%);
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+.popup-box-intern{
+  width: 90%;
+}
+.overlay-container-intern {
+  position: fixed;
+  top: 0;
+  left: 5%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.success-message-popup h5 {
+  font-size: 13px;
+  margin-top: 3px;
+}
+}

@@ -1,0 +1,563 @@
+.key-3{
+    position: absolute; /* Ensures the container is the context for absolutely positioned elements */
+    z-index: 1; /* Lower than menu */
+    inset: 0;
+    margin-top: 1%;
+
+}
+.pay-per-main{
+    display: flex;
+    align-items: self-end;
+    width: 100%;
+    padding: 0 100px;
+    margin: 0;
+    background-color: #2b2b2b;
+}
+.pay-per-img-head{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.pay-per-video{
+    width: 32%;
+    top: 18%;
+    position: absolute;
+}
+.pay-per-img-head2{
+    display: flex;
+    justify-content: flex-start;
+}
+.pay-text-col{
+    display: flex;
+    flex-direction: column;  
+}
+.pay-vid-pd{
+    padding-top: 7%;
+}
+.kk{
+    position: relative;
+}
+.pay-per-img{
+    width: 60%;
+    
+}
+.pay-per-img2{
+    width: 75%;
+    
+}
+.pay-per-logo{
+    width: 12%;
+    margin-bottom: 2%;
+    object-fit: cover;
+}
+.pay-per-head{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    
+}
+.pay-per-para{
+    font-size: 15px;
+    width: 400px;
+    color: white;
+    font-weight: 300;
+    
+    
+  
+}
+
+
+.pay-sub{
+    display: flex;
+    gap: 9%;
+    
+}
+
+.pay-sub-box{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1%;
+}
+.pay-sub-head{
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+    color: white;
+
+}
+.pay-sub-p{
+    font-size: 15px;
+    
+    color: white;
+    font-weight: 300;
+  
+}
+.pay-per-bot-pading{
+    padding-bottom: 150px;
+    position: relative;
+
+}
+.video-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+    overflow: hidden;
+    
+}
+
+.pay-per-video {
+    width: 100%; /* Ensures the video takes up the full width of its container */
+    height: auto; /* Maintains aspect ratio */
+    position: relative;
+    z-index: 1; /* Video is behind the controls */
+}
+
+.video-container {
+    position: absolute;
+    display: inline-block;
+    width: 32%;
+    top: 16%;
+    overflow: hidden;
+    background-color: black;
+    padding-top: 5px;
+    
+   
+}
+
+.pay-per-video {
+    width: 100%; /* Ensures the video takes up the full width of its container */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.video-controls {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ensures controls are centered horizontally */
+    height: 100%; /* Ensures controls are centered vertically */
+    z-index: 2; /* Ensure controls are above the video */
+}
+
+.play-pause-btn {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: opacity 0.3s; /* Smooth transition for visibility changes */
+    position: absolute; /* Positioning */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center button */
+}
+
+.play-pause-btn::before {
+    content: '▶'; /* Play icon by default */
+}
+
+.video-container.playing .play-pause-btn::before {
+    content: ''; /* Pause icon when video is playing */
+}
+
+.video-container.playing .play-pause-btn {
+    opacity: 0; /* Hide the button while playing */
+}
+
+.video-container.paused .play-pause-btn {
+    opacity: 1; /* Show the button when paused */
+}
+@media (min-width: 1600px) and (max-width: 2000px){
+    .pay-per-head {
+        font-size: 47px;
+        font-weight: 700;
+        color: white;
+    }
+    .pay-per-img {
+        width: 58.5%;
+    }
+    .pay-per-para {
+        font-size: 18px;
+        width: 500px;
+        color: white;
+        font-weight: 300;
+    }
+    .pay-per-main{
+        padding-left: 200px;
+    }
+    .pay-sub-head {
+        font-size: 25px;
+        font-weight: 700;
+        margin: 0;
+        color: white;
+    }
+    .pay-sub-p {
+        font-size: 16px;
+        color: white;
+        font-weight: 300;
+    }
+    .pay-per-logo{
+        width: 15%;
+        margin-bottom: 2%;
+        object-fit: cover;
+    }
+}
+@media (min-width: 2000px) and (max-width: 2250px){
+    .pay-per-head {
+        font-size: 53px;
+        font-weight: 700;
+        color: white;
+    }
+    .pay-per-img {
+        width: 58.5%;
+    }
+    .pay-per-logo{
+        width: 15.5%;
+        margin-bottom: 2%;
+        object-fit: cover;
+    }
+    .pay-per-para {
+        font-size: 20px;
+        width: 500px;
+        color: white;
+        font-weight: 300;
+    }
+    .pay-per-main{
+        padding-left: 200px;
+    }
+    .pay-sub-head {
+        font-size: 28px;
+        font-weight: 700;
+        margin: 0;
+        color: white;
+    }
+    .pay-sub-p {
+        font-size: 18px;
+        color: white;
+        font-weight: 300;
+    }
+}
+
+
+@media (min-width: 830px) and (max-width: 1300px){
+    .pay-per-head{
+        font-size: 25px;
+        font-weight: 700;
+        
+    }
+    .pay-per-logo{
+        width: 8%;
+    }
+    
+    .pay-per-para{
+        font-size: 12px;
+        width: 300px;
+        
+    }
+    .pay-sub{
+        display: flex;
+        gap: 6%;
+        
+    }
+    .pay-sub-head{
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0;
+    }
+    .pay-sub-p{
+        font-size: 13px;
+   
+      
+    }
+    .pay-per-bot-pading{
+        padding-bottom: 130px;
+        position: relative;
+    
+    }
+    .video-container {
+        position: absolute;
+        display: inline-block;
+        width: 31.4%;
+        top: 16%;
+        overflow: hidden;
+        background-color: rgb(0, 0, 0);
+        padding-top: 0;
+        padding-bottom: 0;
+        
+        
+       
+    }
+    .play-pause-btn {
+        width: 40px;
+        height: 40px}
+}
+@media (min-width: 550px) and (max-width: 840px){
+    .pay-per-img{
+        width: 72%;
+        
+    }
+    .pay-per-img2{
+        width: 90%;
+        
+    }
+    .pay-per-main{
+       
+        padding: 0 40px;
+        padding-top: 20px;
+      
+   
+    }
+    
+    .pay-per-head{
+        font-size: 18px;
+        font-weight: 700;
+        
+    }
+    .pay-per-para{
+        font-size: 10px;
+        width: 230px;
+    }
+    .pay-sub{
+        display: flex;
+        gap: 6%;
+        
+    }
+    .pay-sub-head{
+        font-size: 15px;
+        font-weight: 700;
+        margin: 0;
+    }
+    .pay-sub-p{
+        font-size: 10px;
+
+      
+    }
+    .video-container {
+        position: absolute;
+        display: inline-block;
+        width: 37%;
+        top: 14.8%;
+        overflow: hidden;
+        background-color: rgb(0, 0, 0);
+        padding-top: 0;
+        padding-bottom: 0;
+        
+        
+       
+    }
+    .play-pause-btn {
+        width: 40px;
+        height: 40px}
+}
+@media (min-width: 440px) and (max-width: 550px){
+    .video-container {
+        position: absolute;
+        display: inline-block;
+        width: 51.5%;
+        top: 16.8%;
+        overflow: hidden;
+        background-color: rgb(0, 0, 0);
+        padding-top: 0;
+        padding-bottom: 0;
+        
+        
+       
+    }
+    .play-pause-btn {
+        width: 40px;
+        height: 40px}
+}
+@media (min-width: 405px) and (max-width: 440px){
+    .video-container {
+        position: absolute;
+        display: inline-block;
+        width: 50%;
+        top: 15.7%;
+
+        overflow: hidden;
+        background-color: rgb(0, 0, 0);
+        padding-top: 0;
+        padding-bottom: 0;
+        
+        
+       
+    }
+    .play-pause-btn {
+        width: 40px;
+        height: 40px}
+}
+@media (min-width: 375px) and (max-width: 405px){
+    .video-container {
+        position: absolute;
+        display: inline-block;
+        width: 49.5%;
+        top: 15.2%;
+
+        overflow: hidden;
+        background-color: rgb(0, 0, 0);
+        padding-top: 0;
+        padding-bottom: 0;
+        
+        
+       
+    }
+    .play-pause-btn {
+        width: 40px;
+        height: 40px}
+}
+@media (min-width: 375px) and (max-width: 550px){
+    .pay-per-img{
+        width: 100%;
+        
+    }
+    .pay-per-img2{
+        width: 140%;
+        
+    }
+    
+    .pay-per-head{
+        font-size: 20px;
+        font-weight: 700;
+        
+    }
+    .pay-per-img-head2{
+        display: flex;
+        justify-content: center;
+    }
+    .pay-per-para{
+        font-size: 10.5px;
+        width: 280px;
+    }
+    .pay-sub{
+        display: flex;
+        gap: 7%;
+        
+    }
+    .pay-sub-head{
+        font-size: 15px;
+        font-weight: 700;
+        margin: 0;
+    }
+    .pay-sub-p{
+        font-size: 10.5px;
+        font-weight: 500;
+      
+    }
+    .pay-text-col{
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+        text-align: center;
+        
+        
+    }
+    .pay-per-logo{
+        width:30%;
+        margin-bottom: 2%;
+        padding: 2%;
+        object-fit: cover;
+    }
+    .pay-sub-box{
+        align-items: center;
+    }
+    .pay-per-bot-pading{
+        padding-bottom: 90px;
+        position: relative;
+    
+    }
+}
+@media (min-width: 320px) and (max-width: 375px){
+    .pay-per-img{
+        width: 110%;
+        
+    }
+    .pay-per-img2{
+        width: 160%;
+        
+    }
+    .pay-per-logo{
+        width: 35%;
+        margin-bottom: 2%;
+        padding: 2%;
+        object-fit: cover;
+    }
+    .pay-per-head{
+        font-size: 20px;
+        font-weight: 700;
+        
+    }
+    .pay-per-para{
+        font-size: 10.5px;
+        width: 280px;
+    }
+    .pay-sub{
+        display: flex;
+        gap: 7%;
+        
+    }
+    .pay-per-img-head2{
+        display: flex;
+        justify-content: center;
+    }
+    .pay-sub-head{
+        font-size: 15px;
+        font-weight: 700;
+        margin: 0;
+    }
+    .pay-sub-p{
+        font-size: 10.5px;
+        font-weight: 500;
+      
+    }
+    .pay-text-col{
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+        text-align: center;
+        
+        
+    }
+    .pay-sub-box{
+        align-items: center;
+    }
+    .pay-per-bot-pading{
+        padding-bottom: 80px;
+        position: relative;
+    
+    }
+    .video-container {
+        position: absolute;
+        display: inline-block;
+        width: 52.5%;
+        top: 14.8%;
+
+        overflow: hidden;
+        background-color: rgb(0, 0, 0);
+        padding-top: 0;
+        padding-bottom: 0;
+        
+        
+       
+    }
+    .play-pause-btn {
+        width: 40px;
+        height: 40px}
+}

@@ -1,0 +1,454 @@
+.footer-main{
+    overflow: hidden;
+    
+   
+}
+.fot-link-head{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 500;
+}
+.link2{
+    cursor: pointer;
+    color: #2b2b2b;
+    text-decoration: none;
+    list-style: none;
+    z-index: 200;
+    position: relative;
+    font-weight: 600;
+}
+.f-icon img{
+    transform: scale(1);
+    transition: transform 0.5s ease;
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+}
+.mobile-v{
+    display: none;
+}
+.f-icon-mb img{
+    display: none;
+}
+.f-icon{
+    display: flex;
+    gap: 3%;
+    
+}
+.f-icon img:hover{
+    transform: scale(1.1);
+
+}
+.fot-link-head{
+    display: flex;
+    gap: 3%;
+}
+.call, .mail{
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+.contact-cont a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.footer{
+    position: relative;
+    padding: 8% 8%;
+}
+.bg1-cont{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+.bg-txt11{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+.cont-us{
+    font-weight: 600;
+    font-size: 40px;
+}
+.light-stick{
+    color: rgb(255, 255, 255);
+}
+.fot-sec1{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.fot-sec2{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 15%;
+}
+.copy-rightss{
+    background: #2B2B2B;
+    color: #ffffff;
+    padding: 1.2% 0 0.1% 0;
+    text-align: center;
+}
+.fot-p-main{
+    margin: 0;
+    font-size: 17px;
+}
+.call-main, .mail-main{
+    display: flex;
+    gap: 2%;
+    align-items: center;
+}
+@media screen and  (min-width: 2250px){
+    .footer-main{
+        max-width: 1500px;
+    }
+    
+  }
+  @media screen and (min-width: 1600px) and (max-width: 2000px){
+    .fot-link-head {
+        font-size: 22px;
+        font-weight: 800;
+    }
+    .fot-p-main{
+        margin: 0;
+        font-size: 20px;
+        width: 800px;
+    }
+    .cont-us{
+        font-weight: 600;
+        font-size: 42px;
+    }
+    .fot-sec2 {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        margin-left: 28%;
+    }
+    .copy-rightss p{
+        font-size: 19px;
+    }
+    .f-icon img{
+        transform: scale(1);
+        transition: transform 0.5s ease;
+        height: 32px;
+        width: 32px;
+        object-fit: contain;
+    }
+    .contact-cont a{
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .call-main{
+        gap: 1.8%;
+    }
+    .call, .mail{
+        width: 21px;
+        height: 21px;
+        object-fit: contain;
+    }
+  }
+  @media screen and (min-width: 2000px) and (max-width: 2250px){
+    .fot-link-head {
+        font-size: 24px;
+    }
+    .fot-p-main{
+        margin: 0;
+        font-size: 22px;
+        width: 800px;
+    }
+    .cont-us{
+        font-weight: 600;
+        font-size: 48px;
+    }
+    .f-icon img{
+        transform: scale(1);
+        transition: transform 0.5s ease;
+        height: 35px;
+        width: 35px;
+        object-fit: contain;
+    }
+    .contact-cont a{
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        font-size: 22px;
+    }
+    .call-main{
+        gap: 2%;
+    }
+    .call, .mail{
+        width: 24px;
+        height: 24px;
+        object-fit: contain;
+    }
+    .fot-sec2{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .fot-sec2 {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        margin-left: 26%;
+    }
+    .copy-rightss p{
+        font-size: 20px;
+    }
+  }
+@media screen and (min-width: 830px) and (max-width: 1024px){
+    .fot-p-main{
+        margin: 0;
+        font-size: 16px;
+    }
+    .fot-link-head h6{
+        font-size: 15px;
+    }
+    .f-icon img{
+        
+        height: 28px;
+        width: 28px;
+        
+    }
+    .cont-us{
+        font-weight: 600;
+        font-size: 36px;
+    }
+    .call-main a, .mail-main a{
+        font-size: 15px;
+    }
+    .copy-rightss p{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 440px) and (max-width: 830px){
+    .fot-p-main{
+        margin: 0;
+        font-size: 14px;
+    }
+    .fot-link-head h6{
+        font-size: 11px;
+    }
+    .fot-link-head{
+        display: flex;
+        gap: 3%;
+    }
+    .footer{
+        padding: 6% 5%;
+    }
+    .cont-us{
+        font-weight: 600;
+        font-size: 31px;
+    }
+    .call-main a, .mail-main a{
+        font-size: 11.5px;
+    }
+    .f-icon img{
+        
+        height: 20px;
+        width: 20px;
+    }
+    .copy-rightss p{
+        font-size: 13px;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 440px){
+    .bg-txt11{
+        height: 110px;
+    }
+    .fot-sec2 {
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+        margin-left: 0px;
+    }
+    .fot-sec1{
+        margin-top: 2%;
+    }
+   
+    .f-icon-mb{
+        display: flex;
+        gap: 3%;
+        
+    }
+    .f-icon{
+        display: none;
+    }
+    .f-icon-mb img{
+        transform: scale(1);
+        transition: transform 0.5s ease;
+        height: 19px;
+        width: 19px;
+        object-fit: contain;
+        display: block;
+        margin-top: 5px;
+    }
+    .cont-us{
+        font-weight: 600;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .call-main a, .mail-main a{
+        font-size: 11px;
+    }
+    .fot-p-main{
+        margin: 0;
+        font-size: 11px;
+        width: 340px;
+    }
+    .fot-link-head h6{
+        font-size: 11px;
+        font-weight: 800;
+    }
+    .call, .mail{
+        width: 15px;
+        height: 15px;
+        object-fit: contain;
+    }
+    .copy-rightss p{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    .footer{
+        padding: 6% 6%;
+    }
+    .link2{
+        font-weight: 400;
+        font-size: 12px;
+    }
+    
+}
+@media screen and (max-width: 375px){
+    .bg-txt11{
+        height: 110px;
+    }
+    .fot-sec2 {
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+        margin-left: 0px;
+    }
+    .fot-sec1{
+        margin-top: 2%;
+    }
+   
+    .f-icon-mb{
+        display: flex;
+        gap: 3%;
+        
+    }
+    .f-icon{
+        display: none;
+    }
+    .f-icon-mb img{
+        transform: scale(1);
+        transition: transform 0.5s ease;
+        height: 17px;
+        width: 17px;
+        object-fit: contain;
+        display: block;
+        margin-top: 5px;
+    }
+    .cont-us{
+        font-weight: 600;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .call-main a, .mail-main a{
+        font-size: 10px;
+    }
+    .fot-p-main{
+        margin: 0;
+        font-size: 11.1px;
+        width: 300px;
+    }
+    .fot-link-head h6{
+        font-size: 10.5px;
+    }
+    .call, .mail{
+        width: 13px;
+        height: 13px;
+        object-fit: contain;
+    }
+    .copy-rightss p{
+        font-size: 8px;
+        margin-top: 5px;
+    }
+    .footer{
+        padding: 6% 6%;
+    }
+    .link2{
+        font-weight: 400;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 320px){
+    .bg-txt11{
+        height: 110px;
+    }
+    .fot-sec2 {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        margin-left: 0px;
+    }
+    .fot-sec1{
+        margin-top: 2%;
+    }
+   
+    .f-icon-mb{
+        display: flex;
+        gap: 3%;
+        
+    }
+    .f-icon{
+        display: none;
+    }
+    .f-icon-mb img{
+        transform: scale(1);
+        transition: transform 0.5s ease;
+        height: 16px;
+        width: 16px;
+        object-fit: contain;
+        display: block;
+        margin-top: 5px;
+    }
+    .cont-us{
+        font-weight: 600;
+        font-size: 17px;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .call-main a, .mail-main a{
+        font-size: 10px;
+    }
+    .fot-p-main{
+        margin: 0;
+        font-size: 10.5px;
+        width: 280px;
+    }
+    .fot-link-head h6{
+        font-size: 9px;
+    }
+    .call, .mail{
+        width: 12px;
+        height: 12px;
+        object-fit: contain;
+    }
+    .copy-rightss p{
+        font-size: 7px;
+        margin-top: 5px;
+    }
+    .footer{
+        padding: 6% 6%;
+    }
+    .link2{
+        font-weight: 400;
+        font-size: 12px;
+    }
+}

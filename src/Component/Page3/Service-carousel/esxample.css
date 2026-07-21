@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap');
+
+/* Main-container */
+.carousel-main-wrapper {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 700px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel-inner-container {
+  width: 90%;
+}
+
+.slider-controls-wrapper {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 500;
+}
+
+/* Service Content */
+.service-content-wrapper {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 2%;
+}
+
+.service-text-content {
+  text-align: start;
+}
+
+.service-image-wrapper {
+  padding: 0;
+}
+
+.service-image-element {
+  object-fit: cover;
+  width: 450px;
+}
+
+.service-title {
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF;
+}
+
+.service-description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  width: 500px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+/* Media Queries */
+/* @media (min-width: 2301px) {
+  .service-title {
+    font-size: 100px;
+  }
+  .service-image-element {
+    width: 550px;
+  }
+}
+
+@media (min-width: 2000px) and (max-width: 2300px) {
+  .service-title {
+    font-size: 80px;
+  }
+  .service-image-element {
+    width: 550px;
+  }
+} */
+
+/* @media (min-width: 1800px) and (max-width: 1999px) {
+  .service-title {
+    font-size: 60px;
+  }
+  .service-image-element {
+    width: 550px;
+  }
+} */
+
+@media (min-width: 1500px)  {
+  .service-title {
+    font-size: 55px;
+  }
+  .service-image-element {
+    width: 450px;
+    margin-right: 5%;
+  }
+  .service-text-content {
+    margin-left: 2%;
+  }
+  .service-content-wrapper {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: -5%;
+  }
+  .service-description {
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    width: 500px;
+    font-weight: 400;
+    color: #FFFFFF;
+  }
+}
+
+@media (max-width: 1440px) {
+  .service-title {
+    font-size: 47px;
+  }
+  .service-description {
+    font-size: 15px;
+    width: 400px;
+  }
+  .service-image-element {
+    width: 420px;
+    margin-right: 10%;
+  }
+  .service-text-content {
+    margin-left: 3%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .service-title {
+    font-size: 35px;
+  }
+  .service-description {
+    font-size: 13.5px;
+    width: 380px;
+  }
+  .service-image-element {
+    width: 330px;
+  }
+  .service-content-wrapper {
+    margin-right: 3%;
+  }
+}
+
+@media (max-width: 992px) {
+  .service-title {
+    font-size: 40px;
+  }
+  .service-description {
+    font-size: 12px;
+    width: 500px;
+    text-align: center;
+  }
+  .service-image-element {
+    width: 330px;
+    margin: 0;
+  }
+  .slider-controls-wrapper {
+    position: absolute;
+    top: 25%;
+    left: 90%;
+  }
+  .service-text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -4%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-title {
+    font-size: 32px;
+  }
+  .service-description {
+    font-size: 11px;
+    width: 450px;
+  }
+  .service-image-element {
+    width: 300px;
+    margin-top: 3%;
+  }
+  .slider-controls-wrapper {
+    position: absolute;
+    top: 25%;
+    left: 90%;
+  }
+  .service-text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -4.5%;
+  }
+}
+
+@media (max-width: 576px) {
+  .service-title {
+    font-size: 24px;
+  }
+  .service-description {
+    font-size: 8px;
+    width: 200px;
+  }
+  .service-image-element {
+    width: 200px;
+  }
+  .service-text-content {
+    text-align: center;
+  }
+ 
+  .carousel-main-wrapper{
+    height: 400px;
+  }
+  .slider-controls-wrapper {
+    position: absolute;
+    top: 25%;
+    left: 90%;
+  }
+}
+@media (max-width: 440px) {
+  .service-title {
+    font-size: 25px;
+  }
+  .service-description {
+    font-size: 8px;
+    width: 300px;
+    margin-bottom: 1%;
+  }
+  .service-image-element {
+    width: 240px;
+    margin: 0;
+  }
+  .carousel-main-wrapper{
+    height: 470px;
+  }
+  .slider-controls-wrapper {
+    position: absolute;
+    top: 27%;
+    left: 89%;
+  }
+}

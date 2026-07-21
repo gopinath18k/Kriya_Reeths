@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+
+
+.scroll-label {
+  position: absolute;
+  display: block;
+  transition: color 0.3s, filter 0.3s;
+  top: -30px;
+  color: #ffffff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  transform: translateX(-50%);
+}
+
+
+.scroll-container {
+  width: 1000px;
+  
+}
+@media (min-width: 1500px){
+  .scroll-label {
+    color: #888;
+    font-size: 18px;
+  }
+  
+  .scroll-label.current {
+    color: #FFFFFF; 
+    font-weight: bold;
+    font-size: 21px; 
+  }
+}
+/* @media (max-width: 1500px){
+  .scroll-container {
+    width: 1200px;
+  }
+  .scroll-label{
+    font-size: 18px;
+    margin-left: 30px;
+  }
+  .scroll-label {
+    color: #888;
+    font-size: 20px;
+  }
+  
+  .scroll-label.current {
+    color: #FFFFFF; 
+    font-weight: bold; 
+    font-size: 22px;
+  }
+} */
+
+@media (max-width: 1300px){
+  .scroll-container {
+    width: 800px;
+  }
+  .scroll-label{
+    font-size: 18px;
+    margin-left: 30px;
+  }
+  .scroll-label {
+    color: #888;
+  }
+  
+  .scroll-label.current {
+    color: #FFFFFF; 
+    font-weight: bold; 
+  }
+}
+@media (max-width: 830px){
+  .scroll-container {
+    width: 620px;
+  }
+  .scroll-label{
+    font-size: 12px;
+    margin-left: 30px;
+  }
+  .scroll-label {
+    display: none; 
+  }
+
+  .scroll-label.current {
+    display: block; 
+    color: #FFFFFF; 
+    font-weight: bold; 
+  }
+}
+
+
+
+@media (max-width: 550px){
+  .scroll-container {
+    width: 290px;
+  }
+  .scroll-label{
+    font-size: 12px;
+    margin-left: 30px;
+  }
+  .scroll-label {
+    display: none; 
+  }
+
+  .scroll-label.current {
+    display: block; 
+    color: #FFFFFF; 
+    font-weight: bold; 
+  }
+  
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  
+}
+

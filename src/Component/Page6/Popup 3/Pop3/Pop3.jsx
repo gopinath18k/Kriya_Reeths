@@ -1,0 +1,756 @@
+import React, { useState, useEffect } from 'react';
+import './Pop3.css';
+import '../../Service-carousel/esxample.css';
+import '../Label-popup/Poplabel.css';
+
+
+
+
+const RegisterButton3 = () => {
+
+  const [showPopup, setShowPopup] = useState(false);
+  const [showSuccessPopup, setShowSuccessPopup] = useState(false); // State to show success popup
+  const [successMessage, setSuccessMessage] = useState(""); 
+
+  const handleSubmit = (event) => {
+    event.preventDefault(); // Prevent the default form submission
+  
+    // Clear the input fields immediately
+    event.target.reset();
+  
+    // Optionally, reset your input state variables if you're using state
+    setInputValueName('');
+    setInputValueNumber('');
+    setInputValueMail('');
+    setInputValueLoc('');
+
+  
+
+
+
+
+    
+    const formData = new FormData(event.target);
+
+    fetch(event.target.action, {
+      method: "POST",
+      body: formData,
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log("Success:", data);
+        setSuccessMessage("Submitted successfully!");
+        setShowSuccessPopup(true);
+        setTimeout(() => {
+          setShowPopup(false); // Close the popup after 3 seconds
+          setShowSuccessPopup(false); // Hide success message
+        }, 3000);
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+        setSuccessMessage("Submission failed. Please try again.");
+        setShowSuccessPopup(true);
+        setTimeout(() => {
+          setShowPopup(false); // Close the popup after 3 seconds
+          setShowSuccessPopup(false); // Hide success message
+        }, 3000);
+      });
+  };
+  const togglePopup = () => setShowPopup(!showPopup);
+  useEffect(() => {
+    document.body.style.overflow = showPopup ? "hidden" : "auto";
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [showPopup]);
+
+  // const togglePopup = () => {
+  //   setShowPopup(!showPopup);
+  // };
+
+ ;
+  const [selectedDate, setSelectedDate] = useState("");
+
+  const [selectedFile, setSelectedFile] = useState(null);
+
+  const handleFileChange = (event) => {
+    setSelectedFile(event.target.files[0]);
+  };
+
+  const handleDateChange = (event) => {
+    setSelectedDate(event.target.value);
+  };
+  const [selectedOption, setSelectedOption] = useState('');
+
+  const handleOptionChange = (e) => {
+    setSelectedOption(e.target.value);
+  };
+  const [isFocusedName, setIsFocusedName] = useState(false);
+  const [inputValueName, setInputValueName] = useState('');
+
+
+  const [isFocusedNumber, setIsFocusedNumber] = useState(false);
+  const [inputValueNumber, setInputValueNumber] = useState('');
+
+  const [isFocusedLoc, setIsFocusedLoc] = useState(false);
+  const [inputValueLoc, setInputValueLoc] = useState('');
+
+  const [isFocusedMail, setIsFocusedMail] = useState(false);
+  const [inputValueMail, setInputValueMail] = useState('');
+
+  const [isFocusedExp, setIsFocusedExp] = useState(false);
+  const [inputValueExp, setInputValueExp] = useState('');
+
+
+
+ 
+
+  const handleFocusName = () => setIsFocusedName(true);
+  const handleBlurName = () => {
+    if (inputValueName === '') setIsFocusedName(false);
+  };
+  const handleChangeName = (e) => setInputValueName(e.target.value);
+
+  const handleFocusNumber = () => setIsFocusedNumber(true);
+  const handleBlurNumber = () => {
+    if (inputValueNumber === '') setIsFocusedNumber(false);
+  };
+  const handleChangeNumber = (e) => {
+    const newValue = e.target.value;
+    // Ensure the value is numeric and limited to 11 digits
+    if (/^\d*$/.test(newValue) && newValue.length <= 11) {
+        setInputValueNumber(newValue);
+    }
+};
+
+  const handleFocusLoc = () => setIsFocusedLoc(true);
+  const handleBlurLoc = () => {
+    if (inputValueNumber === '') setIsFocusedLoc(false);
+  };
+  const handleChangeLoc = (e) => setInputValueLoc(e.target.value);
+
+  const handleFocusMail = () => setIsFocusedMail(true);
+  const handleBlurMail = () => {
+    if (inputValueNumber === '') setIsFocusedMail(false);
+  };
+  const handleChangeMail = (e) => setInputValueMail(e.target.value);
+
+  const handleFocusExp = () => setIsFocusedExp(true);
+  const handleBlurExp = () => {
+    if (inputValueNumber === '') setIsFocusedExp(false);
+  };
+  const handleChangeExp = (e) => setInputValueExp(e.target.value);
+
+
+  // const [showPopup, setShowPopup] = useState(false);
+
+  // const togglePopup = () => {
+  //   setShowPopup(!showPopup);
+  // };
+
+  // Separate states for each dropdown
+  const [isActiveDropdown1, setIsActiveDropdown1] = useState(false);
+  const [isActiveDropdown2, setIsActiveDropdown2] = useState(false);
+  const [isActiveDropdown3, setIsActiveDropdown3] = useState(false);
+  const [selectedOption1, setSelectedOption1] = useState('Workshop Options');
+  const [selectedOption2, setSelectedOption2] = useState('Select Internship');
+  const [selectedOption3, setSelectedOption3] = useState('Year of Study');
+
+  const options1 = ['Yes', 'No'];
+  const options2 = [
+    'Graphic Design Intern',
+    'Web Development Intern',
+    'Business Development Intern',
+    'Digital Marketing Intern',
+  ];
+
+  const toggleDropdown1 = () => {
+    setIsActiveDropdown1(!isActiveDropdown1);
+    setIsActiveDropdown2(false); // Close the second dropdown if it's open
+    setIsActiveDropdown3(false); // Close the third dropdown if it's open
+  };
+
+  const toggleDropdown2 = () => {
+    setIsActiveDropdown2(!isActiveDropdown2);
+    setIsActiveDropdown1(false); // Close the first dropdown if it's open
+    setIsActiveDropdown3(false); // Close the third dropdown if it's open
+  };
+
+  const toggleDropdown3 = () => {
+    setIsActiveDropdown3(!isActiveDropdown3);
+    setIsActiveDropdown1(false); // Close the first dropdown if it's open
+    setIsActiveDropdown2(false); // Close the second dropdown if it's open
+  };
+
+  const handleOptionClick1 = (option) => {
+    setSelectedOption1(option);
+    setIsActiveDropdown1(false);
+  };
+
+  const handleOptionClick2 = (option) => {
+    setSelectedOption2(option);
+    setIsActiveDropdown2(false);
+  };
+  const handleOptionClick3 = (option) => {
+    setSelectedOption3(option);
+    setIsActiveDropdown3(false);
+  };
+
+ 
+
+  return (
+    <div>
+      <div className='career-but' onClick={togglePopup}>
+        Register
+      </div>
+
+      {showPopup && (
+        <div className="overlay-container-work">
+          <form method='post' action='https://script.google.com/macros/s/AKfycbzHbvBIf69AomEapnOYnhFnNtfJYIvegtKhlDI9SHlbge9fw2zLVltoj1RJLtSAKdPDYA/exec' name='contact-form' onSubmit={handleSubmit}>
+          <div className="popup-box-works">
+            <span className="close-button" onClick={togglePopup}>
+              &times;
+            </span>
+            <div className="content-section ">
+              <h2 className='title-text'>Workshop  <br />opportunities</h2>
+              <div className='input-container mt-4'>
+                <div className='input-group '>
+                  <div className={`input-wrapper ${isFocusedName || inputValueName ? 'input-focused' : ''}`}>
+                    <label className="input-label">Full Name</label>
+                    <input
+                      type="text"
+                      name='your-full-name'
+                      value={inputValueName}
+                      onFocus={handleFocusName}
+                      onBlur={handleBlurName}
+                      onChange={handleChangeName}
+                      required
+                    />
+                    <div className='underline'></div>
+                  </div>
+                  <div className={`input-wrapper ${isFocusedNumber || inputValueNumber ? 'input-focused' : ''}`}>
+                    <label className="input-label">Mobile Number</label>
+                    <input
+                      type="number"
+                      name='your-mobile-number'
+                      value={inputValueNumber}
+                      onFocus={handleFocusNumber}
+                      onBlur={handleBlurNumber}
+                      onChange={handleChangeNumber}
+                      maxLength="11"
+                      required
+                    />
+                    <div className='underline'></div>
+                  </div>
+                </div>
+
+                <div className='input-group'>
+                  <div className={`input-wrapper ${isFocusedMail || inputValueMail ? 'input-focused' : ''}`}>
+                    <label className="input-label" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>Email Address</label>
+                    <input
+                      type="email"
+                      name='your-email-address'
+                      value={inputValueMail}
+                      onFocus={handleFocusMail}
+                      onBlur={handleBlurMail}
+                      onChange={handleChangeMail}
+                      required
+                    />
+                    <div className='underline'></div>
+                  </div>
+                  <div className={`input-wrapper ${isFocusedLoc || inputValueLoc ? 'input-focused' : ''}`}>
+                    <label className="input-label">Location</label>
+                    <input
+                      type="text"
+                      name='your-location'
+                      value={inputValueLoc}
+                      onFocus={handleFocusLoc}
+                      onBlur={handleBlurLoc}
+                      onChange={handleChangeLoc}
+                      required
+                    />
+                    <div className='underline'></div>
+                  </div>
+                </div>
+
+                
+                {/* <div className='mt-3 '>
+                  <h5 className='work-banner'>We will update you soon while we conduct the workshops.
+                  </h5>
+
+          
+                </div> */}
+
+              </div>
+              {/* <div className='mt-3'><h5 className='labeltxt-color'>Select the Workshop You Are Applying For:</h5></div>
+              <div className='dropdown'>
+                
+
+                <div className='inner-dropdown'>
+                <div className={`select-container ${isActiveDropdown1 ? 'active' : ''}`}>
+                  <div className="select" onClick={toggleDropdown1}>
+                    <input type="text" name='mode-of-training' id="input" value={selectedOption1} readOnly />
+                  </div>
+                  <div className={`option-container ${isActiveDropdown1 ? 'active' : ''}`}>
+                    {options1.map((option, index) => (
+                      <div
+                        key={index}
+                        className={`option ${selectedOption1 === option ? 'selected' : ''}`}
+                        onClick={() => handleOptionClick1(option)}
+                      >
+                        <label>{option}</label>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                </div>
+                </div> */}
+
+                
+             {/* <div>
+             
+              <div className='flex-row ab-mt'>
+                {" "}
+                <h5 className='labeltxt-color'>Preferred Date(s): </h5>
+                <div className="date-picker-container">
+
+                  <input
+                    type="date"
+                    name='preffered-date'
+                    id="date-picker"
+                    value={selectedDate}
+                    onChange={handleDateChange}
+                    className="custom-date-picker"
+                  />
+                </div>
+              </div>
+             </div> */}
+            
+
+             {/* <div className='mt-5'>
+             <h5 className='head-labeltxt-color'>Experience Level:</h5>
+
+             <div className='flex-row'>
+                <h5 className='labeltxt-color'>Have you attended similar workshops or training before? </h5>
+                <div className='radio-row'>
+                  <label>
+                    <input
+                      type="radio"
+                      name='intern-exp'
+                      value="yes"
+                      checked={selectedOption === 'yes'}
+                      onChange={handleOptionChange}
+                    />
+                    <h6 className='light-txt'> yes</h6>
+                  </label>
+                  <br />
+                  <label>
+                    <input
+                      type="radio"
+                      name='intern-exp'
+                      value="no"
+                      checked={selectedOption === 'no'}
+                      onChange={handleOptionChange}
+                    />
+                    <h6 className='light-txt'>No</h6>
+                  </label>
+                </div>
+              </div>
+
+              <div className='flex-row'>
+                  <div className='mt-4'><h5 className='labeltxt-color'>If yes, please describe your previous experience: </h5></div>
+
+                  <div className={`input-wrapper ${isFocusedExp || isFocusedExp ? 'input-focused' : ''}`}>
+
+
+                    <label className="input-label"></label>
+                    <input
+                      type="text"
+                      name='your-instution-name'
+                      
+                      onFocus={handleFocusExp}
+                      onBlur={handleBlurExp}
+                      onChange={handleChangeExp}
+                    />
+                    <div className='underline mob-underline'></div>
+                  </div>
+                </div>
+             </div> */}
+
+             {/* <div className='mt-5'>
+             <h5 className='head-labeltxt-color'>Educational and Professional Background:
+             </h5>
+
+            
+             <div className='flex-row'>
+                  <div className='mt-4'><h5 className='labeltxt-color'>Current Educational Institution or Company: </h5></div>
+
+                  <div className='input-wrapper'>
+
+
+                    <label className="input-label"></label>
+                    <input
+                      type="text"
+                      name='your-instution-name'
+                      
+                    />
+                    <div className='underline mob-underline'></div>
+                  </div>
+                </div>
+              <div className='flex-row'>
+                  <div className='mt-4'><h5 className='labeltxt-color'>Degree/Position:</h5></div>
+
+                  <div className="input-wrapper" >
+
+
+                    <label className="input-label"></label>
+                    <input
+                      type="text"
+                      name='your-Degree-name'
+                     
+                    />
+                    <div className='underline mob-underline'></div>
+                  </div>
+                </div>
+              <div className='flex-row'>
+                  <div className='mt-4'><h5 className='labeltxt-color'>Relevant Skills or Knowledge:</h5></div>
+
+                  <div className='input-wrapper '>
+
+
+                    <label className="input-label"></label>
+                    <input
+                      type="text"
+                      name='your-skills'
+                      
+                    />
+                    <div className='underline mob-underline'></div>
+                  </div>
+                </div>
+             </div> */}
+
+             {/* <div className='mt-5'>
+             <h5 className='head-labeltxt-color'>Interest and Goals:
+             </h5>
+
+            
+             <div className='flex-row'>
+                  <div className='mt-4'><h5 className='labeltxt-color'>Why are you interested in this workshop?</h5></div>
+
+                  <div className='input-wrapper' >
+
+
+                    <label className="input-label"></label>
+                    <input
+                      type="text"
+                      name='your-intrest'
+                      
+                    />
+                    <div className='underline mob-underline'></div>
+                  </div>
+                </div>
+              <div className='flex-row'>
+                  <div className='mt-4'><h5 className='labeltxt-color'>What do you hope to gain from participating in this workshop?</h5></div>
+
+                  <div className='input-wrapper '>
+
+
+                    <label className="input-label"></label>
+                    <input
+                      type="text"
+                      name='your-instution-name'
+                      
+                    />
+                    <div className='underline mob-underline'></div>
+                  </div>
+                </div>
+              <div className='flex-row'>
+                  <div className='mt-4'><h5 className='labeltxt-color'>How do you plan to apply the skills or knowledge acquired from this workshop?</h5></div>
+
+                  <div className='input-wrapper' >
+
+
+                    <label className="input-label"></label>
+                    <input
+                      type="text"
+                      name='your-instution-name'
+                      
+                    />
+                    <div className='underline mob-underline'></div>
+                  </div>
+                </div>
+             </div> */}
+
+             {/* <div className='mt-5'>
+             <h5 className='head-labeltxt-color'>Additional Information:
+             </h5>
+
+            
+             <div className='flex'>
+                  <div className='mt-4'><h5 className='labeltxt-color'>Do you have any specific questions or topics you would like to be covered in the workshop?</h5></div>
+
+                  <div className='input-wrappe'r >
+
+
+                    <label className="input-label"></label>
+                    <input
+                      type="text"
+                      name='your-instution-name'
+                 
+                    />
+                    <div className='underline-long'></div>
+                  </div>
+                </div>
+              
+             </div> */}
+
+              
+
+              
+
+
+
+
+
+
+              {/* <div className='edu-details labeltxt-color'>
+                <h5 className='head-labeltxt-color'>Education Details:</h5>
+                <div className='flex-row'>
+                  <div className='mt-4'><h5 className='labeltxt-color'>Current Educational Institution:</h5></div>
+
+                  <div className={`input-wrapper ${isFocusedInstName || isFocusedInstName ? 'input-focused' : ''}`}>
+
+
+                    <label className="input-label">Institution Name</label>
+                    <input
+                      type="text"
+                      name='your-instution-name'
+                      value={inputInstName}
+                      onFocus={handleFocusNameInst}
+                      onBlur={handleBlurNameInst}
+                      onChange={handleChangeNameInst}
+                    />
+                    <div className='underline mob-underline'></div>
+                  </div>
+                </div>
+
+                <div className='flex-row'>
+                  <div className='mt-4'><h5 className='labeltxt-color'>Degree Program</h5></div>
+                  <div className={`input-wrapper ${isFocusedDegree || isFocusedDegree ? 'input-focused' : ''}`}>
+
+
+                    <label className="input-label">Degree</label>
+                    <input
+                      type="text"
+                      name='your-degree-name'
+                      value={inputDegreeName}
+                      onFocus={handleFocusNameDeg}
+                      onBlur={handleBlurNameDeg}
+                      onChange={handleChangeNameDeg}
+                    />
+                    <div className='underline mob-underline'></div>
+                  </div>
+                </div>
+              </div>
+
+              <div className='dropdown-single'>
+                <div className='flex-row mt-4 mb-4'>
+                  <div className='select-container year-studying'>
+                    <div className={`select-container ${isActiveDropdown3 ? 'active' : ''}`}>
+                      <div className="select" onClick={toggleDropdown3}>
+                        <input type="text" id="input" name='year-of-study' value={selectedOption3} readOnly />
+                      </div>
+                      <div className={`option-container ${isActiveDropdown3 ? 'active' : ''}`}>
+                        {options1.map((option, index) => (
+                          <div
+                            key={index}
+                            className={`option ${selectedOption3 === option ? 'selected' : ''}`}
+                            onClick={() => handleOptionClick3(option)}
+                          >
+                            <label>{option}</label>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className='flex-row'>
+                {" "}
+                <h5 className='labeltxt-color'>Expected Graduation Date:</h5>
+                <div className="date-picker-container">
+
+                  <input
+                    type="date"
+                    name='graduation-date'
+                    id="date-picker"
+                    value={selectedDate}
+                    onChange={handleDateChange}
+                    className="custom-date-picker"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <div><div className='labeltxt-color'><h5 className='labeltxt-color'>(If graduate)</h5></div></div>
+                <div></div>
+              </div> */}
+
+            </div>
+
+
+            {/* <div className='flex-row'>
+              <div className='mt-4 labeltxt-color'><h5 className='labeltxt-color'>Degree Program</h5></div>
+              <div className={`input-wrapper ${isFocusedDegree2 || isFocusedDegree2 ? 'input-focused' : ''}`}>
+
+
+                    <label className="input-label">Degree</label>
+                    <input
+                      type="text"
+                      name='your-graduate-degree-name'
+                      value={inputDegreeName2}
+                      onFocus={handleFocusNameDeg2}
+                      onBlur={handleBlurNameDeg2}
+                      onChange={handleChangeNameDeg2}
+                    />
+                    <div className='underline mob-underline'></div>
+                  </div>
+            </div>
+
+            <div className='flex-row'>
+              <div className='mt-3 labeltxt-color'><h5 className='labeltxt-color'>Year of passout</h5></div>
+              <div className={`input-wrapper ${isFocusedPassout || inputPassout ? 'input-focused' : ''}`}>
+
+
+                <label className="input-label labeltxt-color">Passout</label>
+                <input
+                  type="text"
+                  name='your-passout-date'
+                  value={inputPassout}
+                  onFocus={handleFocusPassout}
+                  onBlur={handleBlurPassout}
+                  onChange={handleChangePassout}
+                />
+                <div className='underline mob-underline'></div>
+              </div>
+            </div>
+            <div className='flex-row'>
+              <div className='mt-3 labeltxt-color'><h5 className='labeltxt-color'>Collage name</h5></div>
+              <div className={`input-wrapper ${isFocusedClName || inputClName ? 'input-focused' : ''}`}>
+
+
+                <label className="input-label labeltxt-color">Name</label>
+                <input
+                  type="text"
+                  name='your-collage-name'
+                  value={inputClName}
+                  onFocus={handleFocusClName}
+                  onBlur={handleBlurClName}
+                  onChange={handleChangeClName}
+                />
+                <div className='underline mob-underline'></div>
+              </div>
+            </div> */}
+
+
+            {/* <div className='exp-section'>
+              <div className='flex-row'>
+                <h5 className='labeltxt-color'>Have you had any previous internships or relevant experience?</h5>
+                <div className='radio-row'>
+                  <label>
+                    <input
+                      type="radio"
+                      name='intern-exp'
+                      value="yes"
+                      checked={selectedOption === 'yes'}
+                      onChange={handleOptionChange}
+                    />
+                    <h6 className='light-txt'> yes</h6>
+                  </label>
+                  <br />
+                  <label>
+                    <input
+                      type="radio"
+                      name='intern-exp'
+                      value="no"
+                      checked={selectedOption === 'no'}
+                      onChange={handleOptionChange}
+                    />
+                    <h6 className='light-txt'>No</h6>
+                  </label>
+                </div>
+              </div>
+              <div>
+                <h5 className='labeltxt-color'>If yes, briefly describe your previous internship or relevant experience:</h5>
+              </div>
+              <div>
+                <div className='mt-4'>
+                  <div className='mt-3 labeltxt-color'><h5 className='labeltxt-color'>What is your availability for this internship (e.g., full-time, part-time, specific days/times)?</h5></div>
+                  <div className={`input-wrapper ${isFocusedDayName || isFocusedDayName ? 'input-focused' : ''}`}>
+
+
+                    <label className="input-label labeltxt-color">Days/Time</label>
+                    <input
+                      type="text"
+                      name='your-availablility-for-intern'
+                      value={inputDayName}
+                      onFocus={handleFocusDayName}
+                      onBlur={handleBlurDayName}
+                      onChange={handleChangeDayName}
+                    />
+                    <div className='underline'></div>
+                  </div>
+                </div>
+
+                <div>
+                  <h5 className='labeltxt-color'>Are you able to start immediately? If not, when can you start?
+                  </h5>
+                  <div className='mt-5'><h5 className='labeltxt-color'>Upload Your Resume:</h5><input
+                    type="file"
+                    id="file-upload"
+                    name='your-resume'
+                    onChange={handleFileChange}
+                    className="custom-file-upload"
+                  /></div>
+                </div>
+
+
+              </div>
+            </div> */}
+
+            <div></div>
+
+
+            <div className="button-container">
+                <input
+                  type="submit"
+                  id="submit"
+                  value="Submit"
+                  className="submit-button"
+                />
+              </div>
+          </div>
+          </form>
+          </div>
+         
+      )}
+   {showSuccessPopup && (
+        <div className="popup-overlay">
+          <div className="sucessed-popup-content">
+          
+            <div className="success-message">
+              {successMessage}
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default RegisterButton3;
+
+
+
+

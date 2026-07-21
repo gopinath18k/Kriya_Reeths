@@ -1,0 +1,22 @@
+.row-2{
+    margin-left: 1300px;
+}
+.row-22{
+    margin-left: 1198px;
+}
+.dyRDuA{
+   margin-left: -14%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 440px){
+    .AppContainer{
+        width: 100vw;
+        height: 50vh;
+    }
+    .row-2{
+        margin-left: 1000px;
+    }
+    .row-22{
+        margin-left: 520px;
+    }
+}

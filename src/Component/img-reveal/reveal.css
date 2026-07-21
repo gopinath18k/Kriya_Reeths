@@ -1,0 +1,68 @@
+.flow-chart {
+    
+    
+    
+    clip-path: inset(0 100% 0 0); 
+    transition: clip-path 6s ease-in-out;
+}
+.flow-mob {
+    
+    
+    
+    clip-path: inset(0 100% 0 0); 
+    transition: clip-path 4.5s ease-in-out;
+}
+.flow-text1{
+    
+    clip-path: inset(0 100% 0 0); 
+    transition: clip-path  1.5s ease-in-out;
+    transition-delay: 1s;
+}
+.flow-text2{
+    clip-path: inset(0 100% 0 0);
+    transition: clip-path  1.3s ease-in-out;
+    transition-delay: 1.5s;
+}
+.flow-text3{
+    clip-path: inset(0 100% 0 0); 
+    transition: clip-path  1s ease-in-out;
+    transition-delay: 2.5s;
+}
+.flow-text4{
+    clip-path: inset(0 100% 0 0); 
+    transition: clip-path  1.0s ease-in-out;
+    transition-delay: 3.5s;
+}
+.flow-text5{
+    clip-path: inset(0 100% 0 0); 
+    transition: clip-path  1s ease-in-out;
+    transition-delay: 4s;
+}
+.flow-chart.reveal {
+    clip-path: inset(0 0 0 0); 
+}
+.flow-mob.reveal {
+    clip-path: inset(0 0 0 0); 
+}
+.flow-text1.reveal {
+    clip-path: inset(0 0 0 0); 
+}
+.flow-text2.reveal {
+    clip-path: inset(0 0 0 0); 
+}.flow-text3.reveal {
+    clip-path: inset(0 0 0 0); 
+}
+.flow-text4.reveal {
+    clip-path: inset(0 0 0 0); 
+}
+.flow-text5.reveal {
+    clip-path: inset(0 0 0 0); 
+}
+
+
+
+@media screen and (min-width:2000px) and  (max-width: 2240px){
+    .flow-head{
+        margin-top: 5%;
+    }
+}

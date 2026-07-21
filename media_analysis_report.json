@@ -1,0 +1,4655 @@
+{
+  "totalChecked": 337,
+  "usedCount": 249,
+  "unusedCount": 88,
+  "totalUnusedSizeMB": "416.97",
+  "used": [
+    {
+      "filename": "6Hotel.webp",
+      "relativePath": "src/images/6Hotel.webp",
+      "sizeBytes": 298340,
+      "sizeMB": "0.285",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Aboutus/About.jsx",
+          "lineNumber": 21,
+          "lineContent": "import TeamOut from '../../../images/6Hotel.webp'"
+        }
+      ]
+    },
+    {
+      "filename": "achiv1.png",
+      "relativePath": "src/images/achiv1.png",
+      "sizeBytes": 735544,
+      "sizeMB": "0.701",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Aboutus/About.jsx",
+          "lineNumber": 22,
+          "lineContent": "import achiv from '../../../images/achiv1.png'"
+        },
+        {
+          "file": "src/Component/smooth/Smooth_scroll.jsx",
+          "lineNumber": 3,
+          "lineContent": "// import p1 from'../../images/achiv1.png'"
+        }
+      ]
+    },
+    {
+      "filename": "achiv2.png",
+      "relativePath": "src/images/achiv2.png",
+      "sizeBytes": 831194,
+      "sizeMB": "0.793",
+      "usages": [
+        {
+          "file": "src/Component/Page2/card/Card.jsx",
+          "lineNumber": 4,
+          "lineContent": "import achiv2 from '../../../images/achiv2.png'"
+        }
+      ]
+    },
+    {
+      "filename": "ahref.png",
+      "relativePath": "src/images/ahref.png",
+      "sizeBytes": 25156,
+      "sizeMB": "0.024",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Aboutus/About.jsx",
+          "lineNumber": 12,
+          "lineContent": "import plat2 from '../../../images/ahref.png'"
+        }
+      ]
+    },
+    {
+      "filename": "alli five.webp",
+      "relativePath": "src/images/alli five.webp",
+      "sizeBytes": 1317094,
+      "sizeMB": "1.256",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 107,
+          "lineContent": "import allifive from \"../../../images/alli five.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "alli four.webp",
+      "relativePath": "src/images/alli four.webp",
+      "sizeBytes": 1299624,
+      "sizeMB": "1.239",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 106,
+          "lineContent": "import allifour from \"../../../images/alli four.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "alli one.webp",
+      "relativePath": "src/images/alli one.webp",
+      "sizeBytes": 600076,
+      "sizeMB": "0.572",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 103,
+          "lineContent": "import allione from \"../../../images/alli one.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "alli three.webp",
+      "relativePath": "src/images/alli three.webp",
+      "sizeBytes": 572608,
+      "sizeMB": "0.546",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 105,
+          "lineContent": "import allithree from \"../../../images/alli three.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "alli two.webp",
+      "relativePath": "src/images/alli two.webp",
+      "sizeBytes": 547418,
+      "sizeMB": "0.522",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 104,
+          "lineContent": "import allitwo from \"../../../images/alli two.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "beer-2.png",
+      "relativePath": "src/images/beer-2.png",
+      "sizeBytes": 1032804,
+      "sizeMB": "0.985",
+      "usages": [
+        {
+          "file": "src/Component/Page5/Bloge2/Blogb2.jsx",
+          "lineNumber": 3,
+          "lineContent": "import beer2 from \"../../../images/beer-2.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "beer.png",
+      "relativePath": "src/images/beer.png",
+      "sizeBytes": 173042,
+      "sizeMB": "0.165",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 38,
+          "lineContent": "import r26 from \"../../../images/beer.png\";"
+        },
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 40,
+          "lineContent": "import r29 from \"../../../images/beer.png\";"
+        },
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 41,
+          "lineContent": "import r30 from \"../../../images/beer.png\";"
+        },
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 82,
+          "lineContent": "import beer from \"../../../images/beer.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "bg-text1.svg",
+      "relativePath": "src/images/bg-text1.svg",
+      "sizeBytes": 53615,
+      "sizeMB": "0.051",
+      "usages": [
+        {
+          "file": "src/Component/Page1/Home/Home.jsx",
+          "lineNumber": 11,
+          "lineContent": "import bg1 from '../../../images/bg-text1.svg'"
+        },
+        {
+          "file": "src/Component/Page1/Scroll/Scroll.jsx",
+          "lineNumber": 6,
+          "lineContent": "import bg1 from '../../../images/bg-text1.svg'"
+        },
+        {
+          "file": "src/Component/Page2/Aboutus/About.jsx",
+          "lineNumber": 7,
+          "lineContent": "import bg1 from '../../../images/bg-text1.svg'"
+        },
+        {
+          "file": "src/Component/Page2/Lfooter/Lfooter.jsx",
+          "lineNumber": 10,
+          "lineContent": "import bg1 from '../../../images/bg-text1.svg'"
+        },
+        {
+          "file": "src/Component/Page3/Services.jsx",
+          "lineNumber": 6,
+          "lineContent": "import bg1 from '../../images/bg-text1.svg'"
+        },
+        {
+          "file": "src/Component/Page4/Portfolio.jsx",
+          "lineNumber": 5,
+          "lineContent": "import bg1 from '../../images/bg-text1.svg'"
+        },
+        {
+          "file": "src/Component/Page5/Blog/Blog.jsx",
+          "lineNumber": 6,
+          "lineContent": "import bg1 from '../../../images/bg-text1.svg'"
+        },
+        {
+          "file": "src/Component/Page5/Bloge/Blogb.jsx",
+          "lineNumber": 5,
+          "lineContent": "import bg1 from \"../../../images/bg-text1.svg\";"
+        },
+        {
+          "file": "src/Component/Page5/Bloge1/Blogb1.jsx",
+          "lineNumber": 5,
+          "lineContent": "import bg1 from \"../../../images/bg-text1.svg\";"
+        },
+        {
+          "file": "src/Component/Page5/Bloge2/Blogb2.jsx",
+          "lineNumber": 7,
+          "lineContent": "import bg1 from \"../../../images/bg-text1.svg\";"
+        },
+        {
+          "file": "src/Component/Page5/Bloge3/Blogb3.jsx",
+          "lineNumber": 7,
+          "lineContent": "import bg1 from \"../../../images/bg-text1.svg\";"
+        },
+        {
+          "file": "src/Component/Page6/Careers.jsx",
+          "lineNumber": 6,
+          "lineContent": "import bg1 from \"../../images/bg-text1.svg\";"
+        },
+        {
+          "file": "src/Component/Page7/Reach.jsx",
+          "lineNumber": 8,
+          "lineContent": "import bg1 from '../../images/bg-text1.svg';"
+        }
+      ]
+    },
+    {
+      "filename": "bg-text2.svg",
+      "relativePath": "src/images/bg-text2.svg",
+      "sizeBytes": 53615,
+      "sizeMB": "0.051",
+      "usages": [
+        {
+          "file": "src/Component/Page1/Home/Home.jsx",
+          "lineNumber": 12,
+          "lineContent": "import bg2 from '../../../images/bg-text2.svg'"
+        },
+        {
+          "file": "src/Component/Page2/Aboutus/About.jsx",
+          "lineNumber": 8,
+          "lineContent": "import bg2 from '../../../images/bg-text2.svg'"
+        },
+        {
+          "file": "src/Component/Page2/Lfooter/Lfooter.jsx",
+          "lineNumber": 11,
+          "lineContent": "import bg2 from '../../../images/bg-text2.svg'"
+        },
+        {
+          "file": "src/Component/Page3/Services.jsx",
+          "lineNumber": 7,
+          "lineContent": "import bg2 from '../../images/bg-text2.svg'"
+        },
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 83,
+          "lineContent": "import bg2 from \"../../../images/bg-text2.svg\";"
+        },
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Kk.jsx",
+          "lineNumber": 7,
+          "lineContent": "import bg2 from '../../../../images/bg-text2.svg'"
+        },
+        {
+          "file": "src/Component/Page5/Blog/Blog.jsx",
+          "lineNumber": 8,
+          "lineContent": "import bg2 from '../../../images/bg-text2.svg'"
+        },
+        {
+          "file": "src/Component/Page5/Bloge/Blogb.jsx",
+          "lineNumber": 6,
+          "lineContent": "import bg2 from \"../../../images/bg-text2.svg\";"
+        },
+        {
+          "file": "src/Component/Page5/Bloge1/Blogb1.jsx",
+          "lineNumber": 6,
+          "lineContent": "import bg2 from \"../../../images/bg-text2.svg\";"
+        },
+        {
+          "file": "src/Component/Page5/Bloge2/Blogb2.jsx",
+          "lineNumber": 8,
+          "lineContent": "import bg2 from \"../../../images/bg-text2.svg\";"
+        },
+        {
+          "file": "src/Component/Page5/Bloge3/Blogb3.jsx",
+          "lineNumber": 8,
+          "lineContent": "import bg2 from \"../../../images/bg-text2.svg\";"
+        },
+        {
+          "file": "src/Component/Page6/Careers.jsx",
+          "lineNumber": 7,
+          "lineContent": "import bg2 from \"../../images/bg-text2.svg\";"
+        },
+        {
+          "file": "src/Component/Page7/Reach.jsx",
+          "lineNumber": 9,
+          "lineContent": "import bg2 from '../../images/bg-text2.svg';"
+        }
+      ]
+    },
+    {
+      "filename": "birthday1.webp",
+      "relativePath": "src/images/birthday1.webp",
+      "sizeBytes": 236520,
+      "sizeMB": "0.226",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 80,
+          "lineContent": "import birthday2 from \"../../../images/birthday1.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "birthday2.webp",
+      "relativePath": "src/images/birthday2.webp",
+      "sizeBytes": 625190,
+      "sizeMB": "0.596",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 81,
+          "lineContent": "import birthday1 from \"../../../images/birthday2.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "blog1.png",
+      "relativePath": "src/images/blog1.png",
+      "sizeBytes": 173042,
+      "sizeMB": "0.165",
+      "usages": [
+        {
+          "file": "src/Component/Page5/Blog/Blog.jsx",
+          "lineNumber": 2,
+          "lineContent": "import blog1 from '../../../images/blog1.png'"
+        },
+        {
+          "file": "src/Component/Page5/Bloge/Blogb.jsx",
+          "lineNumber": 2,
+          "lineContent": "import blog1 from \"../../../images/blog1.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "blog2.png",
+      "relativePath": "src/images/blog2.png",
+      "sizeBytes": 110547,
+      "sizeMB": "0.105",
+      "usages": [
+        {
+          "file": "src/Component/Page5/BlogCarousel-Desktop/Carousel/example.js",
+          "lineNumber": 6,
+          "lineContent": "import blog1 from \"../../../../images/blog2.png\";"
+        },
+        {
+          "file": "src/Component/Page5/BlogCarousel-Mobile/Home/Home.js",
+          "lineNumber": 3,
+          "lineContent": "import blog1 from \"../../../../images/blog2.png\";"
+        },
+        {
+          "file": "src/Component/Page5/Bloge2/Blogb2.jsx",
+          "lineNumber": 2,
+          "lineContent": "import blog1 from \"../../../images/blog2.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "blog3.png",
+      "relativePath": "src/images/blog3.png",
+      "sizeBytes": 40354,
+      "sizeMB": "0.038",
+      "usages": [
+        {
+          "file": "src/Component/Page5/BlogCarousel-Desktop/Carousel/example.js",
+          "lineNumber": 7,
+          "lineContent": "import blog2 from \"../../../../images/blog3.png\";"
+        },
+        {
+          "file": "src/Component/Page5/BlogCarousel-Mobile/Home/Home.js",
+          "lineNumber": 4,
+          "lineContent": "import blog2 from \"../../../../images/blog3.png\";"
+        },
+        {
+          "file": "src/Component/Page5/Bloge1/Blogb1.jsx",
+          "lineNumber": 2,
+          "lineContent": "import blog1 from \"../../../images/blog3.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "blog4.png",
+      "relativePath": "src/images/blog4.png",
+      "sizeBytes": 14251,
+      "sizeMB": "0.014",
+      "usages": [
+        {
+          "file": "src/Component/Page5/BlogCarousel-Mobile/Home/Home.js",
+          "lineNumber": 5,
+          "lineContent": "import blog3 from \"../../../../images/blog4.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "c1.png",
+      "relativePath": "src/images/c1.png",
+      "sizeBytes": 590366,
+      "sizeMB": "0.563",
+      "usages": [
+        {
+          "file": "src/Component/Page6/Service-carousel/example.js",
+          "lineNumber": 6,
+          "lineContent": "import carrer from \"../../../images/c1.png\""
+        }
+      ]
+    },
+    {
+      "filename": "c2.png",
+      "relativePath": "src/images/c2.png",
+      "sizeBytes": 1730924,
+      "sizeMB": "1.651",
+      "usages": [
+        {
+          "file": "src/Component/Page6/Service-carousel/example.js",
+          "lineNumber": 7,
+          "lineContent": "import intern from \"../../../images/c2.png\""
+        }
+      ]
+    },
+    {
+      "filename": "c3.png",
+      "relativePath": "src/images/c3.png",
+      "sizeBytes": 676949,
+      "sizeMB": "0.646",
+      "usages": [
+        {
+          "file": "src/Component/Page6/Service-carousel/example.js",
+          "lineNumber": 8,
+          "lineContent": "import workshop from \"../../../images/c3.png\""
+        }
+      ]
+    },
+    {
+      "filename": "c4.png",
+      "relativePath": "src/images/c4.png",
+      "sizeBytes": 764935,
+      "sizeMB": "0.729",
+      "usages": [
+        {
+          "file": "src/Component/Page6/Service-carousel/example.js",
+          "lineNumber": 9,
+          "lineContent": "import digital from \"../../../images/c4.png\""
+        }
+      ]
+    },
+    {
+      "filename": "call.png",
+      "relativePath": "src/images/call.png",
+      "sizeBytes": 736,
+      "sizeMB": "0.001",
+      "usages": [
+        {
+          "file": "src/Component/Page1/Footer/Footer.jsx",
+          "lineNumber": 7,
+          "lineContent": "import call from '../../../images/call.png'"
+        },
+        {
+          "file": "src/Component/Page2/Lfooter/Lfooter.jsx",
+          "lineNumber": 7,
+          "lineContent": "import call from '../../../images/wcall.png'"
+        },
+        {
+          "file": "src/Component/Page7/Reach.jsx",
+          "lineNumber": 7,
+          "lineContent": "import ycall from '../../images/y-call.png';"
+        }
+      ]
+    },
+    {
+      "filename": "ck1.webp",
+      "relativePath": "src/images/ck1.webp",
+      "sizeBytes": 39694,
+      "sizeMB": "0.038",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 91,
+          "lineContent": "import pv6 from \"../../../images/ck1.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "ck2.webp",
+      "relativePath": "src/images/ck2.webp",
+      "sizeBytes": 61050,
+      "sizeMB": "0.058",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 90,
+          "lineContent": "import pv5 from \"../../../images/ck2.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "cor1.webp",
+      "relativePath": "src/images/cor1.webp",
+      "sizeBytes": 585902,
+      "sizeMB": "0.559",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 76,
+          "lineContent": "import cor1 from \"../../../images/cor1.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "cor2.webp",
+      "relativePath": "src/images/cor2.webp",
+      "sizeBytes": 779116,
+      "sizeMB": "0.743",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 77,
+          "lineContent": "import cor2 from \"../../../images/cor2.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "Cosmos 2.webp",
+      "relativePath": "src/images/Cosmos 2.webp",
+      "sizeBytes": 219452,
+      "sizeMB": "0.209",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 118,
+          "lineContent": "import cosmos1 from \"../../../images/Cosmos 2.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "Cosmos 3.webp",
+      "relativePath": "src/images/Cosmos 3.webp",
+      "sizeBytes": 203582,
+      "sizeMB": "0.194",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 120,
+          "lineContent": "import cosmos3 from \"../../../images/Cosmos 3.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "cosmos1.webp",
+      "relativePath": "src/images/cosmos1.webp",
+      "sizeBytes": 154460,
+      "sizeMB": "0.147",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 119,
+          "lineContent": "import cosmos2 from \"../../../images/cosmos1.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "crown.png",
+      "relativePath": "src/images/crown.png",
+      "sizeBytes": 28874,
+      "sizeMB": "0.028",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Aarudhra.jsx",
+          "lineNumber": 5,
+          "lineContent": "import crown from '../../../../images/crown.png';"
+        }
+      ]
+    },
+    {
+      "filename": "design.png",
+      "relativePath": "src/images/design.png",
+      "sizeBytes": 1338262,
+      "sizeMB": "1.276",
+      "usages": [
+        {
+          "file": "src/Component/Page3/Service-carousel/example.js",
+          "lineNumber": 11,
+          "lineContent": "import design from \"../../../images/design.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "disha1.webp",
+      "relativePath": "src/images/disha1.webp",
+      "sizeBytes": 718478,
+      "sizeMB": "0.685",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 123,
+          "lineContent": "import disha1 from \"../../../images/disha1.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "disha2.webp",
+      "relativePath": "src/images/disha2.webp",
+      "sizeBytes": 271990,
+      "sizeMB": "0.259",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 124,
+          "lineContent": "import disha2 from \"../../../images/disha2.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "disharealty.webp",
+      "relativePath": "src/images/disharealty.webp",
+      "sizeBytes": 318590,
+      "sizeMB": "0.304",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 51,
+          "lineContent": "import dishareal from \"../../../images/disharealty.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "divinebees.webp",
+      "relativePath": "src/images/divinebees.webp",
+      "sizeBytes": 450096,
+      "sizeMB": "0.429",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 52,
+          "lineContent": "import divine from \"../../../images/divinebees.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "Diwal.webp",
+      "relativePath": "src/images/Diwal.webp",
+      "sizeBytes": 292394,
+      "sizeMB": "0.279",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Aboutus/About.jsx",
+          "lineNumber": 19,
+          "lineContent": "import Diwali from '../../../images/Diwal.webp'"
+        }
+      ]
+    },
+    {
+      "filename": "ev-1.webp",
+      "relativePath": "src/images/ev-1.webp",
+      "sizeBytes": 920048,
+      "sizeMB": "0.877",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 74,
+          "lineContent": "import ev1 from \"../../../images/ev-1.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "ev-2.webp",
+      "relativePath": "src/images/ev-2.webp",
+      "sizeBytes": 919594,
+      "sizeMB": "0.877",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 75,
+          "lineContent": "import ev2 from \"../../../images/ev-2.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "ev-5.webp",
+      "relativePath": "src/images/ev-5.webp",
+      "sizeBytes": 919844,
+      "sizeMB": "0.877",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 78,
+          "lineContent": "import ev5 from \"../../../images/ev-5.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "ev-6.webp",
+      "relativePath": "src/images/ev-6.webp",
+      "sizeBytes": 919654,
+      "sizeMB": "0.877",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 79,
+          "lineContent": "import ev6 from \"../../../images/ev-6.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "event.png",
+      "relativePath": "src/images/event.png",
+      "sizeBytes": 1222113,
+      "sizeMB": "1.165",
+      "usages": [
+        {
+          "file": "src/Component/Page3/Service-carousel/example.js",
+          "lineNumber": 9,
+          "lineContent": "import event from \"../../../images/event.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "fb.png",
+      "relativePath": "src/images/fb.png",
+      "sizeBytes": 1919,
+      "sizeMB": "0.002",
+      "usages": [
+        {
+          "file": "src/Component/Page1/Footer/Footer.jsx",
+          "lineNumber": 3,
+          "lineContent": "import fi2 from '../../../images/fb.png'"
+        },
+        {
+          "file": "src/Component/Page1/navbar/navbar.jsx",
+          "lineNumber": 4,
+          "lineContent": "import soc1 from '../../../images/fb.png';"
+        },
+        {
+          "file": "src/Component/Page2/Lfooter/Lfooter.jsx",
+          "lineNumber": 3,
+          "lineContent": "import fi2 from '../../../images/fb.png'"
+        }
+      ]
+    },
+    {
+      "filename": "flow.svg",
+      "relativePath": "src/images/flow.svg",
+      "sizeBytes": 171071,
+      "sizeMB": "0.163",
+      "usages": [
+        {
+          "file": "src/Component/img-reveal/ImageReveal.js",
+          "lineNumber": 4,
+          "lineContent": "import flow from '../../images/flow.svg';"
+        },
+        {
+          "file": "src/Component/Page1/Home/Home.jsx",
+          "lineNumber": 15,
+          "lineContent": "import flow from '../../../images/flow.svg'"
+        }
+      ]
+    },
+    {
+      "filename": "flow2.svg",
+      "relativePath": "src/images/flow2.svg",
+      "sizeBytes": 171070,
+      "sizeMB": "0.163",
+      "usages": [
+        {
+          "file": "src/Component/img-reveal/ImageReveal.js",
+          "lineNumber": 5,
+          "lineContent": "import flow2 from '../../images/flow2.svg';"
+        },
+        {
+          "file": "src/Component/Page1/Home/Home.jsx",
+          "lineNumber": 16,
+          "lineContent": "import flow2 from '../../../images/flow2.svg'"
+        }
+      ]
+    },
+    {
+      "filename": "founder1.png",
+      "relativePath": "src/images/founder1.png",
+      "sizeBytes": 467292,
+      "sizeMB": "0.446",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Aboutus/About.jsx",
+          "lineNumber": 4,
+          "lineContent": "import founder1 from '../../../images/founder1.png'"
+        }
+      ]
+    },
+    {
+      "filename": "founder2.png",
+      "relativePath": "src/images/founder2.png",
+      "sizeBytes": 205071,
+      "sizeMB": "0.196",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Aboutus/About.jsx",
+          "lineNumber": 5,
+          "lineContent": "import founder2 from '../../../images/founder2.png'"
+        }
+      ]
+    },
+    {
+      "filename": "g1.png",
+      "relativePath": "src/images/g1.png",
+      "sizeBytes": 12949,
+      "sizeMB": "0.012",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 13,
+          "lineContent": "import r1 from \"../../../images/g1.png\";"
+        },
+        {
+          "file": "src/Component/Page5/Blog/Blog.jsx",
+          "lineNumber": 2,
+          "lineContent": "import blog1 from '../../../images/blog1.png'"
+        },
+        {
+          "file": "src/Component/Page5/Bloge/Blogb.jsx",
+          "lineNumber": 2,
+          "lineContent": "import blog1 from \"../../../images/blog1.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "g10.png",
+      "relativePath": "src/images/g10.png",
+      "sizeBytes": 14938,
+      "sizeMB": "0.014",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 22,
+          "lineContent": "import r10 from \"../../../images/g10.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "g11.png",
+      "relativePath": "src/images/g11.png",
+      "sizeBytes": 856694,
+      "sizeMB": "0.817",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 23,
+          "lineContent": "import r11 from \"../../../images/g11.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "g12.png",
+      "relativePath": "src/images/g12.png",
+      "sizeBytes": 720251,
+      "sizeMB": "0.687",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 24,
+          "lineContent": "import r12 from \"../../../images/g12.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "g13.png",
+      "relativePath": "src/images/g13.png",
+      "sizeBytes": 301885,
+      "sizeMB": "0.288",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 25,
+          "lineContent": "import r13 from \"../../../images/g13.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "g14.png",
+      "relativePath": "src/images/g14.png",
+      "sizeBytes": 500498,
+      "sizeMB": "0.477",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 26,
+          "lineContent": "import r14 from \"../../../images/g14.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "g15.png",
+      "relativePath": "src/images/g15.png",
+      "sizeBytes": 4782,
+      "sizeMB": "0.005",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 27,
+          "lineContent": "import r15 from \"../../../images/g15.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "g16.png",
+      "relativePath": "src/images/g16.png",
+      "sizeBytes": 663222,
+      "sizeMB": "0.632",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 28,
+          "lineContent": "import r16 from \"../../../images/g16.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "g17.png",
+      "relativePath": "src/images/g17.png",
+      "sizeBytes": 2685490,
+      "sizeMB": "2.561",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 29,
+          "lineContent": "import r17 from \"../../../images/g17.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "g18.png",
+      "relativePath": "src/images/g18.png",
+      "sizeBytes": 1929012,
+      "sizeMB": "1.840",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 30,
+          "lineContent": "import r18 from \"../../../images/g18.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "g19.png",
+      "relativePath": "src/images/g19.png",
+      "sizeBytes": 650808,
+      "sizeMB": "0.621",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 31,
+          "lineContent": "import r19 from \"../../../images/g19.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "g2.png",
+      "relativePath": "src/images/g2.png",
+      "sizeBytes": 718712,
+      "sizeMB": "0.685",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 14,
+          "lineContent": "import r2 from \"../../../images/g2.png\";"
+        },
+        {
+          "file": "src/Component/Page5/BlogCarousel-Desktop/Carousel/example.js",
+          "lineNumber": 6,
+          "lineContent": "import blog1 from \"../../../../images/blog2.png\";"
+        },
+        {
+          "file": "src/Component/Page5/BlogCarousel-Mobile/Home/Home.js",
+          "lineNumber": 3,
+          "lineContent": "import blog1 from \"../../../../images/blog2.png\";"
+        },
+        {
+          "file": "src/Component/Page5/Bloge2/Blogb2.jsx",
+          "lineNumber": 2,
+          "lineContent": "import blog1 from \"../../../images/blog2.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "g20.png",
+      "relativePath": "src/images/g20.png",
+      "sizeBytes": 13874,
+      "sizeMB": "0.013",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 32,
+          "lineContent": "import r20 from \"../../../images/g20.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "g21.png",
+      "relativePath": "src/images/g21.png",
+      "sizeBytes": 1744111,
+      "sizeMB": "1.663",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 33,
+          "lineContent": "import r21 from \"../../../images/g21.png\";"
+        },
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 34,
+          "lineContent": "import r22 from \"../../../images/g21.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "g22.png",
+      "relativePath": "src/images/g22.png",
+      "sizeBytes": 1048677,
+      "sizeMB": "1.000",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 35,
+          "lineContent": "import r23 from \"../../../images/g22.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "g23.png",
+      "relativePath": "src/images/g23.png",
+      "sizeBytes": 25560,
+      "sizeMB": "0.024",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 36,
+          "lineContent": "import r24 from \"../../../images/g23.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "g24.png",
+      "relativePath": "src/images/g24.png",
+      "sizeBytes": 794385,
+      "sizeMB": "0.758",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 37,
+          "lineContent": "import r25 from \"../../../images/g24.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "g25.png",
+      "relativePath": "src/images/g25.png",
+      "sizeBytes": 1010281,
+      "sizeMB": "0.963",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 39,
+          "lineContent": "import r27 from \"../../../images/g25.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "g3.png",
+      "relativePath": "src/images/g3.png",
+      "sizeBytes": 210825,
+      "sizeMB": "0.201",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 15,
+          "lineContent": "import r3 from \"../../../images/g3.png\";"
+        },
+        {
+          "file": "src/Component/Page5/BlogCarousel-Desktop/Carousel/example.js",
+          "lineNumber": 7,
+          "lineContent": "import blog2 from \"../../../../images/blog3.png\";"
+        },
+        {
+          "file": "src/Component/Page5/BlogCarousel-Mobile/Home/Home.js",
+          "lineNumber": 4,
+          "lineContent": "import blog2 from \"../../../../images/blog3.png\";"
+        },
+        {
+          "file": "src/Component/Page5/Bloge1/Blogb1.jsx",
+          "lineNumber": 2,
+          "lineContent": "import blog1 from \"../../../images/blog3.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "g4.png",
+      "relativePath": "src/images/g4.png",
+      "sizeBytes": 893915,
+      "sizeMB": "0.853",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 16,
+          "lineContent": "import r4 from \"../../../images/g4.png\";"
+        },
+        {
+          "file": "src/Component/Page5/BlogCarousel-Mobile/Home/Home.js",
+          "lineNumber": 5,
+          "lineContent": "import blog3 from \"../../../../images/blog4.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "g5.png",
+      "relativePath": "src/images/g5.png",
+      "sizeBytes": 33570,
+      "sizeMB": "0.032",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 17,
+          "lineContent": "import r5 from \"../../../images/g5.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "g6.png",
+      "relativePath": "src/images/g6.png",
+      "sizeBytes": 1043178,
+      "sizeMB": "0.995",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 18,
+          "lineContent": "import r6 from \"../../../images/g6.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "g7.png",
+      "relativePath": "src/images/g7.png",
+      "sizeBytes": 31211,
+      "sizeMB": "0.030",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 19,
+          "lineContent": "import r7 from \"../../../images/g7.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "g8.png",
+      "relativePath": "src/images/g8.png",
+      "sizeBytes": 971427,
+      "sizeMB": "0.926",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 20,
+          "lineContent": "import r8 from \"../../../images/g8.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "g9.png",
+      "relativePath": "src/images/g9.png",
+      "sizeBytes": 616343,
+      "sizeMB": "0.588",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 21,
+          "lineContent": "import r9 from \"../../../images/g9.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "gr 1.png",
+      "relativePath": "src/images/gr 1.png",
+      "sizeBytes": 794385,
+      "sizeMB": "0.758",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 129,
+          "lineContent": "import gr1 from \"../../../images/gr 1.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "gr 2.png",
+      "relativePath": "src/images/gr 2.png",
+      "sizeBytes": 1010281,
+      "sizeMB": "0.963",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 130,
+          "lineContent": "import gr2 from \"../../../images/gr 2.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "graph.png",
+      "relativePath": "src/images/graph.png",
+      "sizeBytes": 912778,
+      "sizeMB": "0.870",
+      "usages": [
+        {
+          "file": "src/Component/Page1/Home/Home.jsx",
+          "lineNumber": 14,
+          "lineContent": "import graph from '../../../images/graph.png'"
+        }
+      ]
+    },
+    {
+      "filename": "grey-text.svg",
+      "relativePath": "src/images/grey-text.svg",
+      "sizeBytes": 53618,
+      "sizeMB": "0.051",
+      "usages": [
+        {
+          "file": "src/Component/Carousel/example.js",
+          "lineNumber": 6,
+          "lineContent": "import greybg from '../../images/grey-text.svg'"
+        },
+        {
+          "file": "src/Component/Page1/Footer/Footer.jsx",
+          "lineNumber": 10,
+          "lineContent": "import bg1 from '../../../images/grey-text.svg'"
+        },
+        {
+          "file": "src/Component/Page1/Home/Home.jsx",
+          "lineNumber": 13,
+          "lineContent": "import greybg from '../../../images/grey-text.svg'"
+        },
+        {
+          "file": "src/Component/Page1/OurCommunity/OurCommunity.js",
+          "lineNumber": 4,
+          "lineContent": "import greybg from \"../../../images/grey-text.svg\""
+        },
+        {
+          "file": "src/Component/Page2/Aboutus/About.jsx",
+          "lineNumber": 15,
+          "lineContent": "import greybg from '../../../images/grey-text.svg'"
+        },
+        {
+          "file": "src/Component/Page3/Services.jsx",
+          "lineNumber": 3,
+          "lineContent": "import greybg from '../../images/grey-text.svg'"
+        },
+        {
+          "file": "src/Component/Page5/Blog/Blog.jsx",
+          "lineNumber": 7,
+          "lineContent": "import greybg from '../../../images/grey-text.svg'"
+        },
+        {
+          "file": "src/Component/Page6/Careers.jsx",
+          "lineNumber": 4,
+          "lineContent": "import greybg from \"../../images/grey-text.svg\";"
+        },
+        {
+          "file": "src/Component/Page7/Reach.jsx",
+          "lineNumber": 6,
+          "lineContent": "import greybg from '../../images/grey-text.svg'"
+        }
+      ]
+    },
+    {
+      "filename": "head.png",
+      "relativePath": "src/images/head.png",
+      "sizeBytes": 184044,
+      "sizeMB": "0.176",
+      "usages": [
+        {
+          "file": "src/Component/Page1/Home/Home.jsx",
+          "lineNumber": 8,
+          "lineContent": "import head from '../../../images/head.png';"
+        }
+      ]
+    },
+    {
+      "filename": "insta.png",
+      "relativePath": "src/images/insta.png",
+      "sizeBytes": 2142,
+      "sizeMB": "0.002",
+      "usages": [
+        {
+          "file": "src/Component/Page1/Footer/Footer.jsx",
+          "lineNumber": 2,
+          "lineContent": "import fi1 from '../../../images/insta.png'"
+        },
+        {
+          "file": "src/Component/Page1/navbar/navbar.jsx",
+          "lineNumber": 5,
+          "lineContent": "import soc2 from '../../../images/insta.png';"
+        },
+        {
+          "file": "src/Component/Page2/Lfooter/Lfooter.jsx",
+          "lineNumber": 2,
+          "lineContent": "import fi1 from '../../../images/insta.png'"
+        }
+      ]
+    },
+    {
+      "filename": "ipad.svg",
+      "relativePath": "src/images/ipad.svg",
+      "sizeBytes": 2826564,
+      "sizeMB": "2.696",
+      "usages": [
+        {
+          "file": "src/Component/Page1/Home/Home.jsx",
+          "lineNumber": 9,
+          "lineContent": "import ipad from '../../../images/ipad.svg';"
+        },
+        {
+          "file": "src/Component/Page1/Scroll/Scroll.jsx",
+          "lineNumber": 4,
+          "lineContent": "import ipad from '../../../images/ipad.svg';"
+        }
+      ]
+    },
+    {
+      "filename": "jat 1.png",
+      "relativePath": "src/images/jat 1.png",
+      "sizeBytes": 14422,
+      "sizeMB": "0.014",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 125,
+          "lineContent": "import jat1 from \"../../../images/jat 1.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "jat 2.png",
+      "relativePath": "src/images/jat 2.png",
+      "sizeBytes": 1744111,
+      "sizeMB": "1.663",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 126,
+          "lineContent": "import jat2 from \"../../../images/jat 2.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "keerthana.png",
+      "relativePath": "src/images/keerthana.png",
+      "sizeBytes": 44011,
+      "sizeMB": "0.042",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Aboutus/About.jsx",
+          "lineNumber": 6,
+          "lineContent": "import keer from '../../../images/keerthana.png'"
+        }
+      ]
+    },
+    {
+      "filename": "KR-BLOG-Why-Professional-Advertising (2).webp",
+      "relativePath": "src/images/KR-BLOG-Why-Professional-Advertising (2).webp",
+      "sizeBytes": 41198,
+      "sizeMB": "0.039",
+      "usages": [
+        {
+          "file": "src/Component/Page5/BlogCarousel-Desktop/Carousel/example.js",
+          "lineNumber": 8,
+          "lineContent": "import blog3 from \"../../../../images/KR-BLOG-Why-Professional-Advertising (2).webp\";"
+        },
+        {
+          "file": "src/Component/Page5/Bloge3/Blogb3.jsx",
+          "lineNumber": 2,
+          "lineContent": "import blog1 from \"../../../images/KR-BLOG-Why-Professional-Advertising (2).webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "KR-BLOG-Why-Professional-Advertising (3).webp",
+      "relativePath": "src/images/KR-BLOG-Why-Professional-Advertising (3).webp",
+      "sizeBytes": 83290,
+      "sizeMB": "0.079",
+      "usages": [
+        {
+          "file": "src/Component/Page5/Bloge3/Blogb3.jsx",
+          "lineNumber": 3,
+          "lineContent": "import blog2 from \"../../../images/KR-BLOG-Why-Professional-Advertising (3).webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "landing-vid.mp4",
+      "relativePath": "src/images/landing-vid.mp4",
+      "sizeBytes": 8758593,
+      "sizeMB": "8.353",
+      "usages": [
+        {
+          "file": "src/Component/Page1/Home/Home.jsx",
+          "lineNumber": 10,
+          "lineContent": "import vid from '../../../images/landing-vid.mp4';"
+        }
+      ]
+    },
+    {
+      "filename": "linkde.png",
+      "relativePath": "src/images/linkde.png",
+      "sizeBytes": 1193,
+      "sizeMB": "0.001",
+      "usages": [
+        {
+          "file": "src/Component/Page1/Footer/Footer.jsx",
+          "lineNumber": 4,
+          "lineContent": "import fi3 from '../../../images/linkde.png'"
+        },
+        {
+          "file": "src/Component/Page2/Lfooter/Lfooter.jsx",
+          "lineNumber": 4,
+          "lineContent": "import fi3 from '../../../images/linkde.png'"
+        }
+      ]
+    },
+    {
+      "filename": "littletown waffles.png",
+      "relativePath": "src/images/littletown waffles.png",
+      "sizeBytes": 4323835,
+      "sizeMB": "4.124",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 64,
+          "lineContent": "import per7 from \"../../../images/littletown waffles.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "Logo.png",
+      "relativePath": "src/images/Logo.png",
+      "sizeBytes": 3846,
+      "sizeMB": "0.004",
+      "usages": [
+        {
+          "file": "src/Component/Page1/navbar/navbar.jsx",
+          "lineNumber": 3,
+          "lineContent": "import logo from '../../../images/Logo.png';"
+        },
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 54,
+          "lineContent": "import osho1 from '../../../images/osho_logo.png' (case-insensitive/typo match)"
+        },
+        {
+          "file": "src/Component/Page5/BlogCarousel-Desktop/Carousel/example.js",
+          "lineNumber": 10,
+          "lineContent": "import stark from \"../../../../images/Logo.png\";"
+        },
+        {
+          "file": "src/Component/Page5/BlogCarousel-Mobile/Home/Home.js",
+          "lineNumber": 6,
+          "lineContent": "import stark from \"../../../../images/Logo.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "maha One.webp",
+      "relativePath": "src/images/maha One.webp",
+      "sizeBytes": 583288,
+      "sizeMB": "0.556",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 113,
+          "lineContent": "import mahaone from \"../../../images/maha One.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "maha two.webp",
+      "relativePath": "src/images/maha two.webp",
+      "sizeBytes": 215998,
+      "sizeMB": "0.206",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 114,
+          "lineContent": "import mahatwo from \"../../../images/maha two.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "mail.png",
+      "relativePath": "src/images/mail.png",
+      "sizeBytes": 850,
+      "sizeMB": "0.001",
+      "usages": [
+        {
+          "file": "src/Component/Page1/Footer/Footer.jsx",
+          "lineNumber": 8,
+          "lineContent": "import mail from '../../../images/mail.png'"
+        },
+        {
+          "file": "src/Component/Page2/Lfooter/Lfooter.jsx",
+          "lineNumber": 8,
+          "lineContent": "import mail from '../../../images/wmail.png'"
+        },
+        {
+          "file": "src/Component/Page7/Reach.jsx",
+          "lineNumber": 5,
+          "lineContent": "import ymail from '../../images/ymail.png';"
+        }
+      ]
+    },
+    {
+      "filename": "map.png",
+      "relativePath": "src/images/map.png",
+      "sizeBytes": 1132302,
+      "sizeMB": "1.080",
+      "usages": [
+        {
+          "file": "src/Component/Page7/Reach.jsx",
+          "lineNumber": 4,
+          "lineContent": "import add from '../../images/ymap.png';"
+        }
+      ]
+    },
+    {
+      "filename": "mapo.png",
+      "relativePath": "src/images/mapo.png",
+      "sizeBytes": 1132302,
+      "sizeMB": "1.080",
+      "usages": [
+        {
+          "file": "src/Component/Page7/Reach.jsx",
+          "lineNumber": 3,
+          "lineContent": "import map from '../../images/mapo.png';"
+        }
+      ]
+    },
+    {
+      "filename": "maz 1.png",
+      "relativePath": "src/images/maz 1.png",
+      "sizeBytes": 856694,
+      "sizeMB": "0.817",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 108,
+          "lineContent": "import maz1 from \"../../../images/maz 1.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "maz 2.png",
+      "relativePath": "src/images/maz 2.png",
+      "sizeBytes": 720251,
+      "sizeMB": "0.687",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 109,
+          "lineContent": "import maz2 from \"../../../images/maz 2.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "meta.png",
+      "relativePath": "src/images/meta.png",
+      "sizeBytes": 29782,
+      "sizeMB": "0.028",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Aboutus/About.jsx",
+          "lineNumber": 13,
+          "lineContent": "import plat3 from '../../../images/meta.png'"
+        }
+      ]
+    },
+    {
+      "filename": "NewYea.webp",
+      "relativePath": "src/images/NewYea.webp",
+      "sizeBytes": 423402,
+      "sizeMB": "0.404",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Aboutus/About.jsx",
+          "lineNumber": 20,
+          "lineContent": "import NewYear from '../../../images/NewYea.webp'"
+        }
+      ]
+    },
+    {
+      "filename": "next.png",
+      "relativePath": "src/images/next.png",
+      "sizeBytes": 3587,
+      "sizeMB": "0.003",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/gal.jsx",
+          "lineNumber": 35,
+          "lineContent": "import next from '../../images/next.png';"
+        }
+      ]
+    },
+    {
+      "filename": "nss 1.png",
+      "relativePath": "src/images/nss 1.png",
+      "sizeBytes": 937584,
+      "sizeMB": "0.894",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 101,
+          "lineContent": "import nss1 from \"../../../images/nss 1.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "nss 2.png",
+      "relativePath": "src/images/nss 2.png",
+      "sizeBytes": 33675,
+      "sizeMB": "0.032",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 102,
+          "lineContent": "import nss2 from \"../../../images/nss 2.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "Onam.webp",
+      "relativePath": "src/images/Onam.webp",
+      "sizeBytes": 1450502,
+      "sizeMB": "1.383",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Aboutus/About.jsx",
+          "lineNumber": 18,
+          "lineContent": "import Onam from '../../../images/Onam.webp'"
+        }
+      ]
+    },
+    {
+      "filename": "osho-ban1.png",
+      "relativePath": "src/images/osho-ban1.png",
+      "sizeBytes": 2611564,
+      "sizeMB": "2.491",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 55,
+          "lineContent": "import osho2 from '../../../images/osho-ban1.png'"
+        }
+      ]
+    },
+    {
+      "filename": "osho4.webp",
+      "relativePath": "src/images/osho4.webp",
+      "sizeBytes": 831140,
+      "sizeMB": "0.793",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 57,
+          "lineContent": "import osho4 from '../../../images/osho4.webp'"
+        }
+      ]
+    },
+    {
+      "filename": "osho5.webp",
+      "relativePath": "src/images/osho5.webp",
+      "sizeBytes": 392978,
+      "sizeMB": "0.375",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 58,
+          "lineContent": "import osho5 from '../../../images/osho5.webp'"
+        }
+      ]
+    },
+    {
+      "filename": "osho_ban2.png",
+      "relativePath": "src/images/osho_ban2.png",
+      "sizeBytes": 2658855,
+      "sizeMB": "2.536",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 56,
+          "lineContent": "import osho3 from '../../../images/osho_ban2.png'"
+        }
+      ]
+    },
+    {
+      "filename": "osho_logo.png",
+      "relativePath": "src/images/osho_logo.png",
+      "sizeBytes": 392501,
+      "sizeMB": "0.374",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 54,
+          "lineContent": "import osho1 from '../../../images/osho_logo.png'"
+        }
+      ]
+    },
+    {
+      "filename": "per-1.png",
+      "relativePath": "src/images/per-1.png",
+      "sizeBytes": 1087383,
+      "sizeMB": "1.037",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Aarudhra.jsx",
+          "lineNumber": 4,
+          "lineContent": "import per1 from '../../../../images/per-1.png';"
+        },
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Swasthik.jsx",
+          "lineNumber": 4,
+          "lineContent": "import per1 from '../../../../images/per-1.png';"
+        },
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Vesat.jsx",
+          "lineNumber": 4,
+          "lineContent": "import per1 from '../../../../images/per-1.png';"
+        }
+      ]
+    },
+    {
+      "filename": "per-2.png",
+      "relativePath": "src/images/per-2.png",
+      "sizeBytes": 769543,
+      "sizeMB": "0.734",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 59,
+          "lineContent": "import per2 from \"../../../images/per-2.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "per-3.png",
+      "relativePath": "src/images/per-3.png",
+      "sizeBytes": 952627,
+      "sizeMB": "0.908",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 60,
+          "lineContent": "import per3 from \"../../../images/per-3.png\";"
+        },
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Reva.jsx",
+          "lineNumber": 3,
+          "lineContent": "import per3 from '../../../../images/per-3.png';"
+        }
+      ]
+    },
+    {
+      "filename": "per-4.png",
+      "relativePath": "src/images/per-4.png",
+      "sizeBytes": 902365,
+      "sizeMB": "0.861",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 61,
+          "lineContent": "import per4 from \"../../../images/per-4.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "per-5.png",
+      "relativePath": "src/images/per-5.png",
+      "sizeBytes": 1525992,
+      "sizeMB": "1.455",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Kk.jsx",
+          "lineNumber": 5,
+          "lineContent": "import per5 from '../../../../images/per-5.png';"
+        }
+      ]
+    },
+    {
+      "filename": "per-l1.png",
+      "relativePath": "src/images/per-l1.png",
+      "sizeBytes": 20870,
+      "sizeMB": "0.020",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 66,
+          "lineContent": "import perL1 from \"../../../images/per-l1.png\";"
+        },
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Swasthik.jsx",
+          "lineNumber": 5,
+          "lineContent": "import perL1 from '../../../../images/per-l1.png';"
+        }
+      ]
+    },
+    {
+      "filename": "per-l2.png",
+      "relativePath": "src/images/per-l2.png",
+      "sizeBytes": 11825,
+      "sizeMB": "0.011",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 67,
+          "lineContent": "import perL2 from \"../../../images/per-l2.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "per-l3.png",
+      "relativePath": "src/images/per-l3.png",
+      "sizeBytes": 17718,
+      "sizeMB": "0.017",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 68,
+          "lineContent": "import perL3 from \"../../../images/per-l3.png\";"
+        },
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Reva.jsx",
+          "lineNumber": 5,
+          "lineContent": "import perL3 from '../../../../images/per-l3.png';"
+        }
+      ]
+    },
+    {
+      "filename": "per-l4.png",
+      "relativePath": "src/images/per-l4.png",
+      "sizeBytes": 7147,
+      "sizeMB": "0.007",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 69,
+          "lineContent": "import perL4 from \"../../../images/per-l4.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "per-l5.png",
+      "relativePath": "src/images/per-l5.png",
+      "sizeBytes": 6232,
+      "sizeMB": "0.006",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 73,
+          "lineContent": "import perL5 from \"../../../images/per-l5.png\";"
+        },
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Kk.jsx",
+          "lineNumber": 4,
+          "lineContent": "import perL5 from '../../../../images/per-l5.png';"
+        }
+      ]
+    },
+    {
+      "filename": "pmntrest.png",
+      "relativePath": "src/images/pmntrest.png",
+      "sizeBytes": 2533,
+      "sizeMB": "0.002",
+      "usages": [
+        {
+          "file": "src/Component/Page1/Footer/Footer.jsx",
+          "lineNumber": 5,
+          "lineContent": "import fi4 from '../../../images/pmntrest.png'"
+        },
+        {
+          "file": "src/Component/Page2/Lfooter/Lfooter.jsx",
+          "lineNumber": 5,
+          "lineContent": "import fi4 from '../../../images/pmntrest.png'"
+        }
+      ]
+    },
+    {
+      "filename": "polio-img.png",
+      "relativePath": "src/images/polio-img.png",
+      "sizeBytes": 1869208,
+      "sizeMB": "1.783",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Aboutus/About.jsx",
+          "lineNumber": 17,
+          "lineContent": "import polio from '../../../images/polio-img.png'"
+        }
+      ]
+    },
+    {
+      "filename": "ppc.png",
+      "relativePath": "src/images/ppc.png",
+      "sizeBytes": 434188,
+      "sizeMB": "0.414",
+      "usages": [
+        {
+          "file": "src/Component/Page3/Service-carousel/example.js",
+          "lineNumber": 7,
+          "lineContent": "import ppc from \"../../../images/ppc.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "prev.png",
+      "relativePath": "src/images/prev.png",
+      "sizeBytes": 3632,
+      "sizeMB": "0.003",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/gal.jsx",
+          "lineNumber": 34,
+          "lineContent": "import prev from '../../images/prev.png';"
+        }
+      ]
+    },
+    {
+      "filename": "ps.png",
+      "relativePath": "src/images/ps.png",
+      "sizeBytes": 35610,
+      "sizeMB": "0.034",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Aboutus/About.jsx",
+          "lineNumber": 14,
+          "lineContent": "import plat4 from '../../../images/ps.png'"
+        }
+      ]
+    },
+    {
+      "filename": "pv1.png",
+      "relativePath": "src/images/pv1.png",
+      "sizeBytes": 735941,
+      "sizeMB": "0.702",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 92,
+          "lineContent": "import pv7 from \"../../../images/pv1.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "pv9.webp",
+      "relativePath": "src/images/pv9.webp",
+      "sizeBytes": 920150,
+      "sizeMB": "0.878",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 94,
+          "lineContent": "import pv9 from \"../../../images/pv9.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "react.png",
+      "relativePath": "src/images/react.png",
+      "sizeBytes": 33249,
+      "sizeMB": "0.032",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Aboutus/About.jsx",
+          "lineNumber": 11,
+          "lineContent": "import plat1 from '../../../images/react.png'"
+        }
+      ]
+    },
+    {
+      "filename": "Revanth.png",
+      "relativePath": "src/images/Revanth.png",
+      "sizeBytes": 45364,
+      "sizeMB": "0.043",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Aboutus/About.jsx",
+          "lineNumber": 9,
+          "lineContent": "import reva from '../../../images/Revanth.png'"
+        }
+      ]
+    },
+    {
+      "filename": "RR-Mahal.webp",
+      "relativePath": "src/images/RR-Mahal.webp",
+      "sizeBytes": 920140,
+      "sizeMB": "0.878",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 93,
+          "lineContent": "import pv8 from \"../../../images/RR-Mahal.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "Rudra Priya DME.webp",
+      "relativePath": "src/images/Rudra Priya DME.webp",
+      "sizeBytes": 116028,
+      "sizeMB": "0.111",
+      "usages": [
+        {
+          "file": "src/Component/Page2/card/Card.jsx",
+          "lineNumber": 3,
+          "lineContent": "import achiv1 from '../../../images/Rudra Priya DME.webp'"
+        }
+      ]
+    },
+    {
+      "filename": "Sheik DME.webp",
+      "relativePath": "src/images/Sheik DME.webp",
+      "sizeBytes": 127380,
+      "sizeMB": "0.121",
+      "usages": [
+        {
+          "file": "src/Component/Page2/card/Card.jsx",
+          "lineNumber": 5,
+          "lineContent": "import achiv3 from '../../../images/Sheik DME.webp'"
+        }
+      ]
+    },
+    {
+      "filename": "shek.webp",
+      "relativePath": "src/images/shek.webp",
+      "sizeBytes": 300414,
+      "sizeMB": "0.286",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Teamslider/Nsliider.jsx",
+          "lineNumber": 12,
+          "lineContent": "import slide_image_5 from '../../../images/shek.webp';"
+        }
+      ]
+    },
+    {
+      "filename": "shoot.png",
+      "relativePath": "src/images/shoot.png",
+      "sizeBytes": 1141375,
+      "sizeMB": "1.089",
+      "usages": [
+        {
+          "file": "src/Component/Page3/Service-carousel/example.js",
+          "lineNumber": 10,
+          "lineContent": "import shoot from \"../../../images/shoot.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "silverbees1.webp",
+      "relativePath": "src/images/silverbees1.webp",
+      "sizeBytes": 175194,
+      "sizeMB": "0.167",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 50,
+          "lineContent": "import silverbees from \"../../../images/silverbees1.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "sl-1.png",
+      "relativePath": "src/images/sl-1.png",
+      "sizeBytes": 162325,
+      "sizeMB": "0.155",
+      "usages": [
+        {
+          "file": "src/Component/Page1/framer/Slider.jsx",
+          "lineNumber": 3,
+          "lineContent": "import sl1 from '../../../images/sl-1.png'"
+        },
+        {
+          "file": "src/Component/Page4/Carouselee/omb/Modal.jsx",
+          "lineNumber": 4,
+          "lineContent": "import cr1 from '../../../../images/sl-1.png';"
+        }
+      ]
+    },
+    {
+      "filename": "sl-1.webp",
+      "relativePath": "src/images/sl-1.webp",
+      "sizeBytes": 73284,
+      "sizeMB": "0.070",
+      "usages": [
+        {
+          "file": "src/Component/Infinite slider/Islider.jsx",
+          "lineNumber": 4,
+          "lineContent": "// import sl1 from \"../../images/sl-1.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/new-sliders/Slides.jsx",
+          "lineNumber": 3,
+          "lineContent": "import sl1 from \"../../../images/sl-1.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/new-sliders/Slides2.jsx",
+          "lineNumber": 3,
+          "lineContent": "import sl1 from \"../../../images/sl-1.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/slider/slider.jsx",
+          "lineNumber": 3,
+          "lineContent": "import sl1 from \"../../../images/sl-1.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll.jsx",
+          "lineNumber": 3,
+          "lineContent": "import sl1 from \"../../../images/sl-1.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll1.jsx",
+          "lineNumber": 3,
+          "lineContent": "import sl1 from \"../../../images/sl-1.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "sl-10.jpeg",
+      "relativePath": "src/images/sl-10.jpeg",
+      "sizeBytes": 509959,
+      "sizeMB": "0.486",
+      "usages": [
+        {
+          "file": "src/Component/Page1/new-sliders/Slides2.jsx",
+          "lineNumber": 12,
+          "lineContent": "import sl10 from \"../../../images/sl-10.jpeg\";"
+        },
+        {
+          "file": "src/Component/Page1/slider/slider.jsx",
+          "lineNumber": 12,
+          "lineContent": "import sl10 from \"../../../images/sl-10.jpeg\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll1.jsx",
+          "lineNumber": 12,
+          "lineContent": "import sl10 from \"../../../images/sl-10.jpeg\";"
+        }
+      ]
+    },
+    {
+      "filename": "sl-11.jpeg",
+      "relativePath": "src/images/sl-11.jpeg",
+      "sizeBytes": 510386,
+      "sizeMB": "0.487",
+      "usages": [
+        {
+          "file": "src/Component/Page1/new-sliders/Slides2.jsx",
+          "lineNumber": 13,
+          "lineContent": "import sl11 from \"../../../images/sl-11.jpeg\";"
+        },
+        {
+          "file": "src/Component/Page1/slider/slider.jsx",
+          "lineNumber": 13,
+          "lineContent": "import sl11 from \"../../../images/sl-11.jpeg\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll1.jsx",
+          "lineNumber": 13,
+          "lineContent": "import sl11 from \"../../../images/sl-11.jpeg\";"
+        }
+      ]
+    },
+    {
+      "filename": "sl-12.jpeg",
+      "relativePath": "src/images/sl-12.jpeg",
+      "sizeBytes": 510154,
+      "sizeMB": "0.487",
+      "usages": [
+        {
+          "file": "src/Component/Page1/new-sliders/Slides2.jsx",
+          "lineNumber": 14,
+          "lineContent": "import sl12 from \"../../../images/sl-12.jpeg\";"
+        },
+        {
+          "file": "src/Component/Page1/slider/slider.jsx",
+          "lineNumber": 14,
+          "lineContent": "import sl12 from \"../../../images/sl-12.jpeg\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll1.jsx",
+          "lineNumber": 14,
+          "lineContent": "import sl12 from \"../../../images/sl-12.jpeg\";"
+        }
+      ]
+    },
+    {
+      "filename": "sl-13.jpeg",
+      "relativePath": "src/images/sl-13.jpeg",
+      "sizeBytes": 510348,
+      "sizeMB": "0.487",
+      "usages": [
+        {
+          "file": "src/Component/Page1/new-sliders/Slides2.jsx",
+          "lineNumber": 15,
+          "lineContent": "import sl13 from \"../../../images/sl-13.jpeg\";"
+        },
+        {
+          "file": "src/Component/Page1/slider/slider.jsx",
+          "lineNumber": 15,
+          "lineContent": "import sl13 from \"../../../images/sl-13.jpeg\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll1.jsx",
+          "lineNumber": 15,
+          "lineContent": "import sl13 from \"../../../images/sl-13.jpeg\";"
+        }
+      ]
+    },
+    {
+      "filename": "sl-14.jpeg",
+      "relativePath": "src/images/sl-14.jpeg",
+      "sizeBytes": 510778,
+      "sizeMB": "0.487",
+      "usages": [
+        {
+          "file": "src/Component/Page1/new-sliders/Slides2.jsx",
+          "lineNumber": 16,
+          "lineContent": "import sl14 from \"../../../images/sl-14.jpeg\";"
+        },
+        {
+          "file": "src/Component/Page1/slider/slider.jsx",
+          "lineNumber": 16,
+          "lineContent": "import sl14 from \"../../../images/sl-14.jpeg\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll1.jsx",
+          "lineNumber": 16,
+          "lineContent": "import sl14 from \"../../../images/sl-14.jpeg\";"
+        }
+      ]
+    },
+    {
+      "filename": "sl-15.jpeg",
+      "relativePath": "src/images/sl-15.jpeg",
+      "sizeBytes": 509990,
+      "sizeMB": "0.486",
+      "usages": [
+        {
+          "file": "src/Component/Page1/new-sliders/Slides2.jsx",
+          "lineNumber": 17,
+          "lineContent": "import sl15 from \"../../../images/sl-15.jpeg\";"
+        },
+        {
+          "file": "src/Component/Page1/slider/slider.jsx",
+          "lineNumber": 17,
+          "lineContent": "import sl15 from \"../../../images/sl-15.jpeg\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll1.jsx",
+          "lineNumber": 17,
+          "lineContent": "import sl15 from \"../../../images/sl-15.jpeg\";"
+        }
+      ]
+    },
+    {
+      "filename": "sl-16.jpeg",
+      "relativePath": "src/images/sl-16.jpeg",
+      "sizeBytes": 510254,
+      "sizeMB": "0.487",
+      "usages": [
+        {
+          "file": "src/Component/Page1/new-sliders/Slides2.jsx",
+          "lineNumber": 18,
+          "lineContent": "import sl16 from \"../../../images/sl-16.jpeg\";"
+        },
+        {
+          "file": "src/Component/Page1/slider/slider.jsx",
+          "lineNumber": 18,
+          "lineContent": "import sl16 from \"../../../images/sl-16.jpeg\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll1.jsx",
+          "lineNumber": 18,
+          "lineContent": "import sl16 from \"../../../images/sl-16.jpeg\";"
+        }
+      ]
+    },
+    {
+      "filename": "sl-17.jpeg",
+      "relativePath": "src/images/sl-17.jpeg",
+      "sizeBytes": 510854,
+      "sizeMB": "0.487",
+      "usages": [
+        {
+          "file": "src/Component/Page1/new-sliders/Slides2.jsx",
+          "lineNumber": 19,
+          "lineContent": "import sl17 from \"../../../images/sl-17.jpeg\""
+        },
+        {
+          "file": "src/Component/Page1/slider/slider.jsx",
+          "lineNumber": 19,
+          "lineContent": "import sl17 from \"../../../images/sl-17.jpeg\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll1.jsx",
+          "lineNumber": 19,
+          "lineContent": "import sl17 from \"../../../images/sl-17.jpeg\";"
+        }
+      ]
+    },
+    {
+      "filename": "sl-18.webp",
+      "relativePath": "src/images/sl-18.webp",
+      "sizeBytes": 521012,
+      "sizeMB": "0.497",
+      "usages": [
+        {
+          "file": "src/Component/Page1/new-sliders/Slides2.jsx",
+          "lineNumber": 20,
+          "lineContent": "import sl18 from \"../../../images/sl-18.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll1.jsx",
+          "lineNumber": 20,
+          "lineContent": "import sl18 from \"../../../images/sl-18.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "sl-19.webp",
+      "relativePath": "src/images/sl-19.webp",
+      "sizeBytes": 560478,
+      "sizeMB": "0.535",
+      "usages": [
+        {
+          "file": "src/Component/Page1/new-sliders/Slides2.jsx",
+          "lineNumber": 21,
+          "lineContent": "import sl19 from \"../../../images/sl-19.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll1.jsx",
+          "lineNumber": 21,
+          "lineContent": "import sl19 from \"../../../images/sl-19.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "sl-2.png",
+      "relativePath": "src/images/sl-2.png",
+      "sizeBytes": 329453,
+      "sizeMB": "0.314",
+      "usages": [
+        {
+          "file": "src/Component/Page1/framer/Slider.jsx",
+          "lineNumber": 4,
+          "lineContent": "import sl2 from '../../../images/sl-2.png'"
+        },
+        {
+          "file": "src/Component/Page4/Carouselee/omb/Modal.jsx",
+          "lineNumber": 5,
+          "lineContent": "import cr2 from '../../../../images/sl-2.png';"
+        }
+      ]
+    },
+    {
+      "filename": "sl-2.webp",
+      "relativePath": "src/images/sl-2.webp",
+      "sizeBytes": 151814,
+      "sizeMB": "0.145",
+      "usages": [
+        {
+          "file": "src/Component/Infinite slider/Islider.jsx",
+          "lineNumber": 5,
+          "lineContent": "// import sl2 from \"../../images/sl-2.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/new-sliders/Slides.jsx",
+          "lineNumber": 4,
+          "lineContent": "import sl2 from \"../../../images/sl-2.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/new-sliders/Slides2.jsx",
+          "lineNumber": 4,
+          "lineContent": "import sl2 from \"../../../images/sl-2.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/slider/slider.jsx",
+          "lineNumber": 4,
+          "lineContent": "import sl2 from \"../../../images/sl-2.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll.jsx",
+          "lineNumber": 4,
+          "lineContent": "import sl2 from \"../../../images/sl-2.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll1.jsx",
+          "lineNumber": 4,
+          "lineContent": "import sl2 from \"../../../images/sl-2.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "sl-20.webp",
+      "relativePath": "src/images/sl-20.webp",
+      "sizeBytes": 689478,
+      "sizeMB": "0.658",
+      "usages": [
+        {
+          "file": "src/Component/Page1/new-sliders/Slides2.jsx",
+          "lineNumber": 22,
+          "lineContent": "import sl20 from \"../../../images/sl-20.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll1.jsx",
+          "lineNumber": 22,
+          "lineContent": "import sl20 from \"../../../images/sl-20.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "sl-21.webp",
+      "relativePath": "src/images/sl-21.webp",
+      "sizeBytes": 727202,
+      "sizeMB": "0.694",
+      "usages": [
+        {
+          "file": "src/Component/Page1/new-sliders/Slides2.jsx",
+          "lineNumber": 23,
+          "lineContent": "import sl21 from \"../../../images/sl-21.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll1.jsx",
+          "lineNumber": 23,
+          "lineContent": "import sl21 from \"../../../images/sl-21.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "sl-22.webp",
+      "relativePath": "src/images/sl-22.webp",
+      "sizeBytes": 485996,
+      "sizeMB": "0.463",
+      "usages": [
+        {
+          "file": "src/Component/Page1/new-sliders/Slides.jsx",
+          "lineNumber": 12,
+          "lineContent": "import sl22 from \"../../../images/sl-22.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll.jsx",
+          "lineNumber": 12,
+          "lineContent": "import sl22 from \"../../../images/sl-22.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "sl-23.webp",
+      "relativePath": "src/images/sl-23.webp",
+      "sizeBytes": 326766,
+      "sizeMB": "0.312",
+      "usages": [
+        {
+          "file": "src/Component/Page1/new-sliders/Slides.jsx",
+          "lineNumber": 13,
+          "lineContent": "import sl23 from \"../../../images/sl-23.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll.jsx",
+          "lineNumber": 13,
+          "lineContent": "import sl23 from \"../../../images/sl-23.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "sl-24.webp",
+      "relativePath": "src/images/sl-24.webp",
+      "sizeBytes": 509728,
+      "sizeMB": "0.486",
+      "usages": [
+        {
+          "file": "src/Component/Page1/new-sliders/Slides.jsx",
+          "lineNumber": 14,
+          "lineContent": "import sl24 from \"../../../images/sl-24.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll.jsx",
+          "lineNumber": 14,
+          "lineContent": "import sl24 from \"../../../images/sl-24.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "sl-3.png",
+      "relativePath": "src/images/sl-3.png",
+      "sizeBytes": 305824,
+      "sizeMB": "0.292",
+      "usages": [
+        {
+          "file": "src/Component/Page1/framer/Slider.jsx",
+          "lineNumber": 5,
+          "lineContent": "import sl3 from '../../../images/sl-3.png'"
+        },
+        {
+          "file": "src/Component/Page4/Carouselee/omb/Modal.jsx",
+          "lineNumber": 6,
+          "lineContent": "import cr3 from '../../../../images/sl-3.png';"
+        }
+      ]
+    },
+    {
+      "filename": "sl-3.webp",
+      "relativePath": "src/images/sl-3.webp",
+      "sizeBytes": 53878,
+      "sizeMB": "0.051",
+      "usages": [
+        {
+          "file": "src/Component/Infinite slider/Islider.jsx",
+          "lineNumber": 6,
+          "lineContent": "// import sl3 from \"../../images/sl-3.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/new-sliders/Slides.jsx",
+          "lineNumber": 5,
+          "lineContent": "import sl3 from \"../../../images/sl-3.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/new-sliders/Slides2.jsx",
+          "lineNumber": 5,
+          "lineContent": "import sl3 from \"../../../images/sl-3.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/slider/slider.jsx",
+          "lineNumber": 5,
+          "lineContent": "import sl3 from \"../../../images/sl-3.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll.jsx",
+          "lineNumber": 5,
+          "lineContent": "import sl3 from \"../../../images/sl-3.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll1.jsx",
+          "lineNumber": 5,
+          "lineContent": "import sl3 from \"../../../images/sl-3.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "sl-4.png",
+      "relativePath": "src/images/sl-4.png",
+      "sizeBytes": 165378,
+      "sizeMB": "0.158",
+      "usages": [
+        {
+          "file": "src/Component/Page1/framer/Slider.jsx",
+          "lineNumber": 7,
+          "lineContent": "import sl4 from '../../../images/sl-4.png'"
+        }
+      ]
+    },
+    {
+      "filename": "sl-4.webp",
+      "relativePath": "src/images/sl-4.webp",
+      "sizeBytes": 44714,
+      "sizeMB": "0.043",
+      "usages": [
+        {
+          "file": "src/Component/Infinite slider/Islider.jsx",
+          "lineNumber": 7,
+          "lineContent": "// import sl4 from \"../../images/sl-4.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/new-sliders/Slides.jsx",
+          "lineNumber": 6,
+          "lineContent": "import sl4 from \"../../../images/sl-4.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/new-sliders/Slides2.jsx",
+          "lineNumber": 6,
+          "lineContent": "import sl4 from \"../../../images/sl-4.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/slider/slider.jsx",
+          "lineNumber": 6,
+          "lineContent": "import sl4 from \"../../../images/sl-4.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll.jsx",
+          "lineNumber": 6,
+          "lineContent": "import sl4 from \"../../../images/sl-4.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll1.jsx",
+          "lineNumber": 6,
+          "lineContent": "import sl4 from \"../../../images/sl-4.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "sl-5.png",
+      "relativePath": "src/images/sl-5.png",
+      "sizeBytes": 199744,
+      "sizeMB": "0.190",
+      "usages": [
+        {
+          "file": "src/Component/Page1/framer/Slider.jsx",
+          "lineNumber": 8,
+          "lineContent": "import sl5 from '../../../images/sl-5.png'"
+        }
+      ]
+    },
+    {
+      "filename": "sl-5.webp",
+      "relativePath": "src/images/sl-5.webp",
+      "sizeBytes": 51610,
+      "sizeMB": "0.049",
+      "usages": [
+        {
+          "file": "src/Component/Infinite slider/Islider.jsx",
+          "lineNumber": 8,
+          "lineContent": "// import sl5 from \"../../images/sl-5.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/new-sliders/Slides.jsx",
+          "lineNumber": 7,
+          "lineContent": "import sl5 from \"../../../images/sl-5.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/new-sliders/Slides2.jsx",
+          "lineNumber": 7,
+          "lineContent": "import sl5 from \"../../../images/sl-5.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/slider/slider.jsx",
+          "lineNumber": 7,
+          "lineContent": "import sl5 from \"../../../images/sl-5.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll.jsx",
+          "lineNumber": 7,
+          "lineContent": "import sl5 from \"../../../images/sl-5.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll1.jsx",
+          "lineNumber": 7,
+          "lineContent": "import sl5 from \"../../../images/sl-5.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "sl-6.webp",
+      "relativePath": "src/images/sl-6.webp",
+      "sizeBytes": 601104,
+      "sizeMB": "0.573",
+      "usages": [
+        {
+          "file": "src/Component/Infinite slider/Islider.jsx",
+          "lineNumber": 9,
+          "lineContent": "// import sl6 from \"../../images/sl-6.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/new-sliders/Slides.jsx",
+          "lineNumber": 8,
+          "lineContent": "import sl6 from \"../../../images/sl-6.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/new-sliders/Slides2.jsx",
+          "lineNumber": 8,
+          "lineContent": "import sl6 from \"../../../images/sl-6.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/slider/slider.jsx",
+          "lineNumber": 8,
+          "lineContent": "import sl6 from \"../../../images/sl-6.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll.jsx",
+          "lineNumber": 8,
+          "lineContent": "import sl6 from \"../../../images/sl-6.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll1.jsx",
+          "lineNumber": 8,
+          "lineContent": "import sl6 from \"../../../images/sl-6.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "sl-7.png",
+      "relativePath": "src/images/sl-7.png",
+      "sizeBytes": 2295467,
+      "sizeMB": "2.189",
+      "usages": [
+        {
+          "file": "src/Component/Page1/framer/Slider.jsx",
+          "lineNumber": 10,
+          "lineContent": "import sl6 from '../../../images/sl-7.png'"
+        }
+      ]
+    },
+    {
+      "filename": "sl-7.webp",
+      "relativePath": "src/images/sl-7.webp",
+      "sizeBytes": 402156,
+      "sizeMB": "0.384",
+      "usages": [
+        {
+          "file": "src/Component/Infinite slider/Islider.jsx",
+          "lineNumber": 10,
+          "lineContent": "// import sl7 from \"../../images/sl-7.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/new-sliders/Slides.jsx",
+          "lineNumber": 9,
+          "lineContent": "import sl7 from \"../../../images/sl-7.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/new-sliders/Slides2.jsx",
+          "lineNumber": 9,
+          "lineContent": "import sl7 from \"../../../images/sl-7.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/slider/slider.jsx",
+          "lineNumber": 9,
+          "lineContent": "import sl7 from \"../../../images/sl-7.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll.jsx",
+          "lineNumber": 9,
+          "lineContent": "import sl7 from \"../../../images/sl-7.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll1.jsx",
+          "lineNumber": 9,
+          "lineContent": "import sl7 from \"../../../images/sl-7.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "sl-8.png",
+      "relativePath": "src/images/sl-8.png",
+      "sizeBytes": 604080,
+      "sizeMB": "0.576",
+      "usages": [
+        {
+          "file": "src/Component/Page1/framer/Slider.jsx",
+          "lineNumber": 11,
+          "lineContent": "import sl7 from '../../../images/sl-8.png'"
+        }
+      ]
+    },
+    {
+      "filename": "sl-8.webp",
+      "relativePath": "src/images/sl-8.webp",
+      "sizeBytes": 224558,
+      "sizeMB": "0.214",
+      "usages": [
+        {
+          "file": "src/Component/Infinite slider/Islider.jsx",
+          "lineNumber": 11,
+          "lineContent": "// import sl8 from \"../../images/sl-8.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/new-sliders/Slides.jsx",
+          "lineNumber": 10,
+          "lineContent": "import sl8 from \"../../../images/sl-8.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/new-sliders/Slides2.jsx",
+          "lineNumber": 10,
+          "lineContent": "import sl8 from \"../../../images/sl-8.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/slider/slider.jsx",
+          "lineNumber": 10,
+          "lineContent": "import sl8 from \"../../../images/sl-8.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll.jsx",
+          "lineNumber": 10,
+          "lineContent": "import sl8 from \"../../../images/sl-8.webp\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll1.jsx",
+          "lineNumber": 10,
+          "lineContent": "import sl8 from \"../../../images/sl-8.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "sl-9.jpeg",
+      "relativePath": "src/images/sl-9.jpeg",
+      "sizeBytes": 510910,
+      "sizeMB": "0.487",
+      "usages": [
+        {
+          "file": "src/Component/Infinite slider/Islider.jsx",
+          "lineNumber": 12,
+          "lineContent": "// import sl9 from \"../../images/sl-9.jpeg\";"
+        },
+        {
+          "file": "src/Component/Page1/new-sliders/Slides.jsx",
+          "lineNumber": 11,
+          "lineContent": "import sl9 from \"../../../images/sl-9.jpeg\";"
+        },
+        {
+          "file": "src/Component/Page1/new-sliders/Slides2.jsx",
+          "lineNumber": 11,
+          "lineContent": "import sl9 from \"../../../images/sl-9.jpeg\";"
+        },
+        {
+          "file": "src/Component/Page1/slider/slider.jsx",
+          "lineNumber": 11,
+          "lineContent": "import sl9 from \"../../../images/sl-9.jpeg\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll.jsx",
+          "lineNumber": 11,
+          "lineContent": "import sl9 from \"../../../images/sl-9.jpeg\";"
+        },
+        {
+          "file": "src/Component/Page1/Test-scroll/Tscroll1.jsx",
+          "lineNumber": 11,
+          "lineContent": "import sl9 from \"../../../images/sl-9.jpeg\";"
+        }
+      ]
+    },
+    {
+      "filename": "smm.png",
+      "relativePath": "src/images/smm.png",
+      "sizeBytes": 893950,
+      "sizeMB": "0.853",
+      "usages": [
+        {
+          "file": "src/Component/Page3/Service-carousel/example.js",
+          "lineNumber": 6,
+          "lineContent": "import smm from \"../../../images/smm.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "ssv 1.png",
+      "relativePath": "src/images/ssv 1.png",
+      "sizeBytes": 1025315,
+      "sizeMB": "0.978",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 127,
+          "lineContent": "import ssv1 from \"../../../images/ssv 1.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "ssv 2.png",
+      "relativePath": "src/images/ssv 2.png",
+      "sizeBytes": 26076,
+      "sizeMB": "0.025",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 128,
+          "lineContent": "import ssv2 from \"../../../images/ssv 2.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "swasthik.png",
+      "relativePath": "src/images/swasthik.png",
+      "sizeBytes": 2923173,
+      "sizeMB": "2.788",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 62,
+          "lineContent": "import per5 from \"../../../images/swasthik.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "Swasthik1.webp",
+      "relativePath": "src/images/Swasthik1.webp",
+      "sizeBytes": 204744,
+      "sizeMB": "0.195",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 115,
+          "lineContent": "import swasthik1 from \"../../../images/Swasthik1.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "Swasthik2.webp",
+      "relativePath": "src/images/Swasthik2.webp",
+      "sizeBytes": 393684,
+      "sizeMB": "0.375",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 116,
+          "lineContent": "import swasthik2 from \"../../../images/Swasthik2.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "Swasthik3.webp",
+      "relativePath": "src/images/Swasthik3.webp",
+      "sizeBytes": 575092,
+      "sizeMB": "0.548",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 117,
+          "lineContent": "import swasthik3 from \"../../../images/Swasthik3.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "team1.png",
+      "relativePath": "src/images/team1.png",
+      "sizeBytes": 634953,
+      "sizeMB": "0.606",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Teamslider/Nsliider.jsx",
+          "lineNumber": 8,
+          "lineContent": "import slide_image_1 from '../../../images/team1.png';"
+        },
+        {
+          "file": "src/Component/Page2/Teamslider/Teamslider.jsx",
+          "lineNumber": 9,
+          "lineContent": "import slide_image_1 from '../../../images/team1.png';"
+        },
+        {
+          "file": "src/Component/Page2/testing-slider/test-slider.jsx",
+          "lineNumber": 8,
+          "lineContent": "import slide_image_1 from '../../../images/team1.png';"
+        }
+      ]
+    },
+    {
+      "filename": "team10.png",
+      "relativePath": "src/images/team10.png",
+      "sizeBytes": 793833,
+      "sizeMB": "0.757",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Teamslider/Nsliider.jsx",
+          "lineNumber": 17,
+          "lineContent": "import slide_image_10 from '../../../images/team10.png';"
+        },
+        {
+          "file": "src/Component/Page2/Teamslider/Teamslider.jsx",
+          "lineNumber": 18,
+          "lineContent": "import slide_image_10 from '../../../images/team10.png';"
+        },
+        {
+          "file": "src/Component/Page2/testing-slider/test-slider.jsx",
+          "lineNumber": 17,
+          "lineContent": "import slide_image_10 from '../../../images/team10.png';"
+        }
+      ]
+    },
+    {
+      "filename": "team12.png",
+      "relativePath": "src/images/team12.png",
+      "sizeBytes": 655413,
+      "sizeMB": "0.625",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Teamslider/Nsliider.jsx",
+          "lineNumber": 19,
+          "lineContent": "import slide_image_12 from '../../../images/team12.png';"
+        },
+        {
+          "file": "src/Component/Page2/Teamslider/Teamslider.jsx",
+          "lineNumber": 20,
+          "lineContent": "import slide_image_12 from '../../../images/team12.png';"
+        },
+        {
+          "file": "src/Component/Page2/testing-slider/test-slider.jsx",
+          "lineNumber": 19,
+          "lineContent": "import slide_image_12 from '../../../images/team12.png';"
+        }
+      ]
+    },
+    {
+      "filename": "team13.png",
+      "relativePath": "src/images/team13.png",
+      "sizeBytes": 633490,
+      "sizeMB": "0.604",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Teamslider/Nsliider.jsx",
+          "lineNumber": 18,
+          "lineContent": "import slide_image_11 from '../../../images/team13.png';"
+        },
+        {
+          "file": "src/Component/Page2/Teamslider/Teamslider.jsx",
+          "lineNumber": 19,
+          "lineContent": "import slide_image_11 from '../../../images/team13.png';"
+        },
+        {
+          "file": "src/Component/Page2/testing-slider/test-slider.jsx",
+          "lineNumber": 18,
+          "lineContent": "import slide_image_11 from '../../../images/team13.png';"
+        }
+      ]
+    },
+    {
+      "filename": "team14.png",
+      "relativePath": "src/images/team14.png",
+      "sizeBytes": 2947428,
+      "sizeMB": "2.811",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Teamslider/Nsliider.jsx",
+          "lineNumber": 15,
+          "lineContent": "import slide_image_8 from '../../../images/team14.png';"
+        }
+      ]
+    },
+    {
+      "filename": "team2.png",
+      "relativePath": "src/images/team2.png",
+      "sizeBytes": 677307,
+      "sizeMB": "0.646",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Teamslider/Nsliider.jsx",
+          "lineNumber": 9,
+          "lineContent": "import slide_image_2 from '../../../images/team2.png';"
+        },
+        {
+          "file": "src/Component/Page2/Teamslider/Teamslider.jsx",
+          "lineNumber": 10,
+          "lineContent": "import slide_image_2 from '../../../images/team2.png';"
+        },
+        {
+          "file": "src/Component/Page2/testing-slider/test-slider.jsx",
+          "lineNumber": 9,
+          "lineContent": "import slide_image_2 from '../../../images/team2.png';"
+        }
+      ]
+    },
+    {
+      "filename": "team3.png",
+      "relativePath": "src/images/team3.png",
+      "sizeBytes": 750197,
+      "sizeMB": "0.715",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Teamslider/Nsliider.jsx",
+          "lineNumber": 10,
+          "lineContent": "import slide_image_3 from '../../../images/team3.png';"
+        },
+        {
+          "file": "src/Component/Page2/Teamslider/Teamslider.jsx",
+          "lineNumber": 11,
+          "lineContent": "import slide_image_3 from '../../../images/team3.png';"
+        },
+        {
+          "file": "src/Component/Page2/testing-slider/test-slider.jsx",
+          "lineNumber": 10,
+          "lineContent": "import slide_image_3 from '../../../images/team3.png';"
+        }
+      ]
+    },
+    {
+      "filename": "team4.png",
+      "relativePath": "src/images/team4.png",
+      "sizeBytes": 724438,
+      "sizeMB": "0.691",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Teamslider/Nsliider.jsx",
+          "lineNumber": 11,
+          "lineContent": "import slide_image_4 from '../../../images/team4.png';"
+        },
+        {
+          "file": "src/Component/Page2/Teamslider/Teamslider.jsx",
+          "lineNumber": 12,
+          "lineContent": "import slide_image_4 from '../../../images/team4.png';"
+        },
+        {
+          "file": "src/Component/Page2/testing-slider/test-slider.jsx",
+          "lineNumber": 11,
+          "lineContent": "import slide_image_4 from '../../../images/team4.png';"
+        }
+      ]
+    },
+    {
+      "filename": "team5.png",
+      "relativePath": "src/images/team5.png",
+      "sizeBytes": 771904,
+      "sizeMB": "0.736",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Teamslider/Teamslider.jsx",
+          "lineNumber": 13,
+          "lineContent": "import slide_image_5 from '../../../images/team5.png';"
+        },
+        {
+          "file": "src/Component/Page2/testing-slider/test-slider.jsx",
+          "lineNumber": 12,
+          "lineContent": "import slide_image_5 from '../../../images/team5.png';"
+        }
+      ]
+    },
+    {
+      "filename": "team6.png",
+      "relativePath": "src/images/team6.png",
+      "sizeBytes": 709095,
+      "sizeMB": "0.676",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Teamslider/Nsliider.jsx",
+          "lineNumber": 13,
+          "lineContent": "import slide_image_6 from '../../../images/team6.png';"
+        },
+        {
+          "file": "src/Component/Page2/Teamslider/Teamslider.jsx",
+          "lineNumber": 14,
+          "lineContent": "import slide_image_6 from '../../../images/team6.png';"
+        },
+        {
+          "file": "src/Component/Page2/testing-slider/test-slider.jsx",
+          "lineNumber": 13,
+          "lineContent": "import slide_image_6 from '../../../images/team6.png';"
+        }
+      ]
+    },
+    {
+      "filename": "team7.png",
+      "relativePath": "src/images/team7.png",
+      "sizeBytes": 668433,
+      "sizeMB": "0.637",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Teamslider/Nsliider.jsx",
+          "lineNumber": 14,
+          "lineContent": "import slide_image_7 from '../../../images/team7.png';"
+        },
+        {
+          "file": "src/Component/Page2/Teamslider/Teamslider.jsx",
+          "lineNumber": 15,
+          "lineContent": "import slide_image_7 from '../../../images/team7.png';"
+        },
+        {
+          "file": "src/Component/Page2/testing-slider/test-slider.jsx",
+          "lineNumber": 14,
+          "lineContent": "import slide_image_7 from '../../../images/team7.png';"
+        }
+      ]
+    },
+    {
+      "filename": "team8.png",
+      "relativePath": "src/images/team8.png",
+      "sizeBytes": 623736,
+      "sizeMB": "0.595",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Teamslider/Teamslider.jsx",
+          "lineNumber": 16,
+          "lineContent": "import slide_image_8 from '../../../images/team8.png';"
+        },
+        {
+          "file": "src/Component/Page2/testing-slider/test-slider.jsx",
+          "lineNumber": 15,
+          "lineContent": "import slide_image_8 from '../../../images/team8.png';"
+        }
+      ]
+    },
+    {
+      "filename": "team9.png",
+      "relativePath": "src/images/team9.png",
+      "sizeBytes": 697984,
+      "sizeMB": "0.666",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Teamslider/Nsliider.jsx",
+          "lineNumber": 16,
+          "lineContent": "import slide_image_9 from '../../../images/team9.png';"
+        },
+        {
+          "file": "src/Component/Page2/Teamslider/Teamslider.jsx",
+          "lineNumber": 17,
+          "lineContent": "import slide_image_9 from '../../../images/team9.png';"
+        },
+        {
+          "file": "src/Component/Page2/testing-slider/test-slider.jsx",
+          "lineNumber": 16,
+          "lineContent": "import slide_image_9 from '../../../images/team9.png';"
+        }
+      ]
+    },
+    {
+      "filename": "thumb1.png",
+      "relativePath": "src/images/thumb1.png",
+      "sizeBytes": 1924827,
+      "sizeMB": "1.836",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Swasthik.jsx",
+          "lineNumber": 6,
+          "lineContent": "import thumbnail from '../../../../images/thumb1.png'; // Import your thumbnail image"
+        }
+      ]
+    },
+    {
+      "filename": "thumb2.png",
+      "relativePath": "src/images/thumb2.png",
+      "sizeBytes": 1843528,
+      "sizeMB": "1.758",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Kk.jsx",
+          "lineNumber": 6,
+          "lineContent": "import thumb2 from '../../../../images/thumb2.png';"
+        }
+      ]
+    },
+    {
+      "filename": "tony.png",
+      "relativePath": "src/images/tony.png",
+      "sizeBytes": 10389,
+      "sizeMB": "0.010",
+      "usages": [
+        {
+          "file": "src/Component/Page5/Blog/Blog.jsx",
+          "lineNumber": 4,
+          "lineContent": "import tony from '../../../images/tony.png'"
+        },
+        {
+          "file": "src/Component/Page5/Bloge/Blogb.jsx",
+          "lineNumber": 3,
+          "lineContent": "import tony from \"../../../images/tony.png\";"
+        },
+        {
+          "file": "src/Component/Page5/Bloge1/Blogb1.jsx",
+          "lineNumber": 3,
+          "lineContent": "import tony from \"../../../images/tony.png\";"
+        },
+        {
+          "file": "src/Component/Page5/Bloge2/Blogb2.jsx",
+          "lineNumber": 4,
+          "lineContent": "import tony from \"../../../images/tony.png\";"
+        },
+        {
+          "file": "src/Component/Page5/Bloge3/Blogb3.jsx",
+          "lineNumber": 4,
+          "lineContent": "import tony from \"../../../images/tony.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "town.png",
+      "relativePath": "src/images/town.png",
+      "sizeBytes": 165187,
+      "sizeMB": "0.158",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 70,
+          "lineContent": "import town from \"../../../images/town.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "trimaia 1.png",
+      "relativePath": "src/images/trimaia 1.png",
+      "sizeBytes": 12651,
+      "sizeMB": "0.012",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 98,
+          "lineContent": "import trimaia1 from \"../../../images/trimaia 1.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "trimaia 2.png",
+      "relativePath": "src/images/trimaia 2.png",
+      "sizeBytes": 150360,
+      "sizeMB": "0.143",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 99,
+          "lineContent": "import trimaia2 from \"../../../images/trimaia 2.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "trimaia 3.png",
+      "relativePath": "src/images/trimaia 3.png",
+      "sizeBytes": 210825,
+      "sizeMB": "0.201",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 100,
+          "lineContent": "import trimaia3 from \"../../../images/trimaia 3.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "twitter.png",
+      "relativePath": "src/images/twitter.png",
+      "sizeBytes": 10316,
+      "sizeMB": "0.010",
+      "usages": [
+        {
+          "file": "src/Component/Page1/navbar/navbar.jsx",
+          "lineNumber": 6,
+          "lineContent": "import soc3 from '../../../images/twitter.png';"
+        }
+      ]
+    },
+    {
+      "filename": "upload.png",
+      "relativePath": "src/images/upload.png",
+      "sizeBytes": 1567,
+      "sizeMB": "0.001",
+      "usages": [
+        {
+          "file": "src/Component/Page1/Arrow/Arrow.jsx",
+          "lineNumber": 2,
+          "lineContent": "import up from '../../../images/upload.png'"
+        }
+      ]
+    },
+    {
+      "filename": "uyir.png",
+      "relativePath": "src/images/uyir.png",
+      "sizeBytes": 4860557,
+      "sizeMB": "4.635",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 63,
+          "lineContent": "import per6 from \"../../../images/uyir.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "uyirorg.png",
+      "relativePath": "src/images/uyirorg.png",
+      "sizeBytes": 10460,
+      "sizeMB": "0.010",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 72,
+          "lineContent": "import uyirorg from \"../../../images/uyirorg.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "vesat-solar-log.png",
+      "relativePath": "src/images/vesat-solar-log.png",
+      "sizeBytes": 427949,
+      "sizeMB": "0.408",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Vesat.jsx",
+          "lineNumber": 5,
+          "lineContent": "import vesatsolar from '../../../../images/vesat-solar-log.png';"
+        }
+      ]
+    },
+    {
+      "filename": "vesat-thumb.png",
+      "relativePath": "src/images/vesat-thumb.png",
+      "sizeBytes": 570623,
+      "sizeMB": "0.544",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Vesat.jsx",
+          "lineNumber": 6,
+          "lineContent": "import thumbnail from '../../../../images/vesat-thumb.png'; // Import your thumbnail image"
+        }
+      ]
+    },
+    {
+      "filename": "vesat.mp4",
+      "relativePath": "src/images/vesat.mp4",
+      "sizeBytes": 18868710,
+      "sizeMB": "17.995",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Vesat.jsx",
+          "lineNumber": 3,
+          "lineContent": "import vesat from '../../../../vedios/vesat.mp4';"
+        }
+      ]
+    },
+    {
+      "filename": "vesat.png",
+      "relativePath": "src/images/vesat.png",
+      "sizeBytes": 724897,
+      "sizeMB": "0.691",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Aarudhra.jsx",
+          "lineNumber": 6,
+          "lineContent": "import thumbnail from '../../../../images/vesat.png'; // Import your thumbnail image"
+        }
+      ]
+    },
+    {
+      "filename": "vesat1.webp",
+      "relativePath": "src/images/vesat1.webp",
+      "sizeBytes": 1049146,
+      "sizeMB": "1.001",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 122,
+          "lineContent": "import vesat2 from \"../../../images/vesat1.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "vesat2.webp",
+      "relativePath": "src/images/vesat2.webp",
+      "sizeBytes": 324178,
+      "sizeMB": "0.309",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 121,
+          "lineContent": "import vesat1 from \"../../../images/vesat2.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "virginvalley.webp",
+      "relativePath": "src/images/virginvalley.webp",
+      "sizeBytes": 321598,
+      "sizeMB": "0.307",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 53,
+          "lineContent": "import virgin from \"../../../images/virginvalley.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "watch1.webp",
+      "relativePath": "src/images/watch1.webp",
+      "sizeBytes": 82714,
+      "sizeMB": "0.079",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 86,
+          "lineContent": "import pv1 from \"../../../images/watch1.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "watch2.webp",
+      "relativePath": "src/images/watch2.webp",
+      "sizeBytes": 51382,
+      "sizeMB": "0.049",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 88,
+          "lineContent": "import pv3 from \"../../../images/watch2.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "watch3.webp",
+      "relativePath": "src/images/watch3.webp",
+      "sizeBytes": 51544,
+      "sizeMB": "0.049",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 89,
+          "lineContent": "import pv4 from \"../../../images/watch3.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "watch6.webp",
+      "relativePath": "src/images/watch6.webp",
+      "sizeBytes": 449332,
+      "sizeMB": "0.429",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 87,
+          "lineContent": "import pv2 from \"../../../images/watch6.webp\";"
+        }
+      ]
+    },
+    {
+      "filename": "wcall.png",
+      "relativePath": "src/images/wcall.png",
+      "sizeBytes": 731,
+      "sizeMB": "0.001",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Lfooter/Lfooter.jsx",
+          "lineNumber": 7,
+          "lineContent": "import call from '../../../images/wcall.png'"
+        }
+      ]
+    },
+    {
+      "filename": "web-1.png",
+      "relativePath": "src/images/web-1.png",
+      "sizeBytes": 797372,
+      "sizeMB": "0.760",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 42,
+          "lineContent": "import web1 from \"../../../images/web-1.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "web-2.png",
+      "relativePath": "src/images/web-2.png",
+      "sizeBytes": 1950180,
+      "sizeMB": "1.860",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 43,
+          "lineContent": "import web2 from \"../../../images/web-2.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "web-3.png",
+      "relativePath": "src/images/web-3.png",
+      "sizeBytes": 1625053,
+      "sizeMB": "1.550",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 44,
+          "lineContent": "import web3 from \"../../../images/web-3.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "web-4.png",
+      "relativePath": "src/images/web-4.png",
+      "sizeBytes": 2156111,
+      "sizeMB": "2.056",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 45,
+          "lineContent": "import web4 from \"../../../images/web-4.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "web-5.png",
+      "relativePath": "src/images/web-5.png",
+      "sizeBytes": 1371941,
+      "sizeMB": "1.308",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 46,
+          "lineContent": "import web5 from \"../../../images/web-5.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "web-6.png",
+      "relativePath": "src/images/web-6.png",
+      "sizeBytes": 479617,
+      "sizeMB": "0.457",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 47,
+          "lineContent": "import web6 from \"../../../images/web-6.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "web-7.png",
+      "relativePath": "src/images/web-7.png",
+      "sizeBytes": 954928,
+      "sizeMB": "0.911",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 48,
+          "lineContent": "import web7 from \"../../../images/web-7.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "web-8.png",
+      "relativePath": "src/images/web-8.png",
+      "sizeBytes": 436558,
+      "sizeMB": "0.416",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 49,
+          "lineContent": "import web8 from \"../../../images/web-8.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "webdevelop.png",
+      "relativePath": "src/images/webdevelop.png",
+      "sizeBytes": 881557,
+      "sizeMB": "0.841",
+      "usages": [
+        {
+          "file": "src/Component/Page3/Service-carousel/example.js",
+          "lineNumber": 8,
+          "lineContent": "import develop from \"../../../images/webdevelop.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "wedo-lap.png",
+      "relativePath": "src/images/wedo-lap.png",
+      "sizeBytes": 162762,
+      "sizeMB": "0.155",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Aboutus/About.jsx",
+          "lineNumber": 10,
+          "lineContent": "import wedo from '../../../images/wedo-lap.png'"
+        }
+      ]
+    },
+    {
+      "filename": "whatsapp.png",
+      "relativePath": "src/images/whatsapp.png",
+      "sizeBytes": 5825,
+      "sizeMB": "0.006",
+      "usages": [
+        {
+          "file": "src/Component/Whatsapp/Whatsapp.jsx",
+          "lineNumber": 2,
+          "lineContent": "import wp from '../../images/whatsapp.png';"
+        }
+      ]
+    },
+    {
+      "filename": "wise 1.png",
+      "relativePath": "src/images/wise 1.png",
+      "sizeBytes": 301885,
+      "sizeMB": "0.288",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 110,
+          "lineContent": "import wise1 from \"../../../images/wise 1.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "wise 2.png",
+      "relativePath": "src/images/wise 2.png",
+      "sizeBytes": 500498,
+      "sizeMB": "0.477",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 111,
+          "lineContent": "import wise2 from \"../../../images/wise 2.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "wise 3.png",
+      "relativePath": "src/images/wise 3.png",
+      "sizeBytes": 4782,
+      "sizeMB": "0.005",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 112,
+          "lineContent": "import wise3 from \"../../../images/wise 3.png\";"
+        }
+      ]
+    },
+    {
+      "filename": "wmail.png",
+      "relativePath": "src/images/wmail.png",
+      "sizeBytes": 860,
+      "sizeMB": "0.001",
+      "usages": [
+        {
+          "file": "src/Component/Page2/Lfooter/Lfooter.jsx",
+          "lineNumber": 8,
+          "lineContent": "import mail from '../../../images/wmail.png'"
+        }
+      ]
+    },
+    {
+      "filename": "y-call.png",
+      "relativePath": "src/images/y-call.png",
+      "sizeBytes": 607,
+      "sizeMB": "0.001",
+      "usages": [
+        {
+          "file": "src/Component/Page7/Reach.jsx",
+          "lineNumber": 7,
+          "lineContent": "import ycall from '../../images/y-call.png';"
+        }
+      ]
+    },
+    {
+      "filename": "ymail.png",
+      "relativePath": "src/images/ymail.png",
+      "sizeBytes": 818,
+      "sizeMB": "0.001",
+      "usages": [
+        {
+          "file": "src/Component/Page7/Reach.jsx",
+          "lineNumber": 5,
+          "lineContent": "import ymail from '../../images/ymail.png';"
+        }
+      ]
+    },
+    {
+      "filename": "ymap.png",
+      "relativePath": "src/images/ymap.png",
+      "sizeBytes": 706,
+      "sizeMB": "0.001",
+      "usages": [
+        {
+          "file": "src/Component/Page7/Reach.jsx",
+          "lineNumber": 4,
+          "lineContent": "import add from '../../images/ymap.png';"
+        }
+      ]
+    },
+    {
+      "filename": "youtube.png",
+      "relativePath": "src/images/youtube.png",
+      "sizeBytes": 9539,
+      "sizeMB": "0.009",
+      "usages": [
+        {
+          "file": "src/Component/Page1/Footer/Footer.jsx",
+          "lineNumber": 6,
+          "lineContent": "import fi5 from '../../../images/youtube.png'"
+        },
+        {
+          "file": "src/Component/Page2/Lfooter/Lfooter.jsx",
+          "lineNumber": 6,
+          "lineContent": "import fi5 from '../../../images/youtube.png'"
+        }
+      ]
+    },
+    {
+      "filename": "Aarudhra.mp4",
+      "relativePath": "src/vedios/Aarudhra.mp4",
+      "sizeBytes": 179758711,
+      "sizeMB": "171.431",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Aarudhra.jsx",
+          "lineNumber": 3,
+          "lineContent": "import aarudhra from '../../../../vedios/Aarudhra.mp4';"
+        }
+      ]
+    },
+    {
+      "filename": "alli.mp4",
+      "relativePath": "src/vedios/alli.mp4",
+      "sizeBytes": 15549608,
+      "sizeMB": "14.829",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Video.jsx",
+          "lineNumber": 6,
+          "lineContent": "import alli from '../../../../vedios/alli.mp4';"
+        }
+      ]
+    },
+    {
+      "filename": "Cosmo.mp4",
+      "relativePath": "src/vedios/Cosmo.mp4",
+      "sizeBytes": 18849366,
+      "sizeMB": "17.976",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Video.jsx",
+          "lineNumber": 11,
+          "lineContent": "import cosmo from '../../../../vedios/Cosmo.mp4';"
+        }
+      ]
+    },
+    {
+      "filename": "disha.mp4",
+      "relativePath": "src/vedios/disha.mp4",
+      "sizeBytes": 12630678,
+      "sizeMB": "12.046",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Video.jsx",
+          "lineNumber": 9,
+          "lineContent": "import disha from '../../../../vedios/disha.mp4';"
+        }
+      ]
+    },
+    {
+      "filename": "GA-1.mp4",
+      "relativePath": "src/vedios/GA-1.mp4",
+      "sizeBytes": 30179272,
+      "sizeMB": "28.781",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Video.jsx",
+          "lineNumber": 18,
+          "lineContent": "import ga1 from '../../../../vedios/GA-1.mp4';"
+        }
+      ]
+    },
+    {
+      "filename": "Gem.mp4",
+      "relativePath": "src/vedios/Gem.mp4",
+      "sizeBytes": 25789408,
+      "sizeMB": "24.595",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Video.jsx",
+          "lineNumber": 10,
+          "lineContent": "import gem from '../../../../vedios/Gem.mp4';"
+        }
+      ]
+    },
+    {
+      "filename": "KD-(1).mp4",
+      "relativePath": "src/vedios/KD-(1).mp4",
+      "sizeBytes": 19269303,
+      "sizeMB": "18.377",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Video.jsx",
+          "lineNumber": 14,
+          "lineContent": "import kd1 from '../../../../vedios/KD-(1).mp4';"
+        }
+      ]
+    },
+    {
+      "filename": "KD-(2).mp4",
+      "relativePath": "src/vedios/KD-(2).mp4",
+      "sizeBytes": 14355720,
+      "sizeMB": "13.691",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Video.jsx",
+          "lineNumber": 15,
+          "lineContent": "import kd2 from '../../../../vedios/KD-(2).mp4';"
+        }
+      ]
+    },
+    {
+      "filename": "kk.mp4",
+      "relativePath": "src/vedios/kk.mp4",
+      "sizeBytes": 3892957,
+      "sizeMB": "3.713",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Kk.jsx",
+          "lineNumber": 2,
+          "lineContent": "import kk from '../../../../vedios/kk.mp4';"
+        }
+      ]
+    },
+    {
+      "filename": "ld-video2.mp4",
+      "relativePath": "src/vedios/ld-video2.mp4",
+      "sizeBytes": 3125336,
+      "sizeMB": "2.981",
+      "usages": [
+        {
+          "file": "src/Component/Page1/Scroll/Scroll.jsx",
+          "lineNumber": 5,
+          "lineContent": "import vid from '../../../vedios/ld-video2.mp4';"
+        }
+      ]
+    },
+    {
+      "filename": "maha.mp4",
+      "relativePath": "src/vedios/maha.mp4",
+      "sizeBytes": 8541779,
+      "sizeMB": "8.146",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 96,
+          "lineContent": "import mahvid from \"../../../vedios/maha.mp4\";"
+        },
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Video.jsx",
+          "lineNumber": 3,
+          "lineContent": "import mahvid from '../../../../vedios/maha.mp4';"
+        }
+      ]
+    },
+    {
+      "filename": "mahav.mp4",
+      "relativePath": "src/vedios/mahav.mp4",
+      "sizeBytes": 4802811,
+      "sizeMB": "4.580",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Video.jsx",
+          "lineNumber": 7,
+          "lineContent": "import mahav from '../../../../vedios/mahav.mp4';"
+        }
+      ]
+    },
+    {
+      "filename": "mg2.mp4",
+      "relativePath": "src/vedios/mg2.mp4",
+      "sizeBytes": 15137209,
+      "sizeMB": "14.436",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Video.jsx",
+          "lineNumber": 5,
+          "lineContent": "import mg2 from '../../../../vedios/mg2.mp4';"
+        }
+      ]
+    },
+    {
+      "filename": "osho.mp4",
+      "relativePath": "src/vedios/osho.mp4",
+      "sizeBytes": 13861559,
+      "sizeMB": "13.219",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Video.jsx",
+          "lineNumber": 8,
+          "lineContent": "import osho from '../../../../vedios/osho.mp4';"
+        }
+      ]
+    },
+    {
+      "filename": "reva.mp4",
+      "relativePath": "src/vedios/reva.mp4",
+      "sizeBytes": 12412663,
+      "sizeMB": "11.838",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Reva.jsx",
+          "lineNumber": 2,
+          "lineContent": "import swsthik from '../../../../vedios/reva.mp4';"
+        }
+      ]
+    },
+    {
+      "filename": "sand.mp4",
+      "relativePath": "src/vedios/sand.mp4",
+      "sizeBytes": 13418099,
+      "sizeMB": "12.796",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Video.jsx",
+          "lineNumber": 12,
+          "lineContent": "import sand from '../../../../vedios/sand.mp4';"
+        }
+      ]
+    },
+    {
+      "filename": "SUMAN- (1).mp4",
+      "relativePath": "src/vedios/SUMAN- (1).mp4",
+      "sizeBytes": 23155754,
+      "sizeMB": "22.083",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Video.jsx",
+          "lineNumber": 16,
+          "lineContent": "import suman1 from '../../../../vedios/SUMAN- (1).mp4';"
+        }
+      ]
+    },
+    {
+      "filename": "SUMAN- (2).mp4",
+      "relativePath": "src/vedios/SUMAN- (2).mp4",
+      "sizeBytes": 17319363,
+      "sizeMB": "16.517",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Video.jsx",
+          "lineNumber": 17,
+          "lineContent": "import suman2 from '../../../../vedios/SUMAN- (2).mp4';"
+        }
+      ]
+    },
+    {
+      "filename": "sw.mp4",
+      "relativePath": "src/vedios/sw.mp4",
+      "sizeBytes": 10437218,
+      "sizeMB": "9.954",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Video.jsx",
+          "lineNumber": 4,
+          "lineContent": "import sw from '../../../../vedios/sw.mp4';"
+        }
+      ]
+    },
+    {
+      "filename": "swsthik.mp4",
+      "relativePath": "src/vedios/swsthik.mp4",
+      "sizeBytes": 8628400,
+      "sizeMB": "8.229",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Swasthik.jsx",
+          "lineNumber": 3,
+          "lineContent": "import swsthik from '../../../../vedios/swsthik.mp4';"
+        }
+      ]
+    },
+    {
+      "filename": "tex.mp4",
+      "relativePath": "src/vedios/tex.mp4",
+      "sizeBytes": 10375712,
+      "sizeMB": "9.895",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/examplee.js",
+          "lineNumber": 95,
+          "lineContent": "import texvid from \"../../../vedios/tex.mp4\";"
+        },
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Video.jsx",
+          "lineNumber": 2,
+          "lineContent": "import texvid from '../../../../vedios/tex.mp4';"
+        }
+      ]
+    },
+    {
+      "filename": "vesat.mp4",
+      "relativePath": "src/vedios/vesat.mp4",
+      "sizeBytes": 18868710,
+      "sizeMB": "17.995",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Vesat.jsx",
+          "lineNumber": 3,
+          "lineContent": "import vesat from '../../../../vedios/vesat.mp4';"
+        }
+      ]
+    },
+    {
+      "filename": "vesats.mp4",
+      "relativePath": "src/vedios/vesats.mp4",
+      "sizeBytes": 37376333,
+      "sizeMB": "35.645",
+      "usages": [
+        {
+          "file": "src/Component/Page4/Carouselee/resource/Video.jsx",
+          "lineNumber": 13,
+          "lineContent": "import vesats from '../../../../vedios/vesats.mp4';"
+        }
+      ]
+    },
+    {
+      "filename": "favicon.ico",
+      "relativePath": "public/favicon.ico",
+      "sizeBytes": 21753,
+      "sizeMB": "0.021",
+      "usages": [
+        {
+          "file": "public/index.html",
+          "lineNumber": 5,
+          "lineContent": "<link rel=\"icon\" href=\"%PUBLIC_URL%/favicon.ico\" />"
+        },
+        {
+          "file": "public/index.html",
+          "lineNumber": 23,
+          "lineContent": "Unlike \"/favicon.ico\" or \"favicon.ico\", \"%PUBLIC_URL%/favicon.ico\" will"
+        },
+        {
+          "file": "public/manifest.json",
+          "lineNumber": 6,
+          "lineContent": "\"src\": \"favicon.ico\","
+        }
+      ]
+    }
+  ],
+  "unused": [
+    {
+      "filename": "Ab-head.png",
+      "relativePath": "src/images/Ab-head.png",
+      "sizeBytes": 34054,
+      "sizeMB": "0.032"
+    },
+    {
+      "filename": "absv.svg",
+      "relativePath": "src/images/absv.svg",
+      "sizeBytes": 79833,
+      "sizeMB": "0.076"
+    },
+    {
+      "filename": "achiv3.png",
+      "relativePath": "src/images/achiv3.png",
+      "sizeBytes": 748161,
+      "sizeMB": "0.714"
+    },
+    {
+      "filename": "ana 1.png",
+      "relativePath": "src/images/ana 1.png",
+      "sizeBytes": 1333951,
+      "sizeMB": "1.272"
+    },
+    {
+      "filename": "ana 2.png",
+      "relativePath": "src/images/ana 2.png",
+      "sizeBytes": 511772,
+      "sizeMB": "0.488"
+    },
+    {
+      "filename": "apr 1.png",
+      "relativePath": "src/images/apr 1.png",
+      "sizeBytes": 441427,
+      "sizeMB": "0.421"
+    },
+    {
+      "filename": "apr 2.png",
+      "relativePath": "src/images/apr 2.png",
+      "sizeBytes": 2685490,
+      "sizeMB": "2.561"
+    },
+    {
+      "filename": "beer-1.png",
+      "relativePath": "src/images/beer-1.png",
+      "sizeBytes": 3507615,
+      "sizeMB": "3.345"
+    },
+    {
+      "filename": "bg-text1.png",
+      "relativePath": "src/images/bg-text1.png",
+      "sizeBytes": 246690,
+      "sizeMB": "0.235"
+    },
+    {
+      "filename": "Divinebees_Product Page.png",
+      "relativePath": "src/images/Divinebees_Product Page.png",
+      "sizeBytes": 6319540,
+      "sizeMB": "6.027"
+    },
+    {
+      "filename": "Divine_Bees Product Page.pdf",
+      "relativePath": "src/images/Divine_Bees Product Page.pdf",
+      "sizeBytes": 4213690,
+      "sizeMB": "4.018"
+    },
+    {
+      "filename": "ev-1.png",
+      "relativePath": "src/images/ev-1.png",
+      "sizeBytes": 2786439,
+      "sizeMB": "2.657"
+    },
+    {
+      "filename": "ev-2.png",
+      "relativePath": "src/images/ev-2.png",
+      "sizeBytes": 1217819,
+      "sizeMB": "1.161"
+    },
+    {
+      "filename": "ev-3.png",
+      "relativePath": "src/images/ev-3.png",
+      "sizeBytes": 1442670,
+      "sizeMB": "1.376"
+    },
+    {
+      "filename": "ev-3.webp",
+      "relativePath": "src/images/ev-3.webp",
+      "sizeBytes": 920498,
+      "sizeMB": "0.878"
+    },
+    {
+      "filename": "ev-4.png",
+      "relativePath": "src/images/ev-4.png",
+      "sizeBytes": 1468984,
+      "sizeMB": "1.401"
+    },
+    {
+      "filename": "ev-5.png",
+      "relativePath": "src/images/ev-5.png",
+      "sizeBytes": 1977778,
+      "sizeMB": "1.886"
+    },
+    {
+      "filename": "ev-6.PNG",
+      "relativePath": "src/images/ev-6.PNG",
+      "sizeBytes": 758632,
+      "sizeMB": "0.723"
+    },
+    {
+      "filename": "ev-66.png",
+      "relativePath": "src/images/ev-66.png",
+      "sizeBytes": 3062688,
+      "sizeMB": "2.921"
+    },
+    {
+      "filename": "ev-7.png",
+      "relativePath": "src/images/ev-7.png",
+      "sizeBytes": 2442565,
+      "sizeMB": "2.329"
+    },
+    {
+      "filename": "ev-8.png",
+      "relativePath": "src/images/ev-8.png",
+      "sizeBytes": 2239210,
+      "sizeMB": "2.135"
+    },
+    {
+      "filename": "ev1.webp",
+      "relativePath": "src/images/ev1.webp",
+      "sizeBytes": 920024,
+      "sizeMB": "0.877"
+    },
+    {
+      "filename": "facebook-app-symbol.png",
+      "relativePath": "src/images/facebook-app-symbol.png",
+      "sizeBytes": 1248,
+      "sizeMB": "0.001"
+    },
+    {
+      "filename": "flow-chart.png",
+      "relativePath": "src/images/flow-chart.png",
+      "sizeBytes": 30548,
+      "sizeMB": "0.029"
+    },
+    {
+      "filename": "founder1.jpeg",
+      "relativePath": "src/images/founder1.jpeg",
+      "sizeBytes": 510850,
+      "sizeMB": "0.487"
+    },
+    {
+      "filename": "founder2.jpeg",
+      "relativePath": "src/images/founder2.jpeg",
+      "sizeBytes": 510532,
+      "sizeMB": "0.487"
+    },
+    {
+      "filename": "gg5.png",
+      "relativePath": "src/images/gg5.png",
+      "sizeBytes": 33570,
+      "sizeMB": "0.032"
+    },
+    {
+      "filename": "graph.svg",
+      "relativePath": "src/images/graph.svg",
+      "sizeBytes": 221866,
+      "sizeMB": "0.212"
+    },
+    {
+      "filename": "instagram (1).png",
+      "relativePath": "src/images/instagram (1).png",
+      "sizeBytes": 5824,
+      "sizeMB": "0.006"
+    },
+    {
+      "filename": "laxmi 1.png",
+      "relativePath": "src/images/laxmi 1.png",
+      "sizeBytes": 616343,
+      "sizeMB": "0.588"
+    },
+    {
+      "filename": "laxmi 2.png",
+      "relativePath": "src/images/laxmi 2.png",
+      "sizeBytes": 14929,
+      "sizeMB": "0.014"
+    },
+    {
+      "filename": "Mur_ban1.png",
+      "relativePath": "src/images/Mur_ban1.png",
+      "sizeBytes": 4240244,
+      "sizeMB": "4.044"
+    },
+    {
+      "filename": "naanal 1.png",
+      "relativePath": "src/images/naanal 1.png",
+      "sizeBytes": 1037260,
+      "sizeMB": "0.989"
+    },
+    {
+      "filename": "naanal 2.png",
+      "relativePath": "src/images/naanal 2.png",
+      "sizeBytes": 31211,
+      "sizeMB": "0.030"
+    },
+    {
+      "filename": "naanal 3.png",
+      "relativePath": "src/images/naanal 3.png",
+      "sizeBytes": 973038,
+      "sizeMB": "0.928"
+    },
+    {
+      "filename": "omb1.png",
+      "relativePath": "src/images/omb1.png",
+      "sizeBytes": 1267114,
+      "sizeMB": "1.208"
+    },
+    {
+      "filename": "omb2.png",
+      "relativePath": "src/images/omb2.png",
+      "sizeBytes": 1767954,
+      "sizeMB": "1.686"
+    },
+    {
+      "filename": "omb3.png",
+      "relativePath": "src/images/omb3.png",
+      "sizeBytes": 1075453,
+      "sizeMB": "1.026"
+    },
+    {
+      "filename": "omb4.png",
+      "relativePath": "src/images/omb4.png",
+      "sizeBytes": 1993117,
+      "sizeMB": "1.901"
+    },
+    {
+      "filename": "portfolio.png",
+      "relativePath": "src/images/portfolio.png",
+      "sizeBytes": 16873083,
+      "sizeMB": "16.091"
+    },
+    {
+      "filename": "pv2.png",
+      "relativePath": "src/images/pv2.png",
+      "sizeBytes": 392119,
+      "sizeMB": "0.374"
+    },
+    {
+      "filename": "pv3.png",
+      "relativePath": "src/images/pv3.png",
+      "sizeBytes": 640679,
+      "sizeMB": "0.611"
+    },
+    {
+      "filename": "pv4.png",
+      "relativePath": "src/images/pv4.png",
+      "sizeBytes": 806190,
+      "sizeMB": "0.769"
+    },
+    {
+      "filename": "pv4.webp",
+      "relativePath": "src/images/pv4.webp",
+      "sizeBytes": 919798,
+      "sizeMB": "0.877"
+    },
+    {
+      "filename": "pv5.png",
+      "relativePath": "src/images/pv5.png",
+      "sizeBytes": 313664,
+      "sizeMB": "0.299"
+    },
+    {
+      "filename": "pv6.png",
+      "relativePath": "src/images/pv6.png",
+      "sizeBytes": 658492,
+      "sizeMB": "0.628"
+    },
+    {
+      "filename": "pv7.png",
+      "relativePath": "src/images/pv7.png",
+      "sizeBytes": 624704,
+      "sizeMB": "0.596"
+    },
+    {
+      "filename": "pv8.png",
+      "relativePath": "src/images/pv8.png",
+      "sizeBytes": 362168,
+      "sizeMB": "0.345"
+    },
+    {
+      "filename": "pv8.webp",
+      "relativePath": "src/images/pv8.webp",
+      "sizeBytes": 919594,
+      "sizeMB": "0.877"
+    },
+    {
+      "filename": "pv9.png",
+      "relativePath": "src/images/pv9.png",
+      "sizeBytes": 224315,
+      "sizeMB": "0.214"
+    },
+    {
+      "filename": "scm-logo.png",
+      "relativePath": "src/images/scm-logo.png",
+      "sizeBytes": 200818,
+      "sizeMB": "0.192"
+    },
+    {
+      "filename": "scm_logo.png",
+      "relativePath": "src/images/scm_logo.png",
+      "sizeBytes": 728,
+      "sizeMB": "0.001"
+    },
+    {
+      "filename": "Sir_muruga vilas layout.png",
+      "relativePath": "src/images/Sir_muruga vilas layout.png",
+      "sizeBytes": 43186511,
+      "sizeMB": "41.186"
+    },
+    {
+      "filename": "sl-10.png",
+      "relativePath": "src/images/sl-10.png",
+      "sizeBytes": 1702346,
+      "sizeMB": "1.623"
+    },
+    {
+      "filename": "sl-11.png",
+      "relativePath": "src/images/sl-11.png",
+      "sizeBytes": 1257133,
+      "sizeMB": "1.199"
+    },
+    {
+      "filename": "sl-11.webp",
+      "relativePath": "src/images/sl-11.webp",
+      "sizeBytes": 414496,
+      "sizeMB": "0.395"
+    },
+    {
+      "filename": "sl-12.png",
+      "relativePath": "src/images/sl-12.png",
+      "sizeBytes": 2361299,
+      "sizeMB": "2.252"
+    },
+    {
+      "filename": "sl-12.webp",
+      "relativePath": "src/images/sl-12.webp",
+      "sizeBytes": 396286,
+      "sizeMB": "0.378"
+    },
+    {
+      "filename": "sl-13.png",
+      "relativePath": "src/images/sl-13.png",
+      "sizeBytes": 2730644,
+      "sizeMB": "2.604"
+    },
+    {
+      "filename": "sl-13.webp",
+      "relativePath": "src/images/sl-13.webp",
+      "sizeBytes": 499488,
+      "sizeMB": "0.476"
+    },
+    {
+      "filename": "sl-14.png",
+      "relativePath": "src/images/sl-14.png",
+      "sizeBytes": 1063932,
+      "sizeMB": "1.015"
+    },
+    {
+      "filename": "sl-14.webp",
+      "relativePath": "src/images/sl-14.webp",
+      "sizeBytes": 159182,
+      "sizeMB": "0.152"
+    },
+    {
+      "filename": "sl-15.png",
+      "relativePath": "src/images/sl-15.png",
+      "sizeBytes": 1647267,
+      "sizeMB": "1.571"
+    },
+    {
+      "filename": "sl-15.webp",
+      "relativePath": "src/images/sl-15.webp",
+      "sizeBytes": 449664,
+      "sizeMB": "0.429"
+    },
+    {
+      "filename": "sl-16.png",
+      "relativePath": "src/images/sl-16.png",
+      "sizeBytes": 1595484,
+      "sizeMB": "1.522"
+    },
+    {
+      "filename": "sl-16.webp",
+      "relativePath": "src/images/sl-16.webp",
+      "sizeBytes": 831902,
+      "sizeMB": "0.793"
+    },
+    {
+      "filename": "sl-17.png",
+      "relativePath": "src/images/sl-17.png",
+      "sizeBytes": 2928561,
+      "sizeMB": "2.793"
+    },
+    {
+      "filename": "sl-17.webp",
+      "relativePath": "src/images/sl-17.webp",
+      "sizeBytes": 788508,
+      "sizeMB": "0.752"
+    },
+    {
+      "filename": "sl-25.webp",
+      "relativePath": "src/images/sl-25.webp",
+      "sizeBytes": 432610,
+      "sizeMB": "0.413"
+    },
+    {
+      "filename": "sl-6.png",
+      "relativePath": "src/images/sl-6.png",
+      "sizeBytes": 2622529,
+      "sizeMB": "2.501"
+    },
+    {
+      "filename": "sl-7.jpeg",
+      "relativePath": "src/images/sl-7.jpeg",
+      "sizeBytes": 510181,
+      "sizeMB": "0.487"
+    },
+    {
+      "filename": "sl-9.png",
+      "relativePath": "src/images/sl-9.png",
+      "sizeBytes": 2736320,
+      "sizeMB": "2.610"
+    },
+    {
+      "filename": "sl-9.webp",
+      "relativePath": "src/images/sl-9.webp",
+      "sizeBytes": 528320,
+      "sizeMB": "0.504"
+    },
+    {
+      "filename": "Sri_muruga Vilas Layout.jpg",
+      "relativePath": "src/images/Sri_muruga Vilas Layout.jpg",
+      "sizeBytes": 43329314,
+      "sizeMB": "41.322"
+    },
+    {
+      "filename": "team11.png",
+      "relativePath": "src/images/team11.png",
+      "sizeBytes": 673548,
+      "sizeMB": "0.642"
+    },
+    {
+      "filename": "up-arrow.svg",
+      "relativePath": "src/images/up-arrow.svg",
+      "sizeBytes": 201,
+      "sizeMB": "0.000"
+    },
+    {
+      "filename": "wafles.png",
+      "relativePath": "src/images/wafles.png",
+      "sizeBytes": 4323835,
+      "sizeMB": "4.124"
+    },
+    {
+      "filename": "wfac.png",
+      "relativePath": "src/images/wfac.png",
+      "sizeBytes": 1914,
+      "sizeMB": "0.002"
+    },
+    {
+      "filename": "winsta.png",
+      "relativePath": "src/images/winsta.png",
+      "sizeBytes": 2162,
+      "sizeMB": "0.002"
+    },
+    {
+      "filename": "wlink.png",
+      "relativePath": "src/images/wlink.png",
+      "sizeBytes": 1288,
+      "sizeMB": "0.001"
+    },
+    {
+      "filename": "wpintrest.png",
+      "relativePath": "src/images/wpintrest.png",
+      "sizeBytes": 2847,
+      "sizeMB": "0.003"
+    },
+    {
+      "filename": "ld-video2-1.mp4",
+      "relativePath": "src/vedios/ld-video2-1.mp4",
+      "sizeBytes": 9890661,
+      "sizeMB": "9.432"
+    },
+    {
+      "filename": "maha-1.mp4",
+      "relativePath": "src/vedios/maha-1.mp4",
+      "sizeBytes": 44889055,
+      "sizeMB": "42.810"
+    },
+    {
+      "filename": "mg2-1.mp4",
+      "relativePath": "src/vedios/mg2-1.mp4",
+      "sizeBytes": 87031950,
+      "sizeMB": "83.000"
+    },
+    {
+      "filename": "reva-1.mp4",
+      "relativePath": "src/vedios/reva-1.mp4",
+      "sizeBytes": 21884730,
+      "sizeMB": "20.871"
+    },
+    {
+      "filename": "sw-1.mp4",
+      "relativePath": "src/vedios/sw-1.mp4",
+      "sizeBytes": 18747703,
+      "sizeMB": "17.879"
+    },
+    {
+      "filename": "tex-1.mp4",
+      "relativePath": "src/vedios/tex-1.mp4",
+      "sizeBytes": 60000856,
+      "sizeMB": "57.221"
+    },
+    {
+      "filename": "pean-1.png",
+      "relativePath": "public/pean-1.png",
+      "sizeBytes": 977091,
+      "sizeMB": "0.932"
+    }
+  ]
+}

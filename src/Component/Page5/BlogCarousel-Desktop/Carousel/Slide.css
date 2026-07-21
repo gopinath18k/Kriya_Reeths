@@ -1,0 +1,58 @@
+.BlogsContainer{
+    position: absolute;
+    height: 80%;
+    width: 150%;
+    top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-origin: 50% 50%;
+  }
+  .BlogsCard{
+    position: relative;
+    max-width: 90%;
+    min-width: 30%;
+    width: 100vw;
+    height: 100%;
+    background: transparent;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-origin: 50% 50%;
+  }
+  
+  
+  @media (min-width: 650px) and (max-width: 767px) {
+  
+    .BlogsContainer{
+      height: 50%;
+      
+    }
+  }
+  
+  @media (min-width: 500px) and (max-width: 649px){
+    .BlogsContainer{
+      height: 50%;
+      
+    }
+  }
+  
+  @media (min-width: 430px) and (max-width: 499px){
+    .BlogsContainer{
+      height: 50%;
+      
+    }
+  }
+  @media (min-width: 375px) and (max-width: 429px){
+    .BlogsContainer{
+      height: 60%;
+      
+    }
+  }
+  @media (max-width: 374px){
+    .BlogsContainer{
+      height: 60%;
+      
+    }
+  }

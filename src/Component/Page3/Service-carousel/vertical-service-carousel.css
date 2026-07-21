@@ -1,0 +1,112 @@
+.carousel-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+
+.carousel-navigation-buttons {
+  position: absolute;
+  top: 80%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column; 
+  height: auto;
+  z-index: 1000;
+  gap: 20px;
+  transform: rotate(90deg);
+}
+
+.carousel-nav-btn {
+  background: white;
+  padding: 0px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-nav-btn:focus {
+  outline: none;
+}
+@media (min-width: 500px) {
+ 
+  .carousel-navigation-buttons{
+    display: none;
+  }
+}
+
+/* Media Queries */
+@media (max-width: 830px) {
+  .carousel-navigation-buttons {
+    top: 81%;
+    left: 50%;
+  }
+
+  .carousel-nav-btn {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 550px) {
+  .carousel-navigation-buttons {
+    top: 82%;
+    left: 50%;
+  }
+
+  .carousel-nav-btn {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 440px) {
+  .carousel-navigation-buttons {
+    top: 82%;
+    left: 48%;
+  }
+
+  .carousel-nav-btn {
+    padding: 10px;
+    width: 37px;
+    height: 37px;
+  }
+}
+
+@media (max-width: 400px) {
+  .carousel-navigation-buttons {
+    top: 85%;
+    left: 50%;
+  }
+
+  .carousel-nav-btn {
+    padding: 10px;
+    width: 43px;
+    height: 43px;
+  }
+}
+
+@media (max-width: 375px) {
+  .carousel-navigation-buttons {
+    top: 81%;
+    left: 46%;
+  }
+
+  .carousel-nav-btn {
+    padding: 10px;
+    width: 37px;
+    height: 37px;
+  }
+}

@@ -1,0 +1,70 @@
+.service-container-main {
+  background-color: #2b2b2b;
+}
+.single-Slide-Container {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-origin: 50% 50%;
+}
+.Sliding-Card {
+  position: relative;
+  width: 100vw;
+  height: 100%;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-origin: 50% 50%;
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2250) {
+  .Sliding-Card {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .single-Slide-Container {
+    max-width: 2400px;
+  }
+}
+/* @media (min-width: 650px) and (max-width: 767px) {
+  
+    .service-container-main{
+      height: 700%;
+      
+      
+    }
+}
+  
+@media (min-width: 500px) and (max-width: 649px){
+    .service-container-main{
+      height: 130%;
+      
+    }
+}
+
+  
+  @media (min-width: 430px) and (max-width: 499px){
+    .single-Slide-Container{
+      height: 850%;
+      
+    }
+  } */
+/* @media (min-width: 375px) and (max-width: 430px){
+    .single-Slide-Container{
+      height: 890%;
+      
+    }
+  } */
+@media (max-width: 374px) {
+  /* .single-Slide-Container{
+      height: 1005%;
+      
+    } */
+}

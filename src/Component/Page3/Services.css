@@ -1,0 +1,56 @@
+.service-exampless{
+    background: #2B2B2B;
+    padding: 0% 0 0% 0;
+    position: relative;
+}
+
+@media screen and (min-width:2000px) and  (max-width: 2242px){
+    .service-text-content {
+        margin-left: 5%;
+    }
+    .service-exampless {
+        background: #2B2B2B;
+        padding: 4% 0 4% 0;
+        position: relative;
+    }
+    .service-description {
+        font-family: "Montserrat", sans-serif;
+        font-size: 22px;
+        width: 550px;
+        font-weight: 400;
+        color: #FFFFFF;
+    }
+    .service-image-element {
+        width: 530px;
+        margin-right: 5%;
+    }
+}
+@media screen and  (min-width: 2250px){
+    .service-main-cont{
+        max-width: 1500px;
+    }
+}
+
+@media (max-width:550px){
+    .service-exampless{
+        padding: 7% 0 2% 0;
+    }
+}
+@media (max-width:440px){
+    .service-exampless{
+        padding: 2% 0 5% 0;
+    }
+
+}
+@media (max-width:425px){
+    .service-exampless{
+        padding: 2% 0 2% 0;
+    }
+
+}
+@media (max-width:400px){
+    .service-exampless{
+        padding: 2% 0 2% 0;
+    }
+
+}

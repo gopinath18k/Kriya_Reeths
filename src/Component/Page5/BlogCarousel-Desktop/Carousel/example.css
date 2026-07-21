@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap');
+
+.blogs-main-container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 109vh;
+  margin: 0 auto;
+  background: #FFFFFF;
+  overflow: hidden;
+  
+}
+
+.blogs-carousel-container {
+  width: 100%;
+}
+
+.blogs-sliding-main {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.all-blogs-heading {
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.blogs-headings {
+  font-size: 45px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #2B2B2B;
+  letter-spacing: -2.5px;
+  padding-bottom: 2.5%;
+}
+
+.all-blog-conatiner {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 6%;
+}
+
+.all-blog-content {
+  text-align: start;
+}
+
+.blogs-images {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.blogs-small-head {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: start;
+  color: #EAAA00;
+  margin-top: 10px;
+}
+
+.blogs-head {
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  text-align: start;
+  color: #2B2B2B;
+}
+
+.blogs-paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  text-align: start;
+  color: #2B2B2B;
+}
+
+.blog-image-name {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.person-images {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  object-fit: contain;
+}
+
+.person-name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: start;
+  color: #2B2B2B;
+}
+.head-sub-head{
+  text-decoration: none;
+  color: black;
+}
+
+.person-discription {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  text-align: start;
+  color: #2B2B2B;
+}
+
+
+.BlogsContainer {
+  position: absolute;
+  height: 80%;
+  top: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-origin: 50% 50%;
+}
+
+.BlogsCard {
+  position: relative;
+  max-width: 90%;
+  min-width: 30%;
+  width: 100vw;
+  height: 100%;
+  background: transparent;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-origin: 50% 50%;
+}
+@media screen and (min-width: 1600px) and (max-width: 2000px){
+  .blogs-headings {
+    font-size: 61px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: #2B2B2B;
+    letter-spacing: -2.5px;
+    padding-bottom: 2.5%;
+  }
+  .blogs-head {
+    font-size: 20.5px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    text-align: start;
+    color: #2B2B2B;
+}
+.blogs-paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: start;
+  color: #2B2B2B;
+}
+}
+@media screen and (min-width: 2000px) and (max-width: 2250px){
+  .blogs-headings {
+    font-size: 70px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: #2B2B2B;
+    letter-spacing: -2.5px;
+    padding-bottom: 2.5%;
+  }
+  .blogs-head {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    text-align: start;
+    color: #2B2B2B;
+}
+.blogs-paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: start;
+  color: #2B2B2B;
+}
+.person-name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  text-align: start;
+  color: #2B2B2B;
+}
+.person-discription {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: start;
+  color: #2B2B2B;
+}
+.blogs-images {
+  object-fit: cover;
+  width: 100%;
+  height: 280px;
+  border-radius: 6px;
+}
+}
+@media (min-width: 1500px){
+  .blogs-main-container {
+    height: 100vh;
+  }
+}
+@media (max-width: 1200px){
+  .blogs-main-container {
+    height: 130vh;
+  }
+}
+@media (max-width: 900px) {
+  .blogs-main-container {
+    display: none;
+  }
+}

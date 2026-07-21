@@ -1,0 +1,85 @@
+.SlideContainer{
+  position: absolute;
+  height:80%;
+  width: 200%;
+  top: 80%;
+  margin-top: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-origin: 50% 50%;
+  margin-left: -6%;
+}
+.SlideCard{
+  position: relative;
+  max-width: 80%;
+  min-width: 30%;
+  width: 100vw;
+  height: 100%;
+  background: transparent;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-origin: 50% 50%;
+}
+@media (min-width: 1500px){
+  .SlideContainer{
+    margin-left: -3%;
+    height:100%;
+    margin-top: 4%;
+  }
+}
+@media (min-width: 830px) and (max-width: 1024px){
+  .SlideContainer{
+    margin-left: -2%;
+    height:90% ;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 830px) {
+
+  .SlideContainer{
+    height: 120%;
+    margin-left: -2%;
+    
+  }
+}
+
+@media (min-width: 500px) and (max-width: 649px){
+  .SlideContainer{
+    height: 120%;
+    background: #000;
+    
+  }
+}
+
+
+@media (min-width: 440px) and (max-width: 499px){
+  .SlideContainer{
+    height:120%;
+    margin-left:0%;
+    
+    
+    
+    
+    
+  }
+}
+@media (min-width: 375px) and (max-width: 440px){
+  .SlideContainer{
+    height:100%;
+    margin-top: 12%;
+    margin-left:0%;
+    
+  }
+  
+}
+@media (max-width: 374px){
+  .SlideContainer{
+    height:100%;
+    margin-top: 12%;
+    margin-left:0%;
+    
+  }
+}

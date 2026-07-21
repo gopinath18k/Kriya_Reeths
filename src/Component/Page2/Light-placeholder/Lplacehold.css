@@ -1,0 +1,348 @@
+.main-input-container-new {
+    display: flex;
+    flex-direction: column;
+    gap: -5%;
+  }
+  
+  .input-group-new {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .message-input-container-new {
+    display: flex;
+  }
+  
+  .floating-label-input-name,
+  .floating-label-input-number,
+  .floating-label-input-message {
+    position: relative;
+    margin: 20px 0;
+    background-color: none;
+  }
+  
+  .floating-label-name,
+  .floating-label-number,
+  .floating-label-message {
+    position: absolute;
+    left: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.2s ease-out;
+    pointer-events: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  .focused-name .floating-label-name,
+  .input-name:not(:placeholder-shown) + .floating-label-name,
+  .focused-number .floating-label-number,
+  .input-number:not(:placeholder-shown) + .floating-label-number,
+  .focused-message .floating-label-message,
+  .input-message:not(:placeholder-shown) + .floating-label-message {
+    top: 0;
+    transform: translateY(-100%);
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .input-name,
+  .input-number,
+  .input-message {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    outline: none;
+    background-color: transparent;
+  }
+  
+  .input-name::placeholder,
+  .input-number::placeholder,
+  .input-message::placeholder {
+    font-size: 22px;
+  }
+  
+  .bottom-line-name,
+  .bottom-line-number,
+  .bottom-line-message {
+    height: 2px;
+    background: rgb(0, 0, 0);
+    margin-left: 0.6%;
+  }
+  
+  .bottom-line-name {
+    width: 300px;
+  }
+  
+  .bottom-line-number {
+    width: 280px;
+  }
+  
+  .bottom-line-message {
+    width: 650px;
+  }
+  @media screen and (min-width: 2000px) and (max-width: 2240px){
+    .bottom-line-number {
+      width: 300px;
+    }
+    
+    .bottom-line-message {
+      width: 800px;
+    }
+    .focused-name .floating-label-name,
+    .input-name:not(:placeholder-shown) + .floating-label-name,
+    .focused-number .floating-label-number,
+    .input-number:not(:placeholder-shown) + .floating-label-number,
+    .focused-message .floating-label-message,
+    .input-message:not(:placeholder-shown) + .floating-label-message {
+      top: 0;
+      transform: translateY(-100%);
+      font-size: 25px;
+      color: rgb(0, 0, 0);
+    }
+    .input-name,
+    .input-number,
+    .input-message {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      font-size: 24px;
+      color: rgb(0, 0, 0);
+      outline: none;
+      background-color: transparent;
+    }
+    .floating-label-name,
+    .floating-label-number,
+    .floating-label-message {
+      font-size: 22px;
+    }
+    
+  
+  }
+  @media screen and (min-width: 820px) and (max-width: 1024px) {
+    .bottom-line-name,
+    .bottom-line-number {
+      height: 2px;
+      width: 200px;
+    }
+  
+    .bottom-line-message {
+      height: 2px;
+      width: 530px;
+    }
+  
+    .input-name,
+    .input-number,
+    .input-message {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      font-size: 16px;
+      outline: none;
+      background-color: transparent;
+    }
+  
+    .input-name::placeholder,
+    .input-number::placeholder,
+    .input-message::placeholder {
+      font-size: 20px;
+    }
+  
+    .focused-name .floating-label-name,
+    .input-name:not(:placeholder-shown) + .floating-label-name,
+    .focused-number .floating-label-number,
+    .input-number:not(:placeholder-shown) + .floating-label-number,
+    .focused-message .floating-label-message,
+    .input-message:not(:placeholder-shown) + .floating-label-message {
+      top: 0;
+      transform: translateY(-100%);
+      font-size: 16px;
+      color: rgb(0, 0, 0);
+    }
+  }
+  
+  @media screen and (min-width: 425px) and (max-width: 820px) {
+    .bottom-line-name,
+    .bottom-line-number {
+      height: 1px;
+      width: 180px;
+    }
+  
+    .bottom-line-message {
+      height: 1px;
+      width: 480px;
+    }
+  
+    .input-name,
+    .input-number,
+    .input-message {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      font-size: 15px;
+      outline: none;
+      background-color: transparent;
+    }
+  
+    .input-name::placeholder,
+    .input-number::placeholder,
+    .input-message::placeholder {
+      font-size: 18px;
+    }
+  
+    .focused-name .floating-label-name,
+    .input-name:not(:placeholder-shown) + .floating-label-name,
+    .focused-number .floating-label-number,
+    .input-number:not(:placeholder-shown) + .floating-label-number,
+    .focused-message .floating-label-message,
+    .input-message:not(:placeholder-shown) + .floating-label-message {
+      top: 0;
+      transform: translateY(-100%);
+      font-size: 14px;
+      color: rgb(0, 0, 0);
+    }
+  }
+  
+  @media screen and (min-width: 375px) and (max-width: 440px) {
+    .bottom-line-name,
+    .bottom-line-number {
+      height: 1px;
+      width: 140px;
+    }
+  
+    .bottom-line-message {
+      height: 1px;
+      width: 330px;
+    }
+  
+    .input-name,
+    .input-number,
+    .input-message {
+      width: 100%;
+      padding: 5px 0px;
+      border: none;
+      font-size: 14px;
+      outline: none;
+      background-color: transparent;
+    }
+  
+    .floating-label-name,
+    .floating-label-number,
+    .floating-label-message {
+      font-size: 12px;
+    }
+  
+    .focused-name .floating-label-name,
+    .input-name:not(:placeholder-shown) + .floating-label-name,
+    .focused-number .floating-label-number,
+    .input-number:not(:placeholder-shown) + .floating-label-number,
+    .focused-message .floating-label-message,
+    .input-message:not(:placeholder-shown) + .floating-label-message {
+      top: 0;
+      transform: translateY(-100%);
+      font-size: 13px;
+      color: rgb(0, 0, 0);
+    }
+  
+    .input-group-new {
+      display: flex;
+      gap: 0px;
+      margin-top: 2%;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .bottom-line-name,
+    .bottom-line-number {
+      height: 1px;
+      width: 100px;
+    }
+  
+    .bottom-line-message {
+      height: 1px;
+      width: 300px;
+    }
+  
+    .input-name,
+    .input-number,
+    .input-message {
+      width: 80%;
+      padding: 6px;
+      border: none;
+      font-size: 12px;
+      outline: none;
+      background-color: transparent;
+    }
+  
+    .floating-label-name,
+    .floating-label-number,
+    .floating-label-message {
+      font-size: 11px;
+    }
+  
+    .focused-name .floating-label-name,
+    .input-name:not(:placeholder-shown) + .floating-label-name,
+    .focused-number .floating-label-number,
+    .input-number:not(:placeholder-shown) + .floating-label-number,
+    .focused-message .floating-label-message,
+    .input-message:not(:placeholder-shown) + .floating-label-message {
+      top: 0;
+      transform: translateY(-100%);
+      font-size: 12.5px;
+      color: rgb(0, 0, 0);
+    }
+  
+    .input-group-new {
+      display: flex;
+      gap: 0px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .bottom-line-name,
+    .bottom-line-number {
+      height: 1px;
+      width: 100px;
+    }
+  
+    .bottom-line-message {
+      height: 1px;
+      width: 250px;
+    }
+  
+    .input-name,
+    .input-number,
+    .input-message {
+      width: 100%;
+      padding: 6px;
+      border: none;
+      font-size: 12px;
+      outline: none;
+      background-color: transparent;
+    }
+  
+    .floating-label-name,
+    .floating-label-number,
+    .floating-label-message {
+      font-size: 11px;
+    }
+  
+    .focused-name .floating-label-name,
+    .input-name:not(:placeholder-shown) + .floating-label-name,
+    .focused-number .floating-label-number,
+    .input-number:not(:placeholder-shown) + .floating-label-number,
+    .focused-message .floating-label-message,
+    .input-message:not(:placeholder-shown) + .floating-label-message {
+      top: 0;
+      transform: translateY(-100%);
+      font-size: 12.5px;
+      color: rgb(0, 0, 0);
+    }
+  
+    .input-group-new {
+      display: flex;
+      gap: 0px;
+    }
+  }
+  

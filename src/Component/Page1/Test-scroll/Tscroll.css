@@ -1,0 +1,18 @@
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  max-width: 1820px;
+}
+@media screen and (min-width:320px) and  (max-width: 1200px){
+    .Tscroll{
+      display: none;
+    }
+}
+
+@media screen and (min-width:2000px) and  (max-width: 2240px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 2520px;
+  }
+  .scroll-cont{
+    margin-top: 24px;
+    object-fit: cover;
+  }
+}

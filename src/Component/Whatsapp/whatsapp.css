@@ -1,0 +1,95 @@
+/* Define the jumping keyframes */
+@keyframes jump {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px); /* Adjust the value to control the jump height */
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+
+  .wp-icon {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    inset: 0;
+    left: 94%;
+    top: 72%;
+    z-index: 600;
+    cursor: pointer;
+    animation: jump 2s ease infinite; /* Adjust duration and easing function as needed */
+  }
+  @media screen and (min-width:2000px) and  (max-width: 2250px){
+    .wp-icon {
+      width: 80px;
+      height: 80px;} 
+  }
+  @media screen and  (max-width: 1200px){
+    .wp-icon {
+      width: 55px;
+      height: 55px;
+      position: fixed;
+      inset: 0;
+      left: 94%;
+      top: 70%;
+      z-index: 300;
+      cursor: pointer;
+      animation: jump 2s ease infinite; /* Adjust duration and easing function as needed */
+    }
+}
+@media screen and  (max-width: 900px){
+  .wp-icon {
+    width: 55px;
+    height: 55px;
+    position: fixed;
+    inset: 0;
+    left: 93%;
+    top: 70%;
+    z-index: 300;
+    cursor: pointer;
+    animation: jump 2s ease infinite; /* Adjust duration and easing function as needed */
+  }
+}
+@media screen and  (max-width: 830px){
+  .wp-icon {
+    width: 53px;
+    height: 53px;
+    position: fixed;
+    inset: 0;
+    left: 91.5%;
+    top: 70%;
+    z-index: 300;
+    cursor: pointer;
+    animation: jump 2s ease infinite; /* Adjust duration and easing function as needed */
+  }
+}
+@media screen and  (max-width: 450px){
+  .wp-icon {
+    width: 42px;
+    height: 42px;
+    position: fixed;
+    inset: 0;
+    left: 88%;
+    top: 74%;
+    z-index: 300;
+    cursor: pointer;
+    animation: jump 2s ease infinite; /* Adjust duration and easing function as needed */
+  }
+}
+@media screen and  (max-width: 375px){
+  .wp-icon {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    inset: 0;
+    left: 85%;
+    top: 74%;
+    z-index: 300;
+    cursor: pointer;
+    animation: jump 2s ease infinite; /* Adjust duration and easing function as needed */
+  }
+}

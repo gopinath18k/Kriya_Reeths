@@ -1,0 +1,3372 @@
+.home-main-cont{
+    overflow: hidden;
+    position: relative;
+    z-index: 100;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.container-fluid{
+    padding: 0;
+}
+
+
+.ab{
+    cursor: pointer;
+}
+.head-img {
+    width: 55%;
+    margin-top: 4%;
+}
+.flow-mob{
+    display: none;
+}
+.section1 {
+    text-align: center;
+    margin-top: 80px;
+    position: relative;
+}
+
+.sec1-head {
+    position: relative;
+    display: block;
+}
+
+.main-head1 {
+    font-weight: 600;
+    position: absolute;
+    left: 31.5%;
+    bottom: 82%;
+    font-size: 2.5rem;
+}
+
+.main-head2 {
+    font-weight: 700;
+    font-size: 5.2rem;
+}
+
+.main-head3 {
+    display: flex;
+    margin-left: 41.5%;
+    align-items: center;
+    position: absolute;
+    bottom: -25%;
+}
+
+.main-head3 h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.main-head3 p {
+    font-size: 12px;
+}
+
+/* section2 */
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    position: relative;
+}
+
+.ipad-cont {
+    position: relative;
+    width: 88%;
+    max-width: 1000px;
+    
+   
+}
+
+.ipad {
+    width: 100%;
+}
+
+.land-vid {
+    position: absolute;
+    top: 9.3%;
+    left: 3.7%;
+    width: 93.3%;
+    height: 87%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.vid-cont {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+
+}
+
+.play-button {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.play-button::before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 50px solid white;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    margin-left: 12%;
+}
+.bg-half{
+    position: absolute;
+    background: #2B2B2B;
+    width: 100%;
+    height: 450px;
+    bottom: 0;
+    z-index: -1;
+}
+.bg-txt11{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* section3 */
+
+.section3{
+    background: #2B2B2B;
+    padding: 4% 0;
+    color: white;
+    align-items: center;
+    position: relative;
+    z-index: -1;
+   
+}
+.graph-head{
+    display:flex ;
+    justify-content: end;
+}
+.graph{
+    height: 450px;
+}
+.section3 p{
+    font-weight: 200;
+    width: 470px;
+    
+}
+.less-w{
+    font-weight: 300;
+    font-size: 41px;
+}
+.ab-head{
+    position: relative;
+}
+.less-tp{
+    position: absolute;
+    font-weight: 300;
+    bottom: 64%;
+    font-size: 41px;
+
+}
+
+.abm-text{
+    font-size: 64px;
+    font-weight: 600;
+}
+.abt-but{
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    color: black;
+    padding: 5px 0;
+    font-size: 13.5px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: solid black 1.2px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.6s ease;
+    margin-top: 5%;
+    cursor: pointer;
+    position: relative;
+    z-index: 5000;
+    text-decoration: none;
+    
+}
+.abt-but:hover{
+    transform: scale(1.08);
+
+}
+.bg2-cont{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+}
+.bg-txt2{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* section4 */
+.section4{
+    background: #2B2B2B;
+    color: white;
+    padding: 8% 0;
+    position: relative;
+    margin-top: 9%;
+}
+.creative-head{
+    
+    text-align: center;
+}
+.creative-head p{
+    font-weight: 300;
+    
+}
+.creative-hd1{
+    display: flex;
+    justify-content: center;
+}
+.hd1-one{
+ font-size: 41px;
+ font-weight: 400;
+}
+.hd1-two{
+    font-size: 64px;
+    font-weight: 600;
+}
+.bg1-cont{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+
+/* section5 */
+
+.section5{
+    position: relative;
+    padding: 8% 0;
+}
+.flow-chart{
+    width: 100%;
+    margin-top: 50px;
+    object-fit: contain;
+}
+.flow-head{
+    position: relative;
+}
+.flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+    font-size: 11px;
+    width: 210px;
+   
+    
+}
+.flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flow-text1{
+    left: 5%;
+    bottom: -11%;
+}
+.flow-text2{
+    left: 23%;
+    bottom: 28%;
+}
+.flow-text3{
+    left: 41.9%;
+    bottom: -1%;
+}
+.flow-text4{
+    left: 60.5%;
+    bottom: 17%;
+}
+.flow-text5{
+    left: 78.5%;
+    bottom: -5%;
+}
+/* .flow-chart{
+    clip-path: inset(0 100% 0 0); 
+    animation: reveal 5s forwards;
+}
+.flow-text1{
+    clip-path: inset(0 100% 0 0); 
+    animation: reveal 1s forwards;
+}
+.flow-text2{
+    clip-path: inset(0 100% 0 0);
+    animation: reveal 1s forwards;
+    animation-delay: 0.8s;
+}
+.flow-text3{
+    clip-path: inset(0 100% 0 0); 
+    animation: reveal 1s forwards;
+    animation-delay: 1.3s;
+}
+.flow-text4{
+    clip-path: inset(0 100% 0 0); 
+    animation: reveal 1s forwards;
+    animation-delay: 1.8s;
+}
+.flow-text5{
+    clip-path: inset(0 100% 0 0); 
+    animation: reveal 1s forwards;
+    animation-delay: 2.5s;
+}
+@keyframes reveal {
+    0% {
+        clip-path: inset(0 100% 0 0);
+    }
+    
+    100% {
+        clip-path: inset(0 0 0 0); 
+    }
+} */
+/* section6 */
+
+.section6{
+    background: #2B2B2B;
+    color: white;
+    position: relative;
+    padding: 12% 10%;
+}
+.float-input{
+    margin-top: 5%;
+}
+.com-but{
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    color: black;
+    padding: 5px 0;
+    font-size: 13.5px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: solid black 1.2px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.6s ease;
+    margin-top: 5%;
+    position: relative;
+    z-index: 2000;
+    
+}
+.com-but:hover{
+    transform: scale(1.08);
+
+}
+.lcom-but{
+    background: #2B2B2B;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    color: rgb(255, 255, 255);
+    padding: 5px 0;
+    font-size: 13.5px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: solid black 1.2px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.6s ease;
+    margin-top: 5%;
+    
+}
+.lcom-but:hover{
+    transform: scale(1.08);
+
+}
+@media screen and  (min-width: 2250px){
+    .home-main-cont{
+        max-width: 1500px;
+    }
+
+}
+@media screen and (min-width:1600px) and  (max-width: 2000px){
+    .head-img{
+        width: 45%;
+        margin-top: 5%;
+    }
+    .graph{
+        height: 520px;
+    }
+    .less-w{
+        font-weight: 300;
+        font-size: 35px;
+    }
+    .ab-head{
+        position: relative;
+    }
+    .less-tp{
+        position: absolute;
+        font-weight: 300;
+        bottom: 69%;
+        font-size: 35px;
+    
+    }
+    .section3 p {
+        font-weight: 200;
+        width: 550px;
+        font-size: 18.5px;
+    }
+  
+
+    .abm-text{
+        font-size: 65px;
+        font-weight: 600;
+    }
+   .abt-but {
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    width: 110px;
+    color: black;
+    padding: 5px 0;
+    font-size: 15.5px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: solid black 1.2px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.6s ease;
+    margin-top: 4%;
+    cursor: pointer;
+    position: relative;
+    z-index: 5000;
+    text-decoration: none;
+}
+.hd1-one {
+    font-size: 38px;
+    font-weight: 400;
+}
+.hd1-two{
+    font-size: 64px;
+    font-weight: 600;
+}
+.creative-head p{
+    font-size: 15px;
+    
+}
+.community-head p{
+    font-size: 22px;
+  }
+  .lcom-but {
+    background: #2B2B2B;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    color: rgb(255, 255, 255);
+    padding: 5px 0;
+    font-size: 18.5px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: solid black 1.2px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.6s ease;
+    margin-top: 5%;
+}
+.com-but {
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    color: rgb(0, 0, 0);
+    padding: 5px 0;
+    font-size: 18.5px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: solid black 1.2px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.6s ease;
+    margin-top: 5%;
+}
+.bg-txt11 {
+    height: 200px;
+    width: 100%;
+    
+}
+
+    
+}
+@media screen and (min-width:2000px) and  (max-width: 2250px){
+    .head-img{
+        width: 45%;
+        margin-top: 5%;
+    }
+    .graph{
+        height: 580px;
+    }
+    .less-w{
+        font-weight: 300;
+        font-size: 38px;
+    }
+    .ab-head{
+        position: relative;
+    }
+    .less-tp{
+        position: absolute;
+        font-weight: 300;
+        bottom: 69%;
+        font-size: 38px;
+    
+    }
+    .section3 p {
+        font-weight: 200;
+        width: 550px;
+        font-size: 20px;
+    }
+  
+
+    .abm-text{
+        font-size: 73px;
+        font-weight: 600;
+    }
+   .abt-but {
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    color: black;
+    padding: 5px 0;
+    font-size: 16.5px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: solid black 1.2px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.6s ease;
+    margin-top: 4%;
+    cursor: pointer;
+    position: relative;
+    z-index: 5000;
+    text-decoration: none;
+}
+.hd1-one {
+    font-size: 38px;
+    font-weight: 400;
+}
+.hd1-two{
+    font-size: 74px;
+    font-weight: 600;
+}
+.creative-head p{
+    font-size: 15px;
+    
+}
+.community-head p{
+    font-size: 22px;
+  }
+  .lcom-but {
+    background: #2B2B2B;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    color: rgb(255, 255, 255);
+    padding: 5px 0;
+    font-size: 18.5px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: solid black 1.2px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.6s ease;
+    margin-top: 5%;
+}
+.com-but {
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    color: rgb(0, 0, 0);
+    padding: 5px 0;
+    font-size: 18.5px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: solid black 1.2px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.6s ease;
+    margin-top: 5%;
+}
+.bg-txt11 {
+    height: 200px;
+    width: 100%;
+    
+}
+
+    
+}
+
+@media screen and  (max-width: 2250px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 25px;
+        font-weight: 600;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 11.8px;
+        width: 210px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 8.4%;
+        bottom: 1.5%;
+    }
+    .flow-text2{
+        left: 26%;
+        bottom: 39.8%;
+    }
+    .flow-text3{
+        left: 45%;
+        bottom: 8.8%;
+    }
+    .flow-text4{
+        left: 63.5%;
+        bottom: 32%;
+    }
+    .flow-text5{
+        left: 81.8%;
+        bottom: 2.2%;
+    }
+    .section3{
+        background: #2B2B2B;
+        padding: 5% 0% 9% 3%;}
+}
+@media screen and  (max-width: 2200px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 23px;
+        font-weight: 600;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 11.8px;
+        width: 210px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 7.9%;
+        bottom: 0%;
+    }
+    .flow-text2{
+        left: 25.8%;
+        bottom: 39%;
+    }
+    .flow-text3{
+        left: 44.8%;
+        bottom: 8.5%;
+    }
+    .flow-text4{
+        left: 63.5%;
+        bottom: 32%;
+    }
+    .flow-text5{
+        left: 81.3%;
+        bottom: 2%;
+    }
+    .section3{
+        background: #2B2B2B;
+        padding: 5% 0% 9% 3%;}
+}
+
+@media screen and  (max-width: 2150px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 23px;
+        font-weight: 600;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 11.8px;
+        width: 210px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 7.9%;
+        bottom: 0%;
+    }
+    .flow-text2{
+        left: 25.8%;
+        bottom: 38.5%;
+    }
+    .flow-text3{
+        left: 44.8%;
+        bottom: 8%;
+    }
+    .flow-text4{
+        left: 63.2%;
+        bottom: 30.9%;
+    }
+    .flow-text5{
+        left: 81.3%;
+        bottom: 3%;
+    }
+    .section3{
+        background: #2B2B2B;
+        padding: 5% 0% 9% 3%;}
+}
+@media screen and  (max-width: 2100px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 21px;
+        font-weight: 600;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 11.5px;
+        width: 210px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 7.9%;
+        bottom: 0%;
+    }
+    .flow-text2{
+        left: 25.8%;
+        bottom: 38.5%;
+    }
+    .flow-text3{
+        left: 44.7%;
+        bottom: 6.8%;
+    }
+    .flow-text4{
+        left: 63.2%;
+        bottom: 30.9%;
+    }
+    .flow-text5{
+        left: 81.3%;
+        bottom: 3%;
+    }
+    .section3{
+        background: #2B2B2B;
+        padding: 5% 0% 9% 3%;}
+}
+@media screen and  (max-width: 2050px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 21px;
+        font-weight: 600;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 11.5px;
+        width: 210px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 7.8%;
+        bottom: -1%;
+    }
+    .flow-text2{
+        left: 25.5%;
+        bottom: 37.3%;
+    }
+    .flow-text3{
+        left: 44.7%;
+        bottom: 6%;
+    }
+    .flow-text4{
+        left: 63.2%;
+        bottom: 29.8%;
+    }
+    .flow-text5{
+        left: 81.2%;
+        bottom: 2.6%;
+    }
+    .section3{
+        background: #2B2B2B;
+        padding: 5% 0% 9% 3%;}
+}
+@media screen and  (max-width: 1950px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 21px;
+        font-weight: 600;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 11.5px;
+        width: 210px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 7.5%;
+        bottom: -2%;
+    }
+    .flow-text2{
+        left: 25.3%;
+        bottom: 36.8%;
+    }
+    .flow-text3{
+        left: 44.3%;
+        bottom: 5%;
+    }
+    .flow-text4{
+        left: 62.8%;
+        bottom: 29%;
+    }
+    .flow-text5{
+        left: 80.9%;
+        bottom: 2%;
+    }
+    .section3{
+        background: #2B2B2B;
+        padding: 5% 0% 9% 3%;}
+}
+@media screen and  (max-width: 1900px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 21px;
+        font-weight: 600;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 11.5px;
+        width: 210px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 7.5%;
+        bottom: -2%;
+    }
+    .flow-text2{
+        left: 25%;
+        bottom: 35%;
+    }
+    .flow-text3{
+        left: 43.9%;
+        bottom: 4%;
+    }
+    .flow-text4{
+        left: 62.8%;
+        bottom: 26.2%;
+    }
+    .flow-text5{
+        left: 80.9%;
+        bottom: 1%;
+    }
+    .section3{
+        background: #2B2B2B;
+        padding: 5% 0% 9% 3%;}
+}
+@media screen and  (max-width: 1850px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 21px;
+        font-weight: 600;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 11.5px;
+        width: 210px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 7%;
+        bottom: -4%;
+    }
+    .flow-text2{
+        left: 25%;
+        bottom: 35%;
+    }
+    .flow-text3{
+        left: 43.9%;
+        bottom: 4%;
+    }
+    .flow-text4{
+        left: 62.5%;
+        bottom: 25.8%;
+    }
+    .flow-text5{
+        left: 80.7%;
+        bottom: 1%;
+    }
+    .section3{
+        background: #2B2B2B;
+        padding: 5% 0% 9% 3%;}
+}
+@media screen and  (max-width: 1800px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 21px;
+        font-weight: 600;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 11.5px;
+        width: 210px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 7%;
+        bottom: -4%;
+    }
+    .flow-text2{
+        left: 24.5%;
+        bottom: 33.5%;
+    }
+    .flow-text3{
+        left: 43.7%;
+        bottom: 4%;
+    }
+    .flow-text4{
+        left: 62.5%;
+        bottom: 25%;
+    }
+    .flow-text5{
+        left: 80.7%;
+        bottom: 1%;
+    }
+    .section3{
+        background: #2B2B2B;
+        padding: 5% 0% 9% 3%;}
+}
+
+@media screen and  (max-width: 1740px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 20px;
+        font-weight: 600;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 11px;
+        width: 210px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 6.5%;
+        bottom: -6%;
+    }
+    .flow-text2{
+        left: 24.5%;
+        bottom: 33%;
+    }
+    .flow-text3{
+        left: 43.7%;
+        bottom: 4%;
+    }
+    .flow-text4{
+        left: 62%;
+        bottom: 24%;
+    }
+    .flow-text5{
+        left: 80.5%;
+        bottom: 1%;
+    }
+    .section3{
+        background: #2B2B2B;
+        padding: 5% 0% 9% 3%;}
+}
+@media screen and  (max-width: 1630px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 20px;
+        font-weight: 600;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 11px;
+        width: 210px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 6.5%;
+        bottom: -6%;
+    }
+    .flow-text2{
+        left: 24.2%;
+        bottom: 33%;
+    }
+    .flow-text3{
+        left: 43%;
+        bottom: 2%;
+    }
+    .flow-text4{
+        left: 62%;
+        bottom: 24%;
+    }
+    .flow-text5{
+        left: 79.7%;
+        bottom: -0%;
+    }
+    .section3{
+        background: #2B2B2B;
+        padding: 5% 0% 9% 3%;}
+}
+
+@media screen and  (max-width: 1630px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 20px;
+        font-weight: 600;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 11px;
+        width: 210px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 6.5%;
+        bottom: -6%;
+    }
+    .flow-text2{
+        left: 24.2%;
+        bottom: 33%;
+    }
+    .flow-text3{
+        left: 43%;
+        bottom: 2%;
+    }
+    .flow-text4{
+        left: 62%;
+        bottom: 24%;
+    }
+    .flow-text5{
+        left: 79.7%;
+        bottom: -0%;
+    }
+    .section3{
+        background: #2B2B2B;
+        padding: 5% 0% 9% 3%;}
+}
+
+@media screen and  (max-width: 1600px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 20px;
+        font-weight: 600;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 11px;
+        width: 210px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 6%;
+        bottom: -8%;
+    }
+    .flow-text2{
+        left: 23.8%;
+        bottom: 30%;
+    }
+    .flow-text3{
+        left: 42.8%;
+        bottom: 2%;
+    }
+    .flow-text4{
+        left: 61.3%;
+        bottom: 22%;
+    }
+    .flow-text5{
+        left: 79.4%;
+        bottom: -3%;
+    }
+    .section3{
+        background: #2B2B2B;
+        padding: 5% 0% 9% 3%;}
+}
+@media screen and  (max-width: 1480px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 20px;
+        font-weight: 600;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 11px;
+        width: 210px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 6%;
+        bottom: -8%;
+    }
+    .flow-text2{
+        left: 23.5%;
+        bottom: 30%;
+    }
+    .flow-text3{
+        left: 42.6%;
+        bottom: 2%;
+    }
+    .flow-text4{
+        left: 61.3%;
+        bottom: 22%;
+    }
+    .flow-text5{
+        left: 79.4%;
+        bottom: -3%;
+    }
+}
+@media screen and  (max-width: 1430px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 20px;
+        font-weight: 600;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 11px;
+        width: 210px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.6%;
+        bottom: -9%;
+    }
+    .flow-text2{
+        left: 23.3%;
+        bottom: 28.5%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: 0.8%;
+    }
+    .flow-text4{
+        left: 61%;
+        bottom: 19.4%;
+    }
+    .flow-text5{
+        left: 79%;
+        bottom: -3%;
+    }
+}
+@media screen and  (max-width: 1350px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 19px;
+        font-weight: 600;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 10.8px;
+        width: 200px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.6%;
+        bottom: -11%;
+    }
+    .flow-text2{
+        left: 23.2%;
+        bottom: 27.5%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -1%;
+    }
+    .flow-text4{
+        left: 60.8%;
+        bottom: 17.5%;
+    }
+    .flow-text5{
+        left: 79%;
+        bottom: -5%;
+    }
+}
+@media screen and  (max-width: 1260px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 19px;
+        font-weight: 600;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 10.8px;
+        width: 190px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.6%;
+        bottom: -19%;
+    }
+    .flow-text2{
+        left: 23.2%;
+        bottom: 25.5%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -3%;
+    }
+    .flow-text4{
+        left: 60.8%;
+        bottom: 14.5%;
+    }
+    .flow-text5{
+        left: 79%;
+        bottom: -12%;
+    }
+}
+@media screen and  (max-width: 1200px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 19px;
+        font-weight: 600;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 10.8px;
+        width: 180px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.6%;
+        bottom: -22%;
+    }
+    .flow-text2{
+        left: 23.2%;
+        bottom: 23%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -10.5%;
+    }
+    .flow-text4{
+        left: 60.8%;
+        bottom: 12%;
+    }
+    .flow-text5{
+        left: 79%;
+        bottom: -14%;
+    }
+}
+@media screen and  (max-width: 1150px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 19px;
+        font-weight: 600;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 10.8px;
+        width: 170px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.6%;
+        bottom: -23.8%;
+    }
+    .flow-text2{
+        left: 23.4%;
+        bottom: 22%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -12.8%;
+    }
+    .flow-text4{
+        left: 61%;
+        bottom: 10%;
+    }
+    .flow-text5{
+        left: 79%;
+        bottom: -21%;
+    }
+}
+@media screen and  (max-width: 1100px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 19px;
+        font-weight: 600;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 10.8px;
+        width: 158px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.8%;
+        bottom: -25.8%;
+    }
+    .flow-text2{
+        left: 23.4%;
+        bottom: 14%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -13.5%;
+    }
+    .flow-text4{
+        left: 61%;
+        bottom: 1%;
+    }
+    .flow-text5{
+        left: 79.4%;
+        bottom: -23%;
+    }
+}
+@media screen and  (max-width: 1024px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 17.8px;
+        font-weight: 600;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 10.2px;
+        width: 150px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.8%;
+        bottom: -25.8%;
+    }
+    .flow-text2{
+        left: 23.4%;
+        bottom: 14%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -13.5%;
+    }
+    .flow-text4{
+        left: 61%;
+        bottom: 1%;
+    }
+    .flow-text5{
+        left: 79.2%;
+        bottom: -23%;
+    }
+}
+@media screen and  (max-width: 980px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 17.5px;
+        font-weight: 600;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 9.5px;
+        width: 140px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.8%;
+        bottom: -25.8%;
+    }
+    .flow-text2{
+        left: 23.4%;
+        bottom: 14%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -13.5%;
+    }
+    .flow-text4{
+        left: 61%;
+        bottom: 1%;
+    }
+    .flow-text5{
+        left: 79.2%;
+        bottom: -23%;
+    }
+}
+@media screen and  (max-width: 950px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 17.5px;
+        font-weight: 600;
+        margin-bottom: 4px;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 9.5px;
+        width: 140px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.8%;
+        bottom: -25.8%;
+    }
+    .flow-text2{
+        left: 23.4%;
+        bottom: 14%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -13.5%;
+    }
+    .flow-text4{
+        left: 61%;
+        bottom: 1%;
+    }
+    .flow-text5{
+        left: 79.2%;
+        bottom: -23%;
+    }
+}
+@media screen and  (max-width: 900px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 16.8px;
+        font-weight: 600;
+        margin-bottom: 4px;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 9px;
+        width: 130px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.8%;
+        bottom: -25.8%;
+    }
+    .flow-text2{
+        left: 23.4%;
+        bottom: 14%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -13.5%;
+    }
+    .flow-text4{
+        left: 61%;
+        bottom: 1%;
+    }
+    .flow-text5{
+        left: 79.2%;
+        bottom: -23%;
+    }
+}
+@media screen and  (max-width: 850px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 4px;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 8.6px;
+        width: 125px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.8%;
+        bottom: -25.8%;
+    }
+    .flow-text2{
+        left: 23.4%;
+        bottom: 11%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -13.5%;
+    }
+    .flow-text4{
+        left: 61%;
+        bottom: 1%;
+    }
+    .flow-text5{
+        left: 79.2%;
+        bottom: -23%;
+    }
+}
+@media screen and  (max-width: 830px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 4px;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 8.6px;
+        width: 125px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.8%;
+        bottom: -26.8%;
+    }
+    .flow-text2{
+        left: 23.4%;
+        bottom: 10%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -16%;
+    }
+    .flow-text4{
+        left: 61%;
+        bottom: -2%;
+    }
+    .flow-text5{
+        left: 79.2%;
+        bottom: -25%;
+    }
+}
+@media screen and  (max-width: 800px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 4px;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 8.2px;
+        width: 122px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.8%;
+        bottom: -26.8%;
+    }
+    .flow-text2{
+        left: 23.4%;
+        bottom: 10%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -16%;
+    }
+    .flow-text4{
+        left: 61%;
+        bottom: -2%;
+    }
+    .flow-text5{
+        left: 79.2%;
+        bottom: -25%;
+    }
+}
+@media screen and  (max-width: 770px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 4px;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 8.2px;
+        width: 118px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.8%;
+        bottom: -28.8%;
+    }
+    .flow-text2{
+        left: 23.4%;
+        bottom: 8%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -18%;
+    }
+    .flow-text4{
+        left: 61%;
+        bottom: -4%;
+    }
+    .flow-text5{
+        left: 79.2%;
+        bottom: -27%;
+    }
+}
+@media screen and  (max-width: 750px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 15.5px;
+        font-weight: 600;
+        margin-bottom: 4px;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 8px;
+        width: 114px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.8%;
+        bottom: -28.8%;
+    }
+    .flow-text2{
+        left: 23.4%;
+        bottom: 8%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -18%;
+    }
+    .flow-text4{
+        left: 61%;
+        bottom: -4%;
+    }
+    .flow-text5{
+        left: 79.2%;
+        bottom: -27%;
+    }
+}
+@media screen and  (max-width: 730px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 14.5px;
+        font-weight: 600;
+        margin-bottom: 4px;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 7.7px;
+        width: 110px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.8%;
+        bottom: -28.8%;
+    }
+    .flow-text2{
+        left: 23.4%;
+        bottom: 8%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -18%;
+    }
+    .flow-text4{
+        left: 61%;
+        bottom: -4%;
+    }
+    .flow-text5{
+        left: 79.2%;
+        bottom: -27%;
+    }
+}
+@media screen and  (max-width: 700px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 13.5px;
+        font-weight: 600;
+        margin-bottom: 4px;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 7px;
+        width: 100px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.8%;
+        bottom: -28.8%;
+    }
+    .flow-text2{
+        left: 23.4%;
+        bottom: 8%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -18%;
+    }
+    .flow-text4{
+        left: 61%;
+        bottom: -4%;
+    }
+    .flow-text5{
+        left: 79.2%;
+        bottom: -27%;
+    }
+}
+@media screen and  (max-width: 630px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 13px;
+        font-weight: 600;
+        margin-bottom: 4px;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 6.5px;
+        width: 95px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.8%;
+        bottom: -28.8%;
+    }
+    .flow-text2{
+        left: 23.4%;
+        bottom: 8%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -18%;
+    }
+    .flow-text4{
+        left: 61%;
+        bottom: -4%;
+    }
+    .flow-text5{
+        left: 79.2%;
+        bottom: -27%;
+    }
+}
+@media screen and  (max-width: 600px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 4px;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 6.5px;
+        width: 89px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.8%;
+        bottom: -37.8%;
+    }
+    .flow-text2{
+        left: 23.4%;
+        bottom: 4%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -26%;
+    }
+    .flow-text4{
+        left: 61%;
+        bottom: -8%;
+    }
+    .flow-text5{
+        left: 79.2%;
+        bottom: -30%;
+    }
+}
+@media screen and  (max-width: 550px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 4px;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 6px;
+        width: 85px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.8%;
+        bottom: -37.8%;
+    }
+    .flow-text2{
+        left: 23.4%;
+        bottom: 4%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -26%;
+    }
+    .flow-text4{
+        left: 61%;
+        bottom: -8%;
+    }
+    .flow-text5{
+        left: 79.2%;
+        bottom: -30%;
+    }
+}
+@media screen and  (max-width: 500px){
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 11px;
+        font-weight: 600;
+        margin-bottom: 3px;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 6px;
+        width: 79px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.8%;
+        bottom: -44.8%;
+    }
+    .flow-text2{
+        left: 23.4%;
+        bottom: -1.5%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -31%;
+    }
+    .flow-text4{
+        left: 61%;
+        bottom: -12%;
+    }
+    .flow-text5{
+        left: 79.2%;
+        bottom: -33%;
+    }
+}
+@media screen and  (max-width: 450px){
+    .flow-desk{
+        display: none;
+    }
+    .flow-mob{
+        display: block;
+    }
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 10px;
+        font-weight: 600;
+        margin-bottom: 3px;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 5.5px;
+        width: 73px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.8%;
+        bottom: -82.8%;
+    }
+    .flow-text2{
+        left: 23.4%;
+        bottom: -12.5%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -64%;
+    }
+    .flow-text4{
+        left: 61.5%;
+        bottom: -31%;
+    }
+    .flow-text5{
+        left: 80%;
+        bottom: -68%;
+    }
+    .creative-head p{
+        font-size: 12px;
+    }
+}
+@media screen and  (max-width: 430px){
+    .flow-desk{
+        display: none;
+    }
+    .flow-mob{
+        display: block;
+    }
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 9px;
+        font-weight: 600;
+        margin-bottom: 3px;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 5.2px;
+        width: 69px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.8%;
+        bottom: -82.8%;
+    }
+    .flow-text2{
+        left: 23.4%;
+        bottom: -12.5%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -64%;
+    }
+    .flow-text4{
+        left: 61.5%;
+        bottom: -31%;
+    }
+    .flow-text5{
+        left: 80%;
+        bottom: -68%;
+    }
+    .creative-p{
+        font-size: 10px;
+    }
+}
+@media screen and  (max-width: 400px){
+    .flow-desk{
+        display: none;
+    }
+    .flow-mob{
+        display: block;
+    }
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 9px;
+        font-weight: 600;
+        margin-bottom: 3px;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 4.5px;
+        width: 65px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.5%;
+        bottom: -72.8%;
+    }
+    .flow-text2{
+        left: 23.4%;
+        bottom: -12.5%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -51%;
+    }
+    .flow-text4{
+        left: 61.5%;
+        bottom: -31%;
+    }
+    .flow-text5{
+        left: 80%;
+        bottom: -68%;
+    }
+}
+@media screen and  (max-width: 390px){
+    .flow-desk{
+        display: none;
+    }
+    .flow-mob{
+        display: block;
+    }
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 9px;
+        font-weight: 600;
+        margin-bottom: 3px;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 4.5px;
+        width: 63px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.5%;
+        bottom: -82.8%;
+    }
+    .flow-text2{
+        left: 23.4%;
+        bottom: -12.5%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -53%;
+    }
+    .flow-text4{
+        left: 61.5%;
+        bottom: -34%;
+    }
+    .flow-text5{
+        left: 80%;
+        bottom: -68%;
+    }
+}
+@media screen and  (max-width: 375px){
+    .flow-desk{
+        display: none;
+    }
+    .flow-mob{
+        display: block;
+    }
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 8px;
+        font-weight: 600;
+        margin-bottom: 3px;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 4.3px;
+        width: 63px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.5%;
+        bottom: -72.8%;
+    }
+    .flow-text2{
+        left: 23.4%;
+        bottom: -12.5%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -53%;
+    }
+    .flow-text4{
+        left: 61.5%;
+        bottom: -34%;
+    }
+    .flow-text5{
+        left: 80%;
+        bottom: -68%;
+    }
+}
+@media screen and  (max-width: 365px){
+    .flow-desk{
+        display: none;
+    }
+    .flow-mob{
+        display: block;
+    }
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 8px;
+        font-weight: 600;
+        margin-bottom: 3px;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 4.3px;
+        width: 63px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5.2%;
+        bottom: -72.8%;
+    }
+    .flow-text2{
+        left: 23.2%;
+        bottom: -12.5%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -53%;
+    }
+    .flow-text4{
+        left: 61.5%;
+        bottom: -34%;
+    }
+    .flow-text5{
+        left: 80%;
+        bottom: -68%;
+    }
+}
+@media screen and  (max-width: 360px){
+    .flow-desk{
+        display: none;
+    }
+    .flow-mob{
+        display: block;
+    }
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 7.5px;
+        font-weight: 600;
+        margin-bottom: 3px;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 4.3px;
+        width: 62px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5%;
+        bottom: -72.8%;
+    }
+    .flow-text2{
+        left: 23.2%;
+        bottom: -12.5%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -53%;
+    }
+    .flow-text4{
+        left: 61.5%;
+        bottom: -34%;
+    }
+    .flow-text5{
+        left: 80%;
+        bottom: -68%;
+    }
+}
+@media screen and  (max-width: 353px){
+    .flow-desk{
+        display: none;
+    }
+    .flow-mob{
+        display: block;
+    }
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 7.5px;
+        font-weight: 600;
+        margin-bottom: 3px;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 4.3px;
+        width: 61px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5%;
+        bottom: -76.8%;
+    }
+    .flow-text2{
+        left: 23.2%;
+        bottom: -16%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -55%;
+    }
+    .flow-text4{
+        left: 61.5%;
+        bottom: -39%;
+    }
+    .flow-text5{
+        left: 80%;
+        bottom: -72%;
+    }
+}
+@media screen and  (max-width: 343px){
+    .flow-desk{
+        display: none;
+    }
+    .flow-mob{
+        display: block;
+    }
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 7.5px;
+        font-weight: 600;
+        margin-bottom: 3px;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 4.3px;
+        width: 59px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5%;
+        bottom: -88.8%;
+    }
+    .flow-text2{
+        left: 23.2%;
+        bottom: -16%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -68%;
+    }
+    .flow-text4{
+        left: 61.5%;
+        bottom: -39%;
+    }
+    .flow-text5{
+        left: 80%;
+        bottom: -72%;
+    }
+}
+@media screen and  (max-width: 333px){
+    .flow-desk{
+        display: none;
+    }
+    .flow-mob{
+        display: block;
+    }
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 7.5px;
+        font-weight: 600;
+        margin-bottom: 3px;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 4.1px;
+        width: 58px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5%;
+        bottom: -88.8%;
+    }
+    .flow-text2{
+        left: 23.2%;
+        bottom: -16%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -58%;
+    }
+    .flow-text4{
+        left: 61.5%;
+        bottom: -39%;
+    }
+    .flow-text5{
+        left: 80%;
+        bottom: -72%;
+    }
+}
+@media screen and  (max-width: 323px){
+    .flow-desk{
+        display: none;
+    }
+    .flow-mob{
+        display: block;
+    }
+    .flow-text1 h4,.flow-text2 h4,.flow-text3 h4,.flow-text4 h4,.flow-text5 h4{
+        font-size: 7.5px;
+        font-weight: 600;
+        margin-bottom: 3px;
+        
+    }
+    .flow-text1 p,.flow-text2 p,.flow-text3 p,.flow-text4 p,.flow-text5 p{
+        font-size: 4.1px;
+        width: 55px;
+       
+        
+    }
+    .flow-text1, .flow-text2, .flow-text3, .flow-text4, .flow-text5{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .flow-text1{
+        left: 5%;
+        bottom: -90.8%;
+    }
+    .flow-text2{
+        left: 23.2%;
+        bottom: -16%;
+    }
+    .flow-text3{
+        left: 42.4%;
+        bottom: -68%;
+    }
+    .flow-text4{
+        left: 61.5%;
+        bottom: -39%;
+    }
+    .flow-text5{
+        left: 80%;
+        bottom: -72%;
+    }
+}
+/* media query */
+@media screen and (min-width: 1024px) and (max-width: 1306px){
+    .less-w{
+        font-weight: 300;
+        font-size: 31px;
+    }
+    .ab-head{
+        position: relative;
+    }
+    .less-tp{
+        position: absolute;
+        font-weight: 300;
+        bottom: 64%;
+        font-size: 31px;
+    
+    }
+    .section3{
+        background: #2B2B2B;
+        padding: 9% 0% 9% 3%;}
+
+    .abm-text{
+        font-size: 54px;
+        font-weight: 600;
+    }
+    .graph {
+        height: 370px;
+    }
+    
+}
+@media screen and (min-width: 850px) and (max-width: 1024px){
+    .section2{
+        padding: 0 3%;
+    }
+    .section1{
+        margin-top:40px ;
+    }
+    .bg-half{
+        position: absolute;
+        background: #2B2B2B;
+        width: 100%;
+        height: 380px;
+        bottom: 0;
+        z-index: -1;
+    }
+    .graph {
+        height: 300px;
+    }
+    .abm-text{
+        font-size: 46px;
+        font-weight: 600;
+    }
+    .section3 p{
+        font-weight: 200;
+        width: 420px;
+    }
+    .less-tp{
+        position: absolute;
+        font-weight: 300;
+        bottom: 64%;
+        font-size: 27px;
+    
+    }
+    .less-w{
+        font-weight: 300;
+        font-size: 27px;
+    }
+
+    /* section4 */
+
+    .hd1-one{
+        font-size: 27px;
+        font-weight: 300;
+        font-weight: 400;
+       }
+       .hd1-two{
+           font-size: 46px;
+           font-weight: 600;
+       }
+       .bg-txt2{
+    
+        height: 170px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .bg-txt11{
+    
+        height: 170px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 850px){
+    .graph {
+        height: 290px;
+    }
+    .brand-sec{
+        margin:3.5% 0 0 2%;
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+        
+    }
+    .brand-sec {
+        text-align: center;
+    }
+    .abm-text{
+        font-size: 46px;
+        font-weight: 600;
+    }
+    .less-tp{
+        position: absolute;
+        font-weight: 300;
+        bottom: 64%;
+        font-size: 27px;
+        left: 38%;
+    
+    }
+    .less-w{
+        font-weight: 300;
+        font-size: 27px;
+    }
+    .creative-hd1{
+        display: flex;
+        justify-content: center;
+    }
+    .hd1-one{
+     font-size: 27px;
+     font-weight: 300;
+     font-weight: 400;
+    }
+    .hd1-two{
+        font-size: 46px;
+        font-weight: 600;
+    }
+    .creative-head p{
+        font-size: 13px;
+        
+    }
+    .flow-chart{
+        margin-top: 0px;
+    }
+    .community-head p{
+        font-size: 13px;
+    }
+    .bg-txt2{
+    
+        height: 140px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .bg-txt11{
+        height: 140px;
+    }
+    .head-img {
+        width: 61%;
+    }
+    .bg-half{
+        position: absolute;
+        background: #2B2B2B;
+        width: 100%;
+        height:355px;
+        bottom: 0;
+        z-index: -1;
+    }
+    .section1{
+        margin-top: 48px;
+    }
+    .section3{
+        padding: 9% 5%;
+    }
+    .graph-head{
+        justify-content: center;
+    }
+    .section4{
+        margin-top: 4%;
+    }
+    .but-home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section5{
+        padding: 8% 0 20% 0;
+    }
+    .flow-chart{
+        margin-top: 7%;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 450px){
+    .bg-half{
+        position: absolute;
+        background: #2B2B2B;
+        width: 100%;
+        height:165px;
+        bottom: 0;
+        z-index: -1;
+    }
+    .section1 {
+        text-align: center;
+        margin-top: 0px;
+    }
+    .ab-head{
+        position: relative;
+    }
+    .play-button {
+        position: absolute;
+        width: 50px;
+        height: 50px;}
+    .play-button::before {
+        content: '';
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 25px solid white;
+        border-top: 13px solid transparent;
+        border-bottom: 13px solid transparent;
+        margin-left: 12%;
+    }
+    .graph {
+        height: 210px;
+        margin-top: 10%;
+        
+    }
+    .abm-text{
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .less-tp{
+        position: absolute;
+        font-weight: 300;
+        bottom: 64%;
+        left: 38%;
+        font-size: 22px;
+    
+    }
+    .but-home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .less-w{
+        font-weight: 300;
+        font-size: 22px;
+    }
+    .brand-sec p{
+        font-size: 12px;
+        width: 350px;
+        text-align: center;
+    }
+    .brand-sec {
+        margin-top: 7%;
+        padding: 0 4.5%;
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+    }
+    .abt-but{
+        background: #ffffff;
+        display: flex;
+        justify-content: center;
+        width: 87px;
+        color: black;
+        padding: 6.8px 0;
+        font-size: 11px;
+        font-weight: 600;
+        border-radius: 8px;
+        border: solid black 1.2px;
+        cursor: pointer;
+        transform: scale(1);
+        transition: transform 0.6s ease;
+        margin-top: 4%;
+        
+    }
+    .hd1-one{
+        font-size: 22px;
+        font-weight: 300;
+        font-weight: 400;
+       }
+       .hd1-two{
+           font-size: 35px;
+           font-weight: 600;
+       }
+       .creative-head p{
+        font-size:10px ;
+       }
+       .flow-chart {
+        width: 100%;
+       
+        margin-top: 55px;
+        object-fit: fill;
+        transform: scale(1.18);
+    }
+    .community-head p {
+        font-size: 10px;
+        
+    }
+    .com-but{
+        background: #ffffff;
+        display: flex;
+        justify-content: center;
+        width: 80px;
+        color: black;
+        padding: 5px 0;
+        font-size: 11px;
+        font-weight: 600;
+        border-radius: 8px;
+        border: solid black 1.2px;
+        cursor: pointer;
+        transform: scale(1);
+        transition: transform 0.6s ease;
+        margin-top: 9.5%;
+        
+    }
+    .lcom-but{
+        background:#2B2B2B;
+        display: flex;
+        justify-content: center;
+        width: 80px;
+        color: rgb(255, 255, 255);
+        padding: 5px 0;
+        font-size: 11px;
+        font-weight: 600;
+        border-radius: 8px;
+        border: solid black 1.2px;
+        cursor: pointer;
+        transform: scale(1);
+        transition: transform 0.6s ease;
+        margin-top: 9.5%;
+        
+    }
+    .bg-txt2{
+    
+        height: 110px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .bg-txt11{
+        height: 110px;
+    }
+    .section1 {
+        text-align: center;
+        margin-top: 12px;
+    }
+    .head-img {
+        width: 69%;
+        margin-bottom: 1.3%;
+        margin-top: 10%;
+    }
+    .section6{
+        background: #2B2B2B;
+        color: white;
+        position: relative;
+        padding: 12% 8%;
+    }
+    .ipad-cont {
+        position: relative;
+        width: 92%;
+        max-width: 1000px;
+        /* Adjust as necessary */
+       
+    }
+    .section3{
+        padding: 9% 5%;
+    }
+    .graph-head{
+        justify-content: center;
+    }
+    .section4{
+        margin-top: 1%;
+    }
+    .section5{
+        position: relative;
+        padding: 8% 0 25% 0;
+    }
+    
+}
+@media screen and (max-width: 375px){
+    .bg-half{
+        position: absolute;
+        background: #2B2B2B;
+        width: 100%;
+        height:125px;
+        bottom: 0;
+        z-index: -1;
+    }
+
+    .head-img{
+        width: 77%;
+    }
+    .but-home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .play-button {
+        position: absolute;
+        width: 50px;
+        height: 50px;}
+        .play-button::before {
+            content: '';
+            display: block;
+            width: 0;
+            height: 0;
+            border-left: 25px solid white;
+            border-top: 13px solid transparent;
+            border-bottom: 13px solid transparent;
+            margin-left: 12%;
+        }
+    .section1 {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .graph {
+        height: 200px;
+    }
+    .abm-text{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .less-tp{
+        position: absolute;
+        font-weight: 300;
+        bottom: 64%;
+        font-size: 19px;
+        left: 40%;
+    
+    }
+    .less-w{
+        font-weight: 300;
+        font-size: 19px;
+    }
+    .brand-sec{
+        margin-top: 4%;
+        text-align: center;
+    }
+    .brand-sec p{
+        font-size: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .abt-but{
+        background: #ffffff;
+        display: flex;
+        justify-content: center;
+        width: 70px;
+        color: black;
+        padding: 4px 0;
+        font-size: 8.5px;
+        font-weight: 600;
+        border-radius: 8px;
+        border: solid black 1.2px;
+        cursor: pointer;
+        transform: scale(1);
+        transition: transform 0.6s ease;
+        margin-top: 6%;
+        left: 40%;
+        
+    }
+    .flow-chart {
+        width: 100%;
+
+        margin-top: 4%;
+        object-fit: fill;
+        transform: scale(1.18);
+    }
+    .hd1-one{
+        font-size: 22px;
+        font-weight: 300;
+        font-weight: 400;
+       }
+       .hd1-two{
+           font-size: 30px;
+           font-weight: 600;
+       }
+       .creative-head p{
+        font-size:10px ;
+       }
+       .community-head p{
+        font-size: 10px;
+       }
+       .com-but{
+        background: #ffffff;
+        display: flex;
+        justify-content: center;
+        width: 70px;
+        color: black;
+        padding: 4px 0;
+        font-size: 9px;
+        font-weight: 600;
+        border-radius: 8px;
+        border: solid black 1.2px;
+        cursor: pointer;
+        transform: scale(1);
+        transition: transform 0.6s ease;
+        margin-top: 9%;
+        
+    }
+    .lcom-but{
+        background: #2B2B2B;
+        display: flex;
+        justify-content: center;
+        width: 70px;
+        color: rgb(255, 255, 255);
+        padding: 4px 0;
+        font-size: 9px;
+        font-weight: 600;
+        border-radius: 8px;
+        border: solid black 1.2px;
+        cursor: pointer;
+        transform: scale(1);
+        transition: transform 0.6s ease;
+        margin-top: 9%;
+        
+    }
+    .section3{
+        padding: 9% 5%;
+    }
+    .graph-head{
+        justify-content: center;
+    }
+    .section4{
+        margin-top: 0;
+    }
+    .section5{
+        position: relative;
+        padding: 8% 0 25% 0;
+    }
+    .flow-chart{
+        margin-top: 12%;
+    }
+    
+    
+}
+@media screen and (max-width: 320px){
+    .bg-half{
+        position: absolute;
+        background: #2B2B2B;
+        width: 100%;
+        height:125px;
+        bottom: 0;
+        z-index: -1;
+    }
+    .play-button {
+        position: absolute;
+        width: 50px;
+        height: 50px;}
+        .play-button::before {
+            content: '';
+            display: block;
+            width: 0;
+            height: 0;
+            border-left: 25px solid white;
+            border-top: 13px solid transparent;
+            border-bottom: 13px solid transparent;
+            margin-left: 12%;
+        }
+    .section1 {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .graph {
+        height: 180px;
+    }
+    .abm-text{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .less-tp{
+        position: absolute;
+        font-weight: 300;
+        bottom: 64%;
+        font-size: 19px;
+    
+    }
+    .less-w{
+        font-weight: 300;
+        font-size: 19px;
+    }
+    .brand-sec p{
+        font-size: 10px;
+        width: 100%;
+    }
+    .abt-but{
+        background: #ffffff;
+        display: flex;
+        justify-content: center;
+        width: 70px;
+        color: black;
+        padding: 4px 0;
+        font-size: 8.5px;
+        font-weight: 600;
+        border-radius: 8px;
+        border: solid black 1.2px;
+        cursor: pointer;
+        transform: scale(1);
+        transition: transform 0.6s ease;
+        margin-top: 6%;
+        
+    }
+    .flow-chart {
+        width: 100%;
+        height: 180px;
+        margin-top: 4%;
+        object-fit: fill;
+        transform: scale(1.15);
+    }
+    .hd1-one{
+        font-size: 18px;
+        font-weight: 300;
+        font-weight: 400;
+       }
+       .hd1-two{
+           font-size: 27px;
+           font-weight: 600;
+       }
+       .creative-head p{
+        font-size:8px ;
+       }
+       .community-head p{
+        font-size: 9px;
+       }
+       .com-but{
+        background: #ffffff;
+        display: flex;
+        justify-content: center;
+        width: 70px;
+        color: black;
+        padding: 4px 0;
+        font-size: 9px;
+        font-weight: 600;
+        border-radius: 8px;
+        border: solid black 1.2px;
+        cursor: pointer;
+        transform: scale(1);
+        transition: transform 0.6s ease;
+        margin-top: 9%;
+        
+    }
+    .com-but{
+        background: #2B2B2B;
+        display: flex;
+        justify-content: center;
+        width: 70px;
+        color: rgb(255, 255, 255);
+        padding: 4px 0;
+        font-size: 9px;
+        font-weight: 600;
+        border-radius: 8px;
+        border: solid black 1.2px;
+        cursor: pointer;
+        transform: scale(1);
+        transition: transform 0.6s ease;
+        margin-top: 9%;
+        
+    }
+    .flow-chart {
+        width: 100%;
+
+        margin-top: 0px;
+        object-fit: fill;
+        transform: scale(1.18);
+    }
+    
+    
+}
+

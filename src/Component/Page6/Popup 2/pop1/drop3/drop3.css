@@ -1,0 +1,103 @@
+
+.select-container {
+    position: relative;
+    margin: 0 auto;
+    width: 250px;
+
+  }
+  
+  .select-container .select {
+    position: relative;
+    background: #00000000;
+    height: 60px;
+    border: white 1px solid;
+    border-radius: 10px;
+  }
+  
+  .select-container .select::after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%) rotate(45deg);
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    cursor: pointer;
+    transition: border-color 0.4s;
+  }
+  
+  .select-container.active .select::after {
+    border: none;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+  }
+  
+  .select-container .select input {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 0.9rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .select-container .option-container {
+    position: relative;
+    background: #6e647700;
+    height: 0;
+    overflow-y: scroll;
+    transition: 0.4s;
+    border-left: white solid 1px;
+    
+    border-right:white solid 1px ;
+  }
+
+  
+  .select-container.active .option-container {
+    height: 120px;
+    border-bottom: white solid 1px;
+  }
+  
+  .select-container .option-container::-webkit-scrollbar {
+    border-left: 1px solid rgba(0, 0, 0, 0);
+    width: 10px;
+  }
+  
+  .select-container .option-container::-webkit-scrollbar-thumb {
+    background: #00000000;
+  }
+  
+  .select-container .option-container .option {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 60px;
+    border-top: 1px solid rgba(248, 248, 248, 0.534);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+  }
+  
+  .select-container .option-container .option.selected {
+    background: rgba(0, 0, 0, 0);
+    pointer-events: none;
+  }
+  
+  .select-container .option-container .option:hover {
+    background: rgba(0, 0, 0, 0.2);
+    padding-left: 20px;
+  }
+  
+  .select-container .option-container .option label {
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+  }
+  

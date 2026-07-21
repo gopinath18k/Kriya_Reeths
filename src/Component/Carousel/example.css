@@ -1,0 +1,701 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap');
+
+/* Main-container */
+.main-container {
+    position: relative;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        margin: 0 auto;
+        background: #FFFFFF;
+        padding: 0% 0;
+}
+
+.chiang-kuang {
+    width: 100%;
+
+}
+
+.stick-scroll {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22%;
+    position: absolute;
+    z-index: 200;
+    left: 90%;
+}
+.home-service-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.our-service-conatiner {
+    position: absolute;
+    top: 5%;
+    left: 36%;
+    padding: 0;
+    margin: 0;
+}
+
+.our-head {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    margin-left: 15.5%;
+}
+
+.service-heade {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    margin-top: -30px;
+
+
+}
+
+/* All Services Heading*/
+
+.home-service-container {
+    text-align: center;
+}
+
+.service-heading {
+    font-size: 100px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: -2px;
+
+}
+
+.service-heading-2 {
+    font-size: 100px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: -2px;
+}
+
+.service-number {
+    color: #727272;
+    margin-right: 5px;
+}
+
+.service-para {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 200px;
+    margin-top: -20px;
+    width: 1100px;
+}
+@media screen and (min-width:1600px) and  (max-width: 2000px){
+    .stick-scroll {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 17%;
+        position: absolute;
+        z-index: 200;
+        left: 90%;
+    }
+}
+@media screen and (min-width:2000px) and  (max-width: 2240px){
+    .stick-scroll {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 19%;
+        position: absolute;
+        z-index: 200;
+        left: 90%;
+    }
+    .service-heading {
+        font-size: 120px;
+        font-weight: 700;
+        font-family: "Montserrat", sans-serif;
+        letter-spacing: -2px;
+    }
+    .our-head {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 38px;
+        margin-left: 15.5%;
+    }
+    
+    .service-heade {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 74px;
+        margin-top: -30px;
+    
+    
+    }
+    
+   
+}
+
+/* Media Query*/
+
+/* @media (min-width: 2201px) {
+    .main-container {
+        padding-top: 0px;
+        height: 70vh;
+    }
+
+    .service-heading {
+        font-size: 150px;
+    }
+
+    .service-heading-2 {
+        font-size: 140px;
+    }
+
+    .service-para {
+        font-size: 16px;
+        padding: 0px ;
+        margin-top: -30px;
+    }
+
+}
+
+@media (min-width: 2200px) and (max-width: 2300px) {
+    .service-heading {
+        font-size: 150px;
+    }
+
+    .service-heading-2 {
+        font-size: 140px;
+    }
+
+    .service-para {
+        font-size: 16px;
+        padding: 0px 200px ;
+        margin-top: -30px;
+    }
+}
+
+@media (min-width: 2100px) and (max-width: 2199px) {
+    .service-heading {
+        font-size: 150px;
+    }
+
+    .service-heading-2 {
+        font-size: 140px;
+    }
+
+    .service-para {
+        font-size: 16px;
+        padding: 0px 130px;
+        margin-top: -30px;
+    }
+}
+
+@media (min-width: 2000px) and (max-width: 2099px) {
+    .service-heading {
+        font-size: 150px;
+    }
+
+    .service-heading-2 {
+        font-size: 140px;
+    }
+
+    .service-para {
+        font-size: 16px;
+        padding: 0px 200px;
+        margin-top: -30px;
+    }
+}
+
+@media (min-width: 1900px) and (max-width: 1999px) {
+    .service-heading {
+        font-size: 150px;
+    }
+
+    .service-heading-2 {
+        font-size: 140px;
+    }
+
+    .service-para {
+        font-size: 16px;
+        padding: 0px 205px;
+        margin-top: -30px;
+    }
+}
+
+@media (min-width: 1800px) and (max-width: 1899px) {
+    .service-heading {
+        font-size: 150px;
+    }
+
+    .service-heading-2 {
+        font-size: 140px;
+    }
+
+    .service-para {
+        font-size: 16px;
+        padding: 0px 220px;
+        margin-top: -30px;
+    }
+} */
+
+/* @media (min-width: 1700px) and (max-width: 1799px) {
+    .service-heading {
+        font-size: 150px;
+    }
+
+    .service-heading-2 {
+        font-size: 140px;
+    }
+
+    .service-para {
+        font-size: 16px;
+        padding: 0px 250px;
+        margin-top: -30px;
+    }
+} */
+
+@media (min-width: 1500px) {
+    .our-service-conatiner {
+        position: absolute;
+        top: 5%;
+        left: 40%;
+        padding: 0;
+        margin: 0;
+    }
+}
+@media (min-width: 1499px) and (max-width: 1500px) {
+    .service-heading {
+        font-size: 120px;
+    }
+    .main-conatiner{
+        padding: 10% 0 0 0 ;
+    }
+
+    .service-heading-2 {
+        font-size: 90px;
+    }
+
+    .service-para {
+        font-size: 16px;
+        padding: 0px 250px;
+        margin-top: -10px;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1499px) {
+    .service-heading {
+        font-size: 90px;
+    }
+
+    .service-heading-2 {
+        font-size: 90px;
+    }
+
+    .service-para {
+        font-size: 16px;
+        padding: 0px 220px;
+        margin-top: -20px;
+    }
+    .main-container{
+        padding-bottom: 0;
+    }
+    .stick-scroll{
+        margin-top: 10%;
+    }
+}
+
+@media (min-width: 1350px) and (max-width: 1399px) {
+    .service-heading {
+        font-size: 90px;
+    }
+
+    .service-heading-2 {
+        font-size: 95px;
+    }
+
+    .service-para {
+        font-size: 16px;
+        padding: 0px 200px;
+        margin-top: -10px;
+    }
+    .stick-scroll {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 14%;
+        position: absolute;
+        z-index: 200;
+        left: 90%;
+    }
+}
+
+@media (min-width: 1250px) and (max-width: 1349px) {
+    .service-heading {
+        font-size: 89px;
+    }
+
+    .service-heading-2 {
+        font-size: 92px;
+    }
+
+    .service-para {
+        font-size: 16px;
+        padding: 0px 250px;
+        margin-top: -10px;
+    }
+}
+
+@media (min-width: 1150px) and (max-width: 1249px) {
+    .service-heading {
+        font-size: 89px;
+    }
+
+    .service-heading-2 {
+        font-size: 92px;
+    }
+
+    .service-para {
+        font-size: 16px;
+        padding: 0px 200px;
+        margin-top: -10px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1149px) {
+    .service-heading {
+        font-size:70px;
+    }
+
+    .service-heading-2 {
+        font-size: 68px;
+    }
+
+    .service-para {
+        font-size: 16px;
+        padding: 0px 200px;
+        margin-top: -10px;
+    }
+}
+
+@media (min-width: 840px) and (max-width: 1024px) {
+    .service-heading {
+        font-size: 60px;
+    }
+
+    .service-heading-2 {
+        font-size: 65px;
+    }
+
+    .service-para {
+        font-size: 15px;
+        
+        margin-top: -15px;
+    }
+
+    .Slide-main-conatiner {
+        display: none;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 840px) {
+    .main-container {
+        padding-top: 0px;
+        height: 75vh;
+    }
+
+    .our-service-conatiner {
+        position: absolute;
+        top: 5%;
+    }
+
+    .our-head {
+        font-size: 30px;
+        margin-left: 12%;
+    }
+    .our-service-conatiner{
+      margin-left: 3%; 
+    }
+    .service-heade {
+        font-size: 42px;
+        margin-top: -20px;
+        
+
+    }
+
+    .service-heading {
+        font-size: 70px;
+    }
+
+    .service-heading-2 {
+        font-size: 55px;
+    }
+
+    .service-para {
+        font-size: 12px;
+        
+        margin-top: -15px;
+        width: 900px;
+    }
+
+    .main-conatiner {
+        display: none;
+    }
+
+    .chiang-kuang {
+        width: 100%;
+    }
+
+    .stick-scroll {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35%;
+        position: absolute;
+        z-index: 200;
+        left: 90%;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 650px) {
+    .main-container {
+        padding-top: 0px;
+        height: 70vh;
+    }
+
+    .our-service-conatiner {
+        position: absolute;
+        top: 7%;
+    }
+
+    .our-head {
+        font-size: 23px;
+        margin-left: 15px;
+    }
+
+    .service-heade {
+        font-size: 38px;
+        margin-top: -20px;
+
+    }
+
+    .service-heading {
+        font-size: 65px;
+    }
+
+    .service-heading-2 {
+        font-size: 52px;
+    }
+
+    .service-para {
+        font-size: 14px;
+        padding: 0px 10px;
+        margin-top: -15px;
+    }
+
+    .main-conatiner {
+        display: none;
+    }
+
+    .chiang-kuang {
+        width: 100%;
+    }
+
+    .stick-scroll {
+        width: 0%;
+        display: none;
+    }
+}
+
+@media (min-width: 440px) and (max-width: 499px) {
+    .main-container {
+        padding-top: 0px;
+        height: 70vh;
+        
+    }
+
+    .our-service-conatiner {
+        position: absolute;
+        top: 7%;
+        margin-left: -2%;
+        
+    }
+
+    .our-head {
+        font-size: 22px;
+        margin-left: 15px;
+    }
+
+    .service-heade {
+        font-size: 35px;
+        margin-top: -20px;
+
+    }
+
+    .service-heading {
+        font-size: 30px;
+        letter-spacing: -2px;
+    }
+
+    .service-heading-2 {
+        font-size: 30px;
+        letter-spacing: -2px;
+    }
+
+    .service-para {
+        font-size: 10px;
+       
+        margin-top: -10px;
+        width: 700px;
+    }
+
+    .main-conatiner {
+        display: none;
+    }
+
+    .chiang-kuang {
+        width: 100%;
+    }
+
+    
+}
+
+@media (min-width: 375px) and (max-width: 440px) {
+    .main-container {
+        padding-top: 0px;
+        height: 52vh;
+       
+        
+        
+    }
+
+    .our-service-conatiner {
+        position: absolute;
+        top: 7%;
+        margin-left: -4%;
+        
+    }
+
+    .our-head {
+        font-size: 22px;
+        margin-left: 15px;
+    }
+
+    .service-heade {
+        font-size: 35px;
+        margin-top: -20px;
+
+    }
+
+    .service-heading {
+        font-size: 32px;
+        letter-spacing: -2px;
+    }
+
+    .service-heading-2 {
+        font-size: 30px;
+        letter-spacing: -2px;
+    }
+
+    .service-para {
+        font-size: 9px;
+        
+        margin-top: -10px;
+
+        width: 700px;
+       
+    }
+    
+
+    .main-conatiner {
+        display: none;
+    }
+
+    .chiang-kuang {
+        width: 100%;
+        margin-left: -2%;
+        margin-bottom: 5px;
+    }
+
+    .stick-scroll {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35%;
+        position: absolute;
+        z-index: 200;
+        left: 89%;
+    }
+    .our-services{
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .main-container {
+       
+        height: 50vh;
+    }
+
+    .our-service-conatiner {
+        position: absolute;
+        top: 7%;
+        margin-left: -6.5%;
+        
+    }
+
+    .our-head {
+        font-size: 22px;
+        margin-left: 15px;
+    }
+
+    .service-heade {
+        font-size: 35px;
+        margin-top: -20px;
+
+    }
+
+    .service-heading {
+        font-size: 28px;
+        letter-spacing: -2px;
+    }
+
+    .service-heading-2 {
+        font-size: 27px;
+        letter-spacing: -2px;
+    }
+
+    .service-para {
+        font-size: 9px;
+
+        margin-top: -10px;
+        width: 650px;
+    }
+
+    .main-conatiner {
+        display: none;
+    }
+
+    .chiang-kuang {
+        width: 100%;
+    }
+
+    .stick-scroll {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25%;
+        position: absolute;
+        z-index: 200;
+        left: 90%;
+    }
+}

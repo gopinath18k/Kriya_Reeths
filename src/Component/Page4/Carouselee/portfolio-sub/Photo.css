@@ -1,0 +1,400 @@
+.key-5{
+    position: absolute; /* Ensures the container is the context for absolutely positioned elements */
+    z-index: 1; /* Lower than menu */
+    inset: 0;
+    margin-top: 5%;
+}
+.pv-vedio-container{
+    display: flex;
+    background: #2b2b2b;
+    padding: 20px 110px 50px 110px ;
+    position: relative;
+    gap: 2%;
+    flex-wrap: wrap;
+
+}
+.play-buttone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  .pv-video {
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  .vedio-sub1, .vedio-sub2 {
+    position: relative;
+  }
+  
+.vedio-sub1, .vedio-sub2{
+    width: 240px;
+}
+.vedio-sub-ga {
+    position: relative;
+    width: calc(480px + 2%);
+}
+.pv-video
+{
+    width: 100%;
+    border-radius: 3%;
+}
+.back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .pv-video {
+    cursor: pointer;
+  }
+  
+  
+.pv-gal-row{
+    padding: 0 110px;
+    background: #2b2b2b;
+}
+.pv2-gal-row{
+    padding: 50px 200px;
+}
+.gal-containers{
+    margin: 0;
+}
+
+.pv-head{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.pv-head h4{
+    font-weight: 600;
+    font-size: 32px;
+    color: white;
+    
+
+}
+.pv-head p{
+    font-size: 16px;
+    width: 500px;
+    color: white;
+}
+.pv-beer img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    
+    
+}
+.port-vedio{
+    width: 50%;
+    border-radius: 10px;
+}
+@media (min-width: 1600px) and (max-width: 2000px){
+    .pv-gal-row {
+        padding: 0 170px;
+        background: #2b2b2b;
+    }
+    .pv-head h4 {
+        font-weight: 600;
+        font-size: 38px;
+        color: white;
+    }
+    .pv-head p {
+        font-size: 17px;
+        width: 700px;
+        color: white;
+    }
+    .pv-vedio-container {
+        display: flex;
+        background: #2b2b2b;
+        padding: 20px 165px 50px 165px;
+        position: relative;
+        gap: 6%;
+        flex-wrap: wrap;
+    }
+    .pv-video {
+        width: 120%;
+        border-radius: 3%;
+    }
+    .vedio-sub-ga {
+        width: calc(480px + 6%);
+    }
+    .play-buttone {
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px 22px;
+        height: 80px;
+        width: 80px;
+        border-radius: 50px;
+        font-size: 37px;
+        cursor: pointer;
+        z-index: 1000;
+    }
+}
+@media (min-width: 2000px) and (max-width: 2250px){
+    .pv-gal-row {
+        padding: 0 170px;
+        background: #2b2b2b;
+    }
+    .pv-head h4 {
+        font-weight: 600;
+        font-size: 49px;
+        color: white;
+    }
+    .pv-head p {
+        font-size: 20px;
+        width: 700px;
+        color: white;
+    }
+    .pv-vedio-container {
+        display: flex;
+        background: #2b2b2b;
+        padding: 20px 165px 50px 165px;
+        position: relative;
+        gap: 10%;
+        flex-wrap: wrap;
+    }
+    .pv-video {
+        width: 160%;
+        border-radius: 3%;
+    }
+    .vedio-sub-ga {
+        width: calc(480px + 10%);
+    }
+    .play-buttone {
+        position: absolute;
+        top: 50%;
+        left: 74%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px 22px;
+        height: 90px;
+        width: 90px;
+        border-radius: 50px;
+        font-size: 40px;
+        cursor: pointer;
+        z-index: 1000;
+    }
+    
+}
+@media screen and (max-width: 1200px) {
+    .pv-head h4{
+        font-weight: 600;
+        font-size: 26px;
+    
+    }
+    .pv-head p{
+        font-size: 14px;
+        width: 500px;
+    } 
+    .pv-gal-row{
+        padding: 0px 110px;
+    }
+    .pv-head h4{
+        font-weight: 600;
+        font-size: 22px;
+    
+    }
+    .pv-head p{
+        font-size: 12px;
+        width: 400px;
+    }
+    .pv-gal-row{
+        padding: 0px 115px;
+    } 
+    .play-pause-btne {
+        width: 42px;
+        height: 42px;
+        border: none;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: opacity 0.3s;
+        position: absolute;
+        top: 47%;
+        left: 35%;
+        
+      }
+      .pv-vedio-container{
+        display: flex;
+        background: #2b2b2b;
+        padding: 20px 95px 50px 95px ;
+        position: relative;
+        gap: 4%;
+    
+    }
+    .vedio-sub1, .vedio-sub2{
+        width: 200px;
+    }
+    .vedio-sub-ga {
+        width: calc(400px + 4%);
+    }
+}
+@media screen and (max-width: 850px){
+    .pv-head h4{
+        font-weight: 600;
+        font-size: 22px;
+    
+    }
+    .pv-head p{
+        font-size: 12px;
+        width: 400px;
+    }
+    .pv-gal-row{
+        padding: 0px 85px;
+    } 
+    .play-pause-btne {
+        width: 47px;
+        height: 47px;
+        border: none;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: opacity 0.3s;
+        position: absolute;
+        top: 47%;
+        left: 35%;
+        
+      }
+}
+@media screen and (max-width: 550px){
+    .pv-head h4{
+        font-weight: 600;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 8%;
+       
+    
+    }
+    .pv-head p{
+        font-size: 9px;
+        width: 200px;
+        margin-bottom: 0;
+        text-align: center;
+        margin-bottom: 4%;
+    }
+    .pv-beer img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        
+        
+    }
+    .pv-head{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .port-vedio{
+        margin-left: 6%;
+        width: 95%;
+    }
+    .play-pause-btne {
+        width: 47px;
+        height: 47px;
+        border: none;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: opacity 0.3s;
+        position: absolute;
+        top: 44%;
+        left: 45%;
+        
+      }
+      .pv-vedio-container{
+        display: flex;
+        background: #2b2b2b;
+        padding: 20px 50px 50px 50px ;
+        position: relative;
+        gap: 4%;
+    
+    }
+    .vedio-sub1, .vedio-sub2{
+        width: 300px;
+    }
+    .vedio-sub-ga {
+        width: 300px;
+        margin-top: 5%;
+    }
+    .play-buttone {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 0 8px 10px 8px;
+        height: 40px;
+        width: 40px;
+        border-radius: 30px;
+        font-size: 28px;
+        cursor: pointer;
+        z-index: 1000;
+      }
+     .vedio-sub2{
+        margin-top: 5%;
+     }
+}
+@media screen and (max-width: 375px){
+    .play-pause-btne {
+        width: 45px;
+        height: 45px;
+        border: none;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: opacity 0.3s;
+        position: absolute;
+        top: 43%;
+        left: 44%;
+        
+      }
+}

@@ -1,0 +1,191 @@
+.key-4{
+    position: absolute;
+    z-index: 1; 
+    inset: 0;
+    margin-top: 5%;
+    
+}
+.ev-contain{
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0;
+    background-color: #2b2b2b;
+    
+}
+.ev-top{
+    padding-top: 6%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.ev1{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+.ev2{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    
+    
+}
+.ev-text-head h3{
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+
+}
+
+.ev-text-head p{
+    font-size: 16px;
+    width: 450px;
+    color: white;
+    font-weight: 300;
+}
+.ev-bottom{
+    padding-bottom: 120px;
+}
+@media (min-width: 1600px) and (max-width: 2000px){
+    .ev-contain {
+        width: 100%;
+        padding-left: 150px;
+        padding-right: 150px;
+        margin: 0;
+        background-color: #2b2b2b;
+    }
+    .ev-text-head h3 {
+        font-size: 38px;
+        font-weight: 600;
+        color: white;
+    }
+    .ev-text-head p {
+        font-size: 17px;
+        width: 550px;
+        color: white;
+        font-weight: 300; padding-bottom: 12px;
+    }
+}
+@media (min-width: 2000px) and (max-width: 2240px){
+    .ev-text-head h3 {
+        font-size: 50px;
+        font-weight: 600;
+        color: white;
+    }
+    .scroll-label {
+        color: #888;
+        font-size: 20px;
+    }
+    .ev-text-head p {
+        font-size: 20px;
+        width: 550px;
+        color: white;
+        font-weight: 300; padding-bottom: 12px;
+    }
+    .ev-contain {
+        width: 100%;
+        padding-left: 150px;
+        padding-right: 150px;
+        margin: 0;
+        background-color: #2b2b2b;
+    }
+}
+
+@media (min-width: 820px) and (max-width: 1400px){
+    .ev-text-head h3{
+        font-size: 25px;
+        font-weight: 600;
+    
+    }
+    
+    .ev-text-head p{
+        font-size: 12px;
+        width: 370px;
+    }
+    .ev-bottom{
+        padding-bottom: 100px;
+    }
+    
+    
+}
+@media (min-width: 550px) and (max-width: 820px){
+    .ev-text-head h3{
+        font-size: 23px;
+        font-weight: 600;
+    
+    }
+    .ev-contain{
+        width: 100%;
+        padding: 0 70px;
+
+        
+    }
+    .ev-top{
+        padding-top: 6%;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .ev-text-head p{
+        font-size: 10.5px;
+        width: 280px;
+    }
+    .ev-bottom{
+        padding-bottom: 80px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 550px){
+    .ev-text-head h3{
+        font-size: 16px;
+        font-weight: 600;
+    
+    }
+    .ev-contain{
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 0;
+        background-color: #2b2b2b;
+        
+    }
+    .ev-top{
+        padding-top: 4%;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .ev-text-head p{
+        font-size: 10px;
+        width: 280px;
+    }
+    .ev-bottom{
+        padding-bottom: 55px;
+        position: relative;
+    }
+}
+@media (min-width: 320px) and (max-width: 375px){
+    .ev-text-head h3{
+        font-size: 18px;
+        font-weight: 600;
+    
+    }
+    .ev-contain{
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 0;
+        background-color: #2b2b2b;
+        
+    }
+    .ev-top{
+        padding-top: 4%;
+        padding-left: 30px;
+        padding-right:30px;
+    }
+    
+    .ev-text-head p{
+        font-size: 6.5px;
+        width: 230px;
+    }
+    
+    
+}

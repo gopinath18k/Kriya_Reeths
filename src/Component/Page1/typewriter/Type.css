@@ -1,0 +1,19 @@
+/* TypingAnimation.css */
+.letter {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(-100%);
+    animation: reveal 0.5s forwards;
+  }
+  
+  @keyframes reveal {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .typewriter .letter {
+    animation-delay: 0.5s; /* Adjust for the desired effect */
+  }
+  
