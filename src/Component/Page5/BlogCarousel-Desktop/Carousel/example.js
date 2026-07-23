@@ -1,13 +1,13 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import { config } from "react-spring";
 import "./example.css";
 import BlogsSliderSizes from "./SliderSizes";
 import BlogsCarousel from "./VerticalCarousel";
-import blog1 from "../../../../images/blog2.png";
-import blog2 from "../../../../images/blog3.png";
+import blog1 from "../../../../images/blog2.webp";
+import blog2 from "../../../../images/blog3.webp";
 import blog3 from "../../../../images/KR-BLOG-Why-Professional-Advertising (2).webp";
 
-import stark from "../../../../images/Logo.png";
+import stark from "../../../../images/Logo.webp";
 import { Link } from 'react-router-dom';
 let slides = [
   {

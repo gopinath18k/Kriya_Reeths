@@ -1,22 +1,16 @@
-import React, { useState, useRef, useCallback, useEffect } from 'react';
+import { useState, useRef, useCallback, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCoverflow } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import './Nslider.css';
 
-import slide_image_1 from '../../../images/team1.png';
-import slide_image_2 from '../../../images/team2.png';
-import slide_image_3 from '../../../images/team3.png';
-import slide_image_4 from '../../../images/team4.png';
+import slide_image_3 from '../../../images/team3.webp';
+import slide_image_4 from '../../../images/team4.webp';
 import slide_image_5 from '../../../images/shek.webp';
-import slide_image_6 from '../../../images/team6.png';
-import slide_image_7 from '../../../images/team7.png';
-import slide_image_8 from '../../../images/team14.webp';
-import slide_image_9 from '../../../images/team9.png';
-import slide_image_10 from '../../../images/team10.png';
-import slide_image_11 from '../../../images/team13.png';
-import slide_image_12 from '../../../images/team12.png';
+import slide_image_6 from '../../../images/team6.webp';
+import slide_image_9 from '../../../images/team9.webp';
+import slide_image_12 from '../../../images/team12.webp';
 
 function Tslidern() {
   const slides = [

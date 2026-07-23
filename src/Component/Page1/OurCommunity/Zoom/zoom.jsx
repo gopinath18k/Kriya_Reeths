@@ -1,4 +1,3 @@
-import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import './App.css'; // Assuming your CSS is in App.css
 

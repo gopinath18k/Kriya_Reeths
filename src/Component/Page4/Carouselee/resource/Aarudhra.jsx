@@ -1,9 +1,9 @@
-import React, { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 import '../portfolio-sub/Pay-per.css';
 import aarudhra from '../../../../vedios/Aarudhra.mp4';
-import per1 from '../../../../images/per-1.png';
-import crown from '../../../../images/crown.png';
-import thumbnail from '../../../../images/vesat.png'; // Import your thumbnail image
+import per1 from '../../../../images/per-1.webp';
+import crown from '../../../../images/crown.webp';
+import thumbnail from '../../../../images/vesat.webp'
 
 const Aarudhra = () => {
   const videoRef = useRef(null);

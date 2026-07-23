@@ -1,4 +1,3 @@
-import React from 'react'
 import up from '../../../images/upload.webp'
 import'./Arrow.css'
 const Arrow = () => {

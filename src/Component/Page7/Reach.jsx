@@ -1,15 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './Reach.css';
-import map from '../../images/mapo.png';
-import add from '../../images/ymap.png';
-import ymail from '../../images/ymail.png';
+import map from '../../images/mapo.webp';
+import add from '../../images/ymap.webp';
+import ymail from '../../images/ymail.webp';
 import greybg from '../../images/grey-text.svg'
-import ycall from '../../images/y-call.png';
+import ycall from '../../images/y-call.webp';
 import bg1 from '../../images/bg-text1.svg';
 import bg2 from '../../images/bg-text2.svg';
 import Footerel from '../Page2/Lfooter/Lfooter';
-import { OurCommunity } from '../Page1/OurCommunity/OurCommunity';
-import FloatingLabelInputl from '../Page2/Light-placeholder/Lplacehold';
 
 const Reachus = () => {
     useEffect(() => {

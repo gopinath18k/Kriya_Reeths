@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './drop2.css'; // Make sure to name the CSS file accordingly
 
 const Dropdown2 = () => {

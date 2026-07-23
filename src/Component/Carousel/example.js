@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import VerticalCarousel from "./VerticalCarousel";
 import { config } from "react-spring";
 import "./example.css";

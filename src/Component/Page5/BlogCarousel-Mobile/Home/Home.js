@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import "./Home.css";
-import blog1 from "../../../../images/blog2.png";
-import blog2 from "../../../../images/blog3.png";
-import blog3 from "../../../../images/blog4.png";
-import stark from "../../../../images/Logo.png";
+import blog1 from "../../../../images/blog2.webp";
+import blog2 from "../../../../images/blog3.webp";
+import blog3 from "../../../../images/KR-BLOG-Why-Professional-Advertising (2).webp";
+import stark from "../../../../images/Logo.webp";
 import { Link } from 'react-router-dom';
 
 
@@ -40,7 +40,7 @@ export const Homese = () => {
       id: 3,
       image: blog3,
       smallHead: "Article",
-      head: <Link className="head-sub-head" to='/blog-3'>Why Professional Advertising Is Still Essential for Business Growth in 2026</Link>,
+      head: <Link className="head-sub-head" to='/Why-Professional-Advertising-Is-Still-Essential-for-Business-Growth-in-2026'>Why Professional Advertising Is Still Essential for Business Growth in 2026</Link>,
       paragraph: "In today's competitive marketplace, simply offering a quality product or service is no longer enough to attract customers. Businesses across every industry are competing for attention both online and offline, making it increasingly difficult to stand out.",
       personImage: stark,
       personName: "Kriya & Reeths",

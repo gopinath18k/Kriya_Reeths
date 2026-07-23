@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import blog1 from '../../../images/blog1.png'
+import { useState, useEffect } from 'react';
+import blog1 from '../../../images/blog1.webp'
 
-import tony from '../../../images/tony.png'
+import tony from '../../../images/tony.webp'
 import './Blog.css'
 import bg1 from '../../../images/bg-text1.svg'
 import greybg from '../../../images/grey-text.svg'

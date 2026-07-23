@@ -5,10 +5,6 @@ import sl2 from '../../../images/sl-2.png'
 import sl3 from '../../../images/sl-3.png'
 
 import sl4 from '../../../images/sl-4.png'
-import sl5 from '../../../images/sl-5.png'
-
-import sl6 from '../../../images/sl-7.png'
-import sl7 from '../../../images/sl-8.png'
 import {
   motion,
   useScroll,

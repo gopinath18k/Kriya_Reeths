@@ -1,9 +1,9 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom'; // Add useLocation to get the current path
-import logo from '../../../images/Logo.png';
-import soc1 from '../../../images/fb.png';
-import soc2 from '../../../images/insta.png';
-import soc3 from '../../../images/twitter.png';
+import logo from '../../../images/Logo.webp';
+import soc1 from '../../../images/fb.webp'
+import soc2 from '../../../images/insta.webp'
+import soc3 from '../../../images/twitter.webp'
 import './navbar.css';
 
 const Navbare = () => {
@@ -32,14 +32,12 @@ const Navbare = () => {
     if (isOpen) {
       document.addEventListener('click', handleClickOutside);
       document.body.style.overflow = 'hidden';
-      // document.body.style.background = '#000';
     } else {
       document.removeEventListener('click', handleClickOutside);
     }
     return () => {
       document.removeEventListener('click', handleClickOutside);
       document.body.style.overflow = 'auto';
-      // document.body.style.background = 'white';
     };
   }, [isOpen]);
 

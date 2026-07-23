@@ -1,7 +1,6 @@
-import React from 'react';
 import './Card.css';
 import achiv1 from '../../../images/Rudra Priya DME.webp'
-import achiv2 from '../../../images/achiv2.png'
+import achiv2 from '../../../images/achiv2.webp'
 import achiv3 from '../../../images/Sheik DME.webp'
 
 const Card = ({ imageSrc, title, description }) => {

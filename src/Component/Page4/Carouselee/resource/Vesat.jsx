@@ -1,9 +1,9 @@
-import React, { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 import '../portfolio-sub/Pay-per.css';
 import vesat from '../../../../vedios/vesat.mp4';
-import per1 from '../../../../images/per-1.png';
-import vesatsolar from '../../../../images/vesat-solar-log.png';
-import thumbnail from '../../../../images/vesat-thumb.png'; // Import your thumbnail image
+import per1 from '../../../../images/per-1.webp';
+import vesatsolar from '../../../../images/vesat-solar-log.webp';
+import thumbnail from '../../../../images/vesat-thumb.webp'
 
 const Vesat = () => {
   const videoRef = useRef(null);

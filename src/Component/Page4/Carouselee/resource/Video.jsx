@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import texvid from '../../../../vedios/tex.mp4';
 import mahvid from '../../../../vedios/maha.mp4';
 import sw from '../../../../vedios/sw.mp4';

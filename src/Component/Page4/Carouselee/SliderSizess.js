@@ -1,4 +1,3 @@
-import React from "react";
 import Box from '@mui/material/Box';
 import Slider from '@mui/material/Slider';
 import { styled } from '@mui/material/styles';
@@ -66,32 +65,11 @@ const GradientSliders = styled(Slider)(({ background }) => ({
     border: '5px solid white',
     
   },
-    
-    '& .MuiSlider-thumb': {
-    backgroundColor: '#2b2b2b',
-    border: '3px solid white',
-    
-  }, // Adjust padding if needed
   },
   
 }));
 
  function SliderLine({ currentValue, onSliderChange }) {
-  const handleScroll = (event) => {
-    event.preventDefault();
-    const deltaX = event.deltaX; 
-    const currentIndex = stages.indexOf(currentValue);
-    let newIndex = currentIndex;
-
-    if (deltaX > 0) {
-      newIndex = (currentIndex + 1) % stages.length;
-    } else {
-      newIndex = (currentIndex - 1 + stages.length) % stages.length;
-    }
-
-    onSliderChange(stages[newIndex]);
-  };
-
   const handleChange = (event, newValue) => {
     onSliderChange(newValue);
   };

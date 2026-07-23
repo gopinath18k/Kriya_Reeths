@@ -1,89 +1,30 @@
-import React, { useRef, useState, useEffect } from 'react';
+import { useRef, useState, useEffect } from 'react';
 
-// import gsap from 'gsap';
-// import { ScrollTrigger } from 'gsap/ScrollTrigger';
-// import Lenis from '@studio-freight/lenis';
 import './Home.css';
 import '../Placeholder/place.css';
-import head from '../../../images/head.png';
-import ipad from '../../../images/ipad.svg';
-import vid from '../../../images/landing-vid.mp4';
+import head from '../../../images/head.webp';
 import bg1 from '../../../images/bg-text1.svg'
 import bg2 from '../../../images/bg-text2.svg'
 import greybg from '../../../images/grey-text.svg'
-import graph from '../../../images/graph.png'
-import flow from '../../../images/flow.svg'
-import flow2 from '../../../images/flow2.svg'
+import graph from '../../../images/graph.webp'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slidere from '../slider/slider';
-import FloatingLabelInput from '../Placeholder/Place';
-import Example from '../../Carousel/example';
 import Examplee from '../../Carousel/example';
 import Footere from '../Footer/Footer';
-import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Scroll from '../Scroll/Scroll';
 import ImageReveal1 from '../../img-reveal/ImageReveal';
 import Tscroll from '../Test-scroll/Tscroll';
 import Tscroll1 from '../Test-scroll/Tscroll1';
-import ScrollingCarousel from '../new-sliders/Slides';
 import ScrollingCarousele from '../new-sliders/Slides';
 import Slidesnew2 from '../new-sliders/Slides2';
-import SplitType from 'split-type';
 
 
 
 AOS.init();
 
 const Homee = () => {
-
-
-  
-    //     const splitTypes = document.querySelectorAll('.reveal-type');
-    
-    //     splitTypes.forEach((char, i) => {
-    //       const bg = char.dataset.bgColor;
-    //       const fg = char.dataset.fgColor;
-    
-    //       const text = new SplitType(char, { types: 'chars' });
-    
-    //       gsap.fromTo(
-    //         text.chars,
-    //         {
-    //           color: bg,
-    //         },
-    //         {
-    //           color: fg,
-    //           duration: 0.3,
-    //           stagger: 0.02,
-    //           scrollTrigger: {
-    //             trigger: char,
-    //             start: 'top 80%',
-    //             end: 'top 20%',
-    //             scrub: true,
-    //             markers: false,
-    //             toggleActions: 'play play reverse reverse',
-    //           },
-    //         }
-    //       );
-    //     });
-    
-    //     const lenis = new Lenis();
-    
-    //     lenis.on('scroll', (e) => {
-    //       console.log(e);
-    //     });
-    
-    //     function raf(time) {
-    //       lenis.raf(time);
-    //       requestAnimationFrame(raf);
-    //     }
-    
-    //     requestAnimationFrame(raf);
-    //   }, []);
-
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -210,20 +151,6 @@ const Homee = () => {
                         src={head} alt="Head Image" />
                 </div>
 
-                {/* <div className='section2'>
-                    <div className='ipad-cont' >
-                        <img className='ipad' src={ipad} alt="iPad" />
-                        <div className='vid-cont'>
-                            <video ref={videoRef} className='land-vid' src={vid} loop onClick={handlePlayPause}></video>
-                            {!isPlaying && (
-                                <div className="play-button" onClick={handlePlayPause}></div>
-                            )}
-                        </div>
-                    </div>
-                    <div className='bg-half'>
-                        <img className='bg-txt11' src={bg1} alt="" />
-                    </div>
-                </div> */}
                 <div>
                     <Scroll />
                 </div>
@@ -262,7 +189,6 @@ const Homee = () => {
                         <p className='creative-p'> Ready to be wowed? Check out our mind-blowing recent creatives. </p>
                     </div>
                     <div className='pt-4 '>
-                        {/* <Slidere /> */}
                         <div>
                             <Tscroll />
                         </div>
@@ -291,30 +217,6 @@ const Homee = () => {
                         <div className='creative-hd1'><h1 className='hd1-two'><span className='hd1-one '>Our</span>Process</h1></div>
                         <p>We design, launch, and refine digital marketing<br /> strategies to help your brand succeed. </p>
                     </div>
-                    {/* <div className='flow-head'>
-                        <img className='flow-chart flow-desk' src={flow} />
-                        <img className='flow-chart flow-mob' src={flow2} />
-                        <div className='flow-text1'>
-                            <h4>Planning</h4>
-                            <p>Based on your goals and target audience, we develop a comprehensive marketing plan that outlines the best digital marketing tactics for your business. </p>
-                        </div>
-                        <div className='flow-text2'>
-                            <h4>Creation</h4>
-                            <p> Our team of experts create high-quality digital assets that resonate with your audience. </p>
-                        </div>
-                        <div className='flow-text3'>
-                            <h4>Execution</h4>
-                            <p> With a robust strategy, we execute your digital marketing initiatives with precision and effectiveness.</p>
-                        </div>
-                        <div className='flow-text4'>
-                            <h4>Analysis</h4>
-                            <p>We meticulously analyze the performance of your campaigns across all channels, using advanced analytics tools to extract actionable insights.</p>
-                        </div>
-                        <div className='flow-text5'>
-                            <h4>Reporting</h4>
-                            <p>We provide clear, concise reports that highlight successes, challenges, and opportunities for improvement. </p>
-                        </div>
-                    </div> */}
                     <ImageReveal1 />
                 </div>
 

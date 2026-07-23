@@ -25,14 +25,10 @@ class HorizontalCarousel extends Component {
 
   componentDidMount = () => {
     document.addEventListener("keydown", this.handleKeyDown);
-    // Remove this line
-    // document.addEventListener("wheel", this.handleScroll);
   };
 
   componentWillUnmount = () => {
     document.removeEventListener("keydown", this.handleKeyDown);
-    // Remove this line
-    // document.removeEventListener("wheel", this.handleScroll);
   };
 
   componentDidUpdate(prevProps) {
@@ -78,17 +74,7 @@ class HorizontalCarousel extends Component {
     return [slides[this.modBySlidesLength(index)]];
   }
 
-  // Remove this function
-  // handleScroll = event => {
-  //   if (this.state.disableScroll) return; // Check disableScroll state
 
-  //   const { deltaY } = event;
-  //   if (deltaY > 0) {
-  //     this.moveSlide(1); // Scroll down
-  //   } else {
-  //     this.moveSlide(-1); // Scroll up
-  //   }
-  // };
 
   handleKeyDown = event => {
     if (event.isComposing || event.keyCode === 229) {
@@ -117,8 +103,6 @@ class HorizontalCarousel extends Component {
     if (showNavigation) {
       navigationButtons = (
         <div className="NavigationBtn">
-          {/* <button className="Service-NavBtn" onClick={() => this.moveSlide(-1)}>&#8592;</button>
-          <button className="Service-NavBtn" onClick={() => this.moveSlide(1)}>&#8594;</button> */}
         </div>
       );
     }

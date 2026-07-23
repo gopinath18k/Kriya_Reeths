@@ -1,8 +1,6 @@
 import  { useState } from 'react';
-import React from 'react'
 import '../../Page2/Aboutus/About.css'
 import greybg from "../../../images/grey-text.svg"
-import FloatingLabelInputl from '../../Page2/Light-placeholder/Lplacehold'
 
 export const OurCommunity = () => {
     const handleSubmit = (event) => {

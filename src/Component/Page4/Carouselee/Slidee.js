@@ -1,4 +1,3 @@
-import React from "react";
 import { Spring } from "react-spring/renderprops";
 import { withGesture } from "react-with-gesture";
 import "./Slidee.css"
@@ -8,7 +7,6 @@ function Slide({
   offsetRadius,
   index,
   animationConfig,
-  // moveSlide,
   delta,
   down,
 }) {
@@ -16,8 +14,6 @@ function Slide({
   const totalPresentables = 2 * offsetRadius + 1;
   const distanceFactor = 1 - Math.abs(offsetFromMiddle / (offsetRadius + 1));
 
-  const translateXoffset =
-    50 * (Math.abs(offsetFromMiddle) / (offsetRadius + 1));
   let translateX = -50;
 
   if (offsetRadius !== 0) {
@@ -27,21 +23,6 @@ function Slide({
       translateX = -100;
     }
   }
-
-  // if (offsetFromMiddle === 0 && down) {
-  //   translateX += delta[0] / (offsetRadius + 1);
-  //   if (translateX > -40) {
-  //     moveSlide(-1);
-  //   }
-  //   if (translateX < -100) {
-  //     moveSlide(1);
-  //   }
-  // }
-  // if (offsetFromMiddle > 0) {
-  //   translateX += translateXoffset;
-  // } else if (offsetFromMiddle < 0) {
-  //   translateX -= translateXoffset;
-  // }
 
   return (
     <div>
@@ -62,7 +43,6 @@ function Slide({
             zIndex: Math.abs(Math.abs(offsetFromMiddle) - 2)
           }}
         >
-          {/* <div className="Sliding-Card" onClick={() => moveSlide(offsetFromMiddle)}> */}
           <div className="Sliding-Card">
             {content}
           </div>

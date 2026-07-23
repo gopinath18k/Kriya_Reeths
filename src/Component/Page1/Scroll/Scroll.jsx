@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import './Scroll.css'
 import '../Home/Home.css';
 import ipad from '../../../images/ipad.svg';

@@ -1,6 +1,5 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import HorizontalSlider from './Carouselee/examplee'
-import Footerel from '../Page2/Lfooter/Lfooter'
 import "../Page4/Portfolio.css"
 import bg1 from '../../images/bg-text1.svg'
 

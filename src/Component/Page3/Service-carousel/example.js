@@ -1,14 +1,14 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import { config } from "react-spring";
 import "../Service-carousel/esxample.css";
 import SliderSizes from "./SliderSizes";
 import VerticalServiceCarousel from "./VerticalCarousel";
-import smm from "../../../images/smm.png";
-import ppc from "../../../images/ppc.png";
-import develop from "../../../images/webdevelop.png";
-import event from "../../../images/event.png";
-import shoot from "../../../images/shoot.png";
-import design from "../../../images/design.png";
+import smm from "../../../images/smm.webp";
+import ppc from "../../../images/ppc.webp";
+import develop from "../../../images/webdevelop.webp";
+import event from "../../../images/event.webp";
+import shoot from "../../../images/shoot.webp";
+import design from "../../../images/design.webp";
 
 let slides = [
   {

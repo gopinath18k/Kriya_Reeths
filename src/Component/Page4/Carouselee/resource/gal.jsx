@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Gallery.css'; // Import your CSS file here
 
 // Importing images
@@ -7,8 +7,8 @@ import r2 from '../../images/rr-2.webp';
 import r3 from '../../images/rr-3.webp';
 import r4 from '../../images/rr-4.webp';
 import r5 from '../../images/rr-5.webp';
-import r6 from '../../images/rr-6.png';
-import r7 from '../../images/rr-7.png';
+import r6 from '../../images/rr-6.webp';
+import r7 from '../../images/rr-7.webp';
 import r8 from '../../images/rr-8.webp';
 import r9 from '../../images/rr-59.webp';
 import r10 from '../../images/rr-52.jpg';
@@ -31,8 +31,8 @@ import r26 from '../../images/rr-68.webp';
 import r27 from '../../images/rr-68.webp';
 import r29 from '../../images/rr-65.webp';
 import r30 from '../../images/rr-36.jpg';
-import prev from '../../images/prev.png';
-import next from '../../images/next.png';
+import prev from '../../images/prev.webp';
+import next from '../../images/next.webp';
 
 // Define the image array
 const images = [

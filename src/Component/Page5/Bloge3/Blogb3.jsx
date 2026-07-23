@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import blog1 from "../../../images/KR-BLOG-Why-Professional-Advertising (2).webp";
 import blog2 from "../../../images/KR-BLOG-Why-Professional-Advertising (3).webp";
-import tony from "../../../images/tony.png";
+import tony from "../../../images/tony.webp";
 
 import "../Bloge/Blogb.css";
 import bg1 from "../../../images/bg-text1.svg";

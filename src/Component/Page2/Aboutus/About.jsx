@@ -1,28 +1,25 @@
-  import React, { useEffect, useState } from 'react';
+  import { useEffect, useState } from 'react';
   import '../../Page2/Light-placeholder/Lplacehold.css'
   import './About.css'
-  import founder1 from '../../../images/founder1.png'
-  import founder2 from '../../../images/founder2.png'
-  import keer from '../../../images/keerthana.png'
+  import founder1 from '../../../images/founder1.webp'
+  import founder2 from '../../../images/founder2.webp'
+  import keer from '../../../images/keerthana.webp'
   import bg1 from '../../../images/bg-text1.svg'
   import bg2 from '../../../images/bg-text2.svg'
-  import reva from '../../../images/Revanth.png'
-  import wedo from '../../../images/wedo-lap.png'
-  import plat1 from '../../../images/react.png'
-  import plat2 from '../../../images/ahref.png'
-  import plat3 from '../../../images/meta.png'
-  import plat4 from '../../../images/ps.png'
+  import reva from '../../../images/Revanth.webp'
+  import wedo from '../../../images/wedo-lap.webp'
+  import plat1 from '../../../images/react.webp'
+  import plat2 from '../../../images/ahref.webp'
+  import plat3 from '../../../images/meta.webp'
+  import plat4 from '../../../images/ps.webp'
   import greybg from '../../../images/grey-text.svg'
-  import Tslider from '../Teamslider/Teamslider'
-  import polio from '../../../images/polio-img.png'
+  import polio from '../../../images/polio-img.webp'
   import Onam from '../../../images/Onam.webp'
   import Diwali from '../../../images/Diwal.webp'
   import NewYear from '../../../images/NewYea.webp'
   import TeamOut from '../../../images/6Hotel.webp'
-  import achiv from '../../../images/achiv1.png'
+  import achiv from '../../../images/achiv1.webp'
   import CardContainer from '../card/Card'
-  import FloatingLabelInputl from '../Light-placeholder/Lplacehold'
-  import Footere from '../../Page2/Lfooter/Lfooter'
   import Footerel from '../../Page2/Lfooter/Lfooter'
   import Tslidern from '../Teamslider/Nsliider';
   import { useLocation } from 'react-router-dom';
@@ -34,68 +31,8 @@
   const Aboute = () => {
     useEffect(() => {
       window.scrollTo(0, 0)
-    }, [])
+    }, [])
     const location = useLocation();
-  //   useEffect(() => {
-  //     const lenis = new Lenis({
-  //       duration: 1.2,
-  //       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-  //     });
-
-  //     function raf(time) {
-  //       lenis.raf(time);
-  //       ScrollTrigger.update();
-  //       requestAnimationFrame(raf);
-  //     }
-
-  //     requestAnimationFrame(raf);
-
-  //     const timeline = gsap.timeline({ paused: true });
-  //     timeline.fromTo(
-  //       '.col-left', // Ensure this class matches the correct element
-  //       { y: 0 },
-  //       { y: '170vh', duration: 1, ease: 'none' },
-  //       0
-  //     );
-
-  //     ScrollTrigger.create({
-  //       animation: timeline,
-  //       trigger: '.section1', // Ensure this class matches the correct element
-  //       start: 'top top',
-  //       end: 'bottom center',
-  //       scrub: true,
-  //     });
-
-  //     gsap.to('.box-items', { // Ensure this class matches the correct element
-  //       xPercent: -100 * (document.querySelectorAll('.box-items').length - 1),
-  //       ease: 'sine.out',
-  //       scrollTrigger: {
-  //         trigger: '#horizontal', // Ensure this id matches the correct element
-  //         pin: true,
-  //         scrub: 3,
-  //         snap: 1 / (document.querySelectorAll('.box-items').length - 1),
-  //         end: `+=${document.querySelector('.section1').offsetWidth}`, // Ensure this class matches the correct element
-  //       },
-  //     });
-
-  //     return () => {
-      
-  //       lenis.destroy();
-  //     };
-  //   }, []);
-
-    
-
-    // useEffect(() => {
-    //   const params = new URLSearchParams(location.search);
-    //   const section = params.get('section');
-    //   if (section) {
-    //     const element = document.getElementById(section);
-    //     if (element) {
-    //       element.scrollIntoView({ behavior: 'smooth' });
-    //     }
-    //   }
-    // }, [location.search]);
       
     const handleSubmit = (event) => {
       event.preventDefault(); // Prevent the default form submission
@@ -202,7 +139,6 @@
             <div className='bg1-cont'>
               <img className='bg-txt11' src={greybg} alt="" />
             </div>
-            {/* <div className='col-0 col-xxl-1'></div> */}
             <div className="col-12 col-sm-6  wedo-mg-head" data-aos="zoom-in"
               data-aos-duration="1300">
               <div className='wedo-sub-head'>
@@ -243,7 +179,6 @@
             </div>
             <div className='tslider' data-aos="zoom-in"
               data-aos-duration="1300">
-              {/* <Tslider /> */}
               <Tslidern/>
             </div>
           </div>

@@ -24,12 +24,10 @@ class BlogsCarousel extends Component {
 
   componentDidMount = () => {
     document.addEventListener("keydown", this.handleKeyDown);
-    // document.addEventListener("wheel", this.handleScroll);
   };
 
   componentWillUnmount = () => {
     document.removeEventListener("keydown", this.handleKeyDown);
-    // document.removeEventListener("wheel", this.handleScroll);
   };
 
   componentDidUpdate(prevProps) {

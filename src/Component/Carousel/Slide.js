@@ -1,5 +1,4 @@
-import React from "react";
-import { Spring} from "react-spring/renderprops";
+import { Spring } from "react-spring/renderprops";
 import { withGesture } from "react-with-gesture";
 import "./Slide.css"
 
@@ -16,10 +15,6 @@ function Slide({
   const offsetFromMiddle = index - offsetRadius;
   const totalPresentables = 2 * offsetRadius + 1;
   const distanceFactor = 1 - Math.abs(offsetFromMiddle / (offsetRadius + 1));
-
-  const offsetCardClick = i => {
-    console.log(i);
-  };
 
   const translateYoffset =
     50 * (Math.abs(offsetFromMiddle) / (offsetRadius + 1));

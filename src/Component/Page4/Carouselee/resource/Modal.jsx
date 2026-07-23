@@ -1,4 +1,3 @@
-import React from 'react';
 import '../portfolio-sub/Photo.css'; // Im
 
 const Modal = ({ show, onClose, videoSrc, videoRef, isPlaying, togglePlay }) => {

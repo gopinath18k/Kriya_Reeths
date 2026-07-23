@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import styled from "@emotion/styled";
 import Slide from "./Slide";
 import PropTypes from "prop-types";
@@ -84,22 +84,8 @@ class VerticalServiceCarousel extends Component {
   };
 
   render() {
-    const { animationConfig, showNavigation, slides } = this.props;
+    const { animationConfig, slides } = this.props;
     const { index } = this.state;
-
-    let navigationButtons = null;
-    if (showNavigation) {
-      navigationButtons = (
-        <div className="carousel-navigation-buttons">
-          <button className="carousel-nav-btn" onClick={() => this.moveSlide(-1)}>
-            &#8593;
-          </button>
-          <button className="carousel-nav-btn" onClick={() => this.moveSlide(1)}>
-            &#8595;
-          </button>
-        </div>
-      );
-    }
 
     return (
       <>
@@ -114,7 +100,6 @@ class VerticalServiceCarousel extends Component {
             />
           )}
         </CarouselWrapper>
-        {/* {navigationButtons} */}
       </>
     );
   }

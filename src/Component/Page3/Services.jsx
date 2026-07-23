@@ -1,12 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import FloatingLabelInputl from '../Page2/Light-placeholder/Lplacehold'
+import { useState, useEffect } from 'react';
 import greybg from '../../images/grey-text.svg'
 import Exampless from './Service-carousel/example'
 import './Services.css'
 import bg1 from '../../images/bg-text1.svg'
 import bg2 from '../../images/bg-text2.svg'
-import Footere from '../Page1/Footer/Footer'
-import Examplesscr from '../Page6/Service-carousel/example'
 import Footerel from '../Page2/Lfooter/Lfooter'
 const Services = () => {
   useEffect(() => {

@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
-import blog1 from "../../../images/blog1.png";
-import tony from "../../../images/tony.png";
+import { useEffect } from "react";
+import blog1 from "../../../images/blog1.webp";
+import tony from "../../../images/tony.webp";
 import "./Blogb.css";
 import bg1 from "../../../images/bg-text1.svg";
 import bg2 from "../../../images/bg-text2.svg";

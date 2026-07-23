@@ -1,8 +1,8 @@
-import React, { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 import swsthik from '../../../../vedios/reva.mp4';
-import per3 from '../../../../images/per-3.png';
+import per3 from '../../../../images/per-3.webp';
 import '../portfolio-sub/Pay-per.css';
-import perL3 from '../../../../images/per-l3.png';
+import perL3 from '../../../../images/per-l3.webp';
 
 const Reva = () => {
   const videoRef = useRef(null);

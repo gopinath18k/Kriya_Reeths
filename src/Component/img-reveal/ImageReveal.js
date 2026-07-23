@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import './reveal.css';
 import '../Page1/Home/Home.css';
 import flow from '../../images/flow.svg';

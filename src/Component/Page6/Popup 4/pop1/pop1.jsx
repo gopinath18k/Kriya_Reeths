@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './pop1.css';
 import '../../Service-carousel/esxample.css';
 import Poplabe from '../Label-popup/Poplabel';

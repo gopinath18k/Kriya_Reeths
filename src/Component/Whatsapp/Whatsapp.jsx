@@ -1,5 +1,4 @@
-import React from 'react';
-import wp from '../../images/whatsapp.png';
+import wp from '../../images/whatsapp.webp';
 import './whatsapp.css';
 
 const Whatsapp = () => {

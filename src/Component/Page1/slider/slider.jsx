@@ -1,4 +1,3 @@
-import React, { useEffect, useRef } from "react";
 import styled, { keyframes, css } from "styled-components";
 import sl1 from "../../../images/sl-1.webp";
 import sl2 from "../../../images/sl-2.webp";
@@ -8,15 +7,15 @@ import sl5 from "../../../images/sl-5.webp";
 import sl6 from "../../../images/sl-6.webp";
 import sl7 from "../../../images/sl-7.webp";
 import sl8 from "../../../images/sl-8.webp";
-import sl9 from "../../../images/sl-9.jpeg";
-import sl10 from "../../../images/sl-10.jpeg";
-import sl11 from "../../../images/sl-11.jpeg";
-import sl12 from "../../../images/sl-12.jpeg";
-import sl13 from "../../../images/sl-13.jpeg";
-import sl14 from "../../../images/sl-14.jpeg";
-import sl15 from "../../../images/sl-15.jpeg";
-import sl16 from "../../../images/sl-16.jpeg";
-import sl17 from "../../../images/sl-17.jpeg";
+import sl9 from "../../../images/sl-9.webp";
+import sl10 from "../../../images/sl-10.webp";
+import sl11 from "../../../images/sl-11.webp";
+import sl12 from "../../../images/sl-12.webp";
+import sl13 from "../../../images/sl-13.webp";
+import sl14 from "../../../images/sl-14.webp";
+import sl15 from "../../../images/sl-15.webp";
+import sl16 from "../../../images/sl-16.webp";
+import sl17 from "../../../images/sl-17.webp";
 import './slider.css';
 
 function Slidere() {

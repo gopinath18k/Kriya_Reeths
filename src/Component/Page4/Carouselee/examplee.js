@@ -10,67 +10,33 @@ import SliderLine from "./SliderSizess"; // Correct path
 
 import "./Krgallery.css";
 import "./portfolio-sub/graphic-design.css";
-import r1 from "../../../images/g1.png";
-import r2 from "../../../images/g2.png";
-import r3 from "../../../images/g3.png";
-import r4 from "../../../images/g4.png";
-import r5 from "../../../images/g5.png";
-import r6 from "../../../images/g6.png";
-import r7 from "../../../images/g7.png";
-import r8 from "../../../images/g8.png";
-import r9 from "../../../images/g9.png";
-import r10 from "../../../images/g10.png";
-import r11 from "../../../images/g11.png";
-import r12 from "../../../images/g12.png";
-import r13 from "../../../images/g13.png";
-import r14 from "../../../images/g14.png";
-import r15 from "../../../images/g15.png";
-import r16 from "../../../images/g16.png";
-import r17 from "../../../images/g17.png";
-import r18 from "../../../images/g18.png";
-import r19 from "../../../images/g19.png";
-import r20 from "../../../images/g20.png";
-import r21 from "../../../images/g21.png";
-import r22 from "../../../images/g21.png";
-import r23 from "../../../images/g22.png";
-import r24 from "../../../images/g23.png";
-import r25 from "../../../images/g24.png";
-import r26 from "../../../images/beer.png";
-import r27 from "../../../images/g25.png";
-import r29 from "../../../images/beer.png";
-import r30 from "../../../images/beer.png";
-import web1 from "../../../images/web-1.png";
-import web2 from "../../../images/web-2.png";
-import web3 from "../../../images/web-3.png";
-import web4 from "../../../images/web-4.png";
-import web5 from "../../../images/web-5.png";
-import web6 from "../../../images/web-6.png";
-import web7 from "../../../images/web-7.png";
-import web8 from "../../../images/web-8.png";
+import web1 from "../../../images/web-1.webp";
+import web2 from "../../../images/web-2.webp";
+import web3 from "../../../images/web-3.webp";
+import web4 from "../../../images/web-4.webp";
+import web5 from "../../../images/web-5.webp";
+import web6 from "../../../images/web-6.webp";
+import web7 from "../../../images/web-7.webp";
+import web8 from "../../../images/web-8.webp";
 import silverbees from "../../../images/silverbees1.webp";
 import dishareal from "../../../images/disharealty.webp";
 import divine from "../../../images/divinebees.webp";
 import virgin from "../../../images/virginvalley.webp";
-import osho1 from '../../../images/osho_logo.png'
-import osho2 from '../../../images/osho-ban1.png'
-import osho3 from '../../../images/osho_ban2.png'
+import osho1 from '../../../images/osho_logo.webp'
+import osho2 from '../../../images/osho-ban1.webp'
+import osho3 from '../../../images/osho_ban2.webp'
 import osho4 from '../../../images/osho4.webp'
 import osho5 from '../../../images/osho5.webp'
-import per2 from "../../../images/per-2.png";
-import per3 from "../../../images/per-3.png";
-import per4 from "../../../images/per-4.png";
-import per5 from "../../../images/swasthik.png";
-import per6 from "../../../images/uyir.png";
-import per7 from "../../../images/littletown waffles.png";
+import per4 from "../../../images/per-4.webp";
+import per5 from "../../../images/swasthik.webp";
+import per6 from "../../../images/uyir.webp";
+import per7 from "../../../images/littletown waffles.webp";
 
-import perL1 from "../../../images/per-l1.png";
-import perL2 from "../../../images/per-l2.png";
-import perL3 from "../../../images/per-l3.png";
-import perL4 from "../../../images/per-l4.png";
-import town from "../../../images/town.png";
+import perL1 from "../../../images/per-l1.webp";
+import perL4 from "../../../images/per-l4.webp";
+import town from "../../../images/town.webp";
 
-import uyirorg from "../../../images/uyirorg.png";
-import perL5 from "../../../images/per-l5.png";
+import uyirorg from "../../../images/uyirorg.webp";
 import ev1 from "../../../images/ev-1.webp";
 import ev2 from "../../../images/ev-2.webp";
 import cor1 from "../../../images/cor1.webp";
@@ -79,7 +45,6 @@ import ev5 from "../../../images/ev-5.webp";
 import ev6 from "../../../images/ev-6.webp";
 import birthday2 from "../../../images/birthday1.webp";
 import birthday1 from "../../../images/birthday2.webp";
-import beer from "../../../images/beer.png";
 import bg2 from "../../../images/bg-text2.svg";
 
 
@@ -89,27 +54,25 @@ import pv3 from "../../../images/watch2.webp";
 import pv4 from "../../../images/watch3.webp";
 import pv5 from "../../../images/ck2.webp";
 import pv6 from "../../../images/ck1.webp";
-import pv7 from "../../../images/pv1.png";
+import pv7 from "../../../images/pv1.webp";
 import pv8 from "../../../images/RR-Mahal.webp";
 import pv9 from "../../../images/pv9.webp";
-import texvid from "../../../vedios/tex.mp4";
-import mahvid from "../../../vedios/maha.mp4";
 
-import trimaia1 from "../../../images/trimaia 1.png";
-import trimaia2 from "../../../images/trimaia 2.png";
-import trimaia3 from "../../../images/trimaia 3.png";
-import nss1 from "../../../images/nss 1.png";
-import nss2 from "../../../images/nss 2.png";
+import trimaia1 from "../../../images/trimaia 1.webp";
+import trimaia2 from "../../../images/trimaia 2.webp";
+import trimaia3 from "../../../images/trimaia 3.webp";
+import nss1 from "../../../images/nss 1.webp";
+import nss2 from "../../../images/nss 2.webp";
 import allione from "../../../images/alli one.webp";
 import allitwo from "../../../images/alli two.webp";
 import allithree from "../../../images/alli three.webp";
 import allifour from "../../../images/alli four.webp";
 import allifive from "../../../images/alli five.webp";
-import maz1 from "../../../images/maz 1.png";
-import maz2 from "../../../images/maz 2.png";
-import wise1 from "../../../images/wise 1.png";
-import wise2 from "../../../images/wise 2.png";
-import wise3 from "../../../images/wise 3.png";
+import maz1 from "../../../images/maz 1.webp";
+import maz2 from "../../../images/maz 2.webp";
+import wise1 from "../../../images/wise 1.webp";
+import wise2 from "../../../images/wise 2.webp";
+import wise3 from "../../../images/wise 3.webp";
 import mahaone from "../../../images/maha One.webp";
 import mahatwo from "../../../images/maha two.webp";
 import swasthik1 from "../../../images/Swasthik1.webp";
@@ -122,23 +85,19 @@ import vesat1 from "../../../images/vesat2.webp";
 import vesat2 from "../../../images/vesat1.webp";
 import disha1 from "../../../images/disha1.webp";
 import disha2 from "../../../images/disha2.webp";
-import jat1 from "../../../images/jat 1.png";
-import jat2 from "../../../images/jat 2.png";
-import ssv1 from "../../../images/ssv 1.png";
-import ssv2 from "../../../images/ssv 2.png";
-import gr1 from "../../../images/gr 1.png";
-import gr2 from "../../../images/gr 2.png";
+import jat1 from "../../../images/jat 1.webp";
+import jat2 from "../../../images/jat 2.webp";
+import ssv1 from "../../../images/ssv 1.webp";
+import ssv2 from "../../../images/ssv 2.webp";
+import gr1 from "../../../images/gr 1.webp";
+import gr2 from "../../../images/gr 2.webp";
 import Swasthik from "./resource/Swasthik";
 import Reva from "./resource/Reva";
 import KK from "./resource/Kk";
-import Video from "./resource/Video";
 import Videos from "./resource/Video";
 import { OurCommunity } from "../../Page1/OurCommunity/OurCommunity";
 import Footerel from "../../Page2/Lfooter/Lfooter";
-import Omb_cr from "./omb/Omb_cr";
 import { Link } from "react-router-dom";
-import App from "../../../App";
-import Appe from "./omb/Modal";
 import Vesat from "./resource/Vesat";
 import Aarudhra from "./resource/Aarudhra";
 

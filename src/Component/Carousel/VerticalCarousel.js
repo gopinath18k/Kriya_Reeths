@@ -171,30 +171,8 @@ class VerticalCarousel extends Component {
   }
 
   render() {
-    const { animationConfig, showNavigation } = this.props;
+    const { animationConfig } = this.props;
     const { index } = this.state;
-
-    let navigationButtons = null;
-    if (showNavigation) {
-      navigationButtons = (
-        <div className="NavigationButtons">
-          <button
-            className="NavBtn"
-            onClick={() => this.moveSlide(-1)}
-            disabled={index === 0} 
-          >
-            &#8593;
-          </button>
-          <button
-            className="NavBtn"
-            onClick={() => this.moveSlide(1)}
-            disabled={index === this.props.slides.length - 1} 
-          >
-            &#8595;
-          </button>
-        </div>
-      );
-    }
 
     return (
       <React.Fragment>
@@ -214,7 +192,6 @@ class VerticalCarousel extends Component {
             />
           ))}
         </Wrapper>
-        {/* {navigationButtons} */}
       </React.Fragment>
     );
   }

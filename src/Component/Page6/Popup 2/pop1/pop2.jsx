@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState } from "react";
 import "./pop2.css";
 import '../../Popup/pop1/drop3/drop3.css'
 import "../../Service-carousel/esxample.css";
@@ -219,14 +219,6 @@ const RegisterButton2 = () => {
   const handleChangeStart = (e) => setInputValueStart(e.target.value);
 
 
-
-
-  // const [showPopup, setShowPopup] = useState(false);
-
-  // const togglePopup = () => {
-  //   setShowPopup(!showPopup);
-  // };
-
   // Separate states for each dropdown
   const [isActiveDropdown1, setIsActiveDropdown1] = useState(false);
   const [isActiveDropdown2, setIsActiveDropdown2] = useState(false);
@@ -300,20 +292,7 @@ const RegisterButton2 = () => {
     setIsActiveDropdown5(false);
   };
 
-  // useEffect(() => {
-  //   if (showPopup) {
-  //     // Disable scroll on the body
-  //     document.body.style.overflow = "hidden";
-  //   } else {
-  //     // Enable scroll on the body
-  //     document.body.style.overflow = "auto";
-  //   }
 
-  //   // Cleanup on component unmount or when popup closes
-  //   return () => {
-  //     document.body.style.overflow = "auto";
-  //   };
-  // }, [showPopup]);
 
   return (
     <div>
@@ -506,58 +485,10 @@ const RegisterButton2 = () => {
                   </div>
                 </div>
 
-                {/* <div className='mt-5'>
-                <h5 className='head-labeltxt-color'>Internship Position Applying For:</h5>
-                <div className='flex-row'>
-                <h5 className='labeltxt-color'>Are you available to work on-site?</h5>
-                <div className='radio-row'>
-                  <label>
-                    <input
-                      type="radio"
-                      name='intern-exp'
-                      value="yes"
-                      checked={selectedOption === 'yes'}
-                      onChange={handleOptionChange}
-                    />
-                    <h6 className='light-txt'> yes</h6>
-                  </label>
-                  <br />
-                  <label>
-                    <input
-                      type="radio"
-                      name='intern-exp'
-                      value="no"
-                      checked={selectedOption === 'no'}
-                      onChange={handleOptionChange}
-                    />
-                    <h6 className='light-txt'>No</h6>
-                  </label>
-                </div>
-              </div>
-              </div> */}
+
                 <div className="mt-4 mb-4">
                   <h5 className="labeltxt-color">Are you a : </h5>
-                  {/* <div className="dropdown mt-3">
-                    <div className='inner'>
-                <div className={`select-container ${isActiveDropdown3 ? 'active' : ''}`}>
-                  <div className="select" onClick={toggleDropdown3}>
-                    <input type="text" name='mode-of-training' id="input" value={selectedOption3} readOnly />
-                  </div>
-                  <div className={`option-container ${isActiveDropdown3 ? 'active' : ''}`}>
-                    {options3.map((option, index) => (
-                      <div
-                        key={index}
-                        
-                        className={`option ${selectedOption3 === option ? 'selected' : ''}`}
-                        onClick={() => handleOptionClick3(option)}
-                      >
-                        <label>{option}</label>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-                </div>
-                  </div> */}
+
 
                   <div className="dropdown">
                     <div>
@@ -730,29 +661,6 @@ const RegisterButton2 = () => {
                                 Have you had any previous internships or
                                 relevant experience?
                               </h5>
-                              {/* <div className="radio-row">
-                                <label>
-                                  <input
-                                    type="radio"
-                                    name="intern-exp"
-                                    value="yes"
-                                    checked={selectedOption === "yes"}
-                                    onChange={handleOptionChange}
-                                  />
-                                  <h6 className="light-txt"> yes</h6>
-                                </label>
-                                <br />
-                                <label>
-                                  <input
-                                    type="radio"
-                                    name="intern-exp"
-                                    value="no"
-                                    checked={selectedOption === "no"}
-                                    onChange={handleOptionChange}
-                                  />
-                                  <h6 className="light-txt">No</h6>
-                                </label>
-                              </div> */}
                               <div
                     className={`select-container  ${
                       isActiveDropdown5 ? "active" : ""

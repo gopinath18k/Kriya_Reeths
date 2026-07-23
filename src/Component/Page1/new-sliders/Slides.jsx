@@ -1,4 +1,3 @@
-import React from 'react';
 import './Slides.css';
 import sl1 from "../../../images/sl-1.webp";
 import sl2 from "../../../images/sl-2.webp";
@@ -8,7 +7,7 @@ import sl5 from "../../../images/sl-5.webp";
 import sl6 from "../../../images/sl-6.webp";
 import sl7 from "../../../images/sl-7.webp";
 import sl8 from "../../../images/sl-8.webp";
-import sl9 from "../../../images/sl-9.jpeg";
+import sl9 from "../../../images/sl-9.webp";
 import sl22 from "../../../images/sl-22.webp";
 import sl23 from "../../../images/sl-23.webp";
 import sl24 from "../../../images/sl-24.webp";

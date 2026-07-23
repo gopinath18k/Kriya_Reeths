@@ -1,4 +1,3 @@
-import React from 'react'
 import fi1 from '../../../images/insta.webp'
 import fi2 from '../../../images/fb.webp'
 import fi3 from '../../../images/linkde.webp'

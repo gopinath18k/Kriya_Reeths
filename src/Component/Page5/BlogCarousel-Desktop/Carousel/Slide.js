@@ -1,4 +1,3 @@
-import React from "react";
 import { Spring } from "react-spring/renderprops";
 import { withGesture } from "react-with-gesture";
 import "../Carousel/Slide.css"

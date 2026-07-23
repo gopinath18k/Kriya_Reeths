@@ -1,10 +1,9 @@
-import React, { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 import kk from '../../../../vedios/kk.mp4';
 import '../portfolio-sub/Pay-per.css';
-import perL5 from '../../../../images/per-l5.png';
-import per5 from '../../../../images/per-5.png';
-import thumb2 from '../../../../images/thumb2.png';
-import bg2 from '../../../../images/bg-text2.svg'
+import perL5 from '../../../../images/per-l5.webp';
+import per5 from '../../../../images/per-5.webp';
+import thumb2 from '../../../../images/thumb2.webp';
 const KK = () => {
   const videoRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
