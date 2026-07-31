@@ -20,9 +20,9 @@ let slides = [
         <div className="col-3 col-sm-3 col-md-3 col-lg-3  all-blog-content">
           <img src={blog2} alt="" className='blogs-images'/>
           <h1 className="blogs-small-head">Article </h1>
-          <Link className="head-sub-head" to='/blog-1'><h1 className="blogs-head">Benefits of Social Media Marketing(Smm)</h1></Link>
+          <Link className="head-sub-head" to='/digital-marketing-company-in-coimbatore'><h1 className="blogs-head">Effective Social Media Marketing Services in Coimbatore: Boost Your Brand's Online Presence</h1></Link>
           <p className="blogs-paragraph">
-          Social media is the space for connection; it's the greatest way to exchange ideas and spread knowledge these days. It also helps us launch and market our services and goods to consumers, driving traffic to websites and building brand awareness.   
+          Kriya and Reeths believe that social media is more than an engagement platform-it is a growth tool. The company is one of the leading social media marketing services in Coimbatore, whose services help businesses connect with their target audience.
           </p>
           <div className="blog-image-name">
             <img src={stark} alt="" className='person-images'/>
@@ -66,9 +66,9 @@ let slides = [
         <div className="col-3 col-sm-3 col-md-3 col-lg-3  all-blog-content">
           <img src={blog2} alt="" className='blogs-images'/>
           <h1 className="blogs-small-head">Article </h1>
-          <h1 className="blogs-head">Benefits of Social Media Marketing(Smm)</h1>
+          <h1 className="blogs-head">Effective Social Media Marketing Services in Coimbatore: Boost Your Brand's Online Presence</h1>
           <p className="blogs-paragraph">
-          Social media is the space for connection; it's the greatest way to exchange ideas and spread knowledge these days. It also helps us launch and market our services and goods to consumers, driving traffic to websites and building brand awareness.   
+          Kriya and Reeths believe that social media is more than an engagement platform-it is a growth tool. The company is one of the leading social media marketing services in Coimbatore, whose services help businesses connect with their target audience.
           </p>
           <div className="blog-image-name">
             <img src={stark} alt="" className='person-images'/>
@@ -113,9 +113,9 @@ let slides = [
         <div className="col-3 col-sm-3 col-md-3 col-lg-3  all-blog-content">
           <img src={blog2} alt="" className='blogs-images'/>
           <h1 className="blogs-small-head">Article </h1>
-          <h1 className="blogs-head">Benefits of Social Media Marketing(Smm)</h1>
+          <h1 className="blogs-head">Effective Social Media Marketing Services in Coimbatore: Boost Your Brand's Online Presence</h1>
           <p className="blogs-paragraph">
-          Social media is the space for connection; it's the greatest way to exchange ideas and spread knowledge these days. It also helps us launch and market our services and goods to consumers, driving traffic to websites and building brand awareness.   
+          Kriya and Reeths believe that social media is more than an engagement platform-it is a growth tool. The company is one of the leading social media marketing services in Coimbatore, whose services help businesses connect with their target audience.
           </p>
           <div className="blog-image-name">
             <img src={stark} alt="" className='person-images'/>
@@ -159,9 +159,9 @@ let slides = [
         <div className="col-3 col-sm-3 col-md-3 col-lg-3  all-blog-content">
           <img src={blog2} alt="" className='blogs-images'/>
           <h1 className="blogs-small-head">Article </h1>
-          <h1 className="blogs-head">Benefits of Social Media Marketing(Smm)</h1>
+          <h1 className="blogs-head">Effective Social Media Marketing Services in Coimbatore: Boost Your Brand's Online Presence</h1>
           <p className="blogs-paragraph">
-          Social media is the space for connection; it's the greatest way to exchange ideas and spread knowledge these days. It also helps us launch and market our services and goods to consumers, driving traffic to websites and building brand awareness.   
+          Kriya and Reeths believe that social media is more than an engagement platform-it is a growth tool. The company is one of the leading social media marketing services in Coimbatore, whose services help businesses connect with their target audience.
           </p>
           <div className="blog-image-name">
             <img src={stark} alt="" className='person-images'/>
@@ -205,9 +205,9 @@ let slides = [
         <div className="col-3 col-sm-3 col-md-3 col-lg-3  all-blog-content">
           <img src={blog2} alt="" className='blogs-images'/>
           <h1 className="blogs-small-head">Article </h1>
-          <h1 className="blogs-head">Benefits of Social Media Marketing(Smm)</h1>
+          <h1 className="blogs-head">Effective Social Media Marketing Services in Coimbatore: Boost Your Brand's Online Presence</h1>
           <p className="blogs-paragraph">
-          Social media is the space for connection; it's the greatest way to exchange ideas and spread knowledge these days. It also helps us launch and market our services and goods to consumers, driving traffic to websites and building brand awareness.   
+          Kriya and Reeths believe that social media is more than an engagement platform-it is a growth tool. The company is one of the leading social media marketing services in Coimbatore, whose services help businesses connect with their target audience.
           </p>
           <div className="blog-image-name">
             <img src={stark} alt="" className='person-images'/>

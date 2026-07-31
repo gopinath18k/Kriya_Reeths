@@ -48,7 +48,7 @@ function App() {
             <Route path="/careers" element={<Careers />} />
             <Route path="/reach" element={<Reachus />} />
             <Route path="/blog-" element={<Blogbe/>}/>
-            <Route path="/blog-1" element={<Blogbe1/>}/>
+            <Route path="/digital-marketing-company-in-coimbatore" element={<Blogbe1/>}/>
             <Route path="/blog-2" element={<Blogbe2/>}/>
             <Route path="/Why-Professional-Advertising-Is-Still-Essential-for-Business-Growth-in-2026" element={<Blogbe3/>}/>
            

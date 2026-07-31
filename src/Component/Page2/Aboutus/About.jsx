@@ -21,7 +21,7 @@
   import achiv from '../../../images/achiv1.webp'
   import CardContainer from '../card/Card'
   import Footerel from '../../Page2/Lfooter/Lfooter'
-  import Tslidern from '../Teamslider/Nsliider';
+  import Tslider from '../Teamslider/Teamslider';
   import { useLocation } from 'react-router-dom';
 
 
@@ -179,7 +179,7 @@
             </div>
             <div className='tslider' data-aos="zoom-in"
               data-aos-duration="1300">
-              <Tslidern/>
+              <Tslider/>
             </div>
           </div>
 
