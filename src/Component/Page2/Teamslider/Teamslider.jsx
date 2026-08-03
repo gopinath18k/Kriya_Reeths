@@ -5,7 +5,6 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import './Teamslider.css';
 
-// Import new team member images
 import sakthiVelImg from '../../../images/Sakthi Vel.webp';
 import jayasreeImg from '../../../images/Jayasree.webp';
 import nithyaVaniImg from '../../../images/Nithya Vani.webp';

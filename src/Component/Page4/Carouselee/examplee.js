@@ -32,6 +32,12 @@ import per5 from "../../../images/swasthik.webp";
 import per6 from "../../../images/uyir.webp";
 import per7 from "../../../images/littletown waffles.webp";
 
+import myvillage from '../../../images/myvillage.webp';
+import myvillagelogo from '../../../images/My Village Logo.webp';
+
+import skykapture from '../../../images/Sky Kapture.webp';
+import skykapturelogo from '../../../images/SkykaptureLogo.webp';
+
 import perL1 from "../../../images/per-l1.webp";
 import perL4 from "../../../images/per-l4.webp";
 import town from "../../../images/town.webp";
@@ -100,6 +106,8 @@ import Footerel from "../../Page2/Lfooter/Lfooter";
 import { Link } from "react-router-dom";
 import Vesat from "./resource/Vesat";
 import Aarudhra from "./resource/Aarudhra";
+import GoodHomes from "./resource/GoodHomes";
+import Horizon from "./resource/Horizon";
 
 const slides = [
   {
@@ -107,151 +115,151 @@ const slides = [
     content: (
       <div className="key-2">
         <div className="webdesign-section">
-          <div class="row first-row">
-            <div class="col-6 col-sm-3 order-sm-2 order-1 poster-padding-col">
+          <div className="row first-row">
+            <div className="col-6 col-sm-3 order-sm-2 order-1 poster-padding-col">
               <img className="web-img" src={trimaia1} />
             </div>
-            <div class="col-12 col-sm-6 order-sm-1 order-2 posters-col">
+            <div className="col-12 col-sm-6 order-sm-1 order-2 posters-col">
               <img className="web-img" src={trimaia2} />
             </div>
-            <div class="col-6 col-sm-3 poster-padding-col">
+            <div className="col-6 col-sm-3 poster-padding-col">
               <img className="web-img" src={trimaia3} />
             </div>
           </div>
-          <div class="row second-row">
-            <div class="col-8 poster-padding-col">
+          <div className="row second-row">
+            <div className="col-8 poster-padding-col">
               <img className="design-img" src={nss1} />
             </div>
-            <div class="col-4 poster-padding-col">
+            <div className="col-4 poster-padding-col">
               <img className="design-img" src={nss2} />
             </div>
           </div>
-          <div class="row first-row">
-            <div class="col-4  poster-padding-col">
+          <div className="row first-row">
+            <div className="col-4  poster-padding-col">
               <img className="design-img" src={allione} />
             </div>
-            <div class="col-4 poster-padding-col">
+            <div className="col-4 poster-padding-col">
               <img className="design-img" src={allitwo} />
             </div>
-            <div class="col-4 poster-padding-col">
+            <div className="col-4 poster-padding-col">
               <img className="design-img" src={allithree} />
             </div>
           </div>
-          <div class="row second-row">
-            <div class="col-8 poster-padding-col">
+          <div className="row second-row">
+            <div className="col-8 poster-padding-col">
               <img className="design-img" src={allifour} />
             </div>
-            <div class="col-4 poster-padding-col">
+            <div className="col-4 poster-padding-col">
               <img className="design-img" src={allifive} />
             </div>
           </div>
-          <div class="row second-row">
-            <div class="col-4  poster-padding-col">
+          <div className="row second-row">
+            <div className="col-4  poster-padding-col">
               <img className="design-img" src={osho2} />
             </div>
-            <div class="col-4 poster-padding-col">
+            <div className="col-4 poster-padding-col">
               <img className="design-img" src={osho1} />
             </div>
-            <div class="col-4 poster-padding-col">
+            <div className="col-4 poster-padding-col">
               <img className="design-img" src={osho3} />
             </div>
           </div>
-          <div class="row second-row">
-            <div class="col-8 poster-padding-col">
+          <div className="row second-row">
+            <div className="col-8 poster-padding-col">
               <img className="design-img" src={osho4} />
             </div>
-            <div class="col-4 poster-padding-col">
+            <div className="col-4 poster-padding-col">
               <img className="design-img" src={osho5} />
             </div>
           </div>
-          <div class="row first-row">
-            <div class="col-4 poster-padding-col">
+          <div className="row first-row">
+            <div className="col-4 poster-padding-col">
               <img className="design-img" src={maz1} />
             </div>
-            <div class="col-8 poster-padding-col">
+            <div className="col-8 poster-padding-col">
               <img className="design-img" src={maz2} />
             </div>
           </div>
-          <div class="row second-row">
-            <div class="col-7 poster-padding-col">
+          <div className="row second-row">
+            <div className="col-7 poster-padding-col">
               <img className="design-img" src={wise1} />
             </div>
-            <div class="col-3 poster-padding-col">
+            <div className="col-3 poster-padding-col">
               <img className="design-img" src={wise2} />
             </div>
-            <div class="col-2 poster-padding-col">
+            <div className="col-2 poster-padding-col">
               <img className="design-img" src={wise3} />
             </div>
           </div>
-          <div class="row first-row">
-            <div class="col-4 poster-padding-col">
+          <div className="row first-row">
+            <div className="col-4 poster-padding-col">
               <img className="design-img" src={mahatwo} />
             </div>
-            <div class="col-8 poster-padding-col">
+            <div className="col-8 poster-padding-col">
               <img className="design-img" src={mahaone} />
             </div>
           </div>
-          <div class="row second-row">
-            <div class="col-4  poster-padding-col">
+          <div className="row second-row">
+            <div className="col-4  poster-padding-col">
               <img className="design-img" src={swasthik1} />
             </div>
-            <div class="col-4 poster-padding-col">
+            <div className="col-4 poster-padding-col">
               <img className="design-img" src={swasthik2} />
             </div>
-            <div class="col-4 poster-padding-col">
+            <div className="col-4 poster-padding-col">
               <img className="design-img" src={swasthik3} />
             </div>
           </div>
-          <div class="row second-row">
-            <div class="col-8 poster-padding-col">
+          <div className="row second-row">
+            <div className="col-8 poster-padding-col">
               <img className="design-img" src={disha1} />
             </div>
-            <div class="col-4 poster-padding-col">
+            <div className="col-4 poster-padding-col">
               <img className="design-img" src={disha2} />
             </div>
           </div>
-          <div class="row first-row">
-            <div class="col-4 poster-padding-col">
+          <div className="row first-row">
+            <div className="col-4 poster-padding-col">
               <img className="design-img" src={jat1} />
             </div>
-            <div class="col-8 poster-padding-col">
+            <div className="col-8 poster-padding-col">
               <img className="design-img" src={jat2} />
             </div>
           </div>
-          <div class="row second-row">
-            <div class="col-4  poster-padding-col">
+          <div className="row second-row">
+            <div className="col-4  poster-padding-col">
               <img className="design-img" src={cosmos1} />
             </div>
-            <div class="col-4 poster-padding-col">
+            <div className="col-4 poster-padding-col">
               <img className="design-img" src={cosmos2} />
             </div>
-            <div class="col-4 poster-padding-col">
+            <div className="col-4 poster-padding-col">
               <img className="design-img" src={cosmos3} />
             </div>
           </div>
-          <div class="row first-row">
-            <div class="col-4 poster-padding-col">
+          <div className="row first-row">
+            <div className="col-4 poster-padding-col">
               <img className="design-img" src={vesat1} />
             </div>
-            <div class="col-8 poster-padding-col">
+            <div className="col-8 poster-padding-col">
               <img className="design-img" src={vesat2} />
             </div>
           </div>
           
-          <div class="row second-row">
-            <div class="col-8 poster-padding-col">
+          <div className="row second-row">
+            <div className="col-8 poster-padding-col">
               <img className="design-img" src={ssv1} />
             </div>
-            <div class="col-4 poster-padding-col">
+            <div className="col-4 poster-padding-col">
               <img className="design-img" src={ssv2} />
             </div>
           </div>
           
-          <div class="row first-row">
-            <div class="col-6 poster-padding-col">
+          <div className="row first-row">
+            <div className="col-6 poster-padding-col">
               <img className="design-img" src={gr1} />
             </div>
-            <div class="col-6 poster-padding-col">
+            <div className="col-6 poster-padding-col">
               <img className="design-img" src={gr2} />
             </div>
           </div>
@@ -635,6 +643,73 @@ const slides = [
             <Aarudhra/>
           </div>
 
+          <div className="row pay-per-main  pay-vid-pd ">
+            <div className="col-0 col-sm-1"></div>
+            <div className="col-12 col-sm-5  order-2  order-sm-1 pay-text-col">
+              <img className="pay-per-logo" src={myvillagelogo} />
+              <h3 className="pay-per-head">Lead ad</h3>
+              <p className="pay-per-para">
+              My Village Eco Rural Resort offers a unique countryside escape with family friendly activities, traditional village experiences, and nature inspired stays. Through our targeted Meta lead generation campaign, we reached families and travelers looking for memorable getaways, generating high-quality inquiries at an efficient cost and boosting bookings for the resort.
+              </p>
+              <div className="pay-sub">
+                <div className="pay-sub-box">
+                  <h3 className="pay-sub-head"> 48,077</h3>
+                  <h6 className="pay-sub-p">Reaches</h6>
+                </div>
+                <div className="pay-sub-box">
+                  <h3 className="pay-sub-head">₹43.22</h3>
+                  <h6 className="pay-sub-p">Cost Per Lead</h6>
+                </div>
+                <div className="pay-sub-box">
+                  <h3 className="pay-sub-head"> 39</h3>
+                  <h6 className="pay-sub-p">Lead Form Submissions</h6>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-sm-6  order-1  order-sm-2  pay-per-img-head2">
+              <img className="pay-per-img2" src={myvillage} />
+            </div>
+          </div>
+
+
+
+          <div>
+            <GoodHomes/>
+          </div>
+
+
+          <div className="row pay-per-main  pay-vid-pd ">
+            <div className="col-0 col-sm-1"></div>
+            <div className="col-12 col-sm-5  order-2  order-sm-1 pay-text-col">
+              <img className="pay-per-logo" src={skykapturelogo} />
+              <h3 className="pay-per-head">Lead ad</h3>
+              <p className="pay-per-para">
+              Sky Kapture specializes in premium architectural, residential, and commercial interior design solutions, creating functional spaces with modern aesthetics. Through our targeted Meta lead generation campaign, we connected with homeowners and businesses planning interior transformations, generating high-intent inquiries while strengthening the brand's digital presence.
+              </p>
+              <div className="pay-sub">
+                <div className="pay-sub-box">
+                  <h3 className="pay-sub-head"> 76,888+</h3>
+                  <h6 className="pay-sub-p">Reaches</h6>
+                </div>
+                <div className="pay-sub-box">
+                  <h3 className="pay-sub-head">₹225.54</h3>
+                  <h6 className="pay-sub-p">Cost Per Lead</h6>
+                </div>
+                <div className="pay-sub-box">
+                  <h3 className="pay-sub-head"> 90</h3>
+                  <h6 className="pay-sub-p">Lead Form Submissions</h6>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-sm-6  order-1  order-sm-2  pay-per-img-head2">
+              <img className="pay-per-img2" src={skykapture} />
+            </div>
+          </div>
+
+          <div>
+            <Horizon/>
+          </div>
+          
         </div>
         <OurCommunity />
         <Footerel />
@@ -756,37 +831,37 @@ const slides = [
                 </div>
                 <div className="mt-4">
                   <div className="webdesign-section">
-                    <div class="row first-row">
-                      <div class="col-6 col-sm-3  poster-padding-col">
+                    <div className="row first-row">
+                      <div className="col-6 col-sm-3  poster-padding-col">
                         <img className="web-img" src={pv1} />
                       </div>
-                      <div class="col-12 col-sm-6 order-3 order-sm-2 posters-col">
+                      <div className="col-12 col-sm-6 order-3 order-sm-2 posters-col">
                         <img className="web-img" src={pv2} />
                       </div>
-                      <div class="col-6 col-sm-3 order-2 order-sm-3 poster-padding-col">
+                      <div className="col-6 col-sm-3 order-2 order-sm-3 poster-padding-col">
                         <img className="web-img" src={pv3} />
                       </div>
                     </div>
                     
-                    <div class="row second-row">
-                      <div class="col-12 col-sm-5 poster-padding-col">
+                    <div className="row second-row">
+                      <div className="col-12 col-sm-5 poster-padding-col">
                         <img className="design-img" src={pv4} />
                       </div>
-                      <div class="col-6 col-sm-3 poster-padding-col">
+                      <div className="col-6 col-sm-3 poster-padding-col">
                         <img className="design-img2 mt-2 mt-sm-0" src={pv5} />
                       </div>
-                      <div class="col-6 col-sm-4 poster-padding-col">
+                      <div className="col-6 col-sm-4 poster-padding-col">
                         <img className="design-img mt-2 mt-sm-0" src={pv6} />
                       </div>
                     </div>
-                    <div class="row first-row">
-                      <div class="col-6 col-sm-3  poster-padding-col">
+                    <div className="row first-row">
+                      <div className="col-6 col-sm-3  poster-padding-col">
                         <img className="design-img" src={pv7} />
                       </div>
-                      <div class="col-6 col-sm-3 poster-padding-col">
+                      <div className="col-6 col-sm-3 poster-padding-col">
                         <img className="design-img" src={pv8} />
                       </div>
-                      <div class="col-12 col-sm-6 poster-padding-col">
+                      <div className="col-12 col-sm-6 poster-padding-col">
                         <img className="design-img mt-2 mt-sm-0" src={pv9} />
                       </div>
                     </div>
