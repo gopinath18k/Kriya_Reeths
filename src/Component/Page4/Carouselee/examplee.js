@@ -671,8 +671,6 @@ const slides = [
             </div>
           </div>
 
-
-
           <div>
             <GoodHomes/>
           </div>

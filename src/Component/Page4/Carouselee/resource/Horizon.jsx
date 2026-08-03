@@ -22,7 +22,7 @@ const Horizon = () => {
     document.addEventListener('mozfullscreenchange', handleFullscreenChange);
     document.addEventListener('MSFullscreenChange', handleFullscreenChange);
 
-    // Cleanup event listeners on component unmount
+    
     return () => {
       document.removeEventListener('fullscreenchange', handleFullscreenChange);
       document.removeEventListener('webkitfullscreenchange', handleFullscreenChange);
@@ -33,16 +33,15 @@ const Horizon = () => {
 
   const togglePlayPause = () => {
     if (!isPlaying) {
-      if (videoRef.current.requestFullscreen) {
+      if (videoRef.current.requestFullscreen) { 
         videoRef.current.requestFullscreen();
-      } else if (videoRef.current.mozRequestFullScreen) { /* Firefox */
+      } else if (videoRef.current.mozRequestFullScreen) { 
         videoRef.current.mozRequestFullScreen();
-      } else if (videoRef.current.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+      } else if (videoRef.current.webkitRequestFullscreen) { 
         videoRef.current.webkitRequestFullscreen();
-      } else if (videoRef.current.msRequestFullscreen) { /* IE/Edge */
+      } else if (videoRef.current.msRequestFullscreen) { 
         videoRef.current.msRequestFullscreen();
       }
-      
       videoRef.current.play();
     } else {
       videoRef.current.pause();
@@ -53,7 +52,7 @@ const Horizon = () => {
   const exitFullscreen = () => {
     if (videoRef.current) {
       videoRef.current.pause();
-      videoRef.current.currentTime = 0; // Reset video to start
+      videoRef.current.currentTime = 0; 
       setIsPlaying(false);
     }
   };
@@ -68,8 +67,8 @@ const Horizon = () => {
               ref={videoRef}
               className="pay-per-video"
               src={horizonVideo}
-              poster={thumbnail} // Set the thumbnail as the poster
-              onClick={togglePlayPause} // Video click also triggers play/pause
+              poster={thumbnail} 
+              onClick={togglePlayPause} 
             />
             <div className="video-controls">
               <button className="play-pause-btn" onClick={togglePlayPause}></button>
