@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
 import "./Home.css";
+import EffectiveSocialMedia from "../../../../images/Social Media Marketing Services in Coimbatore.webp";
 import blog1 from "../../../../images/blog2.webp";
-import blog2 from "../../../../images/blog3.webp";
-import blog3 from "../../../../images/KR-BLOG-Why-Professional-Advertising (2).webp";
+import DigitalSocialMedia from "../../../../images/Digital Marketing Company in Coimbatore.webp";
+import significance_of_digital from "../../../../images/blog2.webp";
+import Why_Professional_Advertising from "../../../../images/KR-BLOG-Why-Professional-Advertising (2).webp";
+import Best_Website_Development_Company from "../../../../images/Best Website Development Company.webp";
+import Digital_Marketing_Company_in_GandhiPuram from "../../../../images/Digital Marketing Company in GandhiPuram.webp";
 import stark from "../../../../images/Logo.webp";
 import { Link } from 'react-router-dom';
 
@@ -18,9 +22,9 @@ export const Homese = () => {
   const Mobileblogs = [
     {
       id: 1,
-      image: blog1,
+      image: EffectiveSocialMedia,
       smallHead: "Article",
-      head:<Link className="head-sub-head" to='/digital-marketing-company-in-coimbatore'>Effective Social Media Marketing Services in Coimbatore: Boost Your Brand's Online Presence</Link>,
+      head:<Link className="head-sub-head" to='/effective-social-media-marketing-services-in-coimbatore'>Effective Social Media Marketing Services in Coimbatore: Boost Your Brand's Online Presence</Link>,
       paragraph: "Kriya and Reeths believe that social media is more than an engagement platform-it is a growth tool. The company is one of the leading social media marketing services in Coimbatore, whose services help businesses connect with their target audience.",
       personImage: stark,
       personName: "Kriya & Reeths",
@@ -28,9 +32,9 @@ export const Homese = () => {
     },
     {
       id: 2,
-      image: blog2,
+      image: significance_of_digital,
       smallHead: "Article",
-      head: <Link className="head-sub-head" to='/blog-2'>What Is the Significance of Digital Marketing</Link>,
+      head: <Link className="head-sub-head" to='/significance-of-digital-marketing'>What Is the Significance of Digital Marketing</Link>,
       paragraph: "After the COVID-19 pandemic, every sector of businesses entered online platforms like medicines, dress, groceries etc. As per statistics, nearly 60% of small-medium businesses use digital marketing and plan to invest more in hence, the Global digital marketing and advertising market is forecast to hit $1.5 trillion by 2030.",
       personImage: stark,
       personName: "Kriya & Reeths",
@@ -38,9 +42,9 @@ export const Homese = () => {
     },
     {
       id: 3,
-      image: blog3,
+      image: Why_Professional_Advertising,
       smallHead: "Article",
-      head: <Link className="head-sub-head" to='/Why-Professional-Advertising-Is-Still-Essential-for-Business-Growth-in-2026'>Why Professional Advertising Is Still Essential for Business Growth in 2026</Link>,
+      head: <Link className="head-sub-head" to='/why-professional-advertising-is-still-essential-for-business-growth-in-2026'>Why Professional Advertising Is Still Essential for Business Growth in 2026</Link>,
       paragraph: "In today's competitive marketplace, simply offering a quality product or service is no longer enough to attract customers. Businesses across every industry are competing for attention both online and offline, making it increasingly difficult to stand out.",
       personImage: stark,
       personName: "Kriya & Reeths",
@@ -48,30 +52,30 @@ export const Homese = () => {
     },
     {
       id: 4,
-      image: blog1,
+      image: DigitalSocialMedia,
       smallHead: "Article",
-      head: <Link className="head-sub-head" to='/digital-marketing-company-in-coimbatore'>Effective Social Media Marketing Services in Coimbatore: Boost Your Brand's Online Presence</Link>,
-      paragraph: "Kriya and Reeths believe that social media is more than an engagement platform-it is a growth tool. The company is one of the leading social media marketing services in Coimbatore, whose services help businesses connect with their target audience.",
+      head: <Link className="head-sub-head" to='/digital-marketing-company-in-coimbatore'>Digital Marketing Company in Coimbatore</Link>,
+      paragraph: "In the fast-paced digital age of today, companies have to keep up to remain competitive. An established online presence is essential to reach and engage your audience effectively. This is where digital marketing company in Coimbatore come in handy. Whether a new business or an old one, using the right digital marketing tools can give your brand's visibility and engagement a big boost.",
       personImage: stark,
       personName: "Kriya & Reeths",
       personDescription: "Coimbatore"
     },
     {
       id: 5,
-      image: blog2,
+      image: Best_Website_Development_Company,
       smallHead: "Article",
-      head:<Link className="head-sub-head" to='/blog-2'>What Is the Significance of Digital Marketing</Link>,
-      paragraph: "After the COVID-19 pandemic, every sector of businesses entered online platforms like medicines, dress, groceries etc. As per statistics, nearly 60% of small-medium businesses use digital marketing and plan to invest more in hence, the Global digital marketing and advertising market is forecast to hit $1.5 trillion by 2030.",
+      head:<Link className="head-sub-head" to='/best-website-development-company-in-coimbatore'>Finding the Best Website Development Company in Coimbatore: Kriya Reeths</Link>,
+      paragraph: "In today’s digital world, web development is crucial for businesses to stay competitive and reach their target audience effectively. A well-designed website acts as the face of a business, fostering customer trust and driving sales. Kriya & Reeths stands out as one of the Best Website Development Company in Coimbatore.",
       personImage: stark,
       personName: "Kriya & Reeths",
       personDescription: "Coimbatore"
     },
     {
       id: 6,
-      image: blog3,
+      image: Digital_Marketing_Company_in_GandhiPuram,
       smallHead: "Article",
-      head: <Link className="head-sub-head" to='/blog-3'>Why Professional Advertising Is Still Essential for Business Growth in 2026</Link>,
-      paragraph: "In today's competitive marketplace, simply offering a quality product or service is no longer enough to attract customers. Businesses across every industry are competing for attention both online and offline, making it increasingly difficult to stand out.",
+      head: <Link className="head-sub-head" to='/digital-marketing-company-in-gandhiPuram-coimbatore'>Outline for Long-Form Article: "Digital Marketing Company in GandhiPuram, Coimbatore"</Link>,
+      paragraph: "In today’s digital age, having a solid online presence is crucial for business growth. Whether you’re a new startup or an established brand, finding the right digital marketing company in Gandhipuram, Coimbatore, can make a world of difference. With more and more businesses shifting online.",
       personImage: stark,
       personName: "Kriya & Reeths",
       personDescription: "Coimbatore"
@@ -88,7 +92,7 @@ export const Homese = () => {
     },
     {
       id: 8,
-      image: blog2,
+      image: significance_of_digital,
       smallHead: "Article",
       head: <Link className="head-sub-head" to='/blog-2'>What Is the Significance of Digital Marketing</Link>,
       paragraph: "After the COVID-19 pandemic, every sector of businesses entered online platforms like medicines, dress, groceries etc. As per statistics, nearly 60% of small-medium businesses use digital marketing and plan to invest more in hence, the Global digital marketing and advertising market is forecast to hit $1.5 trillion by 2030.",
@@ -98,7 +102,7 @@ export const Homese = () => {
     },
     {
       id: 9,
-      image: blog3,
+      image: Why_Professional_Advertising,
       smallHead: "Article",
       head:  <Link className="head-sub-head" to='/blog-3'>Why Professional Advertising Is Still Essential for Business Growth in 2026</Link>,
       paragraph: "In today's competitive marketplace, simply offering a quality product or service is no longer enough to attract customers. Businesses across every industry are competing for attention both online and offline, making it increasingly difficult to stand out.",
@@ -118,7 +122,7 @@ export const Homese = () => {
     },
     {
       id: 11,
-      image: blog2,
+      image: significance_of_digital,
       smallHead: "Article",
       head: <Link className="head-sub-head" to='/blog-2'>What Is the Significance of Digital Marketing</Link>,
       paragraph: "After the COVID-19 pandemic, every sector of businesses entered online platforms like medicines, dress, groceries etc. As per statistics, nearly 60% of small-medium businesses use digital marketing and plan to invest more in hence, the Global digital marketing and advertising market is forecast to hit $1.5 trillion by 2030.",
@@ -128,7 +132,7 @@ export const Homese = () => {
     },
     {
       id: 12,
-      image: blog3,
+      image: Why_Professional_Advertising,
       smallHead: "Article",
       head: <Link className="head-sub-head" to='/blog-3'>Why Professional Advertising Is Still Essential for Business Growth in 2026</Link>,
       paragraph: "In today's competitive marketplace, simply offering a quality product or service is no longer enough to attract customers. Businesses across every industry are competing for attention both online and offline, making it increasingly difficult to stand out.",
@@ -148,7 +152,7 @@ export const Homese = () => {
     },
     {
       id: 14,
-      image: blog2,
+      image: significance_of_digital,
       smallHead: "Article",
       head: <Link className="head-sub-head" to='/blog-2'>What Is the Significance of Digital Marketing</Link>,
       paragraph: "After the COVID-19 pandemic, every sector of businesses entered online platforms like medicines, dress, groceries etc. As per statistics, nearly 60% of small-medium businesses use digital marketing and plan to invest more in hence, the Global digital marketing and advertising market is forecast to hit $1.5 trillion by 2030.",
@@ -158,7 +162,7 @@ export const Homese = () => {
     },
     {
       id: 15,
-      image: blog3,
+      image: Why_Professional_Advertising,
       smallHead: "Article",
       head: <Link className="head-sub-head" to='/blog-3'>Why Professional Advertising Is Still Essential for Business Growth in 2026</Link>,
       paragraph: "In today's competitive marketplace, simply offering a quality product or service is no longer enough to attract customers. Businesses across every industry are competing for attention both online and offline, making it increasingly difficult to stand out.",

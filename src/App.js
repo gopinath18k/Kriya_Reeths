@@ -17,6 +17,9 @@ import Blogbe from './Component/Page5/Bloge/Blogb';
 import Blogbe1 from './Component/Page5/Bloge1/Blogb1';
 import Blogbe2 from './Component/Page5/Bloge2/Blogb2';
 import Blogbe3 from './Component/Page5/Bloge3/Blogb3';
+import SocialMediaMarketingServices from './Component/Page5/Bloge4/Social_Media_Marketing_Services';
+import WebsiteDevelopmentCompany from './Component/Page5/Bloge5/website_development_company';
+import OutlineForLongForm from './Component/Page5/Bloge6/outline_for_long_form';
 
 
 
@@ -24,21 +27,21 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-   
+
     setTimeout(() => {
       setLoading(false);
-    }, 0); 
+    }, 0);
   }, []);
 
   return (
     <div className='app'>
       {loading ? (
-        <Preloadere/>
+        <Preloadere />
       ) : (
         <>
-        
+
           <Navbare />
-          
+
           <Routes>
             <Route path="/" element={<Homee />} />
             <Route path="/about" element={<Aboute />} />
@@ -47,23 +50,26 @@ function App() {
             <Route path="/blog" element={<Blog />} />
             <Route path="/careers" element={<Careers />} />
             <Route path="/reach" element={<Reachus />} />
-            <Route path="/blog-" element={<Blogbe/>}/>
-            <Route path="/digital-marketing-company-in-coimbatore" element={<Blogbe1/>}/>
-            <Route path="/blog-2" element={<Blogbe2/>}/>
-            <Route path="/Why-Professional-Advertising-Is-Still-Essential-for-Business-Growth-in-2026" element={<Blogbe3/>}/>
-           
-            
+            <Route path="/digital-marketing-a-boon-or-bane" element={<Blogbe />} />
+            <Route path="/digital-marketing-company-in-coimbatore" element={<Blogbe1 />} />
+            <Route path="/significance-of-digital-marketing" element={<Blogbe2 />} />
+            <Route path="/why-professional-advertising-is-still-essential-for-business-growth-in-2026" element={<Blogbe3 />} />
+            <Route path="/effective-social-media-marketing-services-in-coimbatore" element={<SocialMediaMarketingServices />} />
+            <Route path="/best-website-development-company-in-coimbatore" element={<WebsiteDevelopmentCompany />} />
+            <Route path="/digital-marketing-company-in-gandhiPuram-coimbatore" element={<OutlineForLongForm/>} />
+
+
           </Routes>
           <Arrow />
           <Whatsapp />
-         
-        
-          
+
+
+
         </>
       )}
 
-      
-     
+
+
     </div>
   );
 }
