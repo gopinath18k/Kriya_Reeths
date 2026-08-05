@@ -102,7 +102,7 @@ const Blog = () => {
                 <div className="col-12 col-sm-6 beer-text" data-aos="fade-left"
         data-aos-duration="1300">
                     <h6 className='y-text'>Digital Marketing </h6>
-                    <Link to='/digital-marketing-a-boon-or-bane' className='blog-head-text'><h2>Digital Marketing : A Boon Or  Bane</h2></Link>
+                    <Link to='/blog/digital-marketing-a-boon-or-bane' className='blog-head-text'><h2>Digital Marketing : A Boon Or  Bane</h2></Link>
                     <p className='beer-p'>In today's evolving technologies digital marketing is exposed as a powerful tool for businesses to reach targeted customers and generate traffic worldwide. Like many other platforms, digital marketing has its techniques and strategies to bring one’s business online instantly and easily and it also has its own set of advantages and disadvantages, let us discuss in this blog.</p>
 
                     <div className='tony-head'>
