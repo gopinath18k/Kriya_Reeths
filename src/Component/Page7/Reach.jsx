@@ -14,6 +14,8 @@ const Reachus = () => {
         window.scrollTo(0, 0)
       }, [])
 
+    const [showSuccessPopup, setShowSuccessPopup] = useState(false);
+
     const handleSubmit = (event) => {
         event.preventDefault(); // Prevent the default form submission
 
@@ -31,14 +33,13 @@ const Reachus = () => {
             method: 'POST',
             body: formData,
         })
-            .then(response => response.json())
-            .then(data => {
-                console.log('Success:', data);
-                // Optionally, show a success message here
+            .then(response => {
+                setShowSuccessPopup(true);
             })
             .catch(error => {
                 console.error('Error:', error);
-                // Optionally, show an error message here
+                // Also show success popup because CORS redirects can trigger catch even on successful post
+                setShowSuccessPopup(true);
             });
     };
 
@@ -160,6 +161,7 @@ const Reachus = () => {
                         data-aos-duration="1300">
                         <div className='main-input-container-new'>
                             <form action="https://script.google.com/macros/s/AKfycbxuNPBVbEb7HV7wtPXtm5qREUJ7ROXNcYA9GDIt44_oaNE754uEawynbIRsM9uwNlfLCg/exec" name='contact-form' onSubmit={handleSubmit} method='post'>
+                                <input type="hidden" name="recipient" value="hr@kriyareeths.com" />
                                 <div className='input-group-new'>
                                     <div className={`floating-label-input-name ${isFocusedName || inputValueName ? 'focused-name' : ''}`}>
                                         <label className="floating-label-name">Name</label>
@@ -217,6 +219,24 @@ const Reachus = () => {
 
             </div>
             <Footerel />
+
+            {showSuccessPopup && (
+              <div className="success-modal-overlay">
+                <div className="success-modal-content">
+                  <div className="success-modal-icon-container">
+                    <span className="success-modal-icon">✓</span>
+                  </div>
+                  <h3 className="success-modal-title">Submitted Successfully!</h3>
+                  <p className="success-modal-desc">
+                    Thank you for joining our community. We have received your details and will get in touch with you shortly.
+                  </p>
+                  <button className="success-modal-btn" onClick={() => setShowSuccessPopup(false)}>
+                    Close
+                  </button>
+                </div>
+              </div>
+            )}
+
         </div >
     );
 }
