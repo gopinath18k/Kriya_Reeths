@@ -18,6 +18,9 @@ import web5 from "../../../images/web-5.webp";
 import web6 from "../../../images/web-6.webp";
 import web7 from "../../../images/web-7.webp";
 import web8 from "../../../images/web-8.webp";
+import Suman from "../../../images/Suman_Web.webp";
+import GoodHome from "../../../images/GoodHome_Web.webp";
+import Mars from "../../../images/Mars_Web.webp";
 import silverbees from "../../../images/silverbees1.webp";
 import dishareal from "../../../images/disharealty.webp";
 import divine from "../../../images/divinebees.webp";
@@ -494,6 +497,54 @@ const slides = [
               <h4 className="web-h">Virgin Valley Resort</h4>
               <p className="web-p">
               Virgin Valley Resort in Ooty offers a serene escape amidst misty valleys and lush landscapes. Experience a perfect blend of luxury and tranquility with modern comforts and breathtaking views.We created a WordPress website that showcases their commitment to quality and natural goodness, inviting customers to experience the richness of their handcrafted products.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className=" service-container8">
+          <div className="row web-sec">
+            <div className="col-12">
+              <Link target="_blank"  to="https://sumanjewellery.in/">
+                <img className="web-img" src={Suman} />
+              </Link>
+            </div>
+            <div className="col-12 osho-text pb-5">
+              <h4 className="web-h">Suman Jewellery</h4>
+              <p className="web-p">
+              Suman Jewellery in Coimbatore is a trusted destination for exquisite gold, diamond, silver, and bridal jewellery, blending timeless craftsmanship with contemporary elegance. We developed a premium website that highlights their rich legacy, stunning collections, and exceptional artistry, offering customers a seamless experience to explore jewellery designed for every special occasion.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className=" service-container7">
+          <div className="row web-sec">
+            <div className="col-12">
+              <Link target="_blank"  to="https://goodlookhomedecor.com/">
+                <img className="web-img" src={GoodHome} />
+              </Link>
+            </div>
+            <div className="col-12 mr-text">
+              <h4 className="web-h">Good Look Home Decor</h4>
+              <p className="web-p">
+              Good Look Home Decor offers stylish and elegant interior décor solutions designed to transform living and commercial spaces with creativity and sophistication. We developed a modern website that showcases their premium décor collections, innovative designs, and commitment to quality, providing customers with a seamless experience to explore products that enhance every space with beauty and functionality.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className=" service-container8">
+          <div className="row web-sec">
+            <div className="col-12">
+              <Link target="_blank"  to="https://marsautomotivedesigners.com/">
+                <img className="web-img" src={Mars} />
+              </Link>
+            </div>
+            <div className="col-12 osho-text pb-5">
+              <h4 className="web-h">Mars Automotive Designers</h4>
+              <p className="web-p">
+              Mars Automotive Designers specializes in manufacturing high-quality truck containers, vehicle body fabrication, and customized automotive solutions built for durability and performance. We developed a professional website that showcases their advanced manufacturing capabilities, premium materials, and commitment to excellence, providing customers with a seamless experience to explore their innovative products and engineering expertise.
               </p>
             </div>
           </div>

@@ -1,5 +1,4 @@
 import { useRef, useState, useEffect } from 'react';
-
 import './Home.css';
 import '../Placeholder/place.css';
 import head from '../../../images/head.webp';
@@ -20,8 +19,7 @@ import Tscroll1 from '../Test-scroll/Tscroll1';
 import ScrollingCarousele from '../new-sliders/Slides';
 import Slidesnew2 from '../new-sliders/Slides2';
 
-
-
+ 
 AOS.init();
 
 const Homee = () => {
@@ -102,7 +100,6 @@ const Homee = () => {
     const settings = {
         dots: true,
         infinite: true,
-        speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
@@ -164,7 +161,7 @@ const Homee = () => {
                             <h1 className='abm-text'>Your Brand<span className='less-w'>with  Us!</span></h1>
                         </div>
                         <div className='but-home'>
-                            <p>Our team of expert strategists uses the latest tools and develops innovative methods to create data-driven digital marketing plans for your brand. Clear communication and seamless collaboration are the cornerstones of our client relationships, ensuring a successful partnership every step of the way.</p>
+                            <p>Looking for the best branding agency in Coimbatore that delivers results? Our team of expert strategists uses the latest tools and develops innovative methods to create data-driven digital marketing plans for your brand. As a leading branding company in Coimbatore, let’s build a powerful brand together!</p>
                         </div>
                         <a href="#joinus" className='abt-but'>Start Today</a>
 

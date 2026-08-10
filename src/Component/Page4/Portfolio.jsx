@@ -12,7 +12,7 @@ const Portfolioo = () => {
          <div className='ab-section1'>
           <h1 className='head2'>Portfolio</h1>
 
-          <p className='head3-p'>Our portfolio showcases our creative and strategic capabilities through a diverse range of projects. Discover our work in graphic design, web development, digital marketing, event management, and photography/videography. Each project reflects our commitment to innovation, creativity, and client satisfaction. </p>
+          <p className='head3-p'>As a Leading Advertising Agency in Coimbatore, our portfolio showcases our creative and strategic capabilities through a diverse range of projects. Discover our work in branding,advertising, digital marketing, event management, and photography/videography. Each project reflects our commitment to innovation, creativity, and client satisfaction. </p>
         </div>
 
        

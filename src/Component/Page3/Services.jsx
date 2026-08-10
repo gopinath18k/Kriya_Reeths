@@ -78,7 +78,9 @@ const Services = () => {
         <h3 className='head1'>Our</h3>
         <h1 className='head2'>Services</h1>
 
-        <p className='head3-p'>As a leading digital marketing agency in Coimbatore, we offer a comprehensive suite of digital marketing services designed to expand your reach and deliver tangible results. Our team of experts seamlessly blends creativity, technical expertise, and strategic thinking to help you achieve your marketing goals.  Explore our range of services crafted to elevate your brand and drive growth. </p>
+        <p className='head3-p'>As the Best SEO Company in Coimbatore, we offer a comprehensive suite of SEO
+services in Coimbatore designed to improve your online visibility and deliver measurable results. Our team of experts seamlessly blends technical expertise, strategic planning,and proven optimization techniques to help you achieve your business goals. Explore our range of SEO solutions crafted to boost your rankings and drive sustainable growth.
+ </p>
       </div>
       <div className='service-exampless'>
         <div className='bg1-cont'>

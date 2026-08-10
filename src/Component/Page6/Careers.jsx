@@ -19,10 +19,7 @@ const Careers = () => {
         <h1 className="head2">Careers</h1>
 
         <p className="head3-p">
-          We're always on the lookout for talented individuals who are
-          passionate about digital marketing. Our team is a dynamic blend of
-          creativity, strategy, and innovation. If you're eager to make a mark
-          in the digital world, explore our career opportunities.
+          Graphic & Logo Design Company in Coimbatore is always on the lookout for talented individuals who are passionate about creativity and innovation. Our team is a dynamic blend of design, strategy, and imagination. If you're eager to make a mark in the creative world, explore our career opportunities.
         </p>
       </div>
       <div className="service-exampless">

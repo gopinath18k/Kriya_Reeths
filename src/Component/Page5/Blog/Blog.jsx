@@ -87,7 +87,7 @@ const Blog = () => {
         data-aos-duration="1300">
           <h1 className='head2'>Blog</h1>
 
-<p className='head3-p'>Discover a world of insights, tips, and stories. Our blog is your go-to destination for the latest in digital marketing trends, SEO strategies, social media tips, and content creation techniques. We cover a wide range of topics to keep you informed, engaged, and inspired as you navigate the digital landscape.</p>
+<p className='head3-p'>Best Web Development Company in Coimbatore brings you a world of insights, tips,and stories. Our blog is your go-to destination for the latest in digital marketing trends,SEO strategies, social media tips, and content creation techniques. We cover a widerange of topics to keep you informed, engaged, and inspired as you navigate the digital landscape.</p>
         </div> 
 
         <div className='blog-section2'>
