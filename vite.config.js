@@ -14,7 +14,9 @@ export default defineConfig({
     assetsDir: 'static',
     sourcemap: false,
   },
+  
   // Configure esbuild to treat both .js and .jsx files in src as JSX
+
   esbuild: {
     loader: 'jsx',
     include: /src\/.*\.jsx?$/,

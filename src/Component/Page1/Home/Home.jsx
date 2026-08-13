@@ -171,7 +171,7 @@ const Homee = () => {
                         <img className='bg-txt2' src={bg2} alt="" />
                     </div>
                 </div>
-
+ 
                 <div className='our-services'>
                     <Examplee />
 
