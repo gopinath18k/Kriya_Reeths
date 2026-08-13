@@ -113,7 +113,7 @@ const PageMetadata = () => {
   const location = useLocation();
 
   useEffect(() => {
-    // Determine metadata based on pathname (normalized, matching trailing slashes if any)
+    
     const path = location.pathname.replace(/\/$/, "") || "/";
     const data = metadataMap[path] || metadataMap["/"];
 
