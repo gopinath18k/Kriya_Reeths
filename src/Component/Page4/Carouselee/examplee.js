@@ -430,7 +430,7 @@ const slides = [
               <h4 className="web-h">Gears and Piston</h4>
               <p className="web-p">
                 Gears and Piston offers top-notch bike servicing, from water and
-                foam washes to comprehensive tune-ups. Our React-powered website
+                foam washes to comprehensive tune ups. Our React-powered website
                 provides a seamless user experience, making it easy to book
                 their services.
               </p>
@@ -544,7 +544,7 @@ const slides = [
             <div className="col-12 osho-text pb-5">
               <h4 className="web-h">Mars Automotive Designers</h4>
               <p className="web-p">
-              Mars Automotive Designers specializes in manufacturing high-quality truck containers, vehicle body fabrication, and customized automotive solutions built for durability and performance. We developed a professional website that showcases their advanced manufacturing capabilities, premium materials, and commitment to excellence, providing customers with a seamless experience to explore their innovative products and engineering expertise.
+              Mars Automotive Designers specializes in manufacturing high quality truck containers, vehicle body fabrication, and customized automotive solutions built for durability and performance. We developed a professional website that showcases their advanced manufacturing capabilities, premium materials, and commitment to excellence, providing customers with a seamless experience to explore their innovative products and engineering expertise.
               </p>
             </div>
           </div>

@@ -106,7 +106,7 @@ const DigitalMarketingPeelamedu = () => {
                     <b>Technical SEO:</b> making sure your website is fast, mobile-friendly, and easy to navigate.
                     </p>
                     <p>
-                    <b>Link-building:</b> earning high-quality backlinks to increase credibility and authority.
+                    <b>Link-building:</b> earning high quality backlinks to increase credibility and authority.
                     </p>
 
                     <p>
@@ -185,7 +185,7 @@ const DigitalMarketingPeelamedu = () => {
                     Content Marketing Benefits:
                     </p>
                     <p>
-                    <b>Increased Website Traffic:</b> Attract more visitors with valuable, SEO-optimized content.
+                    <b>Increased Website Traffic:</b> Attract more visitors with valuable, SEO optimized content.
                     </p>
                     <p>
                     <b>Better Customer Engagement:</b> Connect with your audience through meaningful and relevant content.
@@ -194,7 +194,7 @@ const DigitalMarketingPeelamedu = () => {
                     <b>Authority-Building in Your Industry:</b> Position your brand as a trusted leader in your niche.
                     </p>
                     <p>
-                    At Kriya & Reeths, we don't just create content—we craft compelling stories that drive real results. Let's take your brand to the next level with strategic content marketing! 🚀
+                    At Kriya & Reeths, we don't just create content we craft compelling stories that drive real results. Let's take your brand to the next level with strategic content marketing! 🚀
                     </p>
 
                     <p className="sub-head-par">
