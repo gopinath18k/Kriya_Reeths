@@ -184,7 +184,7 @@ const Homee = () => {
                     <div className='creative-head' data-aos="zoom-in"
                         data-aos-duration="1300">
                         <div className='creative-hd1' ><h1 className='hd1-two'><span className='hd1-one '>Recent</span>Creatives</h1></div>
-                        <p className='creative-p'> Ready to be wowed? Check out our mind-blowing recent creatives. </p>
+                        <p className='creative-p'> Ready to be wowed? Check out our mind blowing recent creatives. </p>
                     </div>
                     <div className='pt-4 '>
                         <div>
