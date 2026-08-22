@@ -3,33 +3,33 @@ import { useLocation } from 'react-router-dom';
 
 const metadataMap = {
   "/": {
-    title: "Best Digital Marketing Agency in Coimbatore | Kriya & Reeths",
-    description: "Kriya & Reeths is a premier digital marketing agency in Coimbatore. We offer SEO, PPC, social media marketing, branding, and web development services to grow your business online.",
+    title: "Best Branding Agency in Coimbatore | Kriya & Reeths",
+    description: "Kriya & Reeths is a leading branding agency in Coimbatore offering creative branding, digital marketing, web development and growthfocused solutions.",
     keywords: "digital marketing agency coimbatore, best digital marketing company coimbatore, SEO services coimbatore, web development company coimbatore"
   },
   "/about": {
-    title: "About Us | Top Digital Marketing Company in Coimbatore | Kriya & Reeths",
-    description: "Learn about Kriya & Reeths, a leading digital marketing company in Coimbatore. Discover our mission, vision, and team of creative experts dedicated to driving business growth.",
+    title: "Best Digital Marketing Company in Coimbatore | Kriya & Reeths",
+    description: "Discover Kriya & Reeths, a digital marketing company in Coimbatore delivering SEO, social media marketing, branding and performance-driven strategies.",
     keywords: "about kriya and reeths, digital marketing agency coimbatore, branding company coimbatore"
   },
   "/services": {
-    title: "Our Services | Digital Marketing & Web Development | Kriya & Reeths",
-    description: "Explore the wide range of services offered by Kriya & Reeths, including SEO, social media marketing, web development, branding, graphic design, and content marketing.",
+    title: "Best SEO Company in Coimbatore | Kriya & Reeths",
+    description: "Explore professional SEO services from Kriya & Reeths to improve search rankings, organic traffic, online visibility and generate quality business leads.",
     keywords: "digital marketing services, seo services, branding services, social media marketing"
   },
   "/portfolio": {
-    title: "Our Portfolio | Digital Marketing Success Stories | Kriya & Reeths",
-    description: "View our portfolio of successful projects and digital marketing campaigns. See how we help clients in Coimbatore and beyond achieve outstanding online results.",
+    title: "Leading Advertising Agency in Coimbatore | Kriya & Reeths",
+    description: "Explore the Kriya & Reeths portfolio featuring creative advertising, branding, digital marketing, web development and successful projects for businesses.",
     keywords: "digital marketing portfolio, case studies, client work, web design portfolio"
   },
   "/blog": {
-    title: "Blogs & Insights | Digital Marketing Trends | Kriya & Reeths",
-    description: "Stay updated with the latest digital marketing trends, tips, and insights. Read our blogs on SEO, social media, web development, and branding strategies.",
+    title: "Best Web Development Company in Coimbatore | Kriya & Reeths",
+    description: "Explore expert insights from Kriya & Reeths on web development, SEO, digital marketing, branding and online strategies to grow your business.",
     keywords: "digital marketing blog, marketing trends 2026, seo tips, branding strategies"
   },
   "/careers": {
-    title: "Careers | Join Our Digital Marketing Team | Kriya & Reeths",
-    description: "Join Kriya & Reeths, a dynamic and growing digital marketing agency in Coimbatore. Explore current career opportunities and work with creative professionals.",
+    title: "Graphic & Logo Design Company in Coimbatore | Kriya & Reeths",
+    description: "Join Kriya & Reeths and build your career with a creative team working across graphic design, logo design, branding, digital marketing and web development.",
     keywords: "careers, digital marketing jobs coimbatore, web developer jobs, job openings"
   },
   "/reach": {
@@ -109,11 +109,240 @@ const metadataMap = {
   }
 };
 
+const schemaMap = {
+  "/": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://kriyareeths.com/#organization",
+        "name": "Kriya & Reeths",
+        "url": "https://kriyareeths.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "@id": "https://kriyareeths.com/#logo",
+          "url": "https://kriyareeths.com/static/Logo-D-FtqDKU.webp",
+          "contentUrl": "https://kriyareeths.com/static/Logo-D-FtqDKU.webp"
+        },
+        "image": {
+          "@id": "https://kriyareeths.com/#logo"
+        },
+        "telephone": "+91 73059 79062",
+        "email": "info@kriyareeths.com",
+        "description": "Kriya & Reeths is a digital marketing, SEO, branding, advertising and web development company in Coimbatore.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "71/42, Vadavalli, Marutham Nagar",
+          "addressLocality": "Coimbatore",
+          "addressRegion": "Tamil Nadu",
+          "postalCode": "641041",
+          "addressCountry": "IN"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Coimbatore"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://kriyareeths.com/#website",
+        "url": "https://kriyareeths.com/",
+        "name": "Kriya & Reeths",
+        "publisher": {
+          "@id": "https://kriyareeths.com/#organization"
+        },
+        "inLanguage": "en-IN"
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://kriyareeths.com/#business",
+        "name": "Kriya & Reeths",
+        "url": "https://kriyareeths.com/",
+        "image": {
+          "@id": "https://kriyareeths.com/#logo"
+        },
+        "logo": {
+          "@id": "https://kriyareeths.com/#logo"
+        },
+        "telephone": "+91 73059 79062",
+        "email": "info@kriyareeths.com",
+        "priceRange": "$$",
+        "description": "Kriya & Reeths provides digital marketing, SEO, branding, advertising and web development services in Coimbatore.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "71/42, Vadavalli, Marutham Nagar",
+          "addressLocality": "Coimbatore",
+          "addressRegion": "Tamil Nadu",
+          "postalCode": "641041",
+          "addressCountry": "IN"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Coimbatore"
+        },
+        "parentOrganization": {
+          "@id": "https://kriyareeths.com/#organization"
+        }
+      }
+    ]
+  },
+  "/about": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "AboutPage",
+        "@id": "https://kriyareeths.com/about/#webpage",
+        "url": "https://kriyareeths.com/about/",
+        "name": "About Kriya & Reeths",
+        "description": "Learn about Kriya & Reeths, a digital marketing company in Coimbatore providing SEO, branding, advertising and web development services.",
+        "isPartOf": {
+          "@id": "https://kriyareeths.com/#website"
+        },
+        "about": {
+          "@id": "https://kriyareeths.com/#organization"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://kriyareeths.com/about/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://kriyareeths.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "About Us",
+            "item": "https://kriyareeths.com/about/"
+          }
+        ]
+      }
+    ]
+  },
+  "/services": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": "https://kriyareeths.com/services/#webpage",
+        "url": "https://kriyareeths.com/services/",
+        "name": "Services | Kriya & Reeths",
+        "description": "Explore SEO, digital marketing, branding, advertising, web development and other digital services offered by Kriya & Reeths in Coimbatore.",
+        "isPartOf": {
+          "@id": "https://kriyareeths.com/#website"
+        },
+        "about": {
+          "@id": "https://kriyareeths.com/#organization"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://kriyareeths.com/services/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://kriyareeths.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://kriyareeths.com/services/"
+          }
+        ]
+      }
+    ]
+  },
+  "/portfolio": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": "https://kriyareeths.com/portfolio/#webpage",
+        "url": "https://kriyareeths.com/portfolio/",
+        "name": "Portfolio | Kriya & Reeths",
+        "description": "Explore the Kriya & Reeths portfolio featuring creative branding, graphic design, web development, digital marketing and advertising projects.",
+        "isPartOf": {
+          "@id": "https://kriyareeths.com/#website"
+        },
+        "about": {
+          "@id": "https://kriyareeths.com/#organization"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://kriyareeths.com/portfolio/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://kriyareeths.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Portfolio",
+            "item": "https://kriyareeths.com/portfolio/"
+          }
+        ]
+      }
+    ]
+  },
+  "/blog": {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "@id": "https://kriyareeths.com/blog/#blog",
+    "url": "https://kriyareeths.com/blog/",
+    "name": "Kriya & Reeths Blog",
+    "description": "Read insights and guides from Kriya & Reeths covering SEO, digital marketing, branding, web development and online growth.",
+    "publisher": {
+      "@id": "https://kriyareeths.com/#organization"
+    },
+    "inLanguage": "en-IN"
+  },
+  "/careers": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://kriyareeths.com/careers/#webpage",
+    "url": "https://kriyareeths.com/careers/",
+    "name": "Careers | Kriya & Reeths",
+    "description": "Explore career opportunities at Kriya & Reeths in digital marketing, graphic design, branding, web development and other creative fields.",
+    "isPartOf": {
+      "@id": "https://kriyareeths.com/#website"
+    },
+    "about": {
+      "@id": "https://kriyareeths.com/#organization"
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://kriyareeths.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Careers",
+          "item": "https://kriyareeths.com/careers/"
+        }
+      ]
+    }
+  }
+};
+
 const PageMetadata = () => {
   const location = useLocation();
 
   useEffect(() => {
-    
     const path = location.pathname.replace(/\/$/, "") || "/";
     const data = metadataMap[path] || metadataMap["/"];
 
@@ -152,6 +381,23 @@ const PageMetadata = () => {
       document.head.appendChild(canonical);
     }
     canonical.setAttribute('href', currentUrl);
+
+    // 6. Dynamic JSON-LD Structured Data Injection
+    const schemaData = schemaMap[path];
+    let schemaScript = document.getElementById('page-schema');
+    if (schemaData) {
+      if (!schemaScript) {
+        schemaScript = document.createElement('script');
+        schemaScript.id = 'page-schema';
+        schemaScript.type = 'application/ld+json';
+        document.head.appendChild(schemaScript);
+      }
+      schemaScript.textContent = JSON.stringify(schemaData, null, 2);
+    } else {
+      if (schemaScript) {
+        schemaScript.remove();
+      }
+    }
 
   }, [location]);
 
