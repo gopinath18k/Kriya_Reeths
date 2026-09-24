@@ -28,6 +28,7 @@ import DigitalMarketingSaravanampatti from './Component/Page5/Bloge10/Digital_Ma
 import DigitalMarketingPollachi from './Component/Page5/Bloge11/Digital_Marketing_Pollachi';
 import BestBrandingCompany from './Component/Page5/Bloge12/Best_Branding_Company';
 import SEOServicesCoimbatore from './Component/Page5/Bloge13/SEO_Services_Coimbatore';
+import SMMService from './Component/Page3/SMMService/SMMService';
 
 
 
@@ -54,6 +55,8 @@ function App() {
             <Route path="/" element={<Homee />} />
             <Route path="/about" element={<Aboute />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/services/social-media-marketing" element={<SMMService />} />
+            <Route path="/services/smm" element={<SMMService />} />
             <Route path="/portfolio" element={<Portfolioo />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/careers" element={<Careers />} />

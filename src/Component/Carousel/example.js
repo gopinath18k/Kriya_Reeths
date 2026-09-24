@@ -1,4 +1,5 @@
 import { Component } from "react";
+import { Link } from "react-router-dom";
 import VerticalCarousel from "./VerticalCarousel";
 import { config } from "react-spring";
 import "./example.css";
@@ -10,7 +11,11 @@ let slides = [
     key: 1,
     content: (
       <div className="home-service-container">
-        <h1 className="service-heading"><span className="service-number">01</span>Media Branding</h1>
+        <h1 className="service-heading">
+          <Link to="/services/social-media-marketing" className="service-title-link">
+            <span className="service-number">01</span>Media Branding
+          </Link>
+        </h1>
         <p className="service-para ">
         Build a thriving online community, engage your audience on major platforms, and drive conversions with our social media management and paid advertising expertise. 
         </p>

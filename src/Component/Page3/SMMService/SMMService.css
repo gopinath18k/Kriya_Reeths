@@ -1,0 +1,818 @@
+/* ====================================================
+   SMM (Social Media Marketing) Detailed Service Page
+   Fully Responsive for Mobile, Tablet & Desktop
+==================================================== */
+
+.smm-page-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  background-color: #ffffff;
+  color: #111111;
+  font-family: 'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.smm-page-wrapper *,
+.smm-page-wrapper *::before,
+.smm-page-wrapper *::after {
+  box-sizing: border-box;
+}
+
+/* Background Watermark SVGs */
+.smm-bg-watermark-left,
+.smm-bg-watermark-right {
+  position: absolute;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.08;
+  user-select: none;
+  max-width: 600px;
+}
+
+.smm-bg-watermark-left {
+  top: 3%;
+  left: -5%;
+}
+
+.smm-bg-watermark-right {
+  top: 38%;
+  right: -5%;
+}
+
+.smm-bg-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Eyebrow Accent Badge */
+.smm-eyebrow-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: clamp(0.75rem, 1.5vw, 0.88rem);
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #c9933e;
+  margin-bottom: 14px;
+}
+
+.smm-eyebrow-badge.dark {
+  color: #e5a943;
+}
+
+.smm-badge-dot {
+  width: 6px;
+  height: 6px;
+  background-color: #c9933e;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.smm-eyebrow-badge.dark .smm-badge-dot {
+  background-color: #e5a943;
+}
+
+/* Universal Section Headers */
+.smm-section-header {
+  text-align: center;
+  max-width: 820px;
+  margin: 0 auto clamp(36px, 6vw, 64px) auto;
+  padding: 0 16px;
+}
+
+.smm-section-title {
+  font-size: clamp(1.85rem, 4vw, 2.85rem);
+  font-weight: 800;
+  line-height: 1.2;
+  color: #0e0e0e;
+  margin-bottom: 14px;
+  letter-spacing: -0.5px;
+}
+
+.smm-section-title.dark {
+  color: #ffffff;
+}
+
+.smm-section-subtitle {
+  font-size: clamp(0.95rem, 1.8vw, 1.1rem);
+  color: #666666;
+  line-height: 1.65;
+  margin: 0;
+  font-weight: 400;
+}
+
+.smm-section-subtitle.dark {
+  color: #b0b0b0;
+}
+
+/* ====================================================
+   1. HERO SECTION (Light Theme)
+==================================================== */
+.smm-hero-section {
+  position: relative;
+  padding: clamp(130px, 14vw, 180px) clamp(16px, 4vw, 32px) clamp(50px, 8vw, 85px) clamp(16px, 4vw, 32px);
+  background: #ffffff;
+  text-align: center;
+  z-index: 1;
+}
+
+.smm-hero-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.smm-hero-title {
+  font-size: clamp(2.3rem, 5.5vw, 3.8rem);
+  font-weight: 800;
+  line-height: 1.15;
+  color: #0b0b0b;
+  margin-bottom: clamp(16px, 3vw, 24px);
+  letter-spacing: -0.5px;
+}
+
+.smm-hero-desc {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  line-height: 1.7;
+  color: #555555;
+  max-width: 780px;
+  margin: 0 auto clamp(32px, 5vw, 50px) auto;
+  font-weight: 400;
+}
+
+/* Stats Counter Grid */
+.smm-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(12px, 3vw, 24px);
+  max-width: 920px;
+  margin: 0 auto;
+  padding-top: clamp(20px, 4vw, 32px);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.smm-stat-item {
+  padding: 12px 8px;
+  text-align: center;
+}
+
+.smm-stat-number {
+  font-size: clamp(1.85rem, 3.5vw, 2.75rem);
+  font-weight: 800;
+  color: #0d0d0d;
+  line-height: 1.1;
+  margin-bottom: 6px;
+  letter-spacing: -0.5px;
+}
+
+.smm-stat-label {
+  font-size: clamp(0.72rem, 1.2vw, 0.85rem);
+  font-weight: 600;
+  color: #777777;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* ====================================================
+   2. SECTION 2: FULL-FUNNEL ENGINEERING (Dark Theme)
+==================================================== */
+.smm-feature-section {
+  position: relative;
+  padding: clamp(60px, 9vw, 110px) clamp(16px, 4vw, 32px);
+  background-color: #0f0f10;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.smm-feature-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: clamp(36px, 6vw, 64px);
+  align-items: center;
+}
+
+.smm-feature-left {
+  padding-right: 0;
+}
+
+.smm-feature-heading {
+  font-size: clamp(1.85rem, 4vw, 3rem);
+  font-weight: 800;
+  line-height: 1.2;
+  color: #ffffff;
+  margin-bottom: clamp(16px, 2.5vw, 24px);
+  letter-spacing: -0.5px;
+}
+
+.smm-feature-desc {
+  font-size: clamp(0.95rem, 1.8vw, 1.1rem);
+  line-height: 1.7;
+  color: #b0b0b0;
+  margin-bottom: clamp(24px, 4vw, 36px);
+}
+
+.smm-feature-list {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(14px, 2vw, 20px);
+}
+
+.smm-feature-box {
+  display: flex;
+  align-items: flex-start;
+  gap: clamp(12px, 2vw, 18px);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: clamp(14px, 2vw, 18px) clamp(16px, 2.5vw, 22px);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.smm-feature-box:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(201, 147, 62, 0.4);
+  transform: translateX(4px);
+}
+
+.smm-feature-icon-badge {
+  flex-shrink: 0;
+  width: 34px;
+  height: 34px;
+  background: rgba(201, 147, 62, 0.15);
+  border: 1px solid rgba(201, 147, 62, 0.4);
+  color: #e5a943;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 2px;
+}
+
+.smm-feature-box-content h4 {
+  font-size: clamp(1.02rem, 1.8vw, 1.15rem);
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+
+.smm-feature-box-content p {
+  font-size: clamp(0.88rem, 1.4vw, 0.95rem);
+  color: #a5a5a5;
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* Feature Showcase Image Card */
+.smm-feature-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.smm-showcase-card {
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  border-radius: 24px;
+  padding: clamp(10px, 2vw, 16px);
+  background: radial-gradient(circle at center, rgba(201, 147, 62, 0.15) 0%, rgba(15, 15, 16, 0.95) 75%);
+  border: 1px solid rgba(201, 147, 62, 0.25);
+  box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.8), 0 0 40px rgba(201, 147, 62, 0.15);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.smm-showcase-card:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 30px 70px -15px rgba(0, 0, 0, 0.9), 0 0 55px rgba(201, 147, 62, 0.3);
+}
+
+.smm-showcase-img {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  display: block;
+  object-fit: cover;
+}
+
+/* ====================================================
+   3. SECTION 3: SMM CAPABILITIES (Light Theme)
+==================================================== */
+.smm-capabilities-section {
+  position: relative;
+  padding: clamp(60px, 9vw, 110px) clamp(16px, 4vw, 32px);
+  background-color: #fafafa;
+  color: #111111;
+  z-index: 1;
+}
+
+/* 6-Card Grid */
+.smm-capabilities-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(16px, 2.5vw, 28px);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.smm-cap-card {
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+  border-radius: 16px;
+  padding: clamp(22px, 3vw, 36px) clamp(18px, 2.5vw, 30px);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+  transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+  position: relative;
+}
+
+.smm-cap-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.08);
+  border-color: #c9933e;
+}
+
+.smm-cap-number {
+  font-size: clamp(1.3rem, 2.2vw, 1.6rem);
+  font-weight: 800;
+  color: #888888;
+  margin-bottom: 14px;
+  letter-spacing: -0.5px;
+}
+
+.smm-cap-card:hover .smm-cap-number {
+  color: #c9933e;
+}
+
+.smm-cap-title {
+  font-size: clamp(1.1rem, 1.8vw, 1.3rem);
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 12px;
+  line-height: 1.35;
+}
+
+.smm-cap-desc {
+  font-size: clamp(0.88rem, 1.3vw, 0.95rem);
+  line-height: 1.6;
+  color: #555555;
+  margin-bottom: 20px;
+}
+
+.smm-cap-list {
+  list-style: none;
+  padding: 0;
+  margin: auto 0 0 0;
+  border-top: 1px solid #f0f0f0;
+  padding-top: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.smm-cap-list li {
+  font-size: clamp(0.82rem, 1.2vw, 0.88rem);
+  color: #333333;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.smm-cap-list li::before {
+  content: '•';
+  color: #c9933e;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+/* ====================================================
+   4. SECTION 4: PLATFORMS WE DOMINATE (Dark Theme)
+==================================================== */
+.smm-platforms-section {
+  position: relative;
+  padding: clamp(60px, 9vw, 110px) clamp(16px, 4vw, 32px);
+  background-color: #101012;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.smm-platforms-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(16px, 2.2vw, 24px);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.smm-platform-card {
+  background: #ffffff;
+  color: #111111;
+  border-radius: 16px;
+  padding: clamp(22px, 3vw, 32px) clamp(16px, 2vw, 24px);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  transition: all 0.35s ease;
+}
+
+.smm-platform-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 45px rgba(201, 147, 62, 0.2);
+}
+
+.smm-platform-icon-wrap {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.smm-platform-icon-wrap.meta {
+  background: linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.smm-platform-icon-wrap.linkedin {
+  background: #0077b5;
+}
+
+.smm-platform-icon-wrap.youtube {
+  background: #ff0000;
+}
+
+.smm-platform-icon-wrap.x-threads {
+  background: #000000;
+  border: 1px solid #333333;
+}
+
+.smm-platform-title {
+  font-size: clamp(1.08rem, 1.6vw, 1.25rem);
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 10px;
+}
+
+.smm-platform-desc {
+  font-size: clamp(0.85rem, 1.25vw, 0.92rem);
+  line-height: 1.6;
+  color: #555555;
+  margin: 0;
+}
+
+/* ====================================================
+   5. SECTION 5: HOW WE MANAGE YOUR BRAND (Light Theme)
+==================================================== */
+.smm-process-section {
+  position: relative;
+  padding: clamp(60px, 9vw, 110px) clamp(16px, 4vw, 32px);
+  background-color: #ffffff;
+  color: #111111;
+  z-index: 1;
+}
+
+.smm-process-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: clamp(12px, 1.8vw, 20px);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.smm-process-card {
+  background: #fdfdfd;
+  border: 1px solid #ebebeb;
+  border-radius: 14px;
+  padding: clamp(20px, 2.5vw, 28px) clamp(14px, 1.8vw, 20px);
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.smm-process-card:hover {
+  transform: translateY(-5px);
+  border-color: #c9933e;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+  background: #ffffff;
+}
+
+.smm-process-step-num {
+  font-size: clamp(0.75rem, 1.2vw, 0.85rem);
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #c9933e;
+  margin-bottom: 10px;
+}
+
+.smm-process-card-title {
+  font-size: clamp(1rem, 1.4vw, 1.15rem);
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.smm-process-card-desc {
+  font-size: clamp(0.82rem, 1.2vw, 0.9rem);
+  line-height: 1.55;
+  color: #666666;
+  margin: 0;
+}
+
+/* ====================================================
+   6. SECTION 6: FAQ ACCORDION (Dark Theme)
+==================================================== */
+.smm-faq-section {
+  position: relative;
+  padding: clamp(60px, 9vw, 110px) clamp(16px, 4vw, 32px);
+  background-color: #0e0e10;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.smm-faq-container {
+  max-width: 860px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.smm-faq-accordion {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(10px, 1.8vw, 16px);
+}
+
+.smm-faq-item {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.smm-faq-item.active {
+  border-color: rgba(201, 147, 62, 0.5);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.smm-faq-question {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: clamp(16px, 2.5vw, 22px) clamp(16px, 3vw, 26px);
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: clamp(0.95rem, 1.6vw, 1.1rem);
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  gap: 14px;
+  transition: color 0.2s ease;
+}
+
+.smm-faq-question:hover {
+  color: #e5a943;
+}
+
+.smm-faq-toggle-icon {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: rgba(201, 147, 62, 0.15);
+  color: #e5a943;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15rem;
+  font-weight: 600;
+  flex-shrink: 0;
+  transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
+}
+
+.smm-faq-item.active .smm-faq-toggle-icon {
+  transform: rotate(45deg);
+  background: #c9933e;
+  color: #ffffff;
+}
+
+.smm-faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease-in-out, padding 0.35s ease;
+  padding: 0 clamp(16px, 3vw, 26px);
+}
+
+.smm-faq-item.active .smm-faq-answer {
+  max-height: 300px;
+  padding: 0 clamp(16px, 3vw, 26px) clamp(16px, 2.5vw, 22px) clamp(16px, 3vw, 26px);
+}
+
+.smm-faq-answer p {
+  color: #b0b0b0;
+  font-size: clamp(0.88rem, 1.4vw, 0.98rem);
+  line-height: 1.7;
+  margin: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  padding-top: 14px;
+}
+
+/* ====================================================
+   7. SECTION 7: JOIN COMMUNITY / CONTACT FORM
+==================================================== */
+.smm-contact-section {
+  position: relative;
+  padding: clamp(60px, 9vw, 110px) clamp(16px, 4vw, 32px);
+  background-color: #ffffff;
+  color: #111111;
+  z-index: 1;
+}
+
+/* Service Title Link Hover Style (for carousel / headings) */
+.service-title-link {
+  text-decoration: none !important;
+  color: inherit !important;
+  display: inline-block;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.service-title-link:hover {
+  color: #c9933e !important;
+  transform: translateX(4px);
+}
+
+/* ====================================================
+   MEDIA QUERIES FOR LAPTOPS, TABLETS & MOBILES
+==================================================== */
+
+/* 1. Large Laptops / Desktops (1200px - 1399px) */
+@media screen and (max-width: 1399px) {
+  .smm-process-grid {
+    gap: 14px;
+  }
+}
+
+/* 2. Standard Tablets Landscape / Small Laptops (992px - 1199px) */
+@media screen and (max-width: 1199px) {
+  .smm-process-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .smm-platforms-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .smm-capabilities-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+
+/* 3. Tablets Portrait (768px - 991px) */
+@media screen and (max-width: 991px) {
+  .smm-feature-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .smm-feature-left {
+    text-align: left;
+  }
+
+  .smm-feature-right {
+    margin-top: 10px;
+  }
+
+  .smm-capabilities-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .smm-platforms-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .smm-process-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+/* 4. Large Mobiles & Phablets (576px - 767px) */
+@media screen and (max-width: 767px) {
+  .smm-hero-section {
+    padding-top: 130px;
+  }
+
+  .smm-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .smm-stat-item {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    background: #fdfdfd;
+  }
+
+  .smm-capabilities-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .smm-platforms-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .smm-process-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .smm-showcase-card {
+    max-width: 400px;
+  }
+}
+
+/* 5. Small Mobiles (< 576px) */
+@media screen and (max-width: 575px) {
+  .smm-hero-section {
+    padding-top: 110px;
+    padding-bottom: 40px;
+  }
+
+  .smm-eyebrow-badge {
+    letter-spacing: 1.2px;
+  }
+
+  .smm-stats-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .smm-stat-item {
+    padding: 10px 6px;
+  }
+
+  .smm-feature-box {
+    padding: 14px 14px;
+  }
+
+  .smm-cap-card {
+    padding: 22px 18px;
+  }
+
+  .smm-platform-card {
+    padding: 22px 18px;
+  }
+
+  .smm-process-card {
+    padding: 18px 16px;
+  }
+
+  .smm-faq-question {
+    padding: 14px 14px;
+  }
+
+  .smm-faq-answer {
+    padding: 0 14px;
+  }
+
+  .smm-faq-item.active .smm-faq-answer {
+    padding: 0 14px 16px 14px;
+  }
+
+  .smm-showcase-card {
+    max-width: 100%;
+    border-radius: 16px;
+  }
+
+  .smm-showcase-img {
+    border-radius: 12px;
+  }
+}

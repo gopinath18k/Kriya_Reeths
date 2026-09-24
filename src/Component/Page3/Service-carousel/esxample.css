@@ -54,6 +54,19 @@
   color: #FFFFFF;
 }
 
+.service-title-link {
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.service-title-link:hover {
+  color: #c9933e !important;
+  text-shadow: 0 0 12px rgba(201, 147, 62, 0.4);
+}
+
 .service-description {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;

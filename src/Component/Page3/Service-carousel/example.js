@@ -1,4 +1,5 @@
 import { Component } from "react";
+import { Link } from "react-router-dom";
 import { config } from "react-spring";
 import "../Service-carousel/esxample.css";
 import SliderSizes from "./SliderSizes";
@@ -17,7 +18,11 @@ let slides = [
       <div className="row service-content-wrapper">
         <div className="col-0 col-lg-1"></div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-text-content" >
-          <h1 className="service-title">Social Media <br /> Marketing (SMM)</h1>
+          <h1 className="service-title">
+            <Link to="/services/social-media-marketing" className="service-title-link" title="View Social Media Marketing Details">
+              Social Media <br /> Marketing (SMM)
+            </Link>
+          </h1>
           <p className="service-description">
           Our social media marketing services encompass platform optimization, crafting engaging content, building strong community interactions, collaborating with influencers, email marketing, and meticulously analyzing performance.
           </p>

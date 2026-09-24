@@ -17,6 +17,16 @@ const metadataMap = {
     description: "Explore professional SEO services from Kriya & Reeths to improve search rankings, organic traffic, online visibility and generate quality business leads.",
     keywords: "digital marketing services, seo services, branding services, social media marketing"
   },
+  "/services/social-media-marketing": {
+    title: "Top Social Media Marketing Services in Coimbatore | SMM Agency | Kriya & Reeths",
+    description: "Scale your brand with expert Social Media Marketing (SMM) services in Coimbatore from Kriya & Reeths. We create viral content, manage paid social ads, and build loyal communities.",
+    keywords: "social media marketing coimbatore, smm services, instagram marketing, facebook ads, linkedin marketing coimbatore, social media agency"
+  },
+  "/services/smm": {
+    title: "Top Social Media Marketing Services in Coimbatore | SMM Agency | Kriya & Reeths",
+    description: "Scale your brand with expert Social Media Marketing (SMM) services in Coimbatore from Kriya & Reeths. We create viral content, manage paid social ads, and build loyal communities.",
+    keywords: "social media marketing coimbatore, smm services, instagram marketing, facebook ads, linkedin marketing coimbatore, social media agency"
+  },
   "/portfolio": {
     title: "Leading Advertising Agency in Coimbatore | Kriya & Reeths",
     description: "Explore the Kriya & Reeths portfolio featuring creative advertising, branding, digital marketing, web development and successful projects for businesses.",
@@ -255,6 +265,68 @@ const schemaMap = {
             "item": "https://kriyareeths.com/services/"
           }
         ]
+      }
+    ]
+  },
+  "/services/social-media-marketing": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": "https://kriyareeths.com/services/social-media-marketing/#service",
+        "name": "Social Media Marketing (SMM) Services",
+        "serviceType": "Social Media Marketing",
+        "provider": {
+          "@id": "https://kriyareeths.com/#organization"
+        },
+        "description": "Full-funnel social media marketing services in Coimbatore including content strategy, Reels & Shorts production, community management, and paid Meta/LinkedIn ads.",
+        "areaServed": {
+          "@type": "City",
+          "name": "Coimbatore"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://kriyareeths.com/services/social-media-marketing/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://kriyareeths.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://kriyareeths.com/services/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Social Media Marketing",
+            "item": "https://kriyareeths.com/services/social-media-marketing/"
+          }
+        ]
+      }
+    ]
+  },
+  "/services/smm": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": "https://kriyareeths.com/services/smm/#service",
+        "name": "Social Media Marketing (SMM) Services",
+        "serviceType": "Social Media Marketing",
+        "provider": {
+          "@id": "https://kriyareeths.com/#organization"
+        },
+        "description": "Full-funnel social media marketing services in Coimbatore including content strategy, Reels & Shorts production, community management, and paid Meta/LinkedIn ads.",
+        "areaServed": {
+          "@type": "City",
+          "name": "Coimbatore"
+        }
       }
     ]
   },
