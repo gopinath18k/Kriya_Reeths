@@ -38,10 +38,10 @@ const SocialMediaMarketingServices = () => {
         <div className="blogb-head-sub">
           <h6>Digital Marketing</h6>
 
-          <h4 className="mt-2">
+          <h1 className="mt-2">
             Effective Social Media Marketing Services in Coimbatore: Boost Your Brand's
             Online Presence
-          </h4>
+          </h1>
 
           <div className="mt-5"></div>
 
@@ -176,9 +176,9 @@ const SocialMediaMarketingServices = () => {
         </div>
         <div className="community-head">
           <div className="community-hd1">
-            <h1 className="hd1-two">
+            <h2 className="hd1-two">
               <span className="hd1-one ">Join Our</span>Community
-            </h1>
+            </h2>
           </div>
           <p>
             Give us a call. Our Door is always open!

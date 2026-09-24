@@ -38,7 +38,7 @@ const Blogbe1 = () => {
       <div className="blogb-head">
       <div className="blogb-head-sub">
         <h6>Digital Marketing</h6>
-        <h4 className="mt-2">Digital Marketing Company in Coimbatore</h4>
+        <h1 className="mt-2">Digital Marketing Company in Coimbatore</h1>
         <p className="mt-3">
           In the fast-paced digital age of today, companies have to keep up to remain competitive. An established online presence is essential to reach and engage your audience effectively. This is where <Link to="/">digital marketing company in Coimbatore</Link> come in handy. Whether a new business or an old one, using the right digital marketing tools can give your brand's visibility and engagement a big boost. With all things digital in their expertise, these agencies assist companies in connecting with their consumers and getting measurable outcomes in the ever-evolving online space.
         </p>
@@ -260,9 +260,9 @@ const Blogbe1 = () => {
         </div>
         <div className="community-head">
           <div className="community-hd1">
-            <h1 className="hd1-two">
+            <h2 className="hd1-two">
               <span className="hd1-one ">Join Our</span>Community
-            </h1>
+            </h2>
           </div>
           <p>
           Give us a call. Our Door is always open!

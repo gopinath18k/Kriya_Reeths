@@ -39,9 +39,9 @@ const BestBrandingCompany = () => {
                 <div className="blogb-head-sub">
                     <h6>Digital Marketing</h6>
 
-                    <h4 className="mt-2">
+                    <h1 className="mt-2">
                     "Best Branding Company in Coimbatore: Build a Powerful Brand with Kriya & Reeths"
-                    </h4>
+                    </h1>
 
                     <p className="mt-3">
                     In today's competitive business world, branding goes beyond just having a catchy logo or an attractive website—it's about crafting a powerful identity that truly connects with your target audience. If you're looking for the <Link to="/">best branding company in Coimbatore</Link>, you've come to the right place. A strong brand not only sets you apart from the competition but also builds trust and fosters customer loyalty. In this blog, we'll dive deep into the essentials of branding and explore how to create a well-structured blog that ranks on Google's first page.
@@ -171,9 +171,9 @@ const BestBrandingCompany = () => {
                 </div>
                 <div className="community-head">
                     <div className="community-hd1">
-                        <h1 className="hd1-two">
+                        <h2 className="hd1-two">
                             <span className="hd1-one ">Join Our</span>Community
-                        </h1>
+                        </h2>
                     </div>
                     <p>
                         Give us a call. Our Door is always open!

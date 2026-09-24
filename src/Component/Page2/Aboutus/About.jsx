@@ -102,7 +102,7 @@
         <div className="container-fluid about-main-cont">
           <div className='ab-section1' id='about' data-aos="fade-up"
             data-aos-duration="1300">
-            <h3 className='head1'>Hear About</h3>
+            <p className='head1'>Hear About</p>
             <h1 className='head2'>Kriya & Reeths!</h1>
 
             <p className='head3-p'>Kriya & Reeths is the best digital marketing company in Coimbatore for all your digital marketing needs. As a leading digital marketing firm, we offer specialized services that cover every aspect of digital marketing, designed to enhance your online presence.  </p>
@@ -118,7 +118,7 @@
             <div className="leader-head col-12 col-sm-5 " data-aos="fade-right"
               data-aos-duration="1300">
               <div className='leader-sub'>
-                <h1>Leadership</h1>
+                <h2>Leadership</h2>
                 <p>Kriya & Reeths is led by visionary founders with a passion for digital excellence. Their expertise drives our commitment to delivering top-tier digital marketing solutions in Coimbatore. </p>
               </div>
             </div>
@@ -153,13 +153,13 @@
             <div className="col col-12 col-sm-6 " data-aos="fade-left"
               data-aos-duration="1300">
               <div className='wedo-head'>
-                <h1 className='we-h1-1'>Mission:</h1>
+                <h2 className='we-h1-1'>Mission:</h2>
                 <p>To empower businesses to thrive in the digital age by delivering innovative and effective marketing solutions that drive growth, engagement, and lasting brand impact.
                 </p>
               </div>
               <div className='wedo-head'>
-                <h1 className='we-h1-1'>Vision:
-                </h1>
+                <h2 className='we-h1-1'>Vision:
+                </h2>
                 <p>To be the leading digital marketing agency recognized for our expertise, creativity, and commitment to helping clients achieve their goals in a rapidly evolving digital landscape.</p>
               </div>
             </div>
@@ -174,7 +174,7 @@
             </div>
             <div className='creativ-head' data-aos="zoom-in"
               data-aos-duration="1300">
-              <h1 >Creative Minds</h1>
+              <h2>Creative Minds</h2>
               <p>Our team combines diverse talents to innovate and deliver compelling digital marketing strategies that captivate and inspire.
               </p>
             </div>
@@ -191,14 +191,14 @@
 
             <div className="val-head" data-aos="zoom-in"
               data-aos-duration="1300">
-              <h1 className='hd1-one'>Our <span className='hd1-two' >Values</span></h1>
+              <h2 className='hd1-one'>Our <span className='hd1-two' >Values</span></h2>
               <p>We value excellence, innovation, integrity, collaboration, and community engagement through social activities. </p>
             </div>
             <div className="val-bdy row" data-aos="fade-up"
               data-aos-duration="1300">
               <div className="vbdy-text col-12 col-sm-6  order-2 order-sm-1">
                 <div className='vbdy-text-sub '>
-                  <h1 className='hd1-two pulsee'>Pulse Polio</h1>
+                  <h2 className='hd1-two pulsee'>Pulse Polio</h2>
                   <h3>Immunization Drive 2024</h3>
                   <p>We proudly participated as a team in the Pulse Polio Immunisation Drive 2024, reinforcing our commitment to community health and well-being at Kriya Reeths.</p>
                 </div>
@@ -215,7 +215,7 @@
                 
               <div className="vbdy-text col-12 col-sm-6  order-2 order-sm-1">
                 <div className='vbdy-text-sub '>
-                  <h1 className='hd1-two pulsee'>Onam</h1>
+                  <h2 className='hd1-two pulsee'>Onam</h2>
                   <h3>Onam Celebration 2024</h3>
                   <p>We celebrated Onam 2024 with vibrant festivities, including a beautiful pookalam and traditional feasts. It was a joyous occasion that strengthened our team spirit and honored our cultural heritage.</p>
                 </div>
@@ -231,7 +231,7 @@
               data-aos-duration="1300">
               <div className="vbdy-text col-12 col-sm-6  order-2 order-sm-1">
                 <div className='vbdy-text-sub '>
-                  <h1 className='hd1-two pulsee'>Diwali</h1>
+                  <h2 className='hd1-two pulsee'>Diwali</h2>
                   <h3>Diwali Celebration 2024</h3>
                   <p>We celebrated Diwali with joy and togetherness, lighting up the night with fireworks and smiles. A memorable occasion filled with laughter, sweets, and festive cheer! ✨🎆 #TeamKriya</p>
                 </div>
@@ -247,7 +247,7 @@
               data-aos-duration="1300">
               <div className="vbdy-text col-12 col-sm-6  order-2 order-sm-1">
                 <div className='vbdy-text-sub '>
-                  <h1 className='hd1-two pulsee'>New Year</h1>
+                  <h2 className='hd1-two pulsee'>New Year</h2>
                   <h3>New Year Celebration 2025</h3>
                   <p>We welcomed the New Year with joy, laughter, and great company. A memorable celebration that set the tone for an amazing year ahead! #TeamKriya</p>
                 </div>
@@ -264,7 +264,7 @@
               data-aos-duration="1300">
               <div className="vbdy-text col-12 col-sm-6  order-2 order-sm-1">
                 <div className='vbdy-text-sub '>
-                  <h1 className='hd1-two pulsee'>Hash Six</h1>
+                  <h2 className='hd1-two pulsee'>Hash Six</h2>
                   <h3>Team Outing at Hash Six</h3>
                   <p>A wonderful day spent with an amazing team at Hash Six, a five-star hotel in Coimbatore! Great food, great vibes, and unforgettable memories. ✨🍽️ #TeamKriya</p>
                 </div>
@@ -293,7 +293,7 @@
 
               <div className="achiv-head" data-aos="zoom-in"
                 data-aos-duration="1300">
-                <h1 className='hd1-two onee-ach'>Our <br />Certified  Team</h1>
+                <h2 className='hd1-two onee-ach'>Our <br />Certified  Team</h2>
                 <p>Our Certified Team is committed to excellence, harnessing in-depth industry knowledge to deliver measurable results.
                 </p>
               </div>
@@ -311,7 +311,7 @@
             </div>
             <div className='community-head'>
               <div className='community-hd1' data-aos="zoom-in"
-                data-aos-duration="1300"><h1 className='hd1-two'><span className='hd1-one '>Join Our</span> Community</h1></div>
+                data-aos-duration="1300"><h2 className='hd1-two'><span className='hd1-one '>Join Our</span> Community</h2></div>
               <p data-aos="zoom-in"
                 data-aos-duration="1300">Give us a call. Our Door is always open! </p>
               <div className='float-input' data-aos="fade-up"

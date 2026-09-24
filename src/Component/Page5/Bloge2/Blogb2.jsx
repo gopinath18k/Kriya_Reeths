@@ -38,7 +38,7 @@ const Blogbe2 = () => {
       <div className="blogb-head">
         <div className="blogb-head-sub">
           <h6>Digital Marketing</h6>
-          <h4 className="mt-2">What Is the Significance of Digital Marketing in Today’s Evolution</h4>
+          <h1 className="mt-2">What Is the Significance of Digital Marketing in Today’s Evolution</h1>
           <p className="mt-3">
           After the COVID-19 pandemic, every sector of businesses entered online platforms like medicines, dress, groceries etc. As per statistics, nearly 60% of small-medium businesses use digital marketing and plan to invest more in hence, the Global digital marketing and advertising market is forecast to hit $1.5 trillion by 2030. (source: colorlib.com)
 
@@ -133,9 +133,9 @@ Collaboration with influencers and affiliate marketing is also one of the trends
         </div>
         <div className="community-head">
           <div className="community-hd1">
-            <h1 className="hd1-two">
+            <h2 className="hd1-two">
               <span className="hd1-one ">Join Our</span>Community
-            </h1>
+            </h2>
           </div>
           <p>
           Give us a call. Our Door is always open!

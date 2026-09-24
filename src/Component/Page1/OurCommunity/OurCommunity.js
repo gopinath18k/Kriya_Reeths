@@ -71,7 +71,7 @@ export const OurCommunity = () => {
                         <img className='bg-txt11' src={greybg} alt="" />
                     </div>
                     <div className='community-head'>
-            <div className='community-hd1' ><h1 className='hd1-two'><span className='hd1-one '>Join Our</span> Community</h1></div>
+            <div className='community-hd1' ><h2 className='hd1-two'><span className='hd1-one '>Join Our</span> Community</h2></div>
             <p >Give us a call. Our Door is always open! </p>
             <div className='float-input' >
               <div className='main-input-container-new'>

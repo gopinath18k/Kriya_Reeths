@@ -18,11 +18,11 @@ let slides = [
       <div className="row service-content-wrapper">
         <div className="col-0 col-lg-1"></div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-text-content" >
-          <h1 className="service-title">
+          <h2 className="service-title">
             <Link to="/services/social-media-marketing" className="service-title-link" title="View Social Media Marketing Details">
               Social Media <br /> Marketing (SMM)
             </Link>
-          </h1>
+          </h2>
           <p className="service-description">
           Our social media marketing services encompass platform optimization, crafting engaging content, building strong community interactions, collaborating with influencers, email marketing, and meticulously analyzing performance.
           </p>
@@ -40,7 +40,7 @@ let slides = [
       <div className="row service-content-wrapper">
         <div className="col-0 col-lg-1"></div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-text-content">
-          <h1 className="service-title">Pay-Per-Click Advertising (PPC)</h1>
+          <h2 className="service-title">Pay-Per-Click Advertising (PPC)</h2>
           <p className="service-description">
             Reach your target audience with our expert PPC management services. We
             optimize your campaigns for maximum ROI, creating compelling ad copy and
@@ -61,7 +61,7 @@ let slides = [
       <div className="row service-content-wrapper">
         <div className="col-0 col-lg-1"></div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-text-content">
-          <h1 className="service-title">Website Development</h1>
+          <h2 className="service-title">Website Development</h2>
           <p className="service-description">
             As the best digital marketing company in Coimbatore, we provide website
             development with custom solutions that enhance user experience and
@@ -81,7 +81,7 @@ let slides = [
       <div className="row service-content-wrapper">
         <div className="col-0 col-lg-1"></div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-text-content">
-          <h1 className="service-title">Event Management</h1>
+          <h2 className="service-title">Event Management</h2>
           <p className="service-description">
             We are your trusted event management experts in Coimbatore. Our event
             management services cover venue selection, theme development, catering,
@@ -101,7 +101,7 @@ let slides = [
       <div className="row service-content-wrapper">
         <div className="col-0 col-lg-1"></div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-text-content">
-          <h1 className="service-title">Video & Photo Shoots</h1>
+          <h2 className="service-title">Video & Photo Shoots</h2>
           <p className="service-description">
             Capture your story through our stunning visuals. Our expert team
             specializes in capturing breathtaking photos and engaging videos that
@@ -122,7 +122,7 @@ let slides = [
       <div className="row service-content-wrapper">
         <div className="col-0 col-lg-1"></div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-text-content">
-          <h1 className="service-title">Graphic Design</h1>
+          <h2 className="service-title">Graphic Design</h2>
           <p className="service-description">
             Our graphic design services create lasting impressions with visually
             stunning designs. From logos and branding to print and digital

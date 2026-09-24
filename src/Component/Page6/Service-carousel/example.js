@@ -24,7 +24,7 @@ let slides = [
         <div className="col-12 col-sm-12 col-md-12 col-lg-6 career-all"  data-aos="fade-left"
         data-aos-duration="1300">
         <div className="career-txt">
-          <h1 className="services-head">Careers</h1>
+          <h2 className="services-head">Careers</h2>
           <p className="services-paragraph">
           At Kriya & Reeths, you'll have the opportunity to work on exciting projects, learn from industry experts, and grow your career.
           Explore our current openings, internship opportunities, and training programs below.
@@ -50,7 +50,7 @@ let slides = [
         <div className="col-12 col-sm-12 col-md-12 col-lg-6  career-all" data-aos="fade-left"
         data-aos-duration="1300">
         <div className="career-txt">
-          <h1 className="services-head">Internship<br/> Opportunities</h1>
+          <h2 className="services-head">Internship<br/> Opportunities</h2>
           <p className="services-paragraph">
           Gain practical experience and kickstart your digital marketing career with our internship program. Work alongside industry experts, learn from real-world projects, and build a strong foundation for your future. 
           </p>
@@ -73,7 +73,7 @@ let slides = [
         <div className="col-12 col-sm-12 col-md-12 col-lg-6 career-all" data-aos="fade-left"
         data-aos-duration="1300">
         <div className="career-txt">
-          <h1 className="services-head">Student <br></br> Workshops</h1>
+          <h2 className="services-head">Student <br></br> Workshops</h2>
           <p className="services-paragraph">
           Our student workshops are designed to introduce aspiring marketers to the exciting world of digital marketing. Learn about the latest trends, gain hands-on experience, and network with industry professionals. 
           </p>
@@ -97,7 +97,7 @@ let slides = [
         <div className="col-12 col-sm-12 col-md-12 col-lg-6 career-all" data-aos="fade-left"
         data-aos-duration="1300">
         <div className="career-txt">
-          <h1 className="services-head">Digital Marketing Training</h1>
+          <h2 className="services-head">Digital Marketing Training</h2>
           <p className="services-paragraph">
           Our comprehensive digital marketing training programs are designed to equip you with the skills and knowledge needed to succeed in today's competitive digital landscape. From SEO and social media to content marketing and analytics, our training covers all aspects of digital marketing.
  

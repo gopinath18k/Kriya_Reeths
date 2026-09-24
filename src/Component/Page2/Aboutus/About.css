@@ -75,7 +75,7 @@
     margin-left: 16%;
   }
   
-  .leader-head h1 {
+  .leader-head h1, .leader-head h2 {
     font-size: 3.5rem; /* 50px */
     font-weight: 600;
     letter-spacing: -0.125rem; /* -2px */
@@ -214,7 +214,7 @@
     flex-direction: column;
     align-items: center;
   }
-  .creativ-head h1{
+  .creativ-head h1, .creativ-head h2{
     font-size: 60px;
     font-weight: 600;
     letter-spacing: -0.125
@@ -310,7 +310,7 @@
     color: #2B2B2B;
     letter-spacing: -0.1875rem;
 }
-.leader-head h1 {
+.leader-head h1, .leader-head h2 {
   font-size: 4.6rem;
   font-weight: 600;
   letter-spacing: -0.125rem;
@@ -356,7 +356,7 @@
   width: 450px;
   font-size: 17px;
 }
-.creativ-head h1 {
+.creativ-head h1, .creativ-head h2 {
   font-size: 68px;
   font-weight: 600;
   letter-spacing: -0.125;
@@ -404,7 +404,7 @@
     color: #2B2B2B;
     letter-spacing: -0.1875rem;
 }
-.leader-head h1 {
+.leader-head h1, .leader-head h2 {
   font-size: 5.2rem;
   font-weight: 600;
   letter-spacing: -0.125rem;
@@ -444,7 +444,7 @@
   width: 450px;
   font-size: 19px;
 }
-.creativ-head h1 {
+.creativ-head h1, .creativ-head h2 {
   font-size: 74px;
   font-weight: 600;
   letter-spacing: -0.125;
@@ -531,7 +531,7 @@
     }
   
     /* section2 */
-    .leader-head h1 {
+    .leader-head h1, .leader-head h2 {
       font-size: 2.78rem; /* 50px */
       font-weight: 600;
       letter-spacing: -0.125rem; /* -2px */
@@ -603,7 +603,7 @@
     }
     /* section4 */
     
-    .creativ-head h1{
+    .creativ-head h1, .creativ-head h2{
       font-size: 45px;
       font-weight: 600;
       letter-spacing: -0.125
@@ -689,7 +689,7 @@
     }
   
     /* section2 */
-    .leader-head h1 {
+    .leader-head h1, .leader-head h2 {
       font-size: 2.6rem; /* 50px */
       font-weight: 600;
       letter-spacing: -0.125rem; /* -2px */
@@ -768,7 +768,7 @@
 
     /* section4 */
     
-    .creativ-head h1{
+    .creativ-head h1, .creativ-head h2{
       font-size: 41px;
       font-weight: 600;
       letter-spacing: -0.125
@@ -878,7 +878,7 @@
         display: flex;
         align-items: center;
     }
-    .leader-head h1 {
+    .leader-head h1, .leader-head h2 {
       font-size: 2.7rem; /* 50px */
       font-weight: 600;
       letter-spacing: -0.125rem; /* -2px */
@@ -984,7 +984,7 @@
     }
     /* section4 */
     
-    .creativ-head h1{
+    .creativ-head h1, .creativ-head h2{
       font-size: 37px;
       font-weight: 600;
       letter-spacing: -0.125
@@ -995,7 +995,7 @@
         text-align: center;
   
     }
-    .creativ-head h1{
+    .creativ-head h1, .creativ-head h2{
       font-size: 41px;
       font-weight: 600;
       letter-spacing: -0.125
@@ -1113,7 +1113,7 @@
         display: flex;
         align-items: center;
     }
-    .leader-head h1 {
+    .leader-head h1, .leader-head h2 {
       font-size: 2.7rem; /* 50px */
       font-weight: 600;
       letter-spacing: -0.125rem; /* -2px */
@@ -1216,7 +1216,7 @@
     }
     /* section4 */
     
-    .creativ-head h1{
+    .creativ-head h1, .creativ-head h2{
       font-size: 34px;
       font-weight: 600;
       letter-spacing: -0.125
@@ -1332,7 +1332,7 @@
         display: flex;
         align-items: center;
     }
-    .leader-head h1 {
+    .leader-head h1, .leader-head h2 {
       font-size: 2.5rem; /* 50px */
       font-weight: 600;
       letter-spacing: -0.125rem; /* -2px */
@@ -1437,7 +1437,7 @@
     }
     /* section4 */
     
-    .creativ-head h1{
+    .creativ-head h1, .creativ-head h2{
       font-size: 33px;
       font-weight: 600;
       letter-spacing: -0.125
@@ -1571,7 +1571,7 @@
     }
     /* section4 */
     
-    .creativ-head h1{
+    .creativ-head h1, .creativ-head h2{
       font-size: 31px;
       font-weight: 600;
       letter-spacing: -0.125

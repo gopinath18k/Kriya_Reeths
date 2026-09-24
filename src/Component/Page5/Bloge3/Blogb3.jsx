@@ -39,7 +39,7 @@ const Blogbe3 = () => {
       <div className="blogb-head">
         <div className="blogb-head-sub">
           <h6>Advertising</h6>
-          <h4 className="mt-2">Why Professional Advertising Is Still Essential for Business Growth in 2026</h4>
+          <h1 className="mt-2">Why Professional Advertising Is Still Essential for Business Growth in 2026</h1>
           
           <p className="sub-head-par">Introduction</p>
           <p className="mt-3">
@@ -246,9 +246,9 @@ const Blogbe3 = () => {
         </div>
         <div className="community-head">
           <div className="community-hd1">
-            <h1 className="hd1-two">
+            <h2 className="hd1-two">
               <span className="hd1-one ">Join Our</span>Community
-            </h1>
+            </h2>
           </div>
           <p>
           Give us a call. Our Door is always open!

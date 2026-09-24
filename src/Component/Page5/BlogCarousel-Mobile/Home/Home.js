@@ -168,17 +168,17 @@ export const Homese = () => {
           <React.Fragment key={blog.id}>
             {index % 3 === 0 && (
               <div className="blogs-heading">
-                <h1 className="blogs-main-headings">{headings[(index / 3) % headings.length]}</h1>
+                <h2 className="blogs-main-headings">{headings[(index / 3) % headings.length]}</h2>
               </div>
             )}
             <div className="col-12 col-sm-12 col-md-12 blog-content">
               <img src={blog.image} alt="" className='blogs-img'/>
-              <h1 className="sml-head">{blog.smallHead}</h1>
-              <h1 className="large-head">{blog.head}</h1>
+              <p className="sml-head">{blog.smallHead}</p>
+              <h3 className="large-head">{blog.head}</h3>
               <p className="blogs-para">{blog.paragraph}</p>
               <div className="blog-image-contain">
                 <img src={blog.personImage} alt="" className='person-img'/>
-                <h1 className="person-namee">{blog.personName} <br/><span className="person-discrip">{blog.personDescription}</span></h1>
+                <p className="person-namee">{blog.personName} <br/><span className="person-discrip">{blog.personDescription}</span></p>
               </div>
             </div>
           </React.Fragment>

@@ -39,9 +39,9 @@ const OutlineForLongForm = () => {
                 <div className="blogb-head-sub">
                     <h6>Digital Marketing</h6>
 
-                    <h4 className="mt-2">
+                    <h1 className="mt-2">
                         Outline for Long-Form Article: "Digital Marketing Company in Gandhipuram, Coimbatore"
-                    </h4>
+                    </h1>
 
                     <p className="mt-3">
                         In today's digital age, having a solid online presence is crucial for business growth. Whether you're a new startup or an established brand, finding the right <Link to="/">digital marketing company in Gandhipuram, Coimbatore</Link>, can make a world of difference. With more and more businesses shifting online, it's essential to partner with experts who understand how to optimize your brand's presence in the digital space.
@@ -262,9 +262,9 @@ const OutlineForLongForm = () => {
                 </div>
                 <div className="community-head">
                     <div className="community-hd1">
-                        <h1 className="hd1-two">
+                        <h2 className="hd1-two">
                             <span className="hd1-one ">Join Our</span>Community
-                        </h1>
+                        </h2>
                     </div>
                     <p>
                         Give us a call. Our Door is always open!

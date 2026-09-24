@@ -39,9 +39,9 @@ const DigitalMarketingAgency = () => {
                 <div className="blogb-head-sub">
                     <h6>Digital Marketing</h6>
 
-                    <h4 className="mt-2">
+                    <h1 className="mt-2">
                     "Best Digital Marketing Agency in Coimbatore"
-                    </h4>
+                    </h1>
 
                     <p className="mt-3">
                     In the fast-paced digital world today, finding the <Link to="/">best digital marketing agency in Coimbatore</Link> can make or mar your business. The problem that you face is that there are so many agencies available, and you need to choose one that suits you the best concerning your customized goals; it should know your local market and have the right number of years' experience in helping you reach your peak online performance. Whether you are a startup with visibility issues or a developing organization with its sights set on scaling, or whether you belong to a well-established brand, eager just to continue an online presence, you will find using a skilled digital marketing agency beneficial and result-oriented to your needs. But the best agency in Coimbatore how do you choose? What should you look for? What services do they offer? Satisfy your queries through this blog and discover why Kriya & Reeths is one of the best options for the business houses in Coimbatore.
@@ -223,9 +223,9 @@ const DigitalMarketingAgency = () => {
                 </div>
                 <div className="community-head">
                     <div className="community-hd1">
-                        <h1 className="hd1-two">
+                        <h2 className="hd1-two">
                             <span className="hd1-one ">Join Our</span>Community
-                        </h1>
+                        </h2>
                     </div>
                     <p>
                         Give us a call. Our Door is always open!

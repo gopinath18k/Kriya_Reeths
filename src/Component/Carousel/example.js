@@ -11,11 +11,11 @@ let slides = [
     key: 1,
     content: (
       <div className="home-service-container">
-        <h1 className="service-heading">
+        <h3 className="service-heading">
           <Link to="/services/social-media-marketing" className="service-title-link">
             <span className="service-number">01</span>Media Branding
           </Link>
-        </h1>
+        </h3>
         <p className="service-para ">
         Build a thriving online community, engage your audience on major platforms, and drive conversions with our social media management and paid advertising expertise. 
         </p>
@@ -26,7 +26,7 @@ let slides = [
     key: 2,
     content: (
       <div className="home-service-container">
-        <h1 className="service-heading-2"><span className="service-number">02</span>Content Marketing</h1>
+        <h3 className="service-heading-2"><span className="service-number">02</span>Content Marketing</h3>
         <p className="service-para ">
         We create high-quality content like blog posts, articles, and website copy that resonates with your audience and achieves your marketing goals.
   
@@ -38,7 +38,7 @@ let slides = [
     key: 3,
     content: (
       <div className="home-service-container">
-        <h1 className="service-heading"><span className="service-number">03</span>Email Marketing</h1>
+        <h3 className="service-heading"><span className="service-number">03</span>Email Marketing</h3>
         <p className="service-para">
         Gain valuable insights into email campaign performance to optimize your strategy and maximize your ROI.
 
@@ -51,7 +51,7 @@ let slides = [
     key: 4,
     content: (
       <div className="home-service-container">
-        <h1 className="service-heading-2"><span className="service-number">04</span>Influencer Marketing</h1>
+        <h3 className="service-heading-2"><span className="service-number">04</span>Influencer Marketing</h3>
         <p className="service-para">
         
   
@@ -64,7 +64,7 @@ let slides = [
     key: 5,
     content: (
       <div className="home-service-container">
-        <h1 className="service-heading-2"><span className="service-number">05</span>Online Advertising </h1>
+        <h3 className="service-heading-2"><span className="service-number">05</span>Online Advertising </h3>
         <p className="service-para">
         Maximize your advertising ROI with targeted PPC campaigns, conversion rate optimization (CRO), and comprehensive campaign performance tracking.  
  
@@ -76,7 +76,7 @@ let slides = [
     key: 6,
     content: (
       <div className="home-service-container">
-        <h1 className="service-heading-2"><span className="service-number">06</span>Branding</h1>
+        <h3 className="service-heading-2"><span className="service-number">06</span>Branding</h3>
         <p className="service-para">
         We develop a strong and memorable brand identity that connects with your target audience and sets you apart from the competition.  
  
@@ -88,7 +88,7 @@ let slides = [
     key: 7,
     content: (
       <div className="home-service-container">
-        <h1 className="service-heading-2"><span className="service-number">07</span>Web Design</h1>
+        <h3 className="service-heading-2"><span className="service-number">07</span>Web Design</h3>
         <p className="service-para">
         Ensure your website looks and functions flawlessly on all devices, mobile, tablet, and desktop, for optimal user experience.
 
@@ -102,7 +102,7 @@ let slides = [
     key: 8,
     content: (
       <div className="home-service-container">
-        <h1 className="service-heading-2"><span className="service-number">08</span>Video Marketing</h1>
+        <h3 className="service-heading-2"><span className="service-number">08</span>Video Marketing</h3>
         <p className="service-para">
         We create engaging video content that captures attention, educates your audience about your brand or product, and drives action.  
  
@@ -114,7 +114,7 @@ let slides = [
     key: 9,
     content: (
       <div className="home-service-container">
-        <h1 className="service-heading-2"><span className="service-number">09</span> Photography</h1>
+        <h3 className="service-heading-2"><span className="service-number">09</span> Photography</h3>
         <p className="service-para">
         Our professional photographers create high-quality product images that showcase your products in the best light and increase sales.  
  
@@ -126,7 +126,7 @@ let slides = [
     key: 10,
     content: (
       <div className="home-service-container">
-        <h1 className="service-heading-2"><span className="service-number">10</span>Event Management</h1>
+        <h3 className="service-heading-2"><span className="service-number">10</span>Event Management</h3>
         <p className="service-para">
         We take the stress out of event planning. Our team will develop a comprehensive plan, manage logistics, and execute flawless events that achieve your goals.
   
@@ -168,8 +168,8 @@ export default class Examplee extends Component {
                     </div>
         <div className="our-service-conatiner"data-aos="zoom-in"
      data-aos-duration="1300">
-          <h1 className="our-head">Our</h1>
-          <h1 className="service-heade">Services</h1>
+          <h2 className="our-head">Our</h2>
+          <h2 className="service-heade">Services</h2>
         </div>
         <div className="chiang-kuang" data-aos="fade-up"
      data-aos-duration="1000">

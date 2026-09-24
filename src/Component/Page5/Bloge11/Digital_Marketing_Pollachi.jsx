@@ -39,9 +39,9 @@ const DigitalMarketingPollachi = () => {
                 <div className="blogb-head-sub">
                     <h6>Digital Marketing</h6>
 
-                    <h4 className="mt-2">
+                    <h1 className="mt-2">
                     "The Ultimate Guide to Choosing the Best Digital Marketing Company in Pollachi, Coimbatore"
-                    </h4>
+                    </h1>
 
                     <p className="mt-3">
                     An effort in the digital universe today is to exist, attract customers, and create a brand. A business owner working in Pollachi or Coimbatore would like digital marketing services that are aware of the local scenario to guide them through their day-to-day online business. Which partner would you choose between numerous such options? <Link to="/">Kriya & Reeths</Link>, one of the leading <Link to="/">digital marketing company in Pollachi, Coimbatore</Link>, provides customized solutions for your business growth. In this blog, we shall demonstrate how to choose the best digital marketing agency and why Kriya & Reeths is the right choice for you.
@@ -220,9 +220,9 @@ const DigitalMarketingPollachi = () => {
                 </div>
                 <div className="community-head">
                     <div className="community-hd1">
-                        <h1 className="hd1-two">
+                        <h2 className="hd1-two">
                             <span className="hd1-one ">Join Our</span>Community
-                        </h1>
+                        </h2>
                     </div>
                     <p>
                         Give us a call. Our Door is always open!

@@ -22,7 +22,7 @@ const Portfolioo = () => {
           </div>
           
           <div className='creativ-head'>
-            <h1 >Our Visual Gallery</h1>
+            <h2>Our Visual Gallery</h2>
             <p>Witness the magic of our creativity across diverse platforms. We create impactful designs, effective marketing campaigns, and unforgettable events. 
             </p>
           </div>

@@ -39,9 +39,9 @@ const SEOServicesCoimbatore = () => {
                 <div className="blogb-head-sub">
                     <h6>Digital Marketing</h6>
 
-                    <h4 className="mt-2">
+                    <h1 className="mt-2">
                     "SEO Services in Coimbatore - Grow your Business with Kriya & Reeths"
-                    </h4>
+                    </h1>
 
                     <p className="mt-3">
                     <b>Introduction</b>
@@ -277,9 +277,9 @@ const SEOServicesCoimbatore = () => {
                 </div>
                 <div className="community-head">
                     <div className="community-hd1">
-                        <h1 className="hd1-two">
+                        <h2 className="hd1-two">
                             <span className="hd1-one ">Join Our</span>Community
-                        </h1>
+                        </h2>
                     </div>
                     <p>
                         Give us a call. Our Door is always open!

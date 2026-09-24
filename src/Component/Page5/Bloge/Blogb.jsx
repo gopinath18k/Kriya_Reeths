@@ -36,7 +36,7 @@ const Blogbe = () => {
       <div className="blogb-head">
         <div className="blogb-head-sub">
           <h6>Digital Marketing</h6>
-          <h4 className="mt-2">Digital Marketing : A Boon Or Bane</h4>
+          <h1 className="mt-2">Digital Marketing : A Boon Or Bane</h1>
           <p className="mt-3">
             In today's evolving technologies digital marketing is exposed as a
             powerful tool for businesses to reach targeted customers and
@@ -130,9 +130,9 @@ const Blogbe = () => {
         </div>
         <div className="community-head">
           <div className="community-hd1">
-            <h1 className="hd1-two">
+            <h2 className="hd1-two">
               <span className="hd1-one ">Join Our</span>Community
-            </h1>
+            </h2>
           </div>
           <p>
           Give us a call. Our Door is always open!

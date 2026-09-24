@@ -39,9 +39,9 @@ const DigitalMarketingRspuram = () => {
                 <div className="blogb-head-sub">
                     <h6>Digital Marketing</h6>
 
-                    <h4 className="mt-2">
+                    <h1 className="mt-2">
                     "Digital Marketing Company in Rs Puram, Coimbatore"
-                    </h4>
+                    </h1>
 
                     <p className="mt-3">
                     In today's rapidly evolving digital world, businesses in Rs Puram, Coimbatore, need to embrace digital marketing to stay ahead of the competition and drive growth. As a leading <Link to="/">digital marketing company in Rs Puram, Coimbatore</Link>, Kriya & Reeths understands the importance of tailored strategies that boost visibility, engage customers, and ultimately increase sales. Digital marketing tactics like SEO, social media marketing, and pay-per-click advertising are essential for businesses looking to make a mark online. With a proven track record of success and expertise in the local market, Kriya & Reeths helps businesses achieve their goals through effective and customized digital marketing solutions. Whether you're looking to optimize your website's SEO, build a stronger online presence, or run targeted ad campaigns, Kriya & Reeths, your trusted <Link to="/">digital marketing company in Rs Puram, Coimbatore</Link>, is here to support your growth in the digital space.
@@ -218,9 +218,9 @@ const DigitalMarketingRspuram = () => {
                 </div>
                 <div className="community-head">
                     <div className="community-hd1">
-                        <h1 className="hd1-two">
+                        <h2 className="hd1-two">
                             <span className="hd1-one ">Join Our</span>Community
-                        </h1>
+                        </h2>
                     </div>
                     <p>
                         Give us a call. Our Door is always open!

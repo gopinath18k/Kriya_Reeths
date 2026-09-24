@@ -231,7 +231,7 @@ function Tslider() {
             <div className="slide-content">
               <img src={slide.src} alt={`slide_image_${index}`} />
               <div className="slide-text">
-                <h1 className='team-name'>{slide.title}</h1>
+                <h3 className='team-name'>{slide.title}</h3>
                 <h3 className='team-role'>{slide.subtitle1}</h3>
                 <p className='team-descr'>{slide.subtitle2}</p>
               </div>

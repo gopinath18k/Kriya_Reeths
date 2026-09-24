@@ -75,7 +75,7 @@ const Services = () => {
     <div className='container-fluid service-main-cont'>
       <div className='ab-section1' data-aos="fade-up"
         data-aos-duration="1300">
-        <h3 className='head1'>Our</h3>
+        <p className='head1'>Our</p>
         <h1 className='head2'>Services</h1>
 
         <p className='head3-p'>As the Best SEO Company in Coimbatore, we offer a comprehensive suite of SEO
@@ -98,7 +98,7 @@ services in Coimbatore designed to improve your online visibility and deliver me
         </div>
         <div className='community-head'>
             <div className='community-hd1' data-aos="zoom-in"
-              data-aos-duration="1300"><h1 className='hd1-two'><span className='hd1-one '>Join Our</span> Community</h1></div>
+              data-aos-duration="1300"><h2 className='hd1-two'><span className='hd1-one '>Join Our</span> Community</h2></div>
             <p data-aos="zoom-in"
               data-aos-duration="1300">Give us a call. Our Door is always open! </p>
             <div className='float-input' data-aos="fade-up"

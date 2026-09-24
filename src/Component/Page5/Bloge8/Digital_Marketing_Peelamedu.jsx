@@ -39,9 +39,9 @@ const DigitalMarketingPeelamedu = () => {
                 <div className="blogb-head-sub">
                     <h6>Digital Marketing</h6>
 
-                    <h4 className="mt-2">
+                    <h1 className="mt-2">
                     "Digital Marketing Company in Peelamedu, Coimbatore: Boost Your Business with Kriya & Reeths"
-                    </h4>
+                    </h1>
 
                     <p className="mt-3">
                     In today's digital-first world, businesses in Peelamedu, Coimbatore, need to adapt quickly to stay ahead. A strong online presence isn't just an advantage—it's a necessity. It helps you attract new customers, engage with your audience, and build a brand that stands out. If you're looking for a <Link to="/">digital marketing company in Peelamedu, Coimbatore</Link>, you're in the right place! At Kriya & Reeths, we offer customized digital marketing solutions designed to help businesses grow and succeed. In this blog, we'll walk you through why digital marketing is crucial, the services we provide, and how we can help you achieve real results.
@@ -283,9 +283,9 @@ const DigitalMarketingPeelamedu = () => {
                 </div>
                 <div className="community-head">
                     <div className="community-hd1">
-                        <h1 className="hd1-two">
+                        <h2 className="hd1-two">
                             <span className="hd1-one ">Join Our</span>Community
-                        </h1>
+                        </h2>
                     </div>
                     <p>
                         Give us a call. Our Door is always open!

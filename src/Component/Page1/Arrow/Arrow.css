@@ -1,58 +1,69 @@
-.up-arrow{
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    padding: 7px;
-    border: #2b2b2b solid 2px;
-    border-radius: 6px;
-    cursor: pointer;
-   
+.arrow-up {
+  position: fixed;
+  right: 22px;
+  bottom: 25px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 52px;
 }
-.arrow-up{
-    position: fixed;
-    inset: 0;
-    left: 95%;
-    top: 85%;
-    z-index: 1000;
+
+.up-arrow {
+  width: 38px;
+  height: 38px;
+  background-color: white;
+  padding: 7px;
+  border: #2b2b2b solid 2px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;
 }
-@media screen and (min-width:2000px) and  (max-width: 2250px){
-    .up-arrow{
-        width: 50px;
-        height:50px;}
+
+@media screen and (min-width: 2000px) and (max-width: 2250px) {
+  .arrow-up {
+    right: 32px;
+    bottom: 35px;
+    width: 68px;
+  }
+  .up-arrow {
+    width: 48px;
+    height: 48px;
+  }
 }
-@media screen and (max-width: 850px){
-    .arrow-up{
-        position: fixed;
-        inset: 0;
-        left: 93%;
-        top: 85%;
-        z-index: 1000;
-    }
-    .up-arrow{
-        width: 36px;
-        height:36px;}
+
+@media screen and (max-width: 900px) {
+  .arrow-up {
+    right: 18px;
+    bottom: 22px;
+    width: 48px;
+  }
+  .up-arrow {
+    width: 35px;
+    height: 35px;
+  }
 }
-@media screen and (max-width: 550px){
-    .arrow-up{
-        position: fixed;
-        inset: 0;
-        left: 90%;
-        top: 88%;
-        z-index: 1000;
-    }
-    .up-arrow{
-        width: 33px;
-        height:33px;}
+
+@media screen and (max-width: 450px) {
+  .arrow-up {
+    right: 14px;
+    bottom: 18px;
+    width: 42px;
+  }
+  .up-arrow {
+    width: 32px;
+    height: 32px;
+  }
 }
-@media screen and (max-width: 375px){
-    .arrow-up{
-        position: fixed;
-        inset: 0;
-        left: 89%;
-        top: 89%;
-        z-index: 1000;
-    }
-    .up-arrow{
-        width: 31px;
-        height:31px;}
+
+@media screen and (max-width: 375px) {
+  .arrow-up {
+    right: 10px;
+    bottom: 15px;
+    width: 38px;
+  }
+  .up-arrow {
+    width: 29px;
+    height: 29px;
+  }
 }

@@ -43,7 +43,7 @@ const Careers = () => {
             data-aos="zoom-in"
             data-aos-duration="1300"
           >
-            <h1 className="hd1-two">Have questions? </h1>
+            <h2 className="hd1-two">Have questions? </h2>
           </div>
           <p className="mt-5 carrer-mail-text" data-aos="zoom-in" data-aos-duration="1300">
             For general inquiries about career paths and company culture,

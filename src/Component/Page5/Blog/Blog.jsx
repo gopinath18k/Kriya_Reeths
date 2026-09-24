@@ -136,7 +136,7 @@ const Blog = () => {
                     </div>
                     <div className='community-head'>
                         <div className='community-hd1' data-aos="zoom-in"
-                            data-aos-duration="1300"><h1 className='hd1-two'><span className='hd1-one '>Join Our </span>Community</h1></div>
+                            data-aos-duration="1300"><h2 className='hd1-two'><span className='hd1-one '>Join Our </span>Community</h2></div>
                         <p data-aos="zoom-in"
                             data-aos-duration="1300">Give us a call. Our Door is always open! </p>
 

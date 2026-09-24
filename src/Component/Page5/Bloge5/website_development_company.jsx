@@ -39,9 +39,9 @@ const WebsiteDevelopmentCompany = () => {
                 <div className="blogb-head-sub">
                     <h6>Digital Marketing</h6>
 
-                    <h4 className="mt-2">
+                    <h1 className="mt-2">
                     Finding the Best Website Development Company in Coimbatore: Kriya Reeths
-                    </h4>
+                    </h1>
 
                     <p className="mt-3">
                     In today's digital world, web development is crucial for businesses to stay competitive and reach their target audience effectively. A well-designed website acts as the face of a business, fostering customer trust and driving sales. Kriya & Reeths stands out as one of the <Link to="/">Best Website Development Company in Coimbatore</Link>, offering tailored solutions that enhance your online presence. A company is considered the best in this field when it combines technical expertise, creativity, and a deep understanding of business goals to craft websites that not only look great but also function seamlessly.
@@ -225,9 +225,9 @@ const WebsiteDevelopmentCompany = () => {
                 </div>
                 <div className="community-head">
                     <div className="community-hd1">
-                        <h1 className="hd1-two">
+                        <h2 className="hd1-two">
                             <span className="hd1-one ">Join Our</span>Community
-                        </h1>
+                        </h2>
                     </div>
                     <p>
                         Give us a call. Our Door is always open!

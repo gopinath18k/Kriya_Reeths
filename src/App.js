@@ -13,6 +13,7 @@ import Reachus from './Component/Page7/Reach';
 import Portfolioo from './Component/Page4/Portfolio';
 import Arrow from './Component/Page1/Arrow/Arrow';
 import Whatsapp from './Component/Whatsapp/Whatsapp';
+import Instagram from './Component/Instagram/Instagram';
 import Preloadere from './Component/Preloaderr/loader';
 import Blogbe from './Component/Page5/Bloge/Blogb';
 import Blogbe1 from './Component/Page5/Bloge1/Blogb1';
@@ -80,6 +81,7 @@ function App() {
           </Routes>
           <Arrow />
           <Whatsapp />
+          <Instagram />
 
 
 

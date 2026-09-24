@@ -124,7 +124,7 @@ const Reachus = () => {
                     <div className="col-12 col-sm-4 col-xxxl-6 cont-text-head" data-aos="fade-left"
                         data-aos-duration="1300">
                         <div className='cont-det-heading'>
-                            <h1>Visit Us</h1>
+                            <h2>Visit Us</h2>
                             <p>Want to collaborate on your next big project? Let's connect in person!</p>
                         </div>
 
@@ -154,7 +154,7 @@ const Reachus = () => {
 
                 <div className='community-head'>
                     <div className='community-hd1' data-aos="zoom-in"
-                        data-aos-duration="1300"><h1 className='hd1-two'><span className='hd1-one '>Join Our</span> Community</h1></div>
+                        data-aos-duration="1300"><h2 className='hd1-two'><span className='hd1-one '>Join Our</span> Community</h2></div>
                     <p data-aos="zoom-in"
                         data-aos-duration="1300">Give us a call. Our Door is always open! </p>
                     <div className='float-input' data-aos="fade-up"

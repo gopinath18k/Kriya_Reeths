@@ -157,8 +157,7 @@ const Homee = () => {
                     <div className="col graph-head " ><img className='graph' src={graph} alt="" /></div>
                     <div className="col brand-sec " >
                         <div className='ab-head'>
-                            <h2 className='less-tp ' >Elevate</h2>
-                            <h1 className='abm-text'>Your Brand<span className='less-w'>with  Us!</span></h1>
+                            <h1 className='abm-text'><span className='less-tp'>Elevate</span>Your Brand<span className='less-w'>with  Us!</span></h1>
                         </div>
                         <div className='but-home'>
                             <p>Looking for the best branding agency in Coimbatore that delivers results? Our team of expert strategists uses the latest tools and develops innovative methods to create data-driven digital marketing plans for your brand. As a leading branding company in Coimbatore, let’s build a powerful brand together!</p>
@@ -183,7 +182,7 @@ const Homee = () => {
                     </div>
                     <div className='creative-head' data-aos="zoom-in"
                         data-aos-duration="1300">
-                        <div className='creative-hd1' ><h1 className='hd1-two'><span className='hd1-one '>Recent</span>Creatives</h1></div>
+                        <div className='creative-hd1' ><h2 className='hd1-two'><span className='hd1-one '>Recent</span>Creatives</h2></div>
                         <p className='creative-p'> Ready to be wowed? Check out our mind blowing recent creatives. </p>
                     </div>
                     <div className='pt-4 '>
@@ -212,7 +211,7 @@ const Homee = () => {
                     </div>
                     <div className='creative-head' data-aos="zoom-in"
                         data-aos-duration="1300">
-                        <div className='creative-hd1'><h1 className='hd1-two'><span className='hd1-one '>Our</span>Process</h1></div>
+                        <div className='creative-hd1'><h2 className='hd1-two'><span className='hd1-one '>Our</span>Process</h2></div>
                         <p>We design, launch, and refine digital marketing<br /> strategies to help your brand succeed. </p>
                     </div>
                     <ImageReveal1 />
@@ -225,7 +224,7 @@ const Homee = () => {
                     </div>
                     <div className='community-head'>
                         <div className='community-hd1' data-aos="zoom-in"
-                            data-aos-duration="1300"><h1 className='hd1-two'><span className='hd1-one '>Join Our </span>Community</h1></div>
+                            data-aos-duration="1300"><h2 className='hd1-two'><span className='hd1-one '>Join Our </span>Community</h2></div>
                         <p data-aos="zoom-in"
                             data-aos-duration="1300">Give us a call. Our Door is always open! </p>
 
