@@ -63,13 +63,9 @@ function App() {
             <Route path="/about" element={<Aboute />} />
             <Route path="/services" element={<Services />} />
             <Route path="/services/social-media-marketing" element={<SMMService />} />
-            <Route path="/services/smm" element={<SMMService />} />
             <Route path="/services/performance-marketing" element={<PerformanceMarketing />} />
-            <Route path="/services/ppc" element={<PerformanceMarketing />} />
             <Route path="/services/website-development" element={<WebDevelopment />} />
-            <Route path="/services/web-development" element={<WebDevelopment />} />
             <Route path="/services/seo-aeo-geo" element={<SeoAeoGeo />} />
-            <Route path="/services/seo" element={<SeoAeoGeo />} />
             <Route path="/services/video-editing" element={<VideoEditing />} />
             <Route path="/services/graphic-design" element={<GraphicDesign />} />
             <Route path="/services/videography" element={<Videography />} />

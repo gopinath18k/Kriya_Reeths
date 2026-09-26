@@ -12,10 +12,9 @@ let slides = [
     content: (
       <div className="home-service-container">
         <h3 className="service-heading">
-          <Link to="/services/social-media-marketing" className="service-title-link">
             <span className="service-number">01</span>Creative Branding
-          </Link>
         </h3>
+        
         <p className="service-para ">
         Build a memorable brand identity with creative strategies, compelling visuals, and designs that connect with your audience. 
         </p>

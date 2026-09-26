@@ -22,17 +22,7 @@ const metadataMap = {
     description: "Scale your brand with expert Social Media Marketing (SMM) services in Coimbatore from Kriya & Reeths. We create viral content, manage paid social ads, and build loyal communities.",
     keywords: "social media marketing coimbatore, smm services, instagram marketing, facebook ads, linkedin marketing coimbatore, social media agency"
   },
-  "/services/smm": {
-    title: "Top Social Media Marketing Services in Coimbatore | SMM Agency | Kriya & Reeths",
-    description: "Scale your brand with expert Social Media Marketing (SMM) services in Coimbatore from Kriya & Reeths. We create viral content, manage paid social ads, and build loyal communities.",
-    keywords: "social media marketing coimbatore, smm services, instagram marketing, facebook ads, linkedin marketing coimbatore, social media agency"
-  },
   "/services/performance-marketing": {
-    title: "Best Performance Marketing Agency in Coimbatore | PPC Services | Kriya & Reeths",
-    description: "Maximize your ROAS with high-impact performance marketing and PPC management from Kriya & Reeths in Coimbatore. Expert Google Ads, Meta Ads, and conversion funnels.",
-    keywords: "performance marketing coimbatore, ppc services coimbatore, google ads agency, meta ads, lead generation, roas optimization"
-  },
-  "/services/ppc": {
     title: "Best Performance Marketing Agency in Coimbatore | PPC Services | Kriya & Reeths",
     description: "Maximize your ROAS with high-impact performance marketing and PPC management from Kriya & Reeths in Coimbatore. Expert Google Ads, Meta Ads, and conversion funnels.",
     keywords: "performance marketing coimbatore, ppc services coimbatore, google ads agency, meta ads, lead generation, roas optimization"
@@ -42,17 +32,7 @@ const metadataMap = {
     description: "Custom web development services in Coimbatore by Kriya & Reeths. We engineer lightning-fast, modern, responsive, and SEO-optimized websites and e-commerce stores.",
     keywords: "website development coimbatore, web design company coimbatore, custom react development, ecommerce web development, wordpress agency"
   },
-  "/services/web-development": {
-    title: "Best Website Development Company in Coimbatore | Kriya & Reeths",
-    description: "Custom web development services in Coimbatore by Kriya & Reeths. We engineer lightning-fast, modern, responsive, and SEO-optimized websites and e-commerce stores.",
-    keywords: "website development coimbatore, web design company coimbatore, custom react development, ecommerce web development, wordpress agency"
-  },
   "/services/seo-aeo-geo": {
-    title: "Top SEO, AEO & GEO Agency in Coimbatore | AI Search Optimization | Kriya & Reeths",
-    description: "Dominate Google search results, featured snippets, and AI engines (ChatGPT, Perplexity, Gemini) with advanced SEO, AEO, and GEO services from Kriya & Reeths in Coimbatore.",
-    keywords: "seo services coimbatore, aeo agency, geo search optimization, ai search rankings, answer engine optimization, local seo coimbatore"
-  },
-  "/services/seo": {
     title: "Top SEO, AEO & GEO Agency in Coimbatore | AI Search Optimization | Kriya & Reeths",
     description: "Dominate Google search results, featured snippets, and AI engines (ChatGPT, Perplexity, Gemini) with advanced SEO, AEO, and GEO services from Kriya & Reeths in Coimbatore.",
     keywords: "seo services coimbatore, aeo agency, geo search optimization, ai search rankings, answer engine optimization, local seo coimbatore"

@@ -1,23 +1,35 @@
 @import '../SMMService/SMMService.css';
 
 /* Custom Platform / Video Format Accents for Video Editing */
-.smm-platform-icon-wrap.shortform {
-  background: linear-gradient(135deg, #FF0050 0%, #00F2FE 100%);
-  color: #ffffff;
-}
-
-.smm-platform-icon-wrap.longform {
-  background: #FF0000;
-  color: #ffffff;
-}
-
-.smm-platform-icon-wrap.commercials {
-  background: linear-gradient(135deg, #2B2B2B 0%, #000000 100%);
-  border: 1px solid #c9933e;
-  color: #e5a943;
-}
-
+.smm-platform-icon-wrap.shortform,
+.smm-platform-icon-wrap.longform,
+.smm-platform-icon-wrap.commercials,
 .smm-platform-icon-wrap.motion-graphics {
-  background: linear-gradient(135deg, #9999FF 0%, #4D0099 100%);
-  color: #ffffff;
+  background: #f4f6fa;
+  border: 1px solid #e2e5ec;
+  width: 56px;
+  height: 56px;
+  padding: 8px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.smm-platform-card:hover .smm-platform-icon-wrap.shortform,
+.smm-platform-card:hover .smm-platform-icon-wrap.longform,
+.smm-platform-card:hover .smm-platform-icon-wrap.commercials,
+.smm-platform-card:hover .smm-platform-icon-wrap.motion-graphics {
+  border-color: #c9933e;
+  background: #ffffff;
+  box-shadow: 0 6px 16px rgba(201, 147, 62, 0.15);
+  transform: scale(1.05);
+}
+
+.smm-platform-custom-img-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }

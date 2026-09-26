@@ -1,22 +1,35 @@
 @import '../SMMService/SMMService.css';
 
 /* Custom Platform / Design Category Accents for Graphic Design */
-.smm-platform-icon-wrap.branding-design {
-  background: linear-gradient(135deg, #FF6B6B 0%, #FFE66D 100%);
-  color: #111111;
-}
-
-.smm-platform-icon-wrap.social-design {
-  background: linear-gradient(135deg, #4E54C8 0%, #8F94FB 100%);
-  color: #ffffff;
-}
-
-.smm-platform-icon-wrap.print-design {
-  background: linear-gradient(135deg, #11998E 0%, #38EF7D 100%);
-  color: #ffffff;
-}
-
+.smm-platform-icon-wrap.branding-design,
+.smm-platform-icon-wrap.social-design,
+.smm-platform-icon-wrap.print-design,
 .smm-platform-icon-wrap.ui-design {
-  background: linear-gradient(135deg, #F857A6 0%, #FF5858 100%);
-  color: #ffffff;
+  background: #f4f6fa;
+  border: 1px solid #e2e5ec;
+  width: 56px;
+  height: 56px;
+  padding: 8px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.smm-platform-card:hover .smm-platform-icon-wrap.branding-design,
+.smm-platform-card:hover .smm-platform-icon-wrap.social-design,
+.smm-platform-card:hover .smm-platform-icon-wrap.print-design,
+.smm-platform-card:hover .smm-platform-icon-wrap.ui-design {
+  border-color: #c9933e;
+  background: #ffffff;
+  box-shadow: 0 6px 16px rgba(201, 147, 62, 0.15);
+  transform: scale(1.05);
+}
+
+.smm-platform-custom-img-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }

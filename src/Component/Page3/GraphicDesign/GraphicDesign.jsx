@@ -4,6 +4,10 @@ import bg1 from '../../../images/bg-text1.svg';
 import bg2 from '../../../images/bg-text2.svg';
 import greybg from '../../../images/grey-text.svg';
 import designImg from '../../../images/design.webp';
+import badgeIcon from '../../../images/badge.png';
+import socialMediaIcon from '../../../images/social-media.png';
+import brochureIcon from '../../../images/brochure.png';
+import creativeIcon from '../../../images/creative.png';
 import Footerel from '../../Page2/Lfooter/Lfooter';
 
 const GraphicDesign = () => {
@@ -140,25 +144,25 @@ const GraphicDesign = () => {
     {
       name: 'Brand Identity & Logos',
       type: 'branding-design',
-      iconText: '🎨',
+      iconImg: badgeIcon,
       desc: 'Timeless logo marks, typography standards, and cohesive color systems that create lasting brand equity.'
     },
     {
       name: 'Social Media & Ad Creatives',
       type: 'social-design',
-      iconText: '📱',
+      iconImg: socialMediaIcon,
       desc: 'Eye-catching social posts, carousels, and high-CTR paid advertisement graphics for all digital platforms.'
     },
     {
       name: 'Print, Brochures & Packaging',
       type: 'print-design',
-      iconText: '📦',
+      iconImg: brochureIcon,
       desc: 'Print-ready corporate brochures, product packaging, catalogs, and luxury business stationery.'
     },
     {
       name: 'UI/UX & Digital Illustrations',
       type: 'ui-design',
-      iconText: '✨',
+      iconImg: creativeIcon,
       desc: 'Modern web UI assets, infographic diagrams, vector illustrations, and custom brand icon libraries.'
     }
   ];
@@ -392,7 +396,11 @@ const GraphicDesign = () => {
               data-aos-delay={idx * 100}
             >
               <div className={`smm-platform-icon-wrap ${plat.type}`}>
-                {plat.iconText}
+                {plat.iconImg ? (
+                  <img src={plat.iconImg} alt={plat.name} className="smm-platform-custom-img-icon" />
+                ) : (
+                  plat.iconText
+                )}
               </div>
               <h3 className="smm-platform-title">{plat.name}</h3>
               <p className="smm-platform-desc">{plat.desc}</p>

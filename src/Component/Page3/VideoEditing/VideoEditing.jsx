@@ -4,6 +4,10 @@ import bg1 from '../../../images/bg-text1.svg';
 import bg2 from '../../../images/bg-text2.svg';
 import greybg from '../../../images/grey-text.svg';
 import videoEditImg from '../../../images/VideoEditing.webp';
+import reelIcon from '../../../images/reel.png';
+import youtubeIcon from '../../../images/youtube.png';
+import adwordsIcon from '../../../images/adwords.png';
+import motionGraphicIcon from '../../../images/motion-graphic.png';
 import Footerel from '../../Page2/Lfooter/Lfooter';
 
 const VideoEditing = () => {
@@ -140,25 +144,25 @@ const VideoEditing = () => {
     {
       name: 'Reels, TikTok & Shorts',
       type: 'shortform',
-      iconText: '📱',
+      iconImg: reelIcon,
       desc: 'Fast-paced, highly engaging vertical formats designed for maximum algorithmic reach and social sharing.'
     },
     {
       name: 'YouTube & Podcasts',
       type: 'longform',
-      iconText: '▶',
+      iconImg: youtubeIcon,
       desc: 'In-depth long-form video editing with chapters, multi-cam sync, sound mastering, and viewer retention cues.'
     },
     {
       name: 'Brand Commercials & Ads',
       type: 'commercials',
-      iconText: '🎬',
+      iconImg: adwordsIcon,
       desc: 'Broadcast-quality commercial ads engineered to tell your brand story and convert prospective buyers.'
     },
     {
       name: 'Motion Graphics & VFX',
       type: 'motion-graphics',
-      iconText: '✨',
+      iconImg: motionGraphicIcon,
       desc: 'Cutting-edge title cards, screen replacements, 3D element tracking, and stylized visual effects.'
     }
   ];
@@ -392,7 +396,11 @@ const VideoEditing = () => {
               data-aos-delay={idx * 100}
             >
               <div className={`smm-platform-icon-wrap ${plat.type}`}>
-                {plat.iconText}
+                {plat.iconImg ? (
+                  <img src={plat.iconImg} alt={plat.name} className="smm-platform-custom-img-icon" />
+                ) : (
+                  plat.iconText
+                )}
               </div>
               <h3 className="smm-platform-title">{plat.name}</h3>
               <p className="smm-platform-desc">{plat.desc}</p>
