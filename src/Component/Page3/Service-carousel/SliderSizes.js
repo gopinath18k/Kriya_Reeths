@@ -4,14 +4,15 @@ import { styled } from '@mui/material/styles';
 import '../Service-carousel/SsliderSizes.css';
 
 
-const stages = [100, 80, 60, 40, 20, 0];
-const labels = ["1", "2", "3", "4", "5", "6"];
+const stages = [100, 83.33, 66.66, 50, 33.33, 16.66, 0];
+const labels = ["1", "2", "3", "4", "5", "6", "7"];
 
 const gradients = [
   'linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 9%, rgba(46,45,45,1) 100%)', 
   'linear-gradient(180deg, rgba(46,45,45,1) 0%, rgba(255,255,255,1) 20%, rgba(46,45,45,1) 100%)', 
   'linear-gradient(180deg, rgba(46,45,45,1) 0%, rgba(232,232,232,1) 40%, rgba(46,45,45,1) 100%)', 
-  'linear-gradient(180deg, rgba(46,45,45,1) 0%, rgba(255,255,255,1) 60%, rgba(46,45,45,1) 100%)', 
+  'linear-gradient(180deg, rgba(46,45,45,1) 0%, rgba(255,255,255,1) 50%, rgba(46,45,45,1) 100%)', 
+  'linear-gradient(180deg, rgba(46,45,45,1) 0%, rgba(255,255,255,1) 65%, rgba(46,45,45,1) 100%)', 
   'linear-gradient(180deg, rgba(46,45,45,1) 0%, rgba(255,255,255,1) 80%, rgba(46,45,45,1) 100%)', 
   'linear-gradient(180deg, rgba(46,45,45,1) 0%, rgba(215,214,214,1) 92%, rgba(255,255,255,1) 97%)', 
 ];

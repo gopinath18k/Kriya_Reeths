@@ -1,0 +1,35 @@
+@import '../SMMService/SMMService.css';
+
+/* Custom Platform / Shoot Category Accents for Videography */
+.smm-platform-icon-wrap.commercial-shoot,
+.smm-platform-icon-wrap.product-shoot,
+.smm-platform-icon-wrap.corporate-shoot,
+.smm-platform-icon-wrap.drone-shoot {
+  background: #f4f6fa;
+  border: 1px solid #e2e5ec;
+  width: 56px;
+  height: 56px;
+  padding: 8px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.smm-platform-card:hover .smm-platform-icon-wrap.commercial-shoot,
+.smm-platform-card:hover .smm-platform-icon-wrap.product-shoot,
+.smm-platform-card:hover .smm-platform-icon-wrap.corporate-shoot,
+.smm-platform-card:hover .smm-platform-icon-wrap.drone-shoot {
+  border-color: #c9933e;
+  background: #ffffff;
+  box-shadow: 0 6px 16px rgba(201, 147, 62, 0.15);
+  transform: scale(1.05);
+}
+
+.smm-platform-custom-img-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}

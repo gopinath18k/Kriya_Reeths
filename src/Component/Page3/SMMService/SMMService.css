@@ -116,7 +116,7 @@
 ==================================================== */
 .smm-hero-section {
   position: relative;
-  padding: clamp(130px, 14vw, 180px) clamp(16px, 4vw, 32px) clamp(50px, 8vw, 85px) clamp(16px, 4vw, 32px);
+  padding: clamp(30px, 14vw,0px) clamp(16px, 4vw, 32px) clamp(50px, 8vw, 85px) clamp(16px, 4vw, 32px);
   background: #ffffff;
   text-align: center;
   z-index: 1;
@@ -725,7 +725,7 @@
 /* 4. Large Mobiles & Phablets (576px - 767px) */
 @media screen and (max-width: 767px) {
   .smm-hero-section {
-    padding-top: 130px;
+    padding-top: 30px;
   }
 
   .smm-stats-grid {
@@ -762,7 +762,7 @@
 /* 5. Small Mobiles (< 576px) */
 @media screen and (max-width: 575px) {
   .smm-hero-section {
-    padding-top: 110px;
+    padding-top: 30px;
     padding-bottom: 40px;
   }
 

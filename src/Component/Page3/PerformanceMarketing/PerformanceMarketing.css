@@ -1,0 +1,20 @@
+@import '../SMMService/SMMService.css';
+
+/* Custom Platform Icon Accents for Performance Marketing */
+.smm-platform-icon-wrap.google-ads {
+  background: linear-gradient(135deg, #4285F4 0%, #34A853 50%, #FBBC05 75%, #EA4335 100%);
+}
+
+.smm-platform-icon-wrap.meta-ads {
+  background: linear-gradient(135deg, #0081FB 0%, #0064E0 100%);
+}
+
+.smm-platform-icon-wrap.linkedin-ads {
+  background: #0077B5;
+}
+
+.smm-platform-icon-wrap.programmatic {
+  background: linear-gradient(135deg, #111111 0%, #333333 100%);
+  border: 1px solid #c9933e;
+  color: #e5a943;
+}

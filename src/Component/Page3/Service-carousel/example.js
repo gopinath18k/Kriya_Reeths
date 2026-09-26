@@ -7,9 +7,10 @@ import VerticalServiceCarousel from "./VerticalCarousel";
 import smm from "../../../images/smm.webp";
 import ppc from "../../../images/ppc.webp";
 import develop from "../../../images/webdevelop.webp";
-import event from "../../../images/event.webp";
+import VideoEditing from "../../../images/VideoEditing.webp";
 import shoot from "../../../images/shoot.webp";
 import design from "../../../images/design.webp";
+import seo from "../../../images/SeoAeoGeo.webp";
 
 let slides = [
   {
@@ -24,7 +25,7 @@ let slides = [
             </Link>
           </h2>
           <p className="service-description">
-          Our social media marketing services encompass platform optimization, crafting engaging content, building strong community interactions, collaborating with influencers, email marketing, and meticulously analyzing performance.
+          Grow your brand with social media marketing, engaging content, targeted campaigns, and strategic audience engagement across popular social media platforms.
           </p>
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-image-wrapper">
@@ -40,12 +41,13 @@ let slides = [
       <div className="row service-content-wrapper">
         <div className="col-0 col-lg-1"></div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-text-content">
-          <h2 className="service-title">Pay-Per-Click Advertising (PPC)</h2>
+          <h2 className="service-title">
+            <Link to="/services/performance-marketing" className="service-title-link" title="View Performance Marketing Details">
+              Performance Marketing (PPC)
+            </Link>
+          </h2>
           <p className="service-description">
-            Reach your target audience with our expert PPC management services. We
-            optimize your campaigns for maximum ROI, creating compelling ad copy and
-            landing pages that convert. Our data-driven approach ensures the best
-            possible return on your investment.
+            Drive measurable business growth through performance marketing, targeted advertising, lead generation, conversion optimization, and data driven digital campaigns focused on better results.
           </p>
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-image-wrapper">
@@ -61,11 +63,13 @@ let slides = [
       <div className="row service-content-wrapper">
         <div className="col-0 col-lg-1"></div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-text-content">
-          <h2 className="service-title">Website Development</h2>
+          <h2 className="service-title">
+            <Link to="/services/website-development" className="service-title-link" title="View Website Development Details">
+              Website Development
+            </Link>
+          </h2>
           <p className="service-description">
-            As the best digital marketing company in Coimbatore, we provide website
-            development with custom solutions that enhance user experience and
-            functionality.
+            Custom web development services creating fast, responsive, SEO-friendly websites that improve user experience, strengthen your brand, and generate quality business leads.
           </p>
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-image-wrapper">
@@ -81,15 +85,17 @@ let slides = [
       <div className="row service-content-wrapper">
         <div className="col-0 col-lg-1"></div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-text-content">
-          <h2 className="service-title">Event Management</h2>
+          <h2 className="service-title">
+            <Link to="/services/seo-aeo-geo" className="service-title-link" title="View SEO & AEO & GEO Details">
+              SEO & AEO & GEO
+            </Link>
+          </h2>
           <p className="service-description">
-            We are your trusted event management experts in Coimbatore. Our event
-            management services cover venue selection, theme development, catering,
-            entertainment, and flawless coordination to create unforgettable events.
+            Improve search visibility with SEO, AEO, and GEO strategies designed to rank your business across Google, AI search engines, and generative platforms.
           </p>
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-image-wrapper">
-          <img src={event} alt="Event Management" className="service-image-element" />
+          <img src={seo} alt="Event Management" className="service-image-element" />
         </div>
         <div className="col-0 col-lg-1"></div>
       </div>
@@ -101,16 +107,17 @@ let slides = [
       <div className="row service-content-wrapper">
         <div className="col-0 col-lg-1"></div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-text-content">
-          <h2 className="service-title">Video & Photo Shoots</h2>
+          <h2 className="service-title">
+            <Link to="/services/video-editing" className="service-title-link" title="View Video Editing Details">
+              Video Editing
+            </Link>
+          </h2>
           <p className="service-description">
-            Capture your story through our stunning visuals. Our expert team
-            specializes in capturing breathtaking photos and engaging videos that
-            tell your brand's story. From product shoots to corporate events, we
-            deliver high-quality content that leaves a lasting impression.
+            Professional video editing services that transform raw footage into engaging, high-quality videos for social media, advertising, branding, and digital marketing campaigns.
           </p>
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-image-wrapper">
-          <img src={shoot} alt="Video and Photo Shoots" className="service-image-element" />
+          <img src={VideoEditing} alt="Video and Photo Shoots" className="service-image-element" />
         </div>
         <div className="col-0 col-lg-1"></div>
       </div>
@@ -122,12 +129,13 @@ let slides = [
       <div className="row service-content-wrapper">
         <div className="col-0 col-lg-1"></div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-text-content">
-          <h2 className="service-title">Graphic Design</h2>
+          <h2 className="service-title">
+            <Link to="/services/graphic-design" className="service-title-link" title="View Graphic Design Details">
+              Graphic Design
+            </Link>
+          </h2>
           <p className="service-description">
-            Our graphic design services create lasting impressions with visually
-            stunning designs. From logos and branding to print and digital
-            materials, we deliver captivating visuals that align with your brand
-            identity.
+            Professional graphic design services creating impactful social media creatives, marketing materials, brand visuals, and promotional designs that strengthen your business identity.
           </p>
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-image-wrapper">
@@ -136,10 +144,32 @@ let slides = [
         <div className="col-0 col-lg-0"></div>
       </div>
     )
+  },
+  {
+    key: 7,
+    content: (
+      <div className="row service-content-wrapper">
+        <div className="col-0 col-lg-1"></div>
+        <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-text-content">
+          <h2 className="service-title">
+            <Link to="/services/videography" className="service-title-link" title="View Videography Details">
+              Videography
+            </Link>
+          </h2>
+          <p className="service-description">
+            Professional videography services for brands, products, corporate events, and promotional campaigns, creating compelling visual content that strengthens your digital presence.
+          </p>
+        </div>
+        <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-image-wrapper">
+          <img src={shoot} alt="SEO & AEO & GEO" className="service-image-element" />
+        </div>
+        <div className="col-0 col-lg-0"></div>
+      </div>
+    )
   }
 ];
 
-const gradientStages = [100, 80, 60, 40, 20, 0];
+const gradientStages = [100, 83.33, 66.66, 50, 33.33, 16.66, 0];
 
 export default class ServiceCarousel extends Component {
   state = {

@@ -1,0 +1,22 @@
+@import '../SMMService/SMMService.css';
+
+/* Custom Platform / Design Category Accents for Graphic Design */
+.smm-platform-icon-wrap.branding-design {
+  background: linear-gradient(135deg, #FF6B6B 0%, #FFE66D 100%);
+  color: #111111;
+}
+
+.smm-platform-icon-wrap.social-design {
+  background: linear-gradient(135deg, #4E54C8 0%, #8F94FB 100%);
+  color: #ffffff;
+}
+
+.smm-platform-icon-wrap.print-design {
+  background: linear-gradient(135deg, #11998E 0%, #38EF7D 100%);
+  color: #ffffff;
+}
+
+.smm-platform-icon-wrap.ui-design {
+  background: linear-gradient(135deg, #F857A6 0%, #FF5858 100%);
+  color: #ffffff;
+}

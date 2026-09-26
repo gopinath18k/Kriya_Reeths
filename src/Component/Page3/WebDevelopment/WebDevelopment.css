@@ -1,0 +1,23 @@
+@import '../SMMService/SMMService.css';
+
+/* Custom Platform / Tech Icon Accents for Web Development */
+.smm-platform-icon-wrap.react-tech {
+  background: #20232A;
+  color: #61DAFB;
+  border: 1px solid #61DAFB;
+}
+
+.smm-platform-icon-wrap.fullstack-tech {
+  background: #339933;
+  color: #ffffff;
+}
+
+.smm-platform-icon-wrap.ecommerce-tech {
+  background: #96BF48;
+  color: #ffffff;
+}
+
+.smm-platform-icon-wrap.cloud-tech {
+  background: #FF9900;
+  color: #ffffff;
+}

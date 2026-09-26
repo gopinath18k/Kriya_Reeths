@@ -3,18 +3,16 @@ import Slider from '@mui/material/Slider';
 import { styled } from '@mui/material/styles';
 import '../Carousel/SliderSizes.css';
 
-const stages = [100,88.88,77.77,66.66,55.55,44.44,33.33,22.22,11.11,0];
+const stages = [100, 85.71, 71.43, 57.14, 42.86, 28.57, 14.29, 0];
 const backgroundColors = [
   'linear-gradient(180deg, rgba(43,43,43,1) 0%, rgba(43,43,43,1) 35%, rgba(240,240,240,1) 100%)',
   'linear-gradient(180deg, rgba(240,240,240,1) 0%, rgba(43,43,43,1) 33.33%, rgba(240,240,240,1) 100%)', 
   'linear-gradient(180deg, rgba(240,240,240,1) 0%, rgba(43,43,43,1) 66.66%, rgba(240,240,240,1) 100%)',
-  'linear-gradient(180deg, rgba(240,240,240,1) 0%, rgba(43,43,43,1) 66.66%, rgba(43,43,43,1) 100%)', 
+  'linear-gradient(180deg, rgba(240,240,240,1) 0%, rgba(43,43,43,1) 66.66%, rgba(240,240,240,1) 100%)', 
   'linear-gradient(180deg, rgba(43,43,43,1) 0%, rgba(43,43,43,1) 35%, rgba(240,240,240,1) 100%)',
   'linear-gradient(180deg, rgba(240,240,240,1) 0%, rgba(43,43,43,1) 33.33%, rgba(240,240,240,1) 100%)', 
   'linear-gradient(180deg, rgba(240,240,240,1) 0%, rgba(43,43,43,1) 66.66%, rgba(240,240,240,1) 100%)',
-  'linear-gradient(180deg, rgba(240,240,240,1) 0%, rgba(43,43,43,1) 66.66%, rgba(43,43,43,1) 100%)', 
-  'linear-gradient(180deg, rgba(240,240,240,1) 0%, rgba(43,43,43,1) 66.66%, rgba(43,43,43,1) 100%)', 
-  'linear-gradient(180deg, rgba(240,240,240,1) 0%, rgba(43,43,43,1) 66.66%, rgba(43,43,43,1) 100%)',
+  'linear-gradient(180deg, rgba(240,240,240,1) 0%, rgba(43,43,43,1) 66.66%, rgba(240,240,240,1) 100%)', 
 ];
 
 const getCurrentBackground = (currentValue) => {
@@ -121,7 +119,4 @@ const GradientSliders = styled(Slider)(({ background }) => ({
     </div>
   );
 }
-export default SliderSizes
-
-
-
+export default SliderSizes;

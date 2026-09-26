@@ -1,0 +1,21 @@
+@import '../SMMService/SMMService.css';
+
+/* Custom Platform / Engine Icon Accents for SEO, AEO & GEO */
+.smm-platform-icon-wrap.google-search {
+  background: linear-gradient(135deg, #4285F4 0%, #34A853 50%, #FBBC05 75%, #EA4335 100%);
+}
+
+.smm-platform-icon-wrap.ai-engines {
+  background: linear-gradient(135deg, #10A37F 0%, #000000 100%);
+  border: 1px solid #10A37F;
+  color: #10A37F;
+}
+
+.smm-platform-icon-wrap.bing-copilot {
+  background: linear-gradient(135deg, #008AD7 0%, #002050 100%);
+}
+
+.smm-platform-icon-wrap.voice-search {
+  background: linear-gradient(135deg, #c9933e 0%, #111111 100%);
+  color: #e5a943;
+}

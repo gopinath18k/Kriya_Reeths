@@ -13,11 +13,11 @@ let slides = [
       <div className="home-service-container">
         <h3 className="service-heading">
           <Link to="/services/social-media-marketing" className="service-title-link">
-            <span className="service-number">01</span>Media Branding
+            <span className="service-number">01</span>Creative Branding
           </Link>
         </h3>
         <p className="service-para ">
-        Build a thriving online community, engage your audience on major platforms, and drive conversions with our social media management and paid advertising expertise. 
+        Build a memorable brand identity with creative strategies, compelling visuals, and designs that connect with your audience. 
         </p>
       </div>
     )
@@ -26,9 +26,9 @@ let slides = [
     key: 2,
     content: (
       <div className="home-service-container">
-        <h3 className="service-heading-2"><span className="service-number">02</span>Content Marketing</h3>
+        <h3 className="service-heading-2"><span className="service-number">02</span>Video Editing</h3>
         <p className="service-para ">
-        We create high-quality content like blog posts, articles, and website copy that resonates with your audience and achieves your marketing goals.
+        Transform raw footage into engaging, polished videos with seamless editing, creative effects, and professional storytelling.
   
         </p>
       </div>
@@ -38,9 +38,9 @@ let slides = [
     key: 3,
     content: (
       <div className="home-service-container">
-        <h3 className="service-heading"><span className="service-number">03</span>Email Marketing</h3>
+        <h3 className="service-heading"><span className="service-number">03</span>Web Development</h3>
         <p className="service-para">
-        Gain valuable insights into email campaign performance to optimize your strategy and maximize your ROI.
+        Build fast, responsive, and user friendly websites designed to strengthen your brand and deliver seamless digital experiences.
 
  
         </p>
@@ -51,11 +51,11 @@ let slides = [
     key: 4,
     content: (
       <div className="home-service-container">
-        <h3 className="service-heading-2"><span className="service-number">04</span>Influencer Marketing</h3>
+        <h3 className="service-heading-2"><span className="service-number">04</span>SEO & AEO & GEO</h3>
         <p className="service-para">
         
   
-        We help you find influencers in your industry who can spread your brand message and reach more people.  
+        Improve your online visibility across search engines and AI platforms with smart SEO, AEO, and GEO strategies.
         </p>
       </div>
     )
@@ -64,9 +64,9 @@ let slides = [
     key: 5,
     content: (
       <div className="home-service-container">
-        <h3 className="service-heading-2"><span className="service-number">05</span>Online Advertising </h3>
+        <h3 className="service-heading-2"><span className="service-number">05</span>Social Strategy(SMM)</h3>
         <p className="service-para">
-        Maximize your advertising ROI with targeted PPC campaigns, conversion rate optimization (CRO), and comprehensive campaign performance tracking.  
+        Grow your social presence with strategic content, audience engagement, and campaigns designed to build meaningful connections.
  
         </p>
       </div>
@@ -76,9 +76,9 @@ let slides = [
     key: 6,
     content: (
       <div className="home-service-container">
-        <h3 className="service-heading-2"><span className="service-number">06</span>Branding</h3>
+        <h3 className="service-heading-2"><span className="service-number">06</span>Growth Marketing</h3>
         <p className="service-para">
-        We develop a strong and memorable brand identity that connects with your target audience and sets you apart from the competition.  
+        Accelerate business growth with data driven marketing strategies, targeted campaigns, and continuous performance optimization.
  
         </p>
       </div>
@@ -88,12 +88,9 @@ let slides = [
     key: 7,
     content: (
       <div className="home-service-container">
-        <h3 className="service-heading-2"><span className="service-number">07</span>Web Design</h3>
+        <h3 className="service-heading-2"><span className="service-number">07</span>Graphic Design</h3>
         <p className="service-para">
-        Ensure your website looks and functions flawlessly on all devices, mobile, tablet, and desktop, for optimal user experience.
-
-  
- 
+        Create impactful visual designs that communicate your brand message clearly and leave a lasting impression.
         </p>
       </div>
     )
@@ -102,34 +99,9 @@ let slides = [
     key: 8,
     content: (
       <div className="home-service-container">
-        <h3 className="service-heading-2"><span className="service-number">08</span>Video Marketing</h3>
+        <h3 className="service-heading-2"><span className="service-number">08</span>Videography</h3>
         <p className="service-para">
-        We create engaging video content that captures attention, educates your audience about your brand or product, and drives action.  
- 
-        </p>
-      </div>
-    )
-  },
-  {
-    key: 9,
-    content: (
-      <div className="home-service-container">
-        <h3 className="service-heading-2"><span className="service-number">09</span> Photography</h3>
-        <p className="service-para">
-        Our professional photographers create high-quality product images that showcase your products in the best light and increase sales.  
- 
-        </p>
-      </div>
-    )
-  },
-  {
-    key: 10,
-    content: (
-      <div className="home-service-container">
-        <h3 className="service-heading-2"><span className="service-number">10</span>Event Management</h3>
-        <p className="service-para">
-        We take the stress out of event planning. Our team will develop a comprehensive plan, manage logistics, and execute flawless events that achieve your goals.
-  
+        Capture professional, visually compelling videos that tell your story and showcase your brand with creativity and impact.
  
         </p>
       </div>
@@ -137,7 +109,7 @@ let slides = [
   }
 ];
 
-const gradientStages = [100,88.88,77.77,66.66,55.55,44.44,33.33,22.22,11.11,0];
+const gradientStages = [100, 85.71, 71.43, 57.14, 42.86, 28.57, 14.29, 0];
 
 export default class Examplee extends Component {
   state = {
