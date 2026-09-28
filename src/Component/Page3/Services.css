@@ -4,6 +4,37 @@
     position: relative;
 }
 
+.service-exampless .bg1-cont,
+.service-exampless .bg2-cont {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    pointer-events: none;
+    user-select: none;
+}
+
+.service-exampless .bg1-cont {
+    top: 0;
+    right: 0;
+}
+
+.service-exampless .bg2-cont {
+    bottom: 0;
+    right: 0;
+}
+
+.service-exampless .bg-txt11,
+.service-exampless .bg-txt2 {
+    pointer-events: none;
+    user-select: none;
+}
+
+.service-exampless .carousel-main-wrapper {
+    position: relative;
+    z-index: 5;
+}
+
+
 @media screen and (min-width:2000px) and  (max-width: 2242px){
     .service-text-content {
         margin-left: 5%;

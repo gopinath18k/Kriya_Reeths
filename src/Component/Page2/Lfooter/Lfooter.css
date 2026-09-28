@@ -69,12 +69,16 @@
     width: 100%;
     top: 0;
     right: 0;
-    z-index: 100;
+    z-index: 1;
+    pointer-events: none;
+    user-select: none;
 }
 .bg-txt11{
     height: 200px;
     width: 100%;
     object-fit: cover;
+    pointer-events: none;
+    user-select: none;
 }
 .contac-us{
     font-weight: 600;

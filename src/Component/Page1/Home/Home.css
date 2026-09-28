@@ -221,11 +221,16 @@ html {
     width: 100%;
     bottom: 0;
     right: 0;
+    z-index: 1;
+    pointer-events: none;
+    user-select: none;
 }
 .bg-txt2{
     height: 200px;
     width: 100%;
     object-fit: cover;
+    pointer-events: none;
+    user-select: none;
 }
 
 /* section4 */
@@ -261,6 +266,9 @@ html {
     width: 100%;
     top: 0;
     right: 0;
+    z-index: 1;
+    pointer-events: none;
+    user-select: none;
 }
 
 /* section5 */

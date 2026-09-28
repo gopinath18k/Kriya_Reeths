@@ -2,6 +2,15 @@
     scroll-behavior: smooth;
 }
 
+/* Ensure decorative background text images never intercept clicks or gestures */
+.bg1-cont,
+.bg2-cont,
+.bg-txt11,
+.bg-txt2 {
+    pointer-events: none !important;
+    user-select: none !important;
+}
+
 /* Premium Success Modal Styles */
 .success-modal-overlay {
     position: fixed;
