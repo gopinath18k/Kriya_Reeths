@@ -1,0 +1,803 @@
+/* ============================================================
+   LOCATION SEO PAGE - BEST DIGITAL MARKETING COMPANY IN COIMBATORE
+   ============================================================ */
+
+.loc-seo-page {
+  font-family: inherit;
+  color: #111111;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+/* ------------------------------------------------------------
+   1. HERO SECTION
+   ------------------------------------------------------------ */
+.loc-seo-hero {
+  padding: 30px 20px 70px;
+  background: radial-gradient(circle at 50% 20%, #fafafa 0%, #ffffff 70%);
+  text-align: center;
+  position: relative;
+}
+
+.loc-hero-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.loc-badge-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.loc-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 50px;
+  padding: 8px 22px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+}
+
+.loc-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #f5a623;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(245, 166, 35, 0.7);
+}
+
+.loc-badge-text {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+.loc-hero-title {
+  font-size: clamp(2.4rem, 4.8vw, 3.9rem);
+  font-weight: 800;
+  color: #0d0d0d;
+  line-height: 1.15;
+  margin: 0 auto 20px;
+  letter-spacing: -0.6px;
+  max-width: 900px;
+}
+
+.loc-hero-desc {
+  font-size: clamp(1rem, 1.6vw, 1.15rem);
+  color: #555555;
+  line-height: 1.65;
+  max-width: 780px;
+  margin: 0 auto 36px;
+}
+
+.loc-hero-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.loc-primary-btn {
+  background: #111111;
+  color: #ffffff;
+  border: none;
+  padding: 14px 34px;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.loc-primary-btn:hover {
+  background: #2a2a2a;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.22);
+}
+
+.loc-secondary-btn {
+  background: #ffffff;
+  color: #111111;
+  border: 1.5px solid #111111;
+  padding: 13px 30px;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.loc-secondary-btn:hover {
+  background: #111111;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+/* ------------------------------------------------------------
+   2. DIGITAL GROWTH SOLUTIONS SECTION
+   ------------------------------------------------------------ */
+.loc-solutions-section {
+  padding: 70px 20px 90px;
+  background-color: #ffffff;
+}
+
+.loc-section-header {
+  max-width: 800px;
+  margin-bottom: 50px;
+}
+
+.loc-section-title {
+  font-size: clamp(2rem, 3.6vw, 2.75rem);
+  font-weight: 800;
+  color: #111111;
+  line-height: 1.2;
+  margin-bottom: 14px;
+  letter-spacing: -0.4px;
+}
+
+.loc-section-desc {
+  font-size: 1.05rem;
+  color: #666666;
+  line-height: 1.6;
+  max-width: 680px;
+}
+
+.loc-services-list {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #e8e8e8;
+}
+
+.loc-service-row {
+  display: grid;
+  grid-template-columns: 80px 1fr auto;
+  align-items: center;
+  gap: 32px;
+  padding: 40px 24px;
+  border-bottom: 1px solid #e8e8e8;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  border-radius: 16px;
+}
+
+.loc-service-row:hover {
+  background: #fbfbfb;
+  transform: translateX(8px);
+  border-color: #dedede;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+}
+
+.loc-service-num-col {
+  display: flex;
+  align-items: flex-start;
+}
+
+.loc-service-num {
+  font-size: clamp(2.4rem, 4vw, 3.2rem);
+  font-weight: 800;
+  color: #f5a623;
+  line-height: 1;
+}
+
+.loc-service-content-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.loc-service-title {
+  font-size: clamp(1.25rem, 2vw, 1.55rem);
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 8px;
+}
+
+.loc-service-desc {
+  font-size: 0.95rem;
+  color: #555555;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  max-width: 720px;
+}
+
+.loc-service-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.loc-tag {
+  background: #f3f3f3;
+  color: #333333;
+  border: 1px solid #e5e5e5;
+  border-radius: 20px;
+  padding: 5px 14px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.loc-service-row:hover .loc-tag {
+  background: #ebebeb;
+  border-color: #d8d8d8;
+}
+
+.loc-service-btn-col {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.loc-explore-btn {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #111111;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  background: #f4f4f4;
+  border: 1px solid #e0e0e0;
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+
+.loc-explore-btn:hover {
+  background: #111111;
+  color: #ffffff;
+  border-color: #111111;
+}
+
+.loc-arrow-icon {
+  font-size: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.loc-explore-btn:hover .loc-arrow-icon {
+  transform: translate(2px, -2px);
+}
+
+/* ------------------------------------------------------------
+   3. OUR PROVEN PROCESS SECTION
+   ------------------------------------------------------------ */
+.loc-process-section {
+  padding: 90px 20px 100px;
+  background-color: #fafafa;
+  border-top: 1px solid #f0f0f0;
+}
+
+.loc-process-header {
+  margin-bottom: 48px;
+}
+
+.loc-process-tag {
+  color: #f5a623;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.loc-process-title {
+  font-size: clamp(2rem, 3.6vw, 2.75rem);
+  font-weight: 800;
+  color: #111111;
+  margin-bottom: 12px;
+  letter-spacing: -0.4px;
+}
+
+.loc-process-desc {
+  font-size: 1.05rem;
+  color: #666666;
+  line-height: 1.6;
+  max-width: 680px;
+}
+
+.loc-process-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.loc-process-card {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 16px;
+  padding: 28px 20px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+}
+
+.loc-process-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+  border-color: #d0d0d0;
+}
+
+.loc-step-top {
+  margin-bottom: 18px;
+}
+
+.loc-step-badge {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #111111;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.88rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loc-step-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 10px;
+  line-height: 1.35;
+  min-height: 44px;
+}
+
+.loc-step-desc {
+  font-size: 0.85rem;
+  color: #666666;
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* Card 5 Highlight (Solid Yellow Card as in Image) */
+.loc-card-highlight {
+  background: linear-gradient(145deg, #f5a623 0%, #e89512 100%);
+  border: 1px solid #e09214;
+  color: #000000;
+  box-shadow: 0 10px 25px rgba(245, 166, 35, 0.35);
+}
+
+.loc-card-highlight:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 35px rgba(245, 166, 35, 0.45);
+}
+
+.loc-card-highlight .loc-step-badge {
+  background: #000000;
+  color: #f5a623;
+}
+
+.loc-card-highlight .loc-step-title {
+  color: #000000;
+  font-weight: 800;
+}
+
+.loc-card-highlight .loc-step-desc {
+  color: #222222;
+  font-weight: 500;
+}
+
+.loc-step-cta-btn {
+  margin-top: 18px;
+  background: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  width: 100%;
+}
+
+.loc-step-cta-btn:hover {
+  background: #222222;
+  transform: scale(1.02);
+}
+
+/* ------------------------------------------------------------
+   4. FAQ ACCORDION SECTION (DARK THEME)
+   ------------------------------------------------------------ */
+.loc-faq-section {
+  background-color: #0d0d0d;
+  color: #ffffff;
+  padding: 100px 20px 110px;
+}
+
+.loc-faq-container {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.loc-faq-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.loc-faq-tag {
+  color: #f5a623;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.loc-faq-title {
+  font-size: clamp(2rem, 3.6vw, 2.75rem);
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.loc-faq-desc {
+  font-size: 1.05rem;
+  color: #8e8e8e;
+  line-height: 1.6;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.loc-faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.loc-faq-item {
+  background: #161616;
+  border: 1px solid #242424;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.25s ease;
+}
+
+.loc-faq-item.active {
+  border-color: #383838;
+  background: #1c1c1c;
+}
+
+.loc-faq-question-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  border: none;
+  padding: 22px 26px;
+  text-align: left;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 1.05rem;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.loc-faq-item:hover .loc-faq-question-btn {
+  color: #f5a623;
+}
+
+.loc-faq-item.active .loc-faq-question-btn {
+  color: #ffffff;
+}
+
+.loc-faq-q-text {
+  padding-right: 16px;
+  line-height: 1.45;
+}
+
+.loc-faq-icon {
+  font-size: 1.4rem;
+  color: #f5a623;
+  font-weight: bold;
+  line-height: 1;
+  min-width: 20px;
+  text-align: center;
+}
+
+.loc-faq-answer {
+  padding: 0 26px 24px;
+  color: #b3b3b3;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  border-top: 1px solid #262626;
+  padding-top: 16px;
+  animation: faqSlideIn 0.3s ease-out;
+}
+
+.loc-faq-answer p {
+  margin: 0;
+}
+
+@keyframes faqSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ------------------------------------------------------------
+   5. LEAD FORM / JOIN OUR COMMUNITY SECTION
+   ------------------------------------------------------------ */
+.loc-lead-section {
+  position: relative;
+  padding: 100px 20px 90px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.loc-lead-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  opacity: 0.07;
+  z-index: 1;
+}
+
+.loc-watermark-img {
+  width: 100%;
+  height: auto;
+  min-width: 1200px;
+  object-fit: cover;
+}
+
+.loc-lead-container {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.loc-lead-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.loc-lead-title {
+  font-size: clamp(2rem, 3.8vw, 3rem);
+  font-weight: 800;
+  color: #111111;
+  margin-bottom: 8px;
+}
+
+.loc-lead-title-light {
+  font-weight: 300;
+  color: #111111;
+}
+
+.loc-lead-subtitle {
+  font-size: 1.05rem;
+  color: #666666;
+  margin: 0;
+}
+
+.loc-form-wrapper {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.loc-input-row {
+  display: flex;
+  gap: 28px;
+  margin-bottom: 36px;
+}
+
+.loc-floating-group {
+  position: relative;
+  flex: 1;
+}
+
+.loc-floating-label {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  font-size: 1rem;
+  color: #888888;
+  pointer-events: none;
+  transition: all 0.25s ease;
+}
+
+.loc-input-field {
+  width: 100%;
+  padding: 14px 0 8px;
+  font-size: 1.05rem;
+  color: #111111;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+.loc-bottom-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.5px;
+  background: #111111;
+  transition: background 0.25s ease;
+}
+
+.loc-floating-group.focused .loc-floating-label {
+  top: -8px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #111111;
+}
+
+.loc-message-row {
+  margin-bottom: 40px;
+}
+
+.loc-submit-row {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.loc-submit-btn {
+  background: #111111;
+  color: #ffffff;
+  border: none;
+  padding: 12px 42px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+}
+
+.loc-submit-btn:hover {
+  background: #333333;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* ------------------------------------------------------------
+   6. RESPONSIVE BREAKPOINTS
+   ------------------------------------------------------------ */
+
+/* Laptop / Small Desktop */
+@media (max-width: 1200px) {
+  .loc-process-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+  .loc-seo-hero {
+    padding: 30px 20px 60px;
+  }
+
+  .loc-service-row {
+    grid-template-columns: 60px 1fr;
+    gap: 20px;
+  }
+
+  .loc-service-btn-col {
+    grid-column: 2 / 3;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+
+  .loc-process-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .loc-seo-hero {
+    padding: 30px 16px 50px;
+  }
+
+  .loc-badge {
+    padding: 6px 16px;
+  }
+
+  .loc-badge-text {
+    font-size: 0.72rem;
+  }
+
+  .loc-hero-title {
+    font-size: 2rem;
+  }
+
+  .loc-hero-desc {
+    font-size: 0.95rem;
+  }
+
+  .loc-hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .loc-primary-btn,
+  .loc-secondary-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .loc-solutions-section {
+    padding: 50px 16px 60px;
+  }
+
+  .loc-service-row {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    padding: 28px 16px;
+  }
+
+  .loc-service-num {
+    font-size: 2rem;
+  }
+
+  .loc-service-btn-col {
+    grid-column: 1 / 2;
+  }
+
+  .loc-process-section {
+    padding: 60px 16px 70px;
+  }
+
+  .loc-process-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .loc-faq-section {
+    padding: 70px 16px 80px;
+  }
+
+  .loc-faq-question-btn {
+    padding: 18px 18px;
+    font-size: 0.95rem;
+  }
+
+  .loc-faq-answer {
+    padding: 0 18px 18px;
+    font-size: 0.88rem;
+  }
+
+  .loc-lead-section {
+    padding: 60px 16px 60px;
+  }
+
+  .loc-input-row {
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .loc-submit-btn {
+    width: 100%;
+  }
+}

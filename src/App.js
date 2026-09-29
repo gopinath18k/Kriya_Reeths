@@ -36,6 +36,7 @@ import SeoAeoGeo from './Component/Page3/SeoAeoGeo/SeoAeoGeo';
 import VideoEditing from './Component/Page3/VideoEditing/VideoEditing';
 import GraphicDesign from './Component/Page3/GraphicDesign/GraphicDesign';
 import Videography from './Component/Page3/Videography/Videography';
+import DigitalMarketingCoimbatore from './Component/LocationSEO/DigitalMarketingCoimbatore';
 
 
 
@@ -87,8 +88,7 @@ function App() {
             <Route path="/blog/digital-marketing-pollachi-in-coimbatore" element={<DigitalMarketingPollachi/>} />
             <Route path="/blog/best-branding-company-in-coimbatore" element={<BestBrandingCompany/>} />
             <Route path="/blog/best-seo-services-in-coimbatore" element={<SEOServicesCoimbatore/>} />
-
-
+            <Route path="/digital-marketing-company-in-coimbatore" element={<DigitalMarketingCoimbatore />} />
           </Routes>
           <Arrow />
           <Whatsapp />

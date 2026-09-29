@@ -86,6 +86,14 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Location Based SEO Landing Pages -->
+  <url>
+    <loc>https://www.kriyareeths.com/digital-marketing-company-in-coimbatore</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
   <!-- Blog Articles -->
   <url>
     <loc>https://www.kriyareeths.com/blog/digital-marketing-a-boon-or-bane</loc>

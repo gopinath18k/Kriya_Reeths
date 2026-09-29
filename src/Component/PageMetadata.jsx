@@ -141,6 +141,11 @@ const metadataMap = {
     title: "Best SEO Services in Coimbatore | High Ranking SEO agency | Kriya & Reeths",
     description: "Rank #1 on Google with the best SEO services in Coimbatore. Proven track record of boosting organic traffic, keywords, and local search visibility.",
     keywords: "seo services in coimbatore, search engine optimization coimbatore, seo agency"
+  },
+  "/digital-marketing-company-in-coimbatore": {
+    title: "Best Digital Marketing Company in Coimbatore | Kriya & Reeths",
+    description: "Looking for the best digital marketing company in Coimbatore? Kriya & Reeths delivers result-driven SEO, performance marketing, web development, and branding solutions to scale your business.",
+    keywords: "best digital marketing company in coimbatore, digital marketing company in coimbatore, digital marketing agency coimbatore, SEO company coimbatore, social media marketing coimbatore, web development coimbatore, lead generation coimbatore"
   }
 };
 
@@ -433,6 +438,160 @@ const schemaMap = {
         }
       ]
     }
+  },
+  "/digital-marketing-company-in-coimbatore": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://kriyareeths.com/digital-marketing-company-in-coimbatore/#business",
+        "name": "Kriya & Reeths - Best Digital Marketing Company in Coimbatore",
+        "url": "https://kriyareeths.com/digital-marketing-company-in-coimbatore",
+        "image": "https://kriyareeths.com/static/Logo-D-FtqDKU.webp",
+        "logo": "https://kriyareeths.com/static/Logo-D-FtqDKU.webp",
+        "telephone": "+91 73059 79062",
+        "email": "info@kriyareeths.com",
+        "priceRange": "$$",
+        "description": "Accelerate your business digital growth with high-performing strategies, cutting-edge creative branding, data-driven performance marketing, and industry-leading SEO solutions crafted specifically for Coimbatore businesses.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "71/42, Vadavalli, Marutham Nagar",
+          "addressLocality": "Coimbatore",
+          "addressRegion": "Tamil Nadu",
+          "postalCode": "641041",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "11.0168",
+          "longitude": "76.9558"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Coimbatore"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Digital Marketing Services Coimbatore",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Creative Branding & Design"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Web Design & Development"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "SEO & Search Visibility"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Social Media & Performance Marketing"
+              }
+            }
+          ]
+        },
+        "parentOrganization": {
+          "@id": "https://kriyareeths.com/#organization"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://kriyareeths.com/digital-marketing-company-in-coimbatore/#webpage",
+        "url": "https://kriyareeths.com/digital-marketing-company-in-coimbatore",
+        "name": "Best Digital Marketing Company in Coimbatore | Kriya & Reeths",
+        "description": "Accelerate your business digital growth with high-performing strategies, cutting-edge creative branding, data-driven performance marketing, and industry-leading SEO solutions crafted specifically for Coimbatore businesses.",
+        "isPartOf": {
+          "@id": "https://kriyareeths.com/#website"
+        },
+        "about": {
+          "@id": "https://kriyareeths.com/digital-marketing-company-in-coimbatore/#business"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://kriyareeths.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Best Digital Marketing Company in Coimbatore",
+              "item": "https://kriyareeths.com/digital-marketing-company-in-coimbatore"
+            }
+          ]
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What digital marketing services do you provide in Coimbatore?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We provide end-to-end 360-degree digital marketing solutions tailored for Coimbatore businesses. This includes Local & National SEO, Generative AI Search Optimization (AEO/GEO), Google Ads & Meta Ads (Performance Marketing), Social Media Marketing (SMM), Custom Web Development, Creative Branding & Logo Design, Video Production & Reel Editing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can digital marketing help grow my Coimbatore business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Digital marketing puts your brand directly in front of active customers searching for your products or services in Coimbatore and across Tamil Nadu. Through hyper-targeted local SEO, social media funnels, and performance ads, you acquire qualified high-intent leads, build brand authority, and achieve measurable ROI."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why is local SEO important for Coimbatore businesses?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Local SEO enables your business to rank #1 on Google Maps 3-pack and localized organic search results when users search for keywords like 'near me', 'in Coimbatore', 'in RS Puram', 'in Gandhipuram', or 'in Peelamedu'."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you manage and optimize social media marketing?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We create viral, aesthetic visual content, cinematic Reels, engaging carousel posts, and data-backed paid ad campaigns across Instagram, Facebook, LinkedIn, and YouTube."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to see results from SEO and Ads?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "With Performance Marketing (Google Search & Meta Ads), you can start generating qualified inquiries within 24 to 72 hours. For organic SEO, significant ranking climbs and traffic surges typically compound over 3 to 6 months."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you track and measure marketing campaign results?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We employ advanced tracking tools including Google Analytics 4 (GA4), Google Search Console, Meta Pixel, and custom conversion tracking dashboards with transparent monthly reporting."
+            }
+          }
+        ]
+      }
+    ]
   }
 };
 
