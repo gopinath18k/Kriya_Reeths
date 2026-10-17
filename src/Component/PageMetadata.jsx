@@ -3,8 +3,8 @@ import { useLocation } from 'react-router-dom';
 
 const metadataMap = {
   "/": {
-    title: "Best Branding Agency in Coimbatore | Kriya & Reeths",
-    description: "Kriya & Reeths is a leading branding agency in Coimbatore offering creative branding, digital marketing, web development and growthfocused solutions.",
+    title: "Digital Marketing Company in Coimbatore | Kriya & Reeths",
+    description: "Grow your brand with Kriya & Reeths, offering SEO, social media marketing, performance marketing, branding, and web development in Coimbatore.",
     keywords: "digital marketing agency coimbatore, best digital marketing company coimbatore, SEO services coimbatore, web development company coimbatore"
   },
   "/about": {

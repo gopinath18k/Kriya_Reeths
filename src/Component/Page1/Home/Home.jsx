@@ -157,12 +157,12 @@ const Homee = () => {
                     <div className="col graph-head " ><img className='graph' src={graph} alt="" /></div>
                     <div className="col brand-sec " >
                         <div className='ab-head'>
-                            <h1 className='abm-text'><span className='less-tp'>Elevate</span>Your Brand<span className='less-w'>with  Us!</span></h1>
+                            <h1 className='abm-text'><span className='less-tp'></span>Digital Marketing Company<span className='less-w'>in Coimbatore</span></h1>
                         </div>
                         <div className='but-home'>
-                            <p>Looking for the best branding agency in Coimbatore that delivers results? Our team of expert strategists uses the latest tools and develops innovative methods to create data-driven digital marketing plans for your brand. As a leading branding company in Coimbatore, let’s build a powerful brand together!</p>
+                            <p>Looking to grow your business online? Kriya & Reeths helps brands improve visibility, reach the right audience, and build a strong digital presence through creative strategies and data-driven marketing. Our services include SEO, social media marketing, performance marketing, website development, and branding solutions tailored to your business goals.</p>
                         </div>
-                        <a href="#joinus" className='abt-but'>Start Today</a>
+                        <a href="#joinus" className='abt-but'>Grow Now</a>
 
 
                     </div>

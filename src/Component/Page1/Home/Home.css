@@ -169,7 +169,7 @@ html {
 }
 .section3 p{
     font-weight: 200;
-    width: 470px;
+    width: 100%;
     
 }
 .less-w{
@@ -184,7 +184,6 @@ html {
     font-weight: 300;
     bottom: 64%;
     font-size: 41px;
-
 }
 
 .abm-text{
@@ -447,7 +446,7 @@ html {
     }
     .section3 p {
         font-weight: 200;
-        width: 550px;
+        width: 100%;
         font-size: 18.5px;
     }
   
@@ -555,7 +554,7 @@ html {
     }
     .section3 p {
         font-weight: 200;
-        width: 550px;
+        width: 100%;
         font-size: 20px;
     }
   
@@ -2764,7 +2763,7 @@ html {
     }
     .section3 p{
         font-weight: 200;
-        width: 420px;
+        width: 100%;
     }
     .less-tp{
         position: absolute;
@@ -2958,7 +2957,7 @@ html {
     }
     .brand-sec p{
         font-size: 12px;
-        width: 350px;
+        width: 100%;
         text-align: center;
     }
     .brand-sec {

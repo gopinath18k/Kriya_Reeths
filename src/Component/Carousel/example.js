@@ -16,7 +16,7 @@ let slides = [
         </h3>
         
         <p className="service-para ">
-        Build a memorable brand identity with creative strategies, compelling visuals, and designs that connect with your audience. 
+        Build a memorable brand identity with strategic branding, compelling visuals, and designs that connect with your target audience. 
         </p>
       </div>
     )
@@ -27,7 +27,7 @@ let slides = [
       <div className="home-service-container">
         <h3 className="service-heading-2"><span className="service-number">02</span>Video Editing</h3>
         <p className="service-para ">
-        Transform raw footage into engaging, polished videos with seamless editing, creative effects, and professional storytelling.
+        Transform raw footage into engaging videos with seamless editing, creative effects, and professional visual storytelling.
   
         </p>
       </div>
@@ -39,7 +39,7 @@ let slides = [
       <div className="home-service-container">
         <h3 className="service-heading"><span className="service-number">03</span>Web Development</h3>
         <p className="service-para">
-        Build fast, responsive, and user friendly websites designed to strengthen your brand and deliver seamless digital experiences.
+        Build responsive, user-friendly websites designed to strengthen your brand and deliver seamless digital experiences.
 
  
         </p>
@@ -54,7 +54,7 @@ let slides = [
         <p className="service-para">
         
   
-        Improve your online visibility across search engines and AI platforms with smart SEO, AEO, and GEO strategies.
+        Improve online visibility across search engines and AI platforms with effective SEO, AEO, and GEO strategies.
         </p>
       </div>
     )
@@ -77,7 +77,7 @@ let slides = [
       <div className="home-service-container">
         <h3 className="service-heading-2"><span className="service-number">06</span>Growth Marketing</h3>
         <p className="service-para">
-        Accelerate business growth with data driven marketing strategies, targeted campaigns, and continuous performance optimization.
+        Accelerate business growth with data-driven advertising strategies, targeted campaigns, and continuous performance optimization.
  
         </p>
       </div>
@@ -100,7 +100,7 @@ let slides = [
       <div className="home-service-container">
         <h3 className="service-heading-2"><span className="service-number">08</span>Videography</h3>
         <p className="service-para">
-        Capture professional, visually compelling videos that tell your story and showcase your brand with creativity and impact.
+        Capture professional videos that tell your story and showcase your brand with creativity and visual impact.
  
         </p>
       </div>
