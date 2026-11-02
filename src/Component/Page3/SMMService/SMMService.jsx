@@ -77,61 +77,60 @@ const SMMService = () => {
     {
       num: '01',
       title: 'Content Strategy & Editorial Roadmap',
-      desc: 'Custom monthly content calendars aligned with your business objectives, industry nuances, and audience psychology.',
+      desc: 'Custom monthly content calendars aligned with your business goals, industry trends, and target audience interests.',
       points: [
         'Trend Analysis & Competitor Research',
-        'Content Pillars & Voice Definition',
+        'Content Pillars & Brand Voice Development',
         'Publishing Schedule & Optimal Timing'
       ]
     },
     {
       num: '02',
       title: 'High-Impact Video & Creative Production',
-      desc: 'Engaging Reels, TikToks, Shorts, and carousel graphics engineered to halt scrolling and trigger viral algorithmic distribution.',
+      desc: 'Engaging Reels, Shorts, and carousel graphics designed to capture attention, encourage interaction, and expand your social media reach.',
       points: [
-        'Viral Scriptwriting & Storyboards',
-        'Pro Video Editing & Motion Graphics',
-        'Dynamic Multi-Platform Brand Assets'
+        'Creative Scriptwriting & Storyboards',
+        'Professional Video Editing & Motion Graphics',
+        'Multi-Platform Creative Assets'
       ]
     },
     {
       num: '03',
       title: 'Audience Growth & Community Building',
-      desc: 'Active daily community management, rapid direct message responses, and comment moderation to turn followers into advocates.',
+      desc: 'Consistent community management, timely message responses, and comment moderation to build trust and turn followers into loyal customers.',
       points: [
-        'Daily Community Interactions & Engagement',
-        'Proactive Target Follower Acquisition',
+        'Daily Community Interaction & Engagement',
+        'Targeted Audience Growth Strategies',
         'Brand Reputation & Sentiment Monitoring'
       ]
     },
     {
       num: '04',
       title: 'Paid Social & Performance Ads',
-      desc: 'Data-driven paid social campaigns across Meta, LinkedIn, and TikTok with pinpoint demographic targeting for maximum ROAS.',
+      desc: 'Data-driven advertising campaigns across Meta, LinkedIn, and other relevant platforms, using audience targeting to improve campaign performance.',
       points: [
-        'Hyper-Targeted Conversion Ad Sets',
-        'A/B Creative & Copy Variation Testing',
-        'Pixel Tracking & Dynamic Retargeting'
+        'Targeted Social Media Advertising',
+        'A/B Testing for Creatives & Ad Copy',
+        'Pixel Tracking & Audience Retargeting'
       ]
     },
     {
       num: '05',
       title: 'Influencer & Creator Partnerships',
-      desc: 'Authentic collaborations with vetted micro and macro creators that amplify trust, drive brand equity, and generate real conversions.',
+      desc: 'Authentic collaborations with relevant creators that increase brand awareness, strengthen audience trust, and support meaningful conversions.',
       points: [
-        'Creator Identification & Vetting',
-        'Campaign Briefing & Deliverable Review',
-        'Influencer ROI & Attribution Tracking'
+        'Creator Identification & Evaluation',
+        'Campaign Briefing & Content Review',
+        'Influencer Performance Measurement'
       ]
     },
     {
       num: '06',
       title: 'Social Listening & Data Analytics',
-      desc: 'In-depth performance analytics, audience demographic insights, and continuous optimization to ensure compounding growth.',
+      desc: 'Detailed campaign analytics, audience insights, and continuous optimization to improve engagement and support sustainable social media growth.',
       points: [
-        'Real-time Market & Competitor Benchmarks',
-        'Audience Sentiment & Feedback Analysis',
-        'Clear Monthly ROI & Performance Reports'
+        'Market Trends & Competitor Analysis',
+        'Audience Sentiment & Feedback Analysis'
       ]
     }
   ];
@@ -141,25 +140,25 @@ const SMMService = () => {
       name: 'Meta (Instagram & Facebook)',
       type: 'meta',
       iconText: '∞',
-      desc: 'Visual storytelling, viral Reels production, community stories, and hyper-targeted advertising to capture high-intent consumer attention.'
+      desc: 'Enhance your brand visibility through creative social media posts, engaging Reels and Stories, audience interaction, and targeted advertising campaigns designed to reach relevant audiences and support business objectives.'
     },
     {
       name: 'LinkedIn',
       type: 'linkedin',
       iconText: 'in',
-      desc: 'B2B authority building, executive thought leadership, company page scaling, and high-ticket corporate lead generation pipelines.'
+      desc: 'Build professional credibility and strengthen your B2B presence through strategic content creation, company page management, industry insights, thought leadership, and targeted campaigns focused on business connections and lead generation.'
     },
     {
-      name: 'YouTube / Shorts',
+      name: 'YouTube & YouTube Shorts',
       type: 'youtube',
       iconText: '▶',
-      desc: 'Long-form authority content and engaging Shorts that capture search-driven organic discovery and multi-year viewer retention.'
+      desc: 'Expand your brand\'s video presence with informative long-form content, promotional videos, and engaging Shorts. Develop content that showcases your products, services, and expertise while supporting audience engagement and discoverability.'
     },
     {
       name: 'X (Twitter) & Threads',
       type: 'x-threads',
       iconText: '𝕏',
-      desc: 'Real-time brand conversations, viral trend hijacking, PR management, and conversational community engagement for maximum buzz.'
+      desc: 'Strengthen brand communication through timely updates, relevant industry conversations, trending topics, and consistent audience engagement. Build an active brand presence while encouraging meaningful interactions with your community.'
     }
   ];
 
@@ -167,27 +166,27 @@ const SMMService = () => {
     {
       step: '01',
       title: 'Brand Audit & Strategy',
-      desc: 'Comprehensive audit of your existing presence, competitor benchmarking, and customized audience persona modeling.'
+      desc: 'Analyze your existing social presence, evaluate competitors, and identify target audience preferences to develop a tailored social media strategy.'
     },
     {
       step: '02',
-      title: 'Content Engine',
-      desc: 'Establishing distinct brand visual guidelines, hook frameworks, script blueprints, and 30-day asset pipelines.'
+      title: 'Content Planning & Creation',
+      desc: 'Develop brand guidelines, creative concepts, engaging scripts, and a monthly content calendar aligned with your marketing goals.'
     },
     {
       step: '03',
-      title: 'Execution & Launch',
-      desc: 'Precision scheduling, hashtag optimization, sound-trend mapping, and structured multi-channel publishing.'
+      title: 'Execution & Publishing',
+      desc: 'Schedule content strategically, optimize hashtags, identify relevant trends, and publish consistently across suitable social media platforms.'
     },
     {
       step: '04',
-      title: 'Active Management',
-      desc: 'Daily proactive community engagement, direct message responses, comment moderation, and active relationship building.'
+      title: 'Community Management',
+      desc: 'Manage daily audience interactions, respond to messages, moderate comments, and build meaningful relationships with your followers.'
     },
     {
       step: '05',
-      title: 'Scale & Optimize',
-      desc: 'Weekly performance analytics, scaling top-converting content formats, and deploying targeted paid booster campaigns.'
+      title: 'Performance & Optimization',
+      desc: 'Review campaign insights, identify top-performing content, refine strategies, and use targeted paid promotions to improve reach and engagement.'
     }
   ];
 
@@ -235,17 +234,16 @@ const SMMService = () => {
         <div className="smm-hero-content" data-aos="fade-up" data-aos-duration="1200">
           <div className="smm-eyebrow-badge">
             <span className="smm-badge-dot"></span>
-            DIGITAL MARKETING EXCELLENCE
+            SOCIAL MEDIA MARKETING
             <span className="smm-badge-dot"></span>
           </div>
 
           <h1 className="smm-hero-title">
-            Social Media <br /> Marketing (SMM)
+            Social Media Marketing <br /> Company in Coimbatore
           </h1>
 
           <p className="smm-hero-desc">
-            We create data-driven, creative social media strategies that elevate your brand visibility,
-            engage your target audience, and convert followers into loyal customers across all major platforms.
+            We help businesses strengthen their online presence through strategic social media campaigns, creative content, audience engagement, and data-driven marketing solutions that turn followers into loyal customers.
           </p>
 
           <div className="smm-stats-grid">
@@ -254,8 +252,8 @@ const SMMService = () => {
               <div className="smm-stat-label">Impressions Delivered</div>
             </div>
             <div className="smm-stat-item">
-              <div className="smm-stat-number">4.8k</div>
-              <div className="smm-stat-label">Engagements / Growth</div>
+              <div className="smm-stat-number">4.8K</div>
+              <div className="smm-stat-label">Engagements & Growth</div>
             </div>
             <div className="smm-stat-item">
               <div className="smm-stat-number">350+</div>
@@ -277,42 +275,41 @@ const SMMService = () => {
           <div className="smm-feature-left" data-aos="fade-right" data-aos-duration="1200">
             <div className="smm-eyebrow-badge dark">
               <span className="smm-badge-dot"></span>
-              FULL-FUNNEL SMM
+              SOCIAL IMPACT SMM
             </div>
 
             <h2 className="smm-feature-heading">
               More Than Just Posting. <br />
-              Full-Funnel Social <br />
-              Engineering.
+              Turning Attention Into Action. <br />
+              Turning Clicks Into Customers.
             </h2>
 
             <p className="smm-feature-desc">
-              Social media isn't just about sharing content; it's about building a predictable growth engine for your business.
-              We engineer full-funnel strategies that turn casual scrollers into paying customers.
+              As a social media marketing company in Coimbatore, Kriya & Reeths develops full-funnel strategies that help businesses increase brand awareness, connect with relevant audiences, and convert engagement into meaningful business opportunities.
             </p>
 
             <div className="smm-feature-list">
               <div className="smm-feature-box">
                 <div className="smm-feature-icon-badge">✓</div>
                 <div className="smm-feature-box-content">
-                  <h4>Algorithm Mastery</h4>
-                  <p>We decode platform algorithms so your content consistently reaches high-intent audiences organically.</p>
+                  <h4>Algorithm Optimization</h4>
+                  <p>We create platform-specific content strategies to improve organic reach, strengthen social media visibility, and connect your brand with relevant audiences.</p>
                 </div>
               </div>
 
               <div className="smm-feature-box">
                 <div className="smm-feature-icon-badge">✓</div>
                 <div className="smm-feature-box-content">
-                  <h4>High-Convert Creatives</h4>
-                  <p>Thumb-stopping graphics, viral-engineered Reels & Shorts designed specifically for maximum retention.</p>
+                  <h4>High-Impact Creatives</h4>
+                  <p>Engaging graphics, creative Reels, and short-form videos designed to capture attention, encourage interactions, and build stronger audience connections.</p>
                 </div>
               </div>
 
               <div className="smm-feature-box">
                 <div className="smm-feature-icon-badge">✓</div>
                 <div className="smm-feature-box-content">
-                  <h4>End-to-End Monetization</h4>
-                  <p>Strategic CTAs and lead magnets designed to capture leads and convert attention into revenue.</p>
+                  <h4>End-to-End Conversion Strategies</h4>
+                  <p>Strategic calls to action, targeted social media advertising, and lead-generation campaigns designed to attract potential customers and support business growth.</p>
                 </div>
               </div>
             </div>
@@ -341,7 +338,7 @@ const SMMService = () => {
           </div>
           <h2 className="smm-section-title">Our SMM Capabilities</h2>
           <p className="smm-section-subtitle">
-            From content creation to paid acquisition, our end-to-end capabilities ensure total social domination.
+            From content creation to paid advertising, our social media marketing services help brands build awareness, engage audiences, and drive business growth.
           </p>
         </div>
 
@@ -374,11 +371,11 @@ const SMMService = () => {
         <div className="smm-section-header" data-aos="fade-up" data-aos-duration="1200">
           <div className="smm-eyebrow-badge dark">
             <span className="smm-badge-dot"></span>
-            OMNICHANNEL MASTERY
+            SOCIAL MEDIA PLATFORMS
           </div>
-          <h2 className="smm-section-title dark">Platforms We Dominate</h2>
+          <h2 className="smm-section-title dark">Building Your Brand Across Digital Platforms</h2>
           <p className="smm-section-subtitle dark">
-            We tailor bespoke strategies for every major network, ensuring your brand thrives where your audience spends their time.
+            We create platform-specific social media strategies that help businesses strengthen brand awareness, engage their target audiences, and maintain a consistent digital presence across major social networks.
           </p>
         </div>
 
@@ -412,7 +409,7 @@ const SMMService = () => {
           </div>
           <h2 className="smm-section-title">How We Manage Your Brand</h2>
           <p className="smm-section-subtitle">
-            A systematic, step-by-step framework to scale your social footprint.
+            A structured, step-by-step approach to building your social presence and supporting consistent brand growth.
           </p>
         </div>
 

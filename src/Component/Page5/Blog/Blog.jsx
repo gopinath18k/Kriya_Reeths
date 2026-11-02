@@ -87,7 +87,7 @@ const Blog = () => {
         data-aos-duration="1300">
           <h1 className='head2'>Blog</h1>
 
-<p className='head3-p'>Best Web Development Company in Coimbatore brings you a world of insights, tips,and stories. Our blog is your go-to destination for the latest in digital marketing trends,SEO strategies, social media tips, and content creation techniques. We cover a widerange of topics to keep you informed, engaged, and inspired as you navigate the digital landscape.</p>
+          <p className='head3-p'>Explore the latest digital marketing trends, SEO strategies, and online growth insights with Kriya & Reeths. Our digital marketing blog in Coimbatore provides practical tips and expert insights on search engine optimization (SEO), Answer Engine Optimization (AEO), Generative Engine Optimization (GEO), social media marketing, website development, and content creation to help businesses strengthen their online presence.</p>
         </div> 
 
         <div className='blog-section2'>

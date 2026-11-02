@@ -80,118 +80,118 @@ const GraphicDesign = () => {
   const capabilities = [
     {
       num: '01',
-      title: 'Brand Identity & Logo Systems',
-      desc: 'Distinctive, memorable logo marks and complete brand identity guidelines that tell your brand story and command industry authority.',
+      title: 'Brand Identity & Logo Design',
+      desc: 'Create memorable logos and cohesive brand identity systems that communicate your brand values, establish recognition, and build a consistent visual presence.',
       points: [
-        'Vector Logo Design & Iconography',
-        'Typography Hierarchy & Color Palettes',
-        'Comprehensive Brand Style Guide Books'
+        'Custom Vector Logo Design & Iconography',
+        'Typography Selection & Brand Color Palettes',
+        'Complete Brand Guidelines & Style Guides'
       ]
     },
     {
       num: '02',
-      title: 'High-Converting Social Media Creatives',
-      desc: 'Engaging, modern carousel graphics, feed post templates, and Story designs tailored to trigger high engagement and saves.',
+      title: 'Social Media Graphic Design',
+      desc: 'Capture audience attention with engaging social media posts, carousel designs, and Story creatives tailored to your brand and marketing objectives.',
       points: [
-        'Multi-Slide Educational Carousels',
-        'Viral Quote & Infographic Templates',
-        'Platform-Optimized Formats (IG, LinkedIn, FB)'
+        'Multi-Slide Informative Carousel Designs',
+        'Creative Quote Graphics & Infographics',
+        'Platform-Specific Designs for Instagram, LinkedIn & Facebook'
       ]
     },
     {
       num: '03',
-      title: 'Marketing Collateral & Print Design',
-      desc: 'Premium brochures, flyers, business cards, corporate pitch decks, and catalogs engineered for tangible real-world impact.',
+      title: 'Marketing Materials & Print Design',
+      desc: 'Present your business professionally with well-designed brochures, flyers, business cards, catalogs, and corporate presentations.',
       points: [
-        'Print-Ready CMYK High-Res Deliverables',
-        'Die-Cut & Special Finish Packaging Layouts',
-        'Corporate Stationery & Presentation Decks'
+        'High-Resolution, Print-Ready CMYK Files',
+        'Custom Packaging Layouts & Finishing Designs',
+        'Corporate Stationery & Presentation Materials'
       ]
     },
     {
       num: '04',
-      title: 'Packaging & Label Architecture',
-      desc: 'Shelf-stopping product packaging and label designs that captivate retail shoppers and elevate the unboxing experience.',
+      title: 'Product Packaging & Label Design',
+      desc: 'Develop visually appealing packaging and product labels that communicate product value, strengthen shelf presence, and create a memorable customer experience.',
       points: [
-        '3D Packaging Mockups & Visualizations',
-        'Compliance & Nutritional Label Layouts',
-        'D2C Box, Pouch & Bottle Wrap Designs'
+        '3D Packaging Mockups & Product Visualizations',
+        'Product Information & Nutritional Label Layouts',
+        'Custom Box, Pouch & Bottle Label Designs'
       ]
     },
     {
       num: '05',
-      title: 'Digital Advertising Banners & Creatives',
-      desc: 'Performance-engineered ad banners and display assets designed specifically to increase click-through rates (CTR) on Meta and Google.',
+      title: 'Digital Advertising Creatives & Banners',
+      desc: 'Create compelling advertising visuals for Meta and Google campaigns, combining clear messaging and strategic layouts to support clicks and conversions.',
       points: [
-        'High-Contrast Visual Hierarchies',
-        'Responsive Display Ad Dimension Sets',
-        'Emotional & Benefit-Driven Layouts'
+        'Attention-Grabbing Visual Hierarchy & Layouts',
+        'Responsive Display Ad Sizes & Formats',
+        'Benefit-Focused Messaging & Creative Concepts'
       ]
     },
     {
       num: '06',
-      title: 'UI/UX Visual Design & Iconography',
-      desc: 'Clean, modern digital interface assets, custom icon sets, hero illustrations, and visual elements that enhance web user experience.',
+      title: 'UI/UX Visual Assets & Icon Design',
+      desc: 'Enhance digital experiences with clean interface graphics, custom icons, illustrations, and visual elements designed for websites and applications.',
       points: [
-        'Custom Vector Illustration & Icons',
-        'Figma Design Systems & Style Guides',
-        'Engaging Web & App Micro-Graphics'
+        'Custom Vector Illustrations & Icon Sets',
+        'Figma-Based Design Systems & Style Guides',
+        'Website & App Graphics for Better User Experience'
       ]
     }
   ];
 
   const platforms = [
     {
-      name: 'Brand Identity & Logos',
+      name: 'Brand Identity & Logo Design',
       type: 'branding-design',
       iconImg: badgeIcon,
-      desc: 'Timeless logo marks, typography standards, and cohesive color systems that create lasting brand equity.'
+      desc: 'Develop distinctive brand identities through custom logo designs, carefully selected typography, and cohesive color palettes that establish brand recognition and create a consistent visual presence.'
     },
     {
-      name: 'Social Media & Ad Creatives',
+      name: 'Social Media & Advertising Creatives',
       type: 'social-design',
       iconImg: socialMediaIcon,
-      desc: 'Eye-catching social posts, carousels, and high-CTR paid advertisement graphics for all digital platforms.'
+      desc: 'Create engaging social media posts, carousel designs, promotional banners, and digital advertising creatives tailored to your brand and marketing objectives across major digital platforms.'
     },
     {
-      name: 'Print, Brochures & Packaging',
+      name: 'Print Design, Brochures & Packaging',
       type: 'print-design',
       iconImg: brochureIcon,
-      desc: 'Print-ready corporate brochures, product packaging, catalogs, and luxury business stationery.'
+      desc: 'Design professional brochures, company profiles, product catalogs, packaging layouts, flyers, and corporate stationery with high-quality, print-ready specifications.'
     },
     {
-      name: 'UI/UX & Digital Illustrations',
+      name: 'UI/UX Design & Digital Illustrations',
       type: 'ui-design',
       iconImg: creativeIcon,
-      desc: 'Modern web UI assets, infographic diagrams, vector illustrations, and custom brand icon libraries.'
+      desc: 'Enhance digital experiences with user-friendly interface designs, website graphics, informative infographics, custom vector illustrations, and branded icon sets.'
     }
   ];
 
   const processSteps = [
     {
       step: '01',
-      title: 'Creative Discovery & Brief',
-      desc: 'Understanding your brand values, target audience demographics, competitor visual landscape, and design objectives.'
+      title: 'Creative Discovery & Design Brief',
+      desc: 'Understand your brand values, target audience, competitors, visual preferences, and business objectives to establish a clear creative direction.'
     },
     {
       step: '02',
-      title: 'Moodboarding & Concept Sketches',
-      desc: 'Exploring multiple visual directions, typography moods, color harmonies, and foundational rough drafts.'
+      title: 'Moodboards & Concept Development',
+      desc: 'Explore creative directions through moodboards, typography styles, color combinations, and initial design concepts that align with your brand vision.'
     },
     {
       step: '03',
-      title: 'Vectorization & Design Polishing',
-      desc: 'Refining chosen concepts into pixel-perfect vector artwork using Adobe Illustrator, Photoshop, and Figma.'
+      title: 'Design Refinement & Vector Creation',
+      desc: 'Transform selected concepts into polished, high-quality designs using professional tools such as Adobe Illustrator, Photoshop, and Figma.'
     },
     {
       step: '04',
-      title: '3D Mockups & Real-World Context',
-      desc: 'Testing designs on realistic 3D product mockups, digital screens, and print formats to ensure visual excellence.'
+      title: 'Mockups & Visual Presentation',
+      desc: 'Preview designs across product mockups, digital screens, and print materials to evaluate their appearance and ensure visual consistency across applications.'
     },
     {
       step: '05',
-      title: 'Final Master Asset Delivery',
-      desc: 'Exporting complete packages including vector source files (AI, EPS, SVG, PSD), high-res PNG/JPG, and print PDFs.'
+      title: 'Final Design Delivery',
+      desc: 'Receive organized design files, including editable source formats where applicable, scalable vector files such as AI, EPS, and SVG, high-resolution PNG/JPG images, and print-ready PDF files.'
     }
   ];
 
@@ -239,31 +239,30 @@ const GraphicDesign = () => {
         <div className="smm-hero-content" data-aos="fade-up" data-aos-duration="1200">
           <div className="smm-eyebrow-badge">
             <span className="smm-badge-dot"></span>
-            WORLD-CLASS VISUAL IDENTITY & DESIGN
+            CREATIVE VISUAL IDENTITY & DESIGN EXCELLENCE
             <span className="smm-badge-dot"></span>
           </div>
 
           <h1 className="smm-hero-title">
-            Creative <br /> Graphic Design
+            Graphic Design <br /> Services
           </h1>
 
           <p className="smm-hero-desc">
-            Craft impactful visual identities, thumb-stopping social media creatives, and premium marketing collateral
-            that leave an indelible impression and elevate your brand above the competition.
+            Create memorable brand identities, engaging social media creatives, and professional marketing materials that capture attention, strengthen brand recognition, and help your business stand out from the competition.
           </p>
 
           <div className="smm-stats-grid">
             <div className="smm-stat-item">
               <div className="smm-stat-number">1,200+</div>
-              <div className="smm-stat-label">Brand Assets Designed</div>
+              <div className="smm-stat-label">Creative Assets Designed</div>
             </div>
             <div className="smm-stat-item">
               <div className="smm-stat-number">300+</div>
-              <div className="smm-stat-label">Brand Identities Built</div>
+              <div className="smm-stat-label">Brand Identities Created</div>
             </div>
             <div className="smm-stat-item">
               <div className="smm-stat-number">100%</div>
-              <div className="smm-stat-label">Vector & Custom Art</div>
+              <div className="smm-stat-label">Custom Vector Artwork</div>
             </div>
             <div className="smm-stat-item">
               <div className="smm-stat-number">99.7%</div>
@@ -285,38 +284,36 @@ const GraphicDesign = () => {
             </div>
 
             <h2 className="smm-feature-heading">
-              Design Isn't Just How <br />
-              It Looks. It's How <br />
-              It Converts.
+              Design That Makes an Impression. <br />
+              Creativity That Drives Results.
             </h2>
 
             <p className="smm-feature-desc">
-              Great design builds instant trust, differentiates your business, and communicates complex value in a split second.
-              We blend artistic mastery with commercial psychology to create designs that command attention and drive revenue.
+              Effective design builds trust, differentiates your business, and communicates your message at a glance. We combine creative expertise with strategic thinking to develop visually compelling designs that strengthen your brand identity and support your marketing goals.
             </p>
 
             <div className="smm-feature-list">
               <div className="smm-feature-box">
                 <div className="smm-feature-icon-badge">✓</div>
                 <div className="smm-feature-box-content">
-                  <h4>Distinctive Brand Cohesion</h4>
-                  <p>Unified visual language across digital ads, print materials, packaging, and social media channels.</p>
+                  <h4>Consistent Brand Identity</h4>
+                  <p>Maintain a cohesive visual identity across digital advertisements, print materials, packaging, websites, and social media platforms.</p>
                 </div>
               </div>
 
               <div className="smm-feature-box">
                 <div className="smm-feature-icon-badge">✓</div>
                 <div className="smm-feature-box-content">
-                  <h4>Conversion-Focused Creatives</h4>
-                  <p>Strategic visual hierarchy and typography designed to draw the eye directly to your key value props and CTAs.</p>
+                  <h4>Marketing Creatives That Engage</h4>
+                  <p>Use strategic visual hierarchy, compelling typography, and purposeful layouts to capture attention and highlight your key messages and calls to action.</p>
                 </div>
               </div>
 
               <div className="smm-feature-box">
                 <div className="smm-feature-icon-badge">✓</div>
                 <div className="smm-feature-box-content">
-                  <h4>Print-Ready Precision & Vector Art</h4>
-                  <p>100% scalable vector files and meticulously prepared CMYK layouts with proper bleeds and resolution.</p>
+                  <h4>Professional Print Design & Vector Artwork</h4>
+                  <p>Create scalable vector graphics and print-ready CMYK layouts with appropriate bleed settings, dimensions, and resolution for professional-quality output.</p>
                 </div>
               </div>
             </div>
@@ -345,7 +342,7 @@ const GraphicDesign = () => {
           </div>
           <h2 className="smm-section-title">Our Graphic Design Capabilities</h2>
           <p className="smm-section-subtitle">
-            From foundational brand identities to packaging and multi-channel digital assets, we provide end-to-end design excellence.
+            From distinctive brand identities to professional packaging and digital marketing creatives, we deliver comprehensive graphic design solutions tailored to your business needs.
           </p>
         </div>
 
@@ -378,11 +375,11 @@ const GraphicDesign = () => {
         <div className="smm-section-header" data-aos="fade-up" data-aos-duration="1200">
           <div className="smm-eyebrow-badge dark">
             <span className="smm-badge-dot"></span>
-            CREATIVE DOMAINS
+            CREATIVE DESIGN EXPERTISE
           </div>
-          <h2 className="smm-section-title dark">Creative Disciplines We Master</h2>
+          <h2 className="smm-section-title dark">Our Graphic Design Capabilities</h2>
           <p className="smm-section-subtitle dark">
-            We deliver tailored visual solutions crafted for digital screens, retail packaging, and commercial print.
+            We provide creative design solutions for digital platforms, print media, product packaging, and brand communication. Every design is developed to reflect your brand identity, communicate your message clearly, and create a consistent visual experience across different platforms.
           </p>
         </div>
 
@@ -418,9 +415,9 @@ const GraphicDesign = () => {
             <span className="smm-badge-dot"></span>
             DESIGN WORKFLOW
           </div>
-          <h2 className="smm-section-title">How We Design Your Assets</h2>
+          <h2 className="smm-section-title">How We Create Your Designs</h2>
           <p className="smm-section-subtitle">
-            A collaborative 5-step creative process that transforms concepts into unforgettable visual brand assets.
+            A collaborative five-step creative process that transforms your ideas into impactful visual assets aligned with your brand identity.
           </p>
         </div>
 

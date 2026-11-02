@@ -7,8 +7,15 @@ import carrer from "../../../images/c1.webp"
 import intern from "../../../images/c2.webp"
 import workshop from "../../../images/c3.webp"
 import digital from "../../../images/c4.webp"
-import { Link } from 'react-router-dom';
 
+
+const handleMailRedirect = (e, subject) => {
+  const isMobile = typeof navigator !== 'undefined' && /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  if (isMobile) {
+    e.preventDefault();
+    window.location.href = `mailto:careers@kriyareeths.com?subject=${encodeURIComponent(subject)}`;
+  }
+};
 
 let slides = [
   {
@@ -31,7 +38,15 @@ let slides = [
  
           </p>
           
-          <Link className="Carrers-Link" to='https://docs.google.com/forms/d/e/1FAIpQLSeSPgYc06T--d2PRB9nrQ0DKA3plPu6l5bZOR7Qb7skR_iJcw/viewform?usp=sf_link'><div className='career-but'>Register</div></Link>
+          <a
+            className="Carrers-Link"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=careers@kriyareeths.com&su=Application%20for%20Careers%20-%20Kriya%20%26%20Reeths"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={(e) => handleMailRedirect(e, "Application for Careers - Kriya & Reeths")}
+          >
+            <div className='career-but'>Register</div>
+          </a>
         </div>
         </div>
         
@@ -54,7 +69,15 @@ let slides = [
           <p className="services-paragraph">
           Gain practical experience and kickstart your digital marketing career with our internship program. Work alongside industry experts, learn from real-world projects, and build a strong foundation for your future. 
           </p>
-          <Link className="Carrers-Link" to='https://docs.google.com/forms/d/e/1FAIpQLSeTWc2rt0hBzOO3JyGllzF8dnVuNcmCwEQ9BYf_w50FlnKsMA/viewform?usp=sf_link'><div className='career-but'>Register</div></Link>
+          <a
+            className="Carrers-Link"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=careers@kriyareeths.com&su=Application%20for%20Internship%20Opportunities%20-%20Kriya%20%26%20Reeths"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={(e) => handleMailRedirect(e, "Application for Internship Opportunities - Kriya & Reeths")}
+          >
+            <div className='career-but'>Register</div>
+          </a>
         </div>
         </div>
         
@@ -77,7 +100,15 @@ let slides = [
           <p className="services-paragraph">
           Our student workshops are designed to introduce aspiring marketers to the exciting world of digital marketing. Learn about the latest trends, gain hands-on experience, and network with industry professionals. 
           </p>
-          <Link className="Carrers-Link" to='https://docs.google.com/forms/d/e/1FAIpQLSdFR7E9yuqWAdk1wEAq_tPlmDTaodugHZAaUdJbpExO9dhnSg/viewform?usp=sf_link'><div className='career-but'>Register</div></Link>
+          <a
+            className="Carrers-Link"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=careers@kriyareeths.com&su=Registration%20for%20Student%20Workshops%20-%20Kriya%20%26%20Reeths"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={(e) => handleMailRedirect(e, "Registration for Student Workshops - Kriya & Reeths")}
+          >
+            <div className='career-but'>Register</div>
+          </a>
         </div>
         </div>
 
@@ -102,7 +133,15 @@ let slides = [
           Our comprehensive digital marketing training programs are designed to equip you with the skills and knowledge needed to succeed in today's competitive digital landscape. From SEO and social media to content marketing and analytics, our training covers all aspects of digital marketing.
  
           </p>
-          <Link className="Carrers-Link" to='https://docs.google.com/forms/d/e/1FAIpQLSd1FJQgIyGs3TS5L5eG-4RXglq4js-jsO9IRrr0K1pKGJ_cMQ/viewform?usp=sf_link'><div className='career-but'>Register</div></Link>
+          <a
+            className="Carrers-Link"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=careers@kriyareeths.com&su=Registration%20for%20Digital%20Marketing%20Training%20-%20Kriya%20%26%20Reeths"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={(e) => handleMailRedirect(e, "Registration for Digital Marketing Training - Kriya & Reeths")}
+          >
+            <div className='career-but'>Register</div>
+          </a>
         </div>
         </div>
         

@@ -80,62 +80,62 @@ const Videography = () => {
   const capabilities = [
     {
       num: '01',
-      title: 'Brand Commercials & Ad Films',
-      desc: 'High-concept cinematic advertisements scripted, directed, and shot with cinema-grade optics to elevate your brand perception.',
+      title: 'Brand Commercials & Promotional Films',
+      desc: 'Create compelling cinematic advertisements with creative concepts, professional direction, and high-quality visuals that strengthen your brand image.',
       points: [
-        'Creative Concept Development & Scripting',
-        'Cinema Camera Rigs & Studio Lighting',
-        'Professional Actors, Voiceover & Directing'
+        'Creative Concept Development & Scriptwriting',
+        'Professional Cinema Cameras & Studio Lighting',
+        'Casting, Voiceovers & Creative Direction'
       ]
     },
     {
       num: '02',
-      title: 'Corporate Storytelling & Brand Culture',
-      desc: 'Authentic documentary-style corporate films, executive leadership interviews, and facility walkthroughs that inspire trust.',
+      title: 'Corporate Films & Brand Storytelling',
+      desc: 'Showcase your company\'s vision, people, and expertise through authentic corporate videos, leadership interviews, and facility walkthroughs that build trust.',
       points: [
-        'Executive & Founder Spotlight Interviews',
-        'Company Culture & Employee Stories',
-        'Factory, Campus & Office Facility Tours'
+        'Founder & Executive Interview Videos',
+        'Company Culture & Employee Storytelling',
+        'Factory, Campus & Office Tour Videos'
       ]
     },
     {
       num: '03',
-      title: 'Product & E-Commerce Shoots',
-      desc: 'Dynamic product showcase reels, macro detail captures, and lifestyle shoots engineered to drive customer buying decisions.',
+      title: 'Product & E-Commerce Videography',
+      desc: 'Highlight product features, demonstrate real-world applications, and create engaging product videos that support customer interest and purchasing decisions.',
       points: [
-        '360-Degree Turntable & Macro Detail Shots',
-        'Lifestyle & Real-World Usage Sequences',
-        'Clean Studio White & Stylized Backdrops'
+        '360-Degree Product Views & Macro Shots',
+        'Lifestyle Photography & Product Demonstrations',
+        'Studio Product Shoots & Creative Backdrops'
       ]
     },
     {
       num: '04',
-      title: 'High-Energy Event & Conclave Coverage',
-      desc: 'Comprehensive multi-camera live event recording, recap aftermovies, keynote coverage, and same-day social media teasers.',
+      title: 'Event Videography & Conference Coverage',
+      desc: 'Capture important moments through professional event filming, multi-camera coverage, highlight videos, and engaging social media content.',
       points: [
-        'Multi-Camera Stage & Crowd Filming',
-        'Quick-Turnaround Highlight Aftermovies',
-        'Attendee Testimonials & Red Carpet Snaps'
+        'Multi-Camera Stage & Audience Coverage',
+        'Event Highlights & Recap Videos',
+        'Attendee Testimonials & Event Photography'
       ]
     },
     {
       num: '05',
-      title: '4K/6K Drone & Aerial Cinematography',
-      desc: 'Breathtaking aerial perspectives captured by certified drone pilots for real estate, manufacturing, tourism, and grand outdoor events.',
+      title: '4K Drone & Aerial Videography',
+      desc: 'Capture distinctive aerial footage for real estate, manufacturing, tourism, and outdoor events to showcase locations and projects from fresh perspectives.',
       points: [
-        'Licensed & Insured Drone Operations',
-        'Smooth Gimbal Stabilized 4K/6K Capture',
-        'Dynamic Fly-Through & Landscape Panoramas'
+        'Drone Operations with Required Permissions',
+        'Stabilized 4K Aerial Video Capture',
+        'Cinematic Fly-Throughs & Landscape Shots'
       ]
     },
     {
       num: '06',
-      title: 'Full In-House Equipment & Crew',
-      desc: 'Zero equipment rental friction—we deploy our own state-of-the-art Sony FX cinema bodies, G Master prime lenses, and Aputure studio lighting.',
+      title: 'Professional Production Equipment & Crew',
+      desc: 'Support every shoot with suitable cameras, lenses, lighting, and audio equipment selected to meet your project\'s creative and technical requirements.',
       points: [
-        'Cinema Cameras (Sony FX series, RED)',
-        'Wireless Audio Transmitters & Boom Mics',
-        'Motorized Sliders, Gimbals & Jibs'
+        'Professional Cinema Cameras & Compatible Lenses',
+        'Wireless Microphones, Boom Mics & Audio Recording',
+        'Stabilizers, Motorized Sliders & Camera Jibs'
       ]
     }
   ];
@@ -145,53 +145,53 @@ const Videography = () => {
       name: 'Brand & Commercial Films',
       type: 'commercial-shoot',
       iconImg: brandIcon,
-      desc: 'High-production value ad films crafted for national broadcast, OTT placements, and high-converting digital campaigns.'
+      desc: 'Produce compelling brand films and promotional advertisements with creative concepts, professional direction, and cinematic visuals for digital campaigns, brand promotions, and advertising platforms.'
     },
     {
-      name: 'Product & E-Commerce Reels',
+      name: 'Product & E-Commerce Videos',
       type: 'product-shoot',
       iconImg: photoCameraIcon,
-      desc: 'Crisp studio and outdoor product videography capturing textures, benefits, and luxury craftsmanship.'
+      desc: 'Showcase your products through professional studio and on-location videography, highlighting product features, textures, functionality, and craftsmanship through engaging visual storytelling.'
     },
     {
       name: 'Corporate & Industrial Videos',
       type: 'corporate-shoot',
       iconImg: shootingIcon,
-      desc: 'Showcase your infrastructure, enterprise capabilities, client testimonials, and company milestones.'
+      desc: 'Present your company\'s identity, infrastructure, operations, and expertise through corporate films, facility walkthroughs, employee features, client testimonials, and industrial video productions.'
     },
     {
-      name: 'Drone & Aerial Footage',
+      name: 'Drone & Aerial Videography',
       type: 'drone-shoot',
       iconImg: droneIcon,
-      desc: 'Ultra HD aerial drone cinematography capturing sweeping landscape perspectives and grand scale.'
+      desc: 'Capture distinctive aerial perspectives using professional drone videography to showcase properties, industrial facilities, landscapes, outdoor events, and large-scale projects, subject to applicable permissions and regulations.'
     }
   ];
 
   const processSteps = [
     {
       step: '01',
-      title: 'Pre-Production & Moodboard',
-      desc: 'Brainstorming concepts, finalizing scripts, creating visual shot-lists, and planning the shoot schedule.'
+      title: 'Pre-Production & Creative Planning',
+      desc: 'Develop creative concepts, finalize scripts, prepare visual moodboards and shot lists, and organize the production schedule to ensure a clear direction for the shoot.'
     },
     {
       step: '02',
-      title: 'Location Scouting & Casting',
-      desc: 'Securing permits, scouting filming locations, selecting talent/models, and staging props.'
+      title: 'Location Scouting & Talent Selection',
+      desc: 'Identify suitable filming locations, coordinate required permissions, select actors or models where needed, and arrange props and set elements to match the creative concept.'
     },
     {
       step: '03',
-      title: 'Cinema Production Shoot',
-      desc: 'On-set filming with our full in-house crew: Director, Cinematographer, Gaffer, and Sound Engineer.'
+      title: 'Professional Video Production',
+      desc: 'Bring the concept to life with coordinated filming, professional camera work, lighting, and audio recording, supported by the production crew required for your project.'
     },
     {
       step: '04',
-      title: 'Editing, Color & Sound Polish',
-      desc: 'Assembly cutting, DaVinci Resolve color correction, audio restoration, music licensing, and motion graphics.'
+      title: 'Video Editing, Color Grading & Sound Design',
+      desc: 'Transform raw footage into a cohesive story through precise editing, color correction and grading, audio enhancement, licensed music selection, and motion graphics where required.'
     },
     {
       step: '05',
-      title: 'Master Delivery & Formats',
-      desc: 'Delivering full-resolution 4K master files formatted for web, social media (16:9 & 9:16), and broadcast.'
+      title: 'Final Delivery & Platform Optimization',
+      desc: 'Receive high-quality final video files in suitable resolutions and formats, optimized for websites, social media platforms, vertical and horizontal viewing, and broadcast requirements where applicable.'
     }
   ];
 
@@ -239,17 +239,16 @@ const Videography = () => {
         <div className="smm-hero-content" data-aos="fade-up" data-aos-duration="1200">
           <div className="smm-eyebrow-badge">
             <span className="smm-badge-dot"></span>
-            CINEMATOGRAPHY & VISUAL STORYTELLING
+            CINEMATIC VIDEO PRODUCTION & VISUAL STORYTELLING
             <span className="smm-badge-dot"></span>
           </div>
 
           <h1 className="smm-hero-title">
-            Professional <br /> Videography
+            Video Production <br /> Company in Coimbatore
           </h1>
 
           <p className="smm-hero-desc">
-            Capture your brand's essence with cinema-grade videography. From high-impact brand commercials
-            and corporate storytelling to e-commerce product reels and aerial drone cinematography.
+            Bring your brand story to life with professional video production in Coimbatore. From impactful brand commercials and corporate films to product videos, promotional reels, and aerial cinematography, we create compelling visuals that connect with your audience.
           </p>
 
           <div className="smm-stats-grid">
@@ -259,11 +258,11 @@ const Videography = () => {
             </div>
             <div className="smm-stat-item">
               <div className="smm-stat-number">Cinema 4K</div>
-              <div className="smm-stat-label">Ultra HD Master Output</div>
+              <div className="smm-stat-label">Ultra HD Video Quality</div>
             </div>
             <div className="smm-stat-item">
               <div className="smm-stat-number">100%</div>
-              <div className="smm-stat-label">In-House Crew & Gear</div>
+              <div className="smm-stat-label">In-House Production Team</div>
             </div>
             <div className="smm-stat-item">
               <div className="smm-stat-number">5.0★</div>
@@ -281,42 +280,40 @@ const Videography = () => {
           <div className="smm-feature-left" data-aos="fade-right" data-aos-duration="1200">
             <div className="smm-eyebrow-badge dark">
               <span className="smm-badge-dot"></span>
-              CINEMA-GRADE CAPTURE
+              CINEMA-GRADE PRODUCTION
             </div>
 
             <h2 className="smm-feature-heading">
-              Tell Your Story With <br />
-              Uncompromising <br />
-              Visual Impact.
+              Tell Your Story. <br />
+              Create an Impact That Lasts.
             </h2>
 
             <p className="smm-feature-desc">
-              Video is the most powerful medium to evoke emotion, build credibility, and inspire customer action.
-              We combine Hollywood-grade cameras, intentional lighting, and artistic direction to make your brand unforgettable.
+              Video content helps businesses communicate their value, build customer trust, and create memorable brand experiences. As a video production company in Coimbatore, we combine professional cameras, creative lighting, and thoughtful direction to produce engaging videos that showcase your brand.
             </p>
 
             <div className="smm-feature-list">
               <div className="smm-feature-box">
                 <div className="smm-feature-icon-badge">✓</div>
                 <div className="smm-feature-box-content">
-                  <h4>Cinema Optics & Dynamic Lighting</h4>
-                  <p>State-of-the-art Sony FX cameras and Aputure studio lighting for stunning depth of field and color fidelity.</p>
+                  <h4>Professional Cameras & Creative Lighting</h4>
+                  <p>Capture stunning visuals with professional cinema cameras and studio lighting techniques that enhance image quality, depth, and color accuracy.</p>
                 </div>
               </div>
 
               <div className="smm-feature-box">
                 <div className="smm-feature-icon-badge">✓</div>
                 <div className="smm-feature-box-content">
-                  <h4>Full-Service In-House Production</h4>
-                  <p>From scriptwriting and location scouting to directing, filming, and post-production, we manage everything.</p>
+                  <h4>End-to-End Video Production Services</h4>
+                  <p>From concept development and scriptwriting to location scouting, filming, and post-production, we manage every stage of your video project.</p>
                 </div>
               </div>
 
               <div className="smm-feature-box">
                 <div className="smm-feature-icon-badge">✓</div>
                 <div className="smm-feature-box-content">
-                  <h4>Licensed Aerial Drone Cinematography</h4>
-                  <p>Certified drone pilots capturing sweeping 4K/6K aerial vistas that give your video grand scale.</p>
+                  <h4>Aerial Drone Videography</h4>
+                  <p>Showcase your business, property, or events from unique perspectives with professionally captured aerial footage, subject to applicable drone permissions and regulations.</p>
                 </div>
               </div>
             </div>
@@ -345,7 +342,7 @@ const Videography = () => {
           </div>
           <h2 className="smm-section-title">Our Videography Capabilities</h2>
           <p className="smm-section-subtitle">
-            From high-concept brand films to crisp e-commerce product videos, our production crew delivers excellence.
+            From cinematic brand films to professional e-commerce product videos, we deliver comprehensive video production services tailored to your business goals.
           </p>
         </div>
 
@@ -378,11 +375,11 @@ const Videography = () => {
         <div className="smm-section-header" data-aos="fade-up" data-aos-duration="1200">
           <div className="smm-eyebrow-badge dark">
             <span className="smm-badge-dot"></span>
-            PRODUCTION DISCIPLINES
+            VIDEO PRODUCTION EXPERTISE
           </div>
-          <h2 className="smm-section-title dark">Shoots We Specialize In</h2>
+          <h2 className="smm-section-title dark">Our Video Production Services</h2>
           <p className="smm-section-subtitle dark">
-            We adapt our camera rigs, lighting, and pacing for commercial, corporate, event, and product productions.
+            We produce professional video content for businesses across commercial, corporate, product, and event categories. Our production approach combines creative direction, professional equipment, and quality cinematography to deliver videos that communicate your brand story effectively.
           </p>
         </div>
 
@@ -416,11 +413,11 @@ const Videography = () => {
         <div className="smm-section-header" data-aos="fade-up" data-aos-duration="1200">
           <div className="smm-eyebrow-badge">
             <span className="smm-badge-dot"></span>
-            FILMING WORKFLOW
+            VIDEO PRODUCTION WORKFLOW
           </div>
-          <h2 className="smm-section-title">How We Shoot Your Video</h2>
+          <h2 className="smm-section-title">How We Bring Your Video to Life</h2>
           <p className="smm-section-subtitle">
-            A seamless 5-step production journey from concept script to master broadcast delivery.
+            A structured five-step production process that transforms your creative vision into a polished, high-quality video, from initial concept development to final delivery.
           </p>
         </div>
 

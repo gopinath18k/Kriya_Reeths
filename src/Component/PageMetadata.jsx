@@ -8,68 +8,68 @@ const metadataMap = {
     keywords: "digital marketing agency coimbatore, best digital marketing company coimbatore, SEO services coimbatore, web development company coimbatore"
   },
   "/about": {
-    title: "Best Digital Marketing Company in Coimbatore | Kriya & Reeths",
-    description: "Discover Kriya & Reeths, a digital marketing company in Coimbatore delivering SEO, social media marketing, branding and performance-driven strategies.",
+    title: "Best Digital Marketing Agency in Coimbatore | Kriya & Reeths",
+    description: "Discover Kriya & Reeths for SEO, social media marketing, branding, web development, and digital marketing solutions in Coimbatore.",
     keywords: "about kriya and reeths, digital marketing agency coimbatore, branding company coimbatore"
   },
   "/services": {
-    title: "Best SEO Company in Coimbatore | Kriya & Reeths",
-    description: "Explore professional SEO services from Kriya & Reeths to improve search rankings, organic traffic, online visibility and generate quality business leads.",
+    title: "Digital Marketing Services in Coimbatore | Kriya & Reeths",
+    description: "Explore digital marketing services in Coimbatore by Kriya & Reeths, including SEO, social media marketing, performance marketing, branding, and web development.",
     keywords: "digital marketing services, seo services, branding services, social media marketing"
   },
   "/services/social-media-marketing": {
-    title: "Top Social Media Marketing Services in Coimbatore | SMM Agency | Kriya & Reeths",
-    description: "Scale your brand with expert Social Media Marketing (SMM) services in Coimbatore from Kriya & Reeths. We create viral content, manage paid social ads, and build loyal communities.",
+    title: "Social Media Marketing Company in Coimbatore | Kriya & Reeths",
+    description: "Grow your brand with social media marketing services in Coimbatore from Kriya & Reeths. Build engagement, reach target audiences, and generate leads.",
     keywords: "social media marketing coimbatore, smm services, instagram marketing, facebook ads, linkedin marketing coimbatore, social media agency"
   },
   "/services/performance-marketing": {
-    title: "Best Performance Marketing Agency in Coimbatore | PPC Services | Kriya & Reeths",
-    description: "Maximize your ROAS with high-impact performance marketing and PPC management from Kriya & Reeths in Coimbatore. Expert Google Ads, Meta Ads, and conversion funnels.",
+    title: "Performance Marketing Company in Coimbatore | Kriya & Reeths",
+    description: "Kriya & Reeths is a performance marketing company in Coimbatore offering Google Ads, Meta Ads, PPC campaigns, lead generation and ROI-focused advertising solutions.",
     keywords: "performance marketing coimbatore, ppc services coimbatore, google ads agency, meta ads, lead generation, roas optimization"
   },
   "/services/website-development": {
-    title: "Best Website Development Company in Coimbatore | Kriya & Reeths",
-    description: "Custom web development services in Coimbatore by Kriya & Reeths. We engineer lightning-fast, modern, responsive, and SEO-optimized websites and e-commerce stores.",
+    title: "Website Development Company in Coimbatore | Kriya & Reeths",
+    description: "Kriya & Reeths is a website development company in Coimbatore creating responsive, SEO-friendly and user-focused business websites and e-commerce solutions.",
     keywords: "website development coimbatore, web design company coimbatore, custom react development, ecommerce web development, wordpress agency"
   },
   "/services/seo-aeo-geo": {
-    title: "Top SEO, AEO & GEO Agency in Coimbatore | AI Search Optimization | Kriya & Reeths",
-    description: "Dominate Google search results, featured snippets, and AI engines (ChatGPT, Perplexity, Gemini) with advanced SEO, AEO, and GEO services from Kriya & Reeths in Coimbatore.",
+    title: "SEO Services in Coimbatore | Kriya & Reeths",
+    description: "Improve your online visibility with SEO services in Coimbatore from Kriya & Reeths. We offer technical SEO, local SEO, on-page optimization, AEO and GEO strategies.",
     keywords: "seo services coimbatore, aeo agency, geo search optimization, ai search rankings, answer engine optimization, local seo coimbatore"
   },
   "/services/video-editing": {
-    title: "Professional Video Editing Services in Coimbatore | Kriya & Reeths",
-    description: "Transform raw footage into viral Reels, engaging YouTube videos, and cinematic commercial ads with expert video editing services from Kriya & Reeths in Coimbatore.",
+    title: "Branding Agency in Coimbatore | Kriya & Reeths",
+    description: "Build a memorable brand with Kriya & Reeths, a branding agency in Coimbatore offering brand identity, logo design, brand strategy and creative communication solutions.",
     keywords: "video editing services coimbatore, reels video editing, youtube video editor, commercial video editing, color grading, motion graphics"
   },
   "/services/graphic-design": {
-    title: "Creative Graphic Design Company in Coimbatore | Kriya & Reeths",
-    description: "Elevate your visual identity with professional graphic design services in Coimbatore from Kriya & Reeths. Brand logos, social media creatives, packaging, and marketing collaterals.",
+    title: "Graphic Design Company in Coimbatore | Kriya & Reeths",
+    description: "Kriya & Reeths is a graphic design company in Coimbatore offering creative logo designs, social media creatives, brochures, packaging and professional branding materials.",
     keywords: "graphic design coimbatore, logo design company, social media creatives, brochure design, packaging design coimbatore, branding agency"
   },
   "/services/videography": {
-    title: "Cinema-Grade Videography & Production in Coimbatore | Kriya & Reeths",
-    description: "Capture stunning brand commercials, corporate stories, product showcases, and aerial drone footage with cinema-grade videography services from Kriya & Reeths in Coimbatore.",
+    title: "Video Production Company in Coimbatore | Kriya & Reeths",
+    description: "Kriya & Reeths is a video production company in Coimbatore offering brand films, product videos, corporate films, commercial shoots and professional videography services.",
     keywords: "videography services coimbatore, corporate video production, product shoot coimbatore, commercial ad film makers, drone videography"
   },
   "/portfolio": {
-    title: "Leading Advertising Agency in Coimbatore | Kriya & Reeths",
-    description: "Explore the Kriya & Reeths portfolio featuring creative advertising, branding, digital marketing, web development and successful projects for businesses.",
+    title: "Digital Marketing Portfolio in Coimbatore | Kriya & Reeths",
+    description: "Explore the digital marketing portfolio of Kriya & Reeths in Coimbatore, featuring branding, SEO, advertising, performance marketing, videography and creative projects.",
     keywords: "digital marketing portfolio, case studies, client work, web design portfolio"
   },
   "/blog": {
-    title: "Best Web Development Company in Coimbatore | Kriya & Reeths",
-    description: "Explore expert insights from Kriya & Reeths on web development, SEO, digital marketing, branding and online strategies to grow your business.",
+    title: "Digital Marketing Blog in Coimbatore | Kriya & Reeths",
+    description: "Explore the digital marketing blog by Kriya & Reeths for insights on SEO, AEO, GEO, social media marketing, website development and the latest digital trends.",
     keywords: "digital marketing blog, marketing trends 2026, seo tips, branding strategies"
   },
   "/careers": {
-    title: "Graphic & Logo Design Company in Coimbatore | Kriya & Reeths",
-    description: "Join Kriya & Reeths and build your career with a creative team working across graphic design, logo design, branding, digital marketing and web development.",
+    title: "Careers | Join Our Team – Kriya & Reeths",
+    description: "Explore career opportunities at Kriya & Reeths, a digital marketing agency in Coimbatore. Join our creative team across SEO, design, marketing and web development.",
     keywords: "careers, digital marketing jobs coimbatore, web developer jobs, job openings"
   },
   "/reach": {
-    title: "Contact Us | Get in Touch with Kriya & Reeths | Coimbatore",
-    description: "Contact Kriya & Reeths for the best digital marketing services in Coimbatore. Reach out to our team via phone, email, or visit our office to discuss your project.",
+    title: "Contact Us | Digital Marketing in Coimbatore – Kriya & Reeths",
+    description: "Contact Kriya & Reeths, the best digital marketing company in Coimbatore, for SEO, social media marketing, performance marketing, website development and creative solutions.",
     keywords: "contact kriya and reeths, digital marketing agency phone, coimbatore office address"
   },
   "/blog/digital-marketing-a-boon-or-bane": {
@@ -98,7 +98,7 @@ const metadataMap = {
     keywords: "social media marketing coimbatore, smm services, facebook instagram marketing"
   },
   "/blog/best-website-development-company-in-coimbatore": {
-    title: "Best Website Development Company in Coimbatore | Kriya & Reeths",
+    title: "Website Development Company in Coimbatore | Kriya & Reeths",
     description: "Get responsive, modern, and SEO-friendly websites designed by the best website development company in Coimbatore. Drive business growth with our custom web designs.",
     keywords: "website development company in coimbatore, web design agency, custom web development"
   },
@@ -603,17 +603,33 @@ const PageMetadata = () => {
     const data = metadataMap[path] || metadataMap["/"];
 
     // 1. Title
+    let titles = document.querySelectorAll('title');
+    if (titles.length === 0) {
+      const titleElement = document.createElement('title');
+      titleElement.textContent = data.title;
+      document.head.appendChild(titleElement);
+    } else {
+      titles[0].textContent = data.title;
+      for (let i = 1; i < titles.length; i++) {
+        titles[i].remove();
+      }
+    }
     document.title = data.title;
 
-    // Helper to query and update or create elements
+    // Helper to query and update or create elements, cleaning up any duplicates
     const setMetaTag = (selector, nameOrProperty, value, attribute) => {
-      let element = document.querySelector(selector);
-      if (!element) {
-        element = document.createElement('meta');
+      let elements = document.querySelectorAll(selector);
+      if (elements.length === 0) {
+        const element = document.createElement('meta');
         element.setAttribute(attribute, nameOrProperty);
+        element.setAttribute('content', value || '');
         document.head.appendChild(element);
+      } else {
+        elements[0].setAttribute('content', value || '');
+        for (let i = 1; i < elements.length; i++) {
+          elements[i].remove();
+        }
       }
-      element.setAttribute('content', value || '');
     };
 
     // 2. Description

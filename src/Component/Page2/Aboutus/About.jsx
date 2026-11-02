@@ -105,7 +105,7 @@
             <p className='head1'>Hear About</p>
             <h1 className='head2'>Kriya & Reeths!</h1>
 
-            <p className='head3-p'>Kriya & Reeths is the best digital marketing company in Coimbatore for all your digital marketing needs. As a leading digital marketing firm, we offer specialized services that cover every aspect of digital marketing, designed to enhance your online presence.  </p>
+            <p className='head3-p'>Kriya & Reeths is a digital marketing agency in Coimbatore helping businesses strengthen their online presence through creative strategies and data-driven solutions. Our services include SEO, AEO, GEO, social media marketing, performance marketing, website development, graphic design, video editing, and videography, designed to improve brand visibility, connect with target audiences, and support sustainable business growth.  </p>
           </div>
 
           <div className="ab-section2 row">

@@ -91,9 +91,7 @@ const Reachus = () => {
                 data-aos-duration="1300">
                 <h1 className='head2'>Reach Us</h1>
                 <p className='head3-p'>
-                    Have a project in mind? Want to discuss your digital marketing strategy? We're here to assist!
-                    Get in touch with our team of experts. We're eager to hear from you.
-
+                    Have a project in mind or need help with your digital marketing strategy? Get in touch with Kriya & Reeths, the best digital marketing company in Coimbatore, to discuss your business goals and explore tailored solutions for your brand. Whether you need SEO, social media marketing, performance marketing, website development, or creative services, our team is ready to understand your requirements and help you strengthen your online presence. Contact us today to start a conversation about your next project.
                 </p>
             </div>
 

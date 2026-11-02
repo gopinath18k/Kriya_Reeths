@@ -76,118 +76,118 @@ const WebDevelopment = () => {
   const capabilities = [
     {
       num: '01',
-      title: 'Custom Web & Portal Architecture',
-      desc: 'High-performance websites and web applications custom-coded to match your exact brand vision and business workflows.',
+      title: 'Custom Website & Web Application Development',
+      desc: 'Build high-performance websites and web applications tailored to your brand identity, business requirements, and customer needs.',
       points: [
-        'Modern Component Architecture (React/Next.js)',
-        'Clean, Scalable & Maintainable Codebase',
-        'Intuitive UI/UX and Interactive User Journeys'
+        'Modern Web Technologies & Frameworks',
+        'Clean, Scalable & Maintainable Code',
+        'Intuitive UI/UX & Seamless User Journeys'
       ]
     },
     {
       num: '02',
-      title: 'E-Commerce & Digital Storefronts',
-      desc: 'High-converting online stores built on Shopify, WooCommerce, or custom headless engines engineered for rapid checkouts.',
+      title: 'E-Commerce & Online Store Development',
+      desc: 'Create user-friendly online stores with Shopify, WooCommerce, or custom solutions designed to simplify shopping and improve conversions.',
       points: [
-        'Secure Payment Gateway & Shipping Integrations',
-        'Custom Product Customizers & Filters',
-        'Abandoned Cart & One-Click Checkout Flows'
+        'Secure Payment & Shipping Integrations',
+        'Custom Product Filters & Categories',
+        'Streamlined Checkout & Cart Management'
       ]
     },
     {
       num: '03',
-      title: 'Lightning-Fast Speed & Core Web Vitals',
-      desc: 'Sub-second page loading speeds and 95+ Google PageSpeed scores that improve search rankings and drastically reduce bounce rates.',
+      title: 'Website Speed & Performance Optimization',
+      desc: 'Improve website loading speed and Core Web Vitals to deliver smoother browsing experiences and support better search visibility.',
       points: [
-        'Next-Gen WebP/AVIF Image Compression',
-        'Code Splitting & Server-Side Rendering (SSR)',
-        'CDN Integration & Asset Caching Protocols'
+        'WebP/AVIF Image Optimization',
+        'Code Optimization & Efficient Rendering',
+        'CDN Integration & Browser Caching'
       ]
     },
     {
       num: '04',
-      title: 'Fully Responsive & Mobile-First Design',
-      desc: 'Flawless visual rendering and seamless interactions across every device size—smartphones, tablets, laptops, and ultra-wide screens.',
+      title: 'Responsive & Mobile-First Web Design',
+      desc: 'Deliver consistent website experiences across smartphones, tablets, laptops, and desktops with responsive layouts and user-friendly navigation.',
       points: [
-        'Fluid Typography & Dynamic Layout Grids',
-        'Touch-Optimized Navigation & Gestures',
-        'Cross-Browser & Cross-Device Compatibility'
+        'Flexible Typography & Responsive Layouts',
+        'Touch-Friendly Navigation & Interactions',
+        'Cross-Browser & Cross-Device Testing'
       ]
     },
     {
       num: '05',
-      title: 'SEO-Ready Code & Schema Markup',
-      desc: 'Built-in technical SEO foundations, semantic HTML5, dynamic OpenGraph meta tags, and structured JSON-LD schema data.',
+      title: 'SEO-Friendly Development & Schema Markup',
+      desc: 'Build search-friendly website foundations with semantic HTML, optimized metadata, structured data, and clear site architecture.',
       points: [
-        'Automated XML Sitemaps & Canonical Tags',
-        'Rich Snippets & Search Engine Friendly URLs',
-        'Fast Crawlability & Indexation Standards'
+        'XML Sitemaps & Canonical Tags',
+        'Structured Data & Search-Friendly URLs',
+        'Improved Crawlability & Indexing Support'
       ]
     },
     {
       num: '06',
-      title: 'CMS Solutions & Ongoing Maintenance',
-      desc: 'Empower your internal team with intuitive content management systems, automated backups, and 24/7 security monitoring.',
+      title: 'CMS Solutions & Website Maintenance',
+      desc: 'Manage website content easily with user-friendly CMS platforms, regular updates, security measures, and ongoing technical support.',
       points: [
-        'Headless CMS or Easy WordPress Dashboards',
-        'SSL Encryption & Firewall Security Hardening',
-        'Continuous Version Updates & Technical Support'
+        'WordPress CMS & Content Management Solutions',
+        'SSL Security & Website Protection',
+        'Regular Updates, Backups & Technical Support'
       ]
     }
   ];
 
   const platforms = [
     {
-      name: 'Modern Front-End (React & Next.js)',
+      name: 'Front-End Development (React & Next.js)',
       type: 'react-tech',
       iconText: '⚛',
-      desc: 'Interactive, lightning-fast Single Page Applications (SPA) and server-rendered modern web experiences.'
+      desc: 'Build responsive, interactive, and user-friendly web interfaces using modern front-end technologies. Develop fast-loading websites and dynamic web applications with a focus on performance, accessibility, and user experience.'
     },
     {
-      name: 'Full-Stack & Custom APIs',
+      name: 'Back-End Development & API Integration',
       type: 'fullstack-tech',
       iconText: '⚙',
-      desc: 'Robust Node.js, Python, and PHP backend architectures with secure REST and GraphQL API integrations.'
+      desc: 'Develop reliable server-side applications using technologies such as Node.js, Python, and PHP. Integrate secure REST and GraphQL APIs to support seamless communication between applications, databases, and third-party services.'
     },
     {
-      name: 'E-Commerce Engines',
+      name: 'E-Commerce Development',
       type: 'ecommerce-tech',
       iconText: '🛍',
-      desc: 'Scalable Shopify and WooCommerce e-commerce builds designed for high product volume and frictionless checkout.'
+      desc: 'Create scalable online stores using platforms such as Shopify and WooCommerce. Develop user-friendly shopping experiences with product management, secure payment integrations, and streamlined checkout functionality.'
     },
     {
-      name: 'Cloud & CDN Infrastructure',
+      name: 'Cloud Hosting & Website Infrastructure',
       type: 'cloud-tech',
       iconText: '☁',
-      desc: 'Global cloud deployment on AWS, Vercel, and Cloudflare with 99.99% uptime and enterprise-grade security.'
+      desc: 'Deploy and manage websites using cloud platforms and infrastructure services such as AWS, Vercel, and Cloudflare. Implement suitable hosting, content delivery, performance optimization, and security measures to support website reliability and scalability.'
     }
   ];
 
   const processSteps = [
     {
       step: '01',
-      title: 'Discovery & Architecture',
-      desc: 'Mapping technical requirements, user flow diagrams, content structures, and tech-stack selection.'
+      title: 'Discovery & Planning',
+      desc: 'Understand your business goals, define project requirements, map user journeys, organize content, and select suitable technologies.'
     },
     {
       step: '02',
-      title: 'UI/UX Wireframes & Prototypes',
-      desc: 'Creating modern, interactive visual designs and prototypes for full client review and approval.'
+      title: 'UI/UX Design & Prototyping',
+      desc: 'Create intuitive wireframes, modern visual designs, and interactive prototypes for review and approval before development begins.'
     },
     {
       step: '03',
-      title: 'Agile Full-Stack Coding',
-      desc: 'Developing pixel-perfect responsive layouts with clean frontend logic and secure backend integrations.'
+      title: 'Website Development & Integration',
+      desc: 'Build responsive website layouts, implement frontend functionality, and integrate secure backend features tailored to your requirements.'
     },
     {
       step: '04',
-      title: 'QA, Speed & Security Audits',
-      desc: 'Rigorous cross-device testing, PageSpeed optimization, broken link checks, and vulnerability scanning.'
+      title: 'Testing, Speed & Security',
+      desc: 'Test website functionality across devices, optimize loading performance, identify broken links, and address potential security issues.'
     },
     {
       step: '05',
-      title: 'Deployment & Training',
-      desc: 'Domain pointing, SSL activation, live launch, and hands-on CMS training for your internal team.'
+      title: 'Launch & Handover',
+      desc: 'Configure the domain, activate SSL, publish the website, and provide CMS training to help your team manage website content.'
     }
   ];
 
@@ -235,17 +235,16 @@ const WebDevelopment = () => {
         <div className="smm-hero-content" data-aos="fade-up" data-aos-duration="1200">
           <div className="smm-eyebrow-badge">
             <span className="smm-badge-dot"></span>
-            ENGINEERED FOR SCALE & CONVERSIONS
+            BUILT TO IMPRESS. DESIGNED TO CONVERT.
             <span className="smm-badge-dot"></span>
           </div>
 
           <h1 className="smm-hero-title">
-            Website <br /> Development
+            Website Development <br /> Company in Coimbatore
           </h1>
 
           <p className="smm-hero-desc">
-            We build ultra-fast, visually stunning, and conversion-focused websites engineered
-            to elevate your brand identity, engage visitors, and generate consistent business revenue.
+            We build fast, visually appealing, and conversion-focused websites designed to strengthen your brand identity, engage visitors, and support consistent business growth.
           </p>
 
           <div className="smm-stats-grid">
@@ -281,38 +280,35 @@ const WebDevelopment = () => {
             </div>
 
             <h2 className="smm-feature-heading">
-              Your Website Is Your <br />
-              #1 Salesperson. <br />
-              Make It Unstoppable.
+              Digital Flagship <br /> Experiences.
             </h2>
 
             <p className="smm-feature-desc">
-              Your website is often the first impression a prospect has of your company. We combine cutting-edge
-              web technologies with aesthetic brilliance to turn casual visitors into loyal paying customers.
+              Your website often creates the first impression potential customers have of your business. We combine modern web technologies with thoughtful design to turn visitors into engaged prospects and loyal customers.
             </p>
 
             <div className="smm-feature-list">
               <div className="smm-feature-box">
                 <div className="smm-feature-icon-badge">✓</div>
                 <div className="smm-feature-box-content">
-                  <h4>Next-Generation Speed</h4>
-                  <p>Lightning-fast page loads that satisfy both impatient visitors and demanding search engine algorithms.</p>
+                  <h4>High-Speed Website Performance</h4>
+                  <p>Fast-loading pages that deliver smooth browsing experiences for visitors and support better search engine performance.</p>
                 </div>
               </div>
 
               <div className="smm-feature-box">
                 <div className="smm-feature-icon-badge">✓</div>
                 <div className="smm-feature-box-content">
-                  <h4>Conversion-Optimized UI/UX</h4>
-                  <p>Strategic layout architecture designed to guide visitors smoothly toward booking a call or making a purchase.</p>
+                  <h4>Conversion-Focused UI/UX</h4>
+                  <p>Intuitive layouts and user-friendly navigation that guide visitors toward booking a consultation, submitting an enquiry, or making a purchase.</p>
                 </div>
               </div>
 
               <div className="smm-feature-box">
                 <div className="smm-feature-icon-badge">✓</div>
                 <div className="smm-feature-box-content">
-                  <h4>Bulletproof Security & Clean Code</h4>
-                  <p>SSL encryption, anti-malware protections, and scalable modular code that grows alongside your business.</p>
+                  <h4>Secure & Scalable Development</h4>
+                  <p>SSL protection, security best practices, and clean, maintainable code designed to support your business as it grows.</p>
                 </div>
               </div>
             </div>
@@ -341,7 +337,7 @@ const WebDevelopment = () => {
           </div>
           <h2 className="smm-section-title">Our Web Development Capabilities</h2>
           <p className="smm-section-subtitle">
-            From high-converting corporate portals to complex e-commerce engines, we deliver end-to-end web excellence.
+            From professional business websites to feature-rich e-commerce platforms, we deliver complete web solutions tailored to your business goals.
           </p>
         </div>
 
@@ -374,11 +370,11 @@ const WebDevelopment = () => {
         <div className="smm-section-header" data-aos="fade-up" data-aos-duration="1200">
           <div className="smm-eyebrow-badge dark">
             <span className="smm-badge-dot"></span>
-            MODERN TECH STACK
+            MODERN WEB DEVELOPMENT TECHNOLOGIES
           </div>
-          <h2 className="smm-section-title dark">Technologies We Master</h2>
+          <h2 className="smm-section-title dark">Technologies We Work With</h2>
           <p className="smm-section-subtitle dark">
-            We leverage industry-standard modern frameworks and cloud tools to build resilient, future-proof web experiences.
+            We use reliable, modern web technologies and development frameworks to create secure, scalable, high-performing websites and web applications tailored to your business requirements.
           </p>
         </div>
 
@@ -412,7 +408,7 @@ const WebDevelopment = () => {
           </div>
           <h2 className="smm-section-title">How We Build Your Website</h2>
           <p className="smm-section-subtitle">
-            A structured, transparent 5-step engineering process that ensures on-time and on-budget delivery.
+            A clear, step-by-step development process designed to deliver reliable, user-friendly websites on schedule and within budget.
           </p>
         </div>
 

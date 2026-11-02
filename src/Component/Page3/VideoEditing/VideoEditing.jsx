@@ -80,62 +80,62 @@ const VideoEditing = () => {
   const capabilities = [
     {
       num: '01',
-      title: 'Short-Form Viral Reels & Shorts',
-      desc: 'High-retention editing with kinetic typography, punchy sound design, and viral hooks engineered for TikTok, Instagram Reels, and YouTube Shorts.',
+      title: 'Short-Form Reels & YouTube Shorts',
+      desc: 'Create engaging short-form videos with dynamic typography, impactful sound design, and attention-grabbing hooks for Instagram Reels and YouTube Shorts.',
       points: [
-        '3-Second Scroll-Stopping Visual Hooks',
-        'Kinetic Animated Subtitles & Emojis',
-        'Dynamic B-Roll Pacing & Sound Effects (SFX)'
+        'Attention-Grabbing Opening Hooks',
+        'Animated Subtitles & Motion Graphics',
+        'Dynamic B-Roll Editing & Sound Effects (SFX)'
       ]
     },
     {
       num: '02',
       title: 'YouTube & Long-Form Video Editing',
-      desc: 'Engaging episodic editing, podcast cutdowns, and documentary-style pacing that boosts viewer watch time and channel subscribers.',
+      desc: 'Produce engaging videos, podcast edits, and documentary-style content designed to maintain viewer interest and support channel growth.',
       points: [
-        'Engaging Story Arc & Narrative Structuring',
-        'Multi-Camera Switching & Audio Clean-Up',
-        'Click-Worthy Thumbnail Design Integration'
+        'Storytelling & Narrative Structuring',
+        'Multi-Camera Editing & Audio Enhancement',
+        'Engaging Thumbnail Design Integration'
       ]
     },
     {
       num: '03',
-      title: 'Commercial Ads & Product Promos',
-      desc: 'Sleek, high-converting video advertisements tailored for paid media campaigns on Meta, Google, and television broadcasts.',
+      title: 'Commercial Ads & Product Videos',
+      desc: 'Create compelling video advertisements for digital marketing campaigns across Meta, Google, and other relevant advertising platforms.',
       points: [
-        'Direct-Response Advertising Frameworks',
-        'Product Feature Callouts & 3D Transitions',
-        'Clear Call-to-Action Endcards'
+        'Conversion-Focused Advertising Concepts',
+        'Product Highlights & Creative Transitions',
+        'Clear Call-to-Action End Screens'
       ]
     },
     {
       num: '04',
-      title: '2D/3D Motion Graphics & Animation',
-      desc: 'Custom animated lower thirds, logo reveals, infographics, and 3D product motion graphics that make your brand look world-class.',
+      title: 'Motion Graphics & Animation',
+      desc: 'Enhance your brand videos with custom animations, logo reveals, infographics, and motion graphics that communicate ideas effectively.',
       points: [
-        'Custom After Effects & Blender Animations',
+        'After Effects & 3D Animation',
         'Data Visualization & Explainer Graphics',
-        'Branded Intro/Outro Sequences'
+        'Branded Intro & Outro Sequences'
       ]
     },
     {
       num: '05',
-      title: 'Hollywood-Grade Color Grading',
-      desc: 'Professional DaVinci Resolve colorist workflows to correct skin tones, match camera profiles, and establish a distinct cinematic film look.',
+      title: 'Professional Color Grading',
+      desc: 'Enhance visual quality with professional color correction and grading workflows that create consistent tones and distinctive cinematic styles.',
       points: [
-        'Log / RAW Footages Color Correction',
-        'Custom Cinematic LUT Creation & Mood Tuning',
-        'HDR & Rec.709 Color Space Mastering'
+        'Log & RAW Footage Color Correction',
+        'Custom Color Looks & Mood Enhancement',
+        'HDR & Rec.709 Color Exporting'
       ]
     },
     {
       num: '06',
-      title: 'Pro Audio Engineering & Sound Design',
-      desc: 'Crystal-clear dialogue enhancement, background noise removal, custom foley sound design, and commercial audio mastering.',
+      title: 'Audio Enhancement & Sound Design',
+      desc: 'Deliver clear, balanced audio with dialogue enhancement, background noise reduction, custom sound effects, and professional audio mixing.',
       points: [
-        'Dialogue Isolation & Vocal EQ Enhancement',
-        'Immersive Foley & Ambient Soundscapes',
-        'Licensed Commercial Music Licensing'
+        'Dialogue Cleanup & Vocal Enhancement',
+        'Foley Effects & Ambient Sound Design',
+        'Licensed Music Selection & Audio Mixing'
       ]
     }
   ];
@@ -145,53 +145,53 @@ const VideoEditing = () => {
       name: 'Reels, TikTok & Shorts',
       type: 'shortform',
       iconImg: reelIcon,
-      desc: 'Fast-paced, highly engaging vertical formats designed for maximum algorithmic reach and social sharing.'
+      desc: 'Create engaging vertical videos optimized for Instagram Reels, TikTok, and YouTube Shorts, featuring dynamic cuts, captions, transitions, and platform-friendly formats.'
     },
     {
-      name: 'YouTube & Podcasts',
+      name: 'YouTube Videos & Podcasts',
       type: 'longform',
       iconImg: youtubeIcon,
-      desc: 'In-depth long-form video editing with chapters, multi-cam sync, sound mastering, and viewer retention cues.'
+      desc: 'Produce polished long-form content with professional editing, multi-camera synchronization, audio enhancement, chapter markers, and visual elements that support viewer engagement.'
     },
     {
-      name: 'Brand Commercials & Ads',
+      name: 'Brand Commercials & Advertisements',
       type: 'commercials',
       iconImg: adwordsIcon,
-      desc: 'Broadcast-quality commercial ads engineered to tell your brand story and convert prospective buyers.'
+      desc: 'Create professional promotional videos and brand advertisements with compelling storytelling, refined editing, color grading, and visual elements that communicate your brand message effectively.'
     },
     {
-      name: 'Motion Graphics & VFX',
+      name: 'Motion Graphics & Visual Effects',
       type: 'motion-graphics',
       iconImg: motionGraphicIcon,
-      desc: 'Cutting-edge title cards, screen replacements, 3D element tracking, and stylized visual effects.'
+      desc: 'Enhance video content with animated titles, custom graphics, visual transitions, compositing, screen replacements, and creative effects that add depth and visual appeal.'
     }
   ];
 
   const processSteps = [
     {
       step: '01',
-      title: 'Footage Ingestion & Script Review',
-      desc: 'Receiving raw footage files, reviewing audio stems, and establishing editing guidelines and creative briefs.'
+      title: 'Footage Review & Creative Brief',
+      desc: 'Collect raw footage, review audio files, understand project requirements, and define the editing style and creative direction.'
     },
     {
       step: '02',
-      title: 'Assembly & Story Cut',
-      desc: 'Building the foundational timeline, selecting the best takes, pacing the narrative, and syncing multi-camera angles.'
+      title: 'Timeline Assembly & Storytelling',
+      desc: 'Build the initial timeline, select the strongest takes, refine the narrative flow, and synchronize multi-camera footage for a seamless viewing experience.'
     },
     {
       step: '03',
-      title: 'VFX, Titles & Motion Graphics',
-      desc: 'Adding animated subtitles, sound effects, B-roll overlays, visual effects, and custom graphic transitions.'
+      title: 'Visual Effects, Titles & Motion Graphics',
+      desc: 'Enhance your videos with animated subtitles, engaging sound effects, B-roll overlays, visual effects, and customized graphic transitions.'
     },
     {
       step: '04',
-      title: 'Color Grading & Audio Mastering',
-      desc: 'Polishing footage with DaVinci Resolve color correction, audio leveling, noise suppression, and background music.'
+      title: 'Color Grading & Audio Enhancement',
+      desc: 'Refine visuals with professional color correction, balance audio levels, reduce background noise, and integrate suitable background music.'
     },
     {
       step: '05',
-      title: 'Review, Export & Multi-Format Delivery',
-      desc: 'Collaborative review cycle, quick turnaround on revisions, and delivery of 4K/UHD master files in 16:9 and 9:16.'
+      title: 'Final Review & Multi-Format Delivery',
+      desc: 'Review edits collaboratively, incorporate requested revisions, and deliver optimized video files in 4K/UHD quality across formats such as 16:9 and 9:16.'
     }
   ];
 
@@ -239,35 +239,34 @@ const VideoEditing = () => {
         <div className="smm-hero-content" data-aos="fade-up" data-aos-duration="1200">
           <div className="smm-eyebrow-badge">
             <span className="smm-badge-dot"></span>
-            CINEMATIC POST-PRODUCTION EXCELLENCE
+            CREATIVE BRANDING & VISUAL EXCELLENCE
             <span className="smm-badge-dot"></span>
           </div>
 
           <h1 className="smm-hero-title">
-            Professional <br /> Video Editing
+            Branding Agency in <br /> Coimbatore
           </h1>
 
           <p className="smm-hero-desc">
-            Transform raw footage into high-retention, cinematic video masterpieces.
-            We craft scroll-stopping social Reels, engaging YouTube videos, and high-impact commercial advertisements.
+            Transform your brand identity with creative design and strategic visual storytelling. As a branding agency in Coimbatore, we create impactful brand identities, engaging video content, and compelling advertising creatives that help businesses stand out.
           </p>
 
           <div className="smm-stats-grid">
             <div className="smm-stat-item">
               <div className="smm-stat-number">5,000+</div>
-              <div className="smm-stat-label">Videos Edited</div>
+              <div className="smm-stat-label">Creative Assets Delivered</div>
             </div>
             <div className="smm-stat-item">
               <div className="smm-stat-number">100M+</div>
-              <div className="smm-stat-label">Total Video Views</div>
+              <div className="smm-stat-label">Potential Audience Reach</div>
             </div>
             <div className="smm-stat-item">
               <div className="smm-stat-number">4K/60fps</div>
-              <div className="smm-stat-label">Cinema-Grade Quality</div>
+              <div className="smm-stat-label">Premium Video Quality</div>
             </div>
             <div className="smm-stat-item">
-              <div className="smm-stat-number">24-48h</div>
-              <div className="smm-stat-label">Fast Turnaround</div>
+              <div className="smm-stat-number">24–48h</div>
+              <div className="smm-stat-label">Fast Creative Turnaround</div>
             </div>
           </div>
         </div>
@@ -281,42 +280,41 @@ const VideoEditing = () => {
           <div className="smm-feature-left" data-aos="fade-right" data-aos-duration="1200">
             <div className="smm-eyebrow-badge dark">
               <span className="smm-badge-dot"></span>
-              ATTENTION-HOOKING EDITING
+              BRANDING THAT CAPTURES ATTENTION
             </div>
 
             <h2 className="smm-feature-heading">
-              Attention Is The Currency. <br />
-              We Make Every <br />
-              Second Count.
+              Make Your Brand Memorable. <br />
+              Turn Every Impression <br />
+              Into Impact.
             </h2>
 
             <p className="smm-feature-desc">
-              Today's viewers scroll away in less than 2 seconds. We combine psychological pacing, kinetic typography,
-              and cinematic sound engineering to keep your audience hooked from the very first frame to the final CTA.
+              In a crowded digital marketplace, strong branding helps businesses stand apart. We combine strategic brand positioning, compelling visuals, and consistent messaging to create memorable brand experiences that connect with your audience across digital platforms.
             </p>
 
             <div className="smm-feature-list">
               <div className="smm-feature-box">
                 <div className="smm-feature-icon-badge">✓</div>
                 <div className="smm-feature-box-content">
-                  <h4>Scroll-Stopping Hooks</h4>
-                  <p>Dynamic visual effects, zoom cuts, and animated captions engineered to maximize initial viewer retention.</p>
+                  <h4>Distinctive Brand Identity</h4>
+                  <p>Build a recognizable brand with thoughtful logo design, consistent visual elements, and creative assets aligned with your business personality.</p>
                 </div>
               </div>
 
               <div className="smm-feature-box">
                 <div className="smm-feature-icon-badge">✓</div>
                 <div className="smm-feature-box-content">
-                  <h4>Cinema Color & Immersive Sound</h4>
-                  <p>DaVinci Resolve color grading paired with multi-layer foley sound effects for a premium broadcast feel.</p>
+                  <h4>Creative Visuals & Brand Storytelling</h4>
+                  <p>Combine engaging graphics, cohesive color palettes, and compelling visual narratives to communicate your brand message clearly and professionally.</p>
                 </div>
               </div>
 
               <div className="smm-feature-box">
                 <div className="smm-feature-icon-badge">✓</div>
                 <div className="smm-feature-box-content">
-                  <h4>Multi-Platform Repurposing</h4>
-                  <p>Seamlessly export vertical 9:16 Shorts, horizontal 16:9 YouTube masters, and square 1:1 ad formats.</p>
+                  <h4>Consistent Multi-Platform Branding</h4>
+                  <p>Maintain a unified brand identity across Instagram Reels, YouTube videos, websites, and digital advertisements with platform-ready creative assets.</p>
                 </div>
               </div>
             </div>
@@ -345,7 +343,7 @@ const VideoEditing = () => {
           </div>
           <h2 className="smm-section-title">Our Video Editing Capabilities</h2>
           <p className="smm-section-subtitle">
-            From viral short-form micro-content to high-end broadcast commercials, we cover full-spectrum post-production.
+            From engaging short-form social content to polished commercial advertisements, we deliver complete video post-production solutions.
           </p>
         </div>
 
@@ -378,11 +376,11 @@ const VideoEditing = () => {
         <div className="smm-section-header" data-aos="fade-up" data-aos-duration="1200">
           <div className="smm-eyebrow-badge dark">
             <span className="smm-badge-dot"></span>
-            FORMAT MASTERY
+            VIDEO FORMATS & EDITING EXPERTISE
           </div>
-          <h2 className="smm-section-title dark">Video Formats We Master</h2>
+          <h2 className="smm-section-title dark">Video Formats We Work With</h2>
           <p className="smm-section-subtitle dark">
-            We engineer video cuts specifically optimized for each platform's distinct aspect ratio and algorithmic requirements.
+            We create and edit videos tailored to the unique requirements of different digital platforms. From short-form social media content to professional brand commercials, every video is edited with the appropriate format, pacing, and visual style to deliver an engaging viewing experience.
           </p>
         </div>
 
@@ -420,7 +418,7 @@ const VideoEditing = () => {
           </div>
           <h2 className="smm-section-title">How We Edit Your Videos</h2>
           <p className="smm-section-subtitle">
-            A frictionless, collaborative workflow delivering polished video deliverables in record time.
+            A streamlined, collaborative workflow designed to deliver high-quality, professionally edited videos on time.
           </p>
         </div>
 

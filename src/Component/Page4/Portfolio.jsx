@@ -12,7 +12,7 @@ const Portfolioo = () => {
          <div className='ab-section1'>
           <h1 className='head2'>Portfolio</h1>
 
-          <p className='head3-p'>As a Leading Advertising Agency in Coimbatore, our portfolio showcases our creative and strategic capabilities through a diverse range of projects. Discover our work in branding,advertising, digital marketing, event management, and photography/videography. Each project reflects our commitment to innovation, creativity, and client satisfaction. </p>
+          <p className='head3-p'>Explore our digital marketing portfolio in Coimbatore, showcasing our expertise in creative strategy, branding, advertising, SEO, performance marketing, and visual content production. Each project reflects our commitment to developing tailored marketing solutions that strengthen brand identity, improve online visibility, and support our clients’ business goals.</p>
         </div>
 
        
@@ -22,9 +22,8 @@ const Portfolioo = () => {
           </div>
           
           <div className='creativ-head'>
-            <h2>Our Visual Gallery</h2>
-            <p>Witness the magic of our creativity across diverse platforms. We create impactful designs, effective marketing campaigns, and unforgettable events. 
-            </p>
+            <h2>Our Creative Portfolio</h2>
+            <p>Discover the creativity and strategy behind our work across digital platforms and visual media. From impactful brand identities and targeted marketing campaigns to engaging photography, videography, and event experiences, our portfolio highlights the diverse ways we help businesses build their presence and connect with their audiences.</p>
           </div>
           <div className='tslider'>
           <HorizontalSlider/>

@@ -77,9 +77,9 @@ const PerformanceMarketing = () => {
     {
       num: '01',
       title: 'Google Ads & Search Campaigns',
-      desc: 'High-intent search, shopping, and Performance Max campaigns targeting users ready to buy.',
+      desc: 'Strategic search, shopping, and Performance Max campaigns designed to reach users actively searching for your products or services.',
       points: [
-        'Keyword Bidding & Negative Match Strategy',
+        'Keyword Bidding & Negative Keyword Strategy',
         'Performance Max & Smart Bidding Setup',
         'Quality Score & Conversion Rate Optimization'
       ]
@@ -87,79 +87,79 @@ const PerformanceMarketing = () => {
     {
       num: '02',
       title: 'Meta Paid Ads (Instagram & Facebook)',
-      desc: 'Full-funnel paid advertising with custom lookalike audiences and dynamic product catalogs.',
+      desc: 'Targeted advertising campaigns using audience insights, creative variations, and retargeting strategies to attract potential customers.',
       points: [
-        'Advantage+ Creative & Audience Scaling',
+        'Advantage+ Creative & Audience Optimization',
         'High-Converting Carousel & Video Ads',
-        'Precision Retargeting & Cart Recovery'
+        'Precision Retargeting & Customer Re-engagement'
       ]
     },
     {
       num: '03',
       title: 'Landing Page & Funnel Optimization',
-      desc: 'Speed-optimized, high-converting landing pages tailored specifically to maximize ad click-to-lead rates.',
+      desc: 'Conversion-focused landing pages designed to improve user experience, reduce friction, and turn more ad clicks into qualified leads.',
       points: [
-        'A/B Split Testing & Heatmap Analysis',
-        'Frictionless Lead Capture Forms',
-        'Persuasive Copywriting & Compelling CTAs'
+        'A/B Testing & User Behavior Analysis',
+        'Streamlined Lead Capture Forms',
+        'Persuasive Copywriting & Clear CTAs'
       ]
     },
     {
       num: '04',
       title: 'LinkedIn B2B Lead Generation',
-      desc: 'Laser-targeted B2B campaigns reaching C-level decision-makers and high-ticket enterprise buyers.',
+      desc: 'Targeted B2B advertising campaigns that connect businesses with relevant professionals, decision-makers, and potential enterprise clients.',
       points: [
         'Job Title, Industry & Company Size Targeting',
-        'InMail & Lead Gen Form Campaigns',
-        'Account-Based Marketing (ABM) Frameworks'
+        'Sponsored Messaging & Lead Generation Forms',
+        'Account-Based Marketing (ABM) Strategies'
       ]
     },
     {
       num: '05',
-      title: 'Multi-Touch Tracking & Server-Side Pixel',
-      desc: 'First-party data tracking, Conversions API (CAPI), and custom attribution models for zero data loss.',
+      title: 'Conversion Tracking & Attribution',
+      desc: 'Reliable conversion measurement using analytics tools, tracking integrations, and attribution methods to better understand campaign performance.',
       points: [
         'Meta CAPI & Google Tag Manager Setup',
-        'GA4 Custom Funnel & Event Tracking',
-        'Accurate Cross-Channel ROI Attribution'
+        'GA4 Event & Funnel Tracking',
+        'Cross-Channel Performance Attribution'
       ]
     },
     {
       num: '06',
       title: 'Creative Testing & ROAS Scaling',
-      desc: 'Continuous creative iteration to beat ad fatigue and aggressively scale profitable ad campaigns.',
+      desc: 'Continuous campaign testing and optimization to reduce ad fatigue, improve advertising efficiency, and scale profitable campaigns.',
       points: [
-        'Hook, Angle & Format Multi-Variant Tests',
-        'Budget Reallocation to Top Performers',
-        'Weekly Transparent ROAS & Cost-Per-Lead Reports'
+        'Hook, Angle & Creative Format Testing',
+        'Budget Allocation Based on Performance',
+        'Regular ROAS & Cost-Per-Lead Reporting'
       ]
     }
   ];
 
   const platforms = [
     {
-      name: 'Google Ads (Search & PMax)',
+      name: 'Google Ads (Search, Display & Performance Max)',
       type: 'google-ads',
       iconText: 'G',
-      desc: 'Capture high-intent search queries, Google Shopping buyers, and scalable Performance Max audiences.'
+      desc: 'Reach potential customers when they actively search for your products or services. Use search, display, shopping, and Performance Max campaigns to increase visibility, attract relevant traffic, and generate enquiries.'
     },
     {
-      name: 'Meta Ads (Instagram & FB)',
+      name: 'Meta Ads (Instagram & Facebook)',
       type: 'meta-ads',
       iconText: 'M',
-      desc: 'Scale customer acquisition with algorithm-driven creatives, lookalike audiences, and automated retargeting.'
+      desc: 'Connect with your target audience through strategically designed ad creatives, audience targeting, lead generation campaigns, and remarketing strategies that support customer acquisition and brand growth.'
     },
     {
       name: 'LinkedIn Sponsored Content',
       type: 'linkedin-ads',
       iconText: 'in',
-      desc: 'Target key corporate decision-makers, executives, and enterprise accounts with high-trust B2B advertising.'
+      desc: 'Reach relevant business professionals, industry leaders, and decision-makers through targeted B2B advertising. Promote your services, build professional brand awareness, and generate business enquiries through sponsored content and lead generation campaigns.'
     },
     {
-      name: 'Programmatic & Display',
+      name: 'Programmatic & Display Advertising',
       type: 'programmatic',
       iconText: '⚡',
-      desc: 'High-frequency omni-channel retargeting and native display advertising across premium media networks.'
+      desc: 'Expand your brand reach through display and programmatic advertising across relevant websites and digital networks. Use audience-based targeting, remarketing, and engaging ad formats to maintain brand visibility and reconnect with potential customers.'
     }
   ];
 
@@ -167,27 +167,27 @@ const PerformanceMarketing = () => {
     {
       step: '01',
       title: 'Audit & Market Research',
-      desc: 'In-depth analysis of past ad accounts, competitor positioning, target personas, and unit economics.'
+      desc: 'Analyze existing ad accounts, competitor strategies, target audiences, and campaign costs to identify opportunities for improved performance.'
     },
     {
       step: '02',
-      title: 'Tracking & Pixel Setup',
-      desc: 'Deploying server-side CAPI, GA4 event pipelines, and conversion tracking before spending a single rupee.'
+      title: 'Tracking & Conversion Setup',
+      desc: 'Configure conversion tracking, GA4 events, and Meta Conversions API to measure campaign results and support data-driven decisions.'
     },
     {
       step: '03',
-      title: 'Creative & Funnel Build',
-      desc: 'Designing high-impact ad creatives, writing benefit-driven copy, and launching dedicated landing pages.'
+      title: 'Creative & Funnel Development',
+      desc: 'Create engaging ad creatives, develop persuasive copy, and build dedicated landing pages designed to turn clicks into conversions.'
     },
     {
       step: '04',
       title: 'A/B Testing & Validation',
-      desc: 'Testing multiple audiences, hooks, and bidding models to identify winning ads with lowest cost per lead.'
+      desc: 'Test different audiences, creative approaches, and bidding strategies to identify effective campaigns and improve cost per lead.'
     },
     {
       step: '05',
       title: 'Scale & Maximize ROAS',
-      desc: 'Increasing ad budgets on top performers, horizontal scaling, and optimizing for compounding returns.'
+      desc: 'Increase budgets for high-performing campaigns, expand successful audience segments, and continuously optimize advertising returns.'
     }
   ];
 
@@ -240,12 +240,11 @@ const PerformanceMarketing = () => {
           </div>
 
           <h1 className="smm-hero-title">
-            Performance <br /> Marketing (PPC)
+            Performance Marketing <br /> Company in Coimbatore
           </h1>
 
           <p className="smm-hero-desc">
-            Drive targeted buyer traffic, high-intent qualified leads, and maximum Return on Ad Spend (ROAS)
-            with precision paid advertising across Google, Meta, and high-performing digital channels.
+            Drive targeted buyer traffic, high-intent qualified leads, and maximum Return on Ad Spend (ROAS) with precision paid advertising across Google, Meta, and high-performing digital channels.
           </p>
 
           <div className="smm-stats-grid">
@@ -281,14 +280,11 @@ const PerformanceMarketing = () => {
             </div>
 
             <h2 className="smm-feature-heading">
-              Stop Wasting Ad Budget. <br />
-              Scale With Precision <br />
-              Performance Ads.
+              Profitable Paid <br /> Acquisition.
             </h2>
 
             <p className="smm-feature-desc">
-              Many agencies burn budgets on vanity clicks. We build high-converting performance funnels engineered
-              for bottom-line revenue, lower cost-per-acquisition, and compounding return on ad spend.
+              Many agencies focus on vanity clicks. We build conversion-focused performance funnels designed to drive revenue, reduce cost-per-acquisition, and improve return on ad spend through continuous campaign optimization.
             </p>
 
             <div className="smm-feature-list">
@@ -296,7 +292,7 @@ const PerformanceMarketing = () => {
                 <div className="smm-feature-icon-badge">✓</div>
                 <div className="smm-feature-box-content">
                   <h4>Intent-Based Targeting</h4>
-                  <p>Target active buyers exactly when they search for your solutions or show high purchase intent.</p>
+                  <p>Reach potential buyers when they search for your solutions or demonstrate strong purchase intent across relevant digital advertising platforms.</p>
                 </div>
               </div>
 
@@ -304,15 +300,15 @@ const PerformanceMarketing = () => {
                 <div className="smm-feature-icon-badge">✓</div>
                 <div className="smm-feature-box-content">
                   <h4>Scientific A/B Creative Testing</h4>
-                  <p>Systematically test dozens of hooks, copy variants, and landing page angles to find runaway winners.</p>
+                  <p>Systematically test multiple hooks, ad copy variations, creative formats, and landing page experiences to identify winning combinations.</p>
                 </div>
               </div>
 
               <div className="smm-feature-box">
                 <div className="smm-feature-icon-badge">✓</div>
                 <div className="smm-feature-box-content">
-                  <h4>Server-Side Conversion Tracking</h4>
-                  <p>Flawless Meta CAPI and GA4 tracking ensures 100% data visibility despite browser cookie restrictions.</p>
+                  <h4>Conversion Tracking & Attribution</h4>
+                  <p>Accurate Meta CAPI and GA4 tracking helps measure conversions, understand campaign performance, and make informed decisions despite browser cookie restrictions.</p>
                 </div>
               </div>
             </div>
@@ -341,7 +337,7 @@ const PerformanceMarketing = () => {
           </div>
           <h2 className="smm-section-title">Our Performance Capabilities</h2>
           <p className="smm-section-subtitle">
-            From search intent capture to multi-channel dynamic retargeting, our full-stack ad solutions drive scalable revenue.
+            From search intent targeting to multi-channel retargeting, our performance marketing solutions help businesses generate leads, increase conversions, and drive scalable growth.
           </p>
         </div>
 
@@ -374,11 +370,11 @@ const PerformanceMarketing = () => {
         <div className="smm-section-header" data-aos="fade-up" data-aos-duration="1200">
           <div className="smm-eyebrow-badge dark">
             <span className="smm-badge-dot"></span>
-            HIGH-CONVERTING CHANNELS
+            DIGITAL ADVERTISING PLATFORMS
           </div>
-          <h2 className="smm-section-title dark">Channels We Dominate</h2>
+          <h2 className="smm-section-title dark">Reaching Your Audience Across the Right Channels</h2>
           <p className="smm-section-subtitle dark">
-            We deploy targeted ad spend across top digital ad platforms to capture demand wherever your customers browse.
+            We create and manage targeted advertising campaigns across leading digital platforms to help businesses reach relevant audiences, generate qualified leads, increase brand awareness, and achieve measurable marketing objectives.
           </p>
         </div>
 
@@ -412,7 +408,7 @@ const PerformanceMarketing = () => {
           </div>
           <h2 className="smm-section-title">How We Scale Your ROI</h2>
           <p className="smm-section-subtitle">
-            A battle-tested 5-step framework engineered for profitable, predictable customer acquisition.
+            A structured 5-step framework designed to improve campaign performance, generate qualified leads, and support profitable customer acquisition.
           </p>
         </div>
 

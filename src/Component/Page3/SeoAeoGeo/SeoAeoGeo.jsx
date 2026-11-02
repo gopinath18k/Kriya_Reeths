@@ -77,61 +77,61 @@ const SeoAeoGeo = () => {
     {
       num: '01',
       title: 'Generative Engine Optimization (GEO)',
-      desc: 'Position your brand as the primary cited source across AI engines like ChatGPT, Google Gemini, and Perplexity.',
+      desc: 'Improve your brand’s visibility across AI platforms like ChatGPT, Google Gemini, and Perplexity with structured, relevant content.',
       points: [
-        'LLM Knowledge Graph & Entity Authority',
-        'AI Query Citation & Source Ingestion Optimization',
+        'Entity Optimization & Brand Authority',
+        'AI Citation & Content Visibility Optimization',
         'Direct Answer Structuring for Generative AI'
       ]
     },
     {
       num: '02',
       title: 'Answer Engine Optimization (AEO)',
-      desc: 'Dominate Google Featured Snippets, People Also Ask (PAA) boxes, and voice assistants with direct response architecture.',
+      desc: 'Improve your chances of appearing in Google Featured Snippets, People Also Ask (PAA) results, and voice search responses.',
       points: [
-        'Zero-Click Search Ranking Strategies',
-        'FAQ & How-To Rich Schema Implementations',
-        'Conversational & Natural Language Processing (NLP)'
+        'Featured Snippet & Zero-Click Search Optimization',
+        'FAQ & How-To Structured Data Implementation',
+        'Conversational Search & Natural Language Optimization'
       ]
     },
     {
       num: '03',
-      title: 'High-Authority Technical SEO',
-      desc: 'Bulletproof crawlability, lightning indexation, and Core Web Vitals optimization that search bots love.',
+      title: 'Technical SEO Optimization',
+      desc: 'Strengthen website crawlability, improve indexing, and optimize Core Web Vitals for better search performance.',
       points: [
-        'Crawl Budget & Deep Log Analysis',
-        'Mobile-First Indexing & Architecture Repair',
-        'Canonicalization, Hreflang & Sitemaps Audit'
+        'Crawl Budget & Technical Site Analysis',
+        'Mobile-First Indexing & Site Architecture',
+        'Canonical Tags, Hreflang & XML Sitemap Audits'
       ]
     },
     {
       num: '04',
       title: 'Semantic Content & Topic Clusters',
-      desc: 'In-depth pillar pages and semantic topic clusters that build undeniable topical authority across your entire niche.',
+      desc: 'Build topical authority through informative pillar pages, relevant supporting content, and well-organized topic clusters.',
       points: [
-        'Commercial Search Intent Keyword Mapping',
-        'Comprehensive Content Gap & Competitor Analysis',
-        'Internal Linking & Topical Depth Frameworks'
+        'Search Intent & Keyword Mapping',
+        'Content Gap & Competitor Analysis',
+        'Internal Linking & Topical Coverage Strategies'
       ]
     },
     {
       num: '05',
-      title: 'High-Quality Backlinks & Digital PR',
-      desc: 'White-hat editorial backlinks and media coverage from high-DA publications to solidify domain authority.',
+      title: 'Quality Backlinks & Digital PR',
+      desc: 'Build website authority with relevant editorial backlinks, trusted publications, and ethical link-building strategies.',
       points: [
-        'Editorial Outreaches & Niche Guest Placements',
-        'Broken Link & Unlinked Brand Mention Reclamation',
-        'Spam Link Disavow & Toxicity Management'
+        'Editorial Outreach & Relevant Guest Placements',
+        'Broken Link Building & Unlinked Brand Mentions',
+        'Toxic Backlink Analysis & Link Cleanup'
       ]
     },
     {
       num: '06',
       title: 'Local SEO & Google Business Profile',
-      desc: 'Capture nearby customers and dominate the local 3-pack with localized citations, reviews, and geo-targeted landing pages.',
+      desc: 'Reach nearby customers and improve local search visibility through location-focused optimization, citations, and review management.',
       points: [
-        'Google Business Profile (GBP) Top Optimization',
-        'Hyper-Local Citation Building & NAP Consistency',
-        'Local Review Strategy & Geo-Tagging'
+        'Google Business Profile (GBP) Optimization',
+        'Local Citation Building & NAP Consistency',
+        'Customer Review Strategy & Local Landing Pages'
       ]
     }
   ];
@@ -166,28 +166,28 @@ const SeoAeoGeo = () => {
   const processSteps = [
     {
       step: '01',
-      title: 'Comprehensive SEO & AI Audit',
-      desc: 'Analyzing technical bottlenecks, current keyword rankings, AI citation visibility, and competitor gaps.'
+      title: 'Comprehensive SEO & AI Search Audit',
+      desc: 'Analyze technical issues, existing keyword rankings, AI search visibility, and competitor opportunities to identify areas for improvement.'
     },
     {
       step: '02',
-      title: 'Semantic Keyword Architecture',
-      desc: 'Mapping high-intent transactional keywords, question clusters, and conversational NLP prompts.'
+      title: 'Strategic Keyword & Content Mapping',
+      desc: 'Map high-intent keywords, customer questions, and conversational search queries to align website content with user search intent.'
     },
     {
       step: '03',
-      title: 'Technical & On-Page Execution',
-      desc: 'Fixing site structure, injecting structured schema data, optimizing tags, and refining content depth.'
+      title: 'Technical & On-Page SEO Execution',
+      desc: 'Improve website structure, implement relevant structured data, optimize metadata, and enhance content quality for search visibility.'
     },
     {
       step: '04',
       title: 'Authority Building & Digital PR',
-      desc: 'Acquiring high-authority backlinks and brand citations to build unstoppable search domain trust.'
+      desc: 'Build relevant backlinks and strengthen brand mentions across trusted websites to improve website credibility and domain authority.'
     },
     {
       step: '05',
-      title: 'AI Tracking & Ranking Growth',
-      desc: 'Monitoring keyword ranks, AI citations, organic traffic growth, and compounding revenue conversions.'
+      title: 'Performance Analysis & Continuous Optimization',
+      desc: 'Evaluate keyword rankings, AI search visibility, organic traffic, and lead generation opportunities to refine strategies and support sustainable growth.'
     }
   ];
 
@@ -235,27 +235,26 @@ const SeoAeoGeo = () => {
         <div className="smm-hero-content" data-aos="fade-up" data-aos-duration="1200">
           <div className="smm-eyebrow-badge">
             <span className="smm-badge-dot"></span>
-            NEXT-GEN ORGANIC SEARCH DOMINATION
+            THE FUTURE OF SEARCH VISIBILITY
             <span className="smm-badge-dot"></span>
           </div>
 
           <h1 className="smm-hero-title">
-            SEO & AEO & GEO <br /> Services
+            SEO Services in <br /> Coimbatore
           </h1>
 
           <p className="smm-hero-desc">
-            Dominate search rankings across Google, voice search, and conversational AI platforms.
-            We combine traditional SEO with cutting-edge Answer Engine (AEO) and Generative Engine Optimization (GEO).
+            Dominate search rankings across Google, voice search, and conversational AI platforms. We combine proven SEO strategies with Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO).
           </p>
 
           <div className="smm-stats-grid">
             <div className="smm-stat-item">
               <div className="smm-stat-number">#1</div>
-              <div className="smm-stat-label">Rank Domination</div>
+              <div className="smm-stat-label">Search Ranking Focus</div>
             </div>
             <div className="smm-stat-item">
               <div className="smm-stat-number">300%+</div>
-              <div className="smm-stat-label">Organic Traffic Lift</div>
+              <div className="smm-stat-label">Organic Traffic Growth</div>
             </div>
             <div className="smm-stat-item">
               <div className="smm-stat-number">10k+</div>
@@ -263,7 +262,7 @@ const SeoAeoGeo = () => {
             </div>
             <div className="smm-stat-item">
               <div className="smm-stat-number">95%+</div>
-              <div className="smm-stat-label">AI Engine Visibility</div>
+              <div className="smm-stat-label">AI Search Visibility</div>
             </div>
           </div>
         </div>
@@ -287,32 +286,31 @@ const SeoAeoGeo = () => {
             </h2>
 
             <p className="smm-feature-desc">
-              Search is no longer just 10 blue links on Google. Modern buyers find solutions through AI overviews,
-              chatbots, and voice assistants. We ensure your brand is the definitive answer everywhere people search.
+              Search is no longer just ten blue links on Google. Modern customers discover businesses through AI Overviews, chatbots, and voice assistants. We help improve your brand’s visibility and make your business easier to discover across relevant search platforms.
             </p>
 
             <div className="smm-feature-list">
               <div className="smm-feature-box">
                 <div className="smm-feature-icon-badge">✓</div>
                 <div className="smm-feature-box-content">
-                  <h4>Generative AI Citations (GEO)</h4>
-                  <p>Structure your site content so ChatGPT, Perplexity, and Gemini recommend your business as the top choice.</p>
+                  <h4>Generative Engine Optimization (GEO)</h4>
+                  <p>Structure your website content so AI platforms like ChatGPT, Perplexity, and Gemini can understand your business and potentially reference your brand in generated answers.</p>
                 </div>
               </div>
 
               <div className="smm-feature-box">
                 <div className="smm-feature-icon-badge">✓</div>
                 <div className="smm-feature-box-content">
-                  <h4>Featured Snippet Domination (AEO)</h4>
-                  <p>Capture Google Position Zero and People Also Ask boxes with direct, authoritative semantic answer blocks.</p>
+                  <h4>Featured Snippet Optimization (AEO)</h4>
+                  <p>Improve your chances of appearing in Google featured snippets and People Also Ask results with clear, direct, and authoritative answers.</p>
                 </div>
               </div>
 
               <div className="smm-feature-box">
                 <div className="smm-feature-icon-badge">✓</div>
                 <div className="smm-feature-box-content">
-                  <h4>High-DA Authority Link Building</h4>
-                  <p>Earn trusted editorial backlinks from industry-leading websites that solidify long-term search dominance.</p>
+                  <h4>High-Authority Link Building</h4>
+                  <p>Earn relevant, quality backlinks from trusted websites to strengthen domain authority, build credibility, and support long-term organic search visibility.</p>
                 </div>
               </div>
             </div>
@@ -339,9 +337,9 @@ const SeoAeoGeo = () => {
             <span className="smm-badge-dot"></span>
             WHAT WE DO
           </div>
-          <h2 className="smm-section-title">Our Search Capabilities</h2>
+          <h2 className="smm-section-title">Our SEO Capabilities</h2>
           <p className="smm-section-subtitle">
-            Comprehensive optimization spanning technical architecture, semantic content, and AI knowledge engines.
+            Comprehensive SEO services covering technical optimization, relevant content, and AI-powered search visibility.
           </p>
         </div>
 
@@ -410,9 +408,9 @@ const SeoAeoGeo = () => {
             <span className="smm-badge-dot"></span>
             OUR RANKING FRAMEWORK
           </div>
-          <h2 className="smm-section-title">How We Scale Your Rankings</h2>
+          <h2 className="smm-section-title">How We Improve Your Rankings</h2>
           <p className="smm-section-subtitle">
-            A systematic 5-step framework to drive compounding organic traffic and high-intent customer leads.
+            A structured 5-step approach designed to strengthen organic visibility, attract high-intent visitors, and generate qualified customer leads.
           </p>
         </div>
 

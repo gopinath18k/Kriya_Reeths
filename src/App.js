@@ -52,11 +52,11 @@ function App() {
 
   return (
     <div className='app'>
+      <PageMetadata />
       {loading ? (
         <Preloadere />
       ) : (
         <>
-          <PageMetadata />
           <Navbare />
 
           <Routes>

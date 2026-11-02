@@ -78,8 +78,7 @@ const Services = () => {
         <p className='head1'>Our</p>
         <h1 className='head2'>Services</h1>
 
-        <p className='head3-p'>As the Best SEO Company in Coimbatore, we offer a comprehensive suite of SEO
-services in Coimbatore designed to improve your online visibility and deliver measurable results. Our team of experts seamlessly blends technical expertise, strategic planning,and proven optimization techniques to help you achieve your business goals. Explore our range of SEO solutions crafted to boost your rankings and drive sustainable growth.
+        <p className='head3-p'>As a digital marketing partner serving businesses across Tamil Nadu, we offer a comprehensive range of digital marketing solutions designed to improve online visibility and support measurable growth. Our team combines technical expertise, strategic planning, and data-driven techniques to help businesses reach their target audiences and achieve their goals. Explore our services, including SEO, social media marketing, performance marketing, website development, branding, and creative content solutions, tailored to strengthen your digital presence and drive sustainable business growth.
  </p>
       </div>
       <div className='service-exampless'>
