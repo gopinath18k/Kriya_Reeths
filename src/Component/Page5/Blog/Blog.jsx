@@ -92,14 +92,14 @@ const Blog = () => {
 
         <div className='blog-section2'>
         <div className='bg1-cont'>
-            <img className='bg-txt11' src={bg1} alt="" />
+            <img className='bg-txt11' src={bg1} alt="social media marketing coimbatore" />
           </div>
           <div className='bg2-cont' >
-            <img className='bg-txt2' src={bg2} alt="" />
+            <img className='bg-txt2' src={bg2} alt="branding agency in coimbatore" />
           </div>
             <div className="row blog-row">
                 <div className="col-12 col-sm-6 beer-head" data-aos="fade-right"
-        data-aos-duration="1300"><img className='beer' src={blog1} alt="" /></div>
+        data-aos-duration="1300"><img className='beer' src={blog1} alt="digital marketing company in coimbatore" /></div>
                 <div className="col-12 col-sm-6 beer-text" data-aos="fade-left"
         data-aos-duration="1300">
                     <h6 className='y-text'>Digital Marketing </h6>
@@ -107,7 +107,7 @@ const Blog = () => {
                     <p className='beer-p'>In today's evolving technologies digital marketing is exposed as a powerful tool for businesses to reach targeted customers and generate traffic worldwide. Like many other platforms, digital marketing has its techniques and strategies to bring one’s business online instantly and easily and it also has its own set of advantages and disadvantages, let us discuss in this blog.</p>
 
                     <div className='tony-head'>
-                        <div><img className='tony' src={tony} alt="" /></div>
+                        <div><img className='tony' src={tony} alt="digital marketing company in coimbatore" /></div>
                         <div className='tony-text '>
                             <h6>Kriya & Reeths</h6>
                             <p>Coimbatore</p>
@@ -118,7 +118,7 @@ const Blog = () => {
         </div>
         <div className='blog-examples'>
         <div className='bg1-cont'>
-                        <img className='bg-txt11' src={greybg} alt="" />
+                        <img className='bg-txt11' src={greybg} alt="graphic design company in coimbatore" />
                     </div>
         <div data-aos="zoom-in"
         data-aos-duration="1300">
@@ -132,7 +132,7 @@ const Blog = () => {
         
         <div className="section6 mt-5">
                 <div className='bg1-cont'>
-                        <img className='bg-txt11' src={bg1} alt="" />
+                        <img className='bg-txt11' src={bg1} alt="website development company in coimbatore" />
                     </div>
                     <div className='community-head'>
                         <div className='community-hd1' data-aos="zoom-in"
@@ -202,7 +202,7 @@ const Blog = () => {
                         
                     </div>
                     <div className='bg2-cont' >
-                        <img className='bg-txt2' src={bg2} alt="" />
+                        <img className='bg-txt2' src={bg2} alt="performance marketing in coimbatore" />
                     </div>
                 </div>
                 <Footere/>

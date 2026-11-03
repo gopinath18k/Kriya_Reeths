@@ -4,7 +4,7 @@ const Arrow = () => {
   return (
     <div>
         <div className='arrow-up'>
-            <a href="#top"><img className='up-arrow' src={up} alt="" /></a>
+            <a href="#top"><img className='up-arrow' src={up} alt="Scroll to Top" /></a>
         </div>
     </div>
   )

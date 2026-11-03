@@ -12,52 +12,38 @@ import sl19 from "../../../images/sl-19.webp";
 import sl20 from "../../../images/sl-20.webp";
 import sl21 from "../../../images/sl-21.webp";
 
+const altKeywords = [
+  "digital marketing company in coimbatore",
+  "seo services in coimbatore",
+  "social media marketing coimbatore",
+  "website development company in coimbatore",
+  "branding agency in coimbatore",
+  "performance marketing in coimbatore",
+  "graphic design company in coimbatore",
+  "video production company in coimbatore"
+];
+
 const Slidesnew2 = () => {
+  const images = [
+    sl18, sl19, sl20, sl21, sl10, sl11, sl12, sl13, sl14, sl15, sl16, sl17,
+    sl10, sl11, sl12, sl13, sl14, sl15, sl16, sl17,
+    sl10, sl11, sl12, sl13, sl14, sl15, sl16, sl17,
+    sl10, sl11, sl12, sl13, sl14, sl15, sl16, sl17
+  ];
+
   return (
     <div>
       <div className="center">
         <div className="slider">
           <div className="items2">
-            <img src={sl18} className="item" />
-            <img src={sl19} className="item" />
-            <img src={sl20} className="item" />
-            <img src={sl21} className="item" />
-            <img src={sl10} className="item" />
-            <img src={sl11} className="item" />
-            <img src={sl12} className="item" />
-            <img src={sl13} className="item" />
-            <img src={sl14} className="item" />
-            <img src={sl15} className="item" />
-            <img src={sl16} className="item" />
-            <img src={sl17} className="item" />
-            <img src={sl10} className="item" />
-            <img src={sl11} className="item" />
-            <img src={sl12} className="item" />
-            <img src={sl13} className="item" />
-            <img src={sl14} className="item" />
-            <img src={sl15} className="item" />
-            <img src={sl16} className="item" />
-            <img src={sl17} className="item" />
-            <img src={sl10} className="item" />
-            <img src={sl11} className="item" />
-            <img src={sl12} className="item" />
-            <img src={sl13} className="item" />
-            <img src={sl14} className="item" />
-            <img src={sl15} className="item" />
-            <img src={sl16} className="item" />
-            <img src={sl17} className="item" />
-            <img src={sl10} className="item" />
-            <img src={sl11} className="item" />
-            <img src={sl12} className="item" />
-            <img src={sl13} className="item" />
-            <img src={sl14} className="item" />
-            <img src={sl15} className="item" />
-            <img src={sl16} className="item" />
-            <img src={sl17} className="item" />
-
-
-            {/* Duplicate the images to ensure continuous looping */}
-            
+            {images.map((src, index) => (
+              <img
+                key={index}
+                src={src}
+                className="item"
+                alt={altKeywords[index % altKeywords.length]}
+              />
+            ))}
           </div>
         </div>
       </div>

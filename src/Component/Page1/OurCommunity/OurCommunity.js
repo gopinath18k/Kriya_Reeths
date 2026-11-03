@@ -68,7 +68,7 @@ export const OurCommunity = () => {
             <div className="container-fluid home-main-cont ">
                 <div className="ab-section7">
                     <div className='bg1-cont'>
-                        <img className='bg-txt11' src={greybg} alt="" />
+                        <img className='bg-txt11' src={greybg} alt="digital marketing company in coimbatore" />
                     </div>
                     <div className='community-head'>
             <div className='community-hd1' ><h2 className='hd1-two'><span className='hd1-one '>Join Our</span> Community</h2></div>

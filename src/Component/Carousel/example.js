@@ -135,7 +135,7 @@ export default class Examplee extends Component {
       <div className="main-container"
       >
         <div className='bg1-cont'>
-                        <img className='bg-txt11' src={greybg} alt="" />
+                        <img className='bg-txt11' src={greybg} alt="digital marketing company in coimbatore" />
                     </div>
         <div className="our-service-conatiner"data-aos="zoom-in"
      data-aos-duration="1300">

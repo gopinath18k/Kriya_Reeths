@@ -45,7 +45,7 @@ const Scroll = () => {
     return (
         <div className='section2'>
             <div className='ipad-cont' ref={ipadContRef} >
-                <img className='ipad' src={ipad} alt="iPad" />
+                <img className='ipad' src={ipad} alt="digital marketing company in coimbatore" />
                 <div className='vid-cont'>
                     <video ref={videoRef} className='land-vid' src={vid} loop onClick={handlePlayPause}></video>
                     {!isPlaying && (
@@ -54,7 +54,7 @@ const Scroll = () => {
                 </div>
             </div>
             <div className='bg-half'>
-                <img className='bg-txt11' src={bg1} alt="" />
+                <img className='bg-txt11' src={bg1} alt="seo services in coimbatore" />
             </div>
         </div>
     );

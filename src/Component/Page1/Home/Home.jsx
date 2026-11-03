@@ -146,7 +146,7 @@ const Homee = () => {
                 <div className="section1" data-aos="zoom-in"
                     data-aos-duration="1300">
                     <img className='head-img'
-                        src={head} alt="Head Image" />
+                        src={head} alt="digital marketing company in coimbatore" />
                 </div>
 
                 <div>
@@ -154,7 +154,7 @@ const Homee = () => {
                 </div>
 
                 <div className="section3 row">
-                    <div className="col graph-head " ><img className='graph' src={graph} alt="" /></div>
+                    <div className="col graph-head " ><img className='graph' src={graph} alt="digital marketing company in coimbatore" /></div>
                     <div className="col brand-sec " >
                         <div className='ab-head'>
                             <h1 className='abm-text'><span className='less-tp'></span>Digital Marketing Company<span className='less-w'>in Coimbatore</span></h1>
@@ -167,7 +167,7 @@ const Homee = () => {
 
                     </div>
                     <div className='bg2-cont' >
-                        <img className='bg-txt2' src={bg2} alt="" />
+                        <img className='bg-txt2' src={bg2} alt="branding agency in coimbatore" />
                     </div>
                 </div>
  
@@ -178,7 +178,7 @@ const Homee = () => {
 
                 <div className="section4">
                     <div className='bg1-cont'>
-                        <img className='bg-txt11' src={bg1} alt="" />
+                        <img className='bg-txt11' src={bg1} alt="social media marketing coimbatore" />
                     </div>
                     <div className='creative-head' data-aos="zoom-in"
                         data-aos-duration="1300">
@@ -201,13 +201,13 @@ const Homee = () => {
 
                     </div>
                     <div className='bg2-cont' >
-                        <img className='bg-txt2' src={bg2} alt="" />
+                        <img className='bg-txt2' src={bg2} alt="performance marketing in coimbatore" />
                     </div>
                 </div>
 
                 <div className="section5">
                     <div className='bg1-cont'>
-                        <img className='bg-txt11' src={greybg} alt="" />
+                        <img className='bg-txt11' src={greybg} alt="video production company in coimbatore" />
                     </div>
                     <div className='creative-head' data-aos="zoom-in"
                         data-aos-duration="1300">
@@ -220,7 +220,7 @@ const Homee = () => {
 
                 <div className="section6" >
                     <div className='bg1-cont' id='joinus'>
-                        <img className='bg-txt11' src={bg1} alt="" />
+                        <img className='bg-txt11' src={bg1} alt="website development company in coimbatore" />
                     </div>
                     <div className='community-head'>
                         <div className='community-hd1' data-aos="zoom-in"
@@ -291,7 +291,7 @@ const Homee = () => {
                         
                     </div>
                     <div className='bg2-cont' >
-                        <img className='bg-txt2' src={bg2} alt="" />
+                        <img className='bg-txt2' src={bg2} alt="graphic design company in coimbatore" />
                     </div>
                 </div>
 

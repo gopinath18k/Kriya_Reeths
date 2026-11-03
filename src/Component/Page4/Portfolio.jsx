@@ -18,7 +18,7 @@ const Portfolioo = () => {
        
         <div className="ab-section4">
           <div className='bg1-cont'>
-            <img className='bg-txt11' src={bg1} alt="" />
+            <img className='bg-txt11' src={bg1} alt="seo services in coimbatore" />
           </div>
           
           <div className='creativ-head'>

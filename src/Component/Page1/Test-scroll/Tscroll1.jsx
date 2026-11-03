@@ -56,38 +56,38 @@ function Tscroll1() {
                     extensions={{ AutoScroll }} // Use the AutoScroll extension
                 >   
                     <SplideSlide>
-                        <img src={sl18} className='sl-img' alt="Poster Navada" style={imageStyle} loading="lazy"/>
+                        <img src={sl18} className='sl-img' alt="website development company in coimbatore" style={imageStyle} loading="lazy"/>
                     </SplideSlide>
                     <SplideSlide>
-                        <img src={sl19} className='sl-img' alt="Poster Navada" style={imageStyle} loading="lazy"/>
+                        <img src={sl19} className='sl-img' alt="performance marketing in coimbatore" style={imageStyle} loading="lazy"/>
                     </SplideSlide>
                     <SplideSlide>
-                        <img src={sl20} className='sl-img' alt="Poster Navada" style={imageStyle} loading="lazy"/>
+                        <img src={sl20} className='sl-img' alt="graphic design company in coimbatore" style={imageStyle} loading="lazy"/>
                     </SplideSlide>
                     <SplideSlide>
-                        <img src={sl21} className='sl-img' alt="Poster Navada" style={imageStyle} loading="lazy"/>
+                        <img src={sl21} className='sl-img' alt="video production company in coimbatore" style={imageStyle} loading="lazy"/>
                     </SplideSlide>
                     
                     <SplideSlide>
-                        <img src={sl10} className='sl-img' alt="Poster Brooklyn" style={imageStyle} loading="lazy"/>
+                        <img src={sl10} className='sl-img' alt="digital marketing company in coimbatore" style={imageStyle} loading="lazy"/>
                     </SplideSlide>
                     <SplideSlide>
-                        <img src={sl11} className='sl-img' alt="Poster Macao" style={imageStyle} loading="lazy"/>
+                        <img src={sl11} className='sl-img' alt="seo services in coimbatore" style={imageStyle} loading="lazy"/>
                     </SplideSlide>
                     <SplideSlide>
-                        <img src={sl12} className='sl-img' alt="Poster Navada" style={imageStyle} loading="lazy"/>
+                        <img src={sl12} className='sl-img' alt="social media marketing coimbatore" style={imageStyle} loading="lazy"/>
                     </SplideSlide>
                     <SplideSlide>
-                        <img src={sl13} className='sl-img' alt="Poster Brooklyn" style={imageStyle} loading="lazy"/>
+                        <img src={sl13} className='sl-img' alt="branding agency in coimbatore" style={imageStyle} loading="lazy"/>
                     </SplideSlide>
                     <SplideSlide>
-                        <img src={sl14} className='sl-img' alt="Poster Macao" style={imageStyle} loading="lazy"/>
+                        <img src={sl14} className='sl-img' alt="website development company in coimbatore" style={imageStyle} loading="lazy"/>
                     </SplideSlide>
                     <SplideSlide>
-                        <img src={sl15} className='sl-img' alt="Poster Navada" style={imageStyle} loading="lazy"/>
+                        <img src={sl15} className='sl-img' alt="performance marketing in coimbatore" style={imageStyle} loading="lazy"/>
                     </SplideSlide>
                     <SplideSlide>
-                        <img src={sl16} className='sl-img' alt="Poster Navada" style={imageStyle} loading="lazy"/>
+                        <img src={sl16} className='sl-img' alt="graphic design company in coimbatore" style={imageStyle} loading="lazy"/>
                     </SplideSlide>
                     
                 </Splide>

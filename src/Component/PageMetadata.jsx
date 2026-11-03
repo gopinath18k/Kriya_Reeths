@@ -638,12 +638,32 @@ const PageMetadata = () => {
     // 3. Keywords
     setMetaTag('meta[name="keywords"]', 'keywords', data.keywords, 'name');
 
-    // 4. Open Graph Tags
-    const currentUrl = window.location.origin + location.pathname;
+    // 4. Open Graph & Social Tags
+    const origin = window.location.origin;
+    const currentUrl = origin + location.pathname;
+    const ogImageUrl = data.image
+      ? (data.image.startsWith('http') ? data.image : `${origin}${data.image}`)
+      : `${origin}/logo.webp`;
+
     setMetaTag('meta[property="og:title"]', 'og:title', data.title, 'property');
     setMetaTag('meta[property="og:description"]', 'og:description', data.description, 'property');
     setMetaTag('meta[property="og:url"]', 'og:url', currentUrl, 'property');
     setMetaTag('meta[property="og:type"]', 'og:type', 'website', 'property');
+    setMetaTag('meta[property="og:image"]', 'og:image', ogImageUrl, 'property');
+    setMetaTag('meta[property="og:image:secure_url"]', 'og:image:secure_url', ogImageUrl, 'property');
+    setMetaTag('meta[property="og:image:width"]', 'og:image:width', '714', 'property');
+    setMetaTag('meta[property="og:image:height"]', 'og:image:height', '381', 'property');
+    setMetaTag('meta[property="og:image:alt"]', 'og:image:alt', 'Kriya & Reeths Logo', 'property');
+    setMetaTag('meta[property="og:site_name"]', 'og:site_name', 'Kriya & Reeths', 'property');
+    setMetaTag('meta[property="og:locale"]', 'og:locale', 'en_IN', 'property');
+
+    // Twitter Card Tags
+    setMetaTag('meta[name="twitter:card"]', 'twitter:card', 'summary_large_image', 'name');
+    setMetaTag('meta[name="twitter:title"]', 'twitter:title', data.title, 'name');
+    setMetaTag('meta[name="twitter:description"]', 'twitter:description', data.description, 'name');
+    setMetaTag('meta[name="twitter:image"]', 'twitter:image', ogImageUrl, 'name');
+    setMetaTag('meta[name="twitter:image:alt"]', 'twitter:image:alt', 'Kriya & Reeths Logo', 'name');
+    setMetaTag('meta[name="twitter:site"]', 'twitter:site', '@kriyareeths', 'name');
 
     // 5. Canonical Link
     let canonical = document.querySelector('link[rel="canonical"]');

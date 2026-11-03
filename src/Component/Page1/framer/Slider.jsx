@@ -61,10 +61,10 @@ export default function Ppc() {
   return (
     <section>
       <ParallaxText baseVelocity={-5}>
-        <img className="sl-img" src={sl1} alt="" />
-        <img className="sl-img"  src={sl2} alt="" />
-        <img className="sl-img"  src={sl3} alt="" />
-        <img className="sl-img"  src={sl4} alt="" />
+        <img className="sl-img" src={sl1} alt="digital marketing company in coimbatore" />
+        <img className="sl-img" src={sl2} alt="social media marketing coimbatore" />
+        <img className="sl-img" src={sl3} alt="seo services in coimbatore" />
+        <img className="sl-img" src={sl4} alt="branding agency in coimbatore" />
       </ParallaxText>
       <ParallaxText baseVelocity={5}>Scroll velocity </ParallaxText>
     </section>

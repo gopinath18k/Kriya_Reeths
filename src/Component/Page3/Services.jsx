@@ -83,17 +83,17 @@ const Services = () => {
       </div>
       <div className='service-exampless'>
         <div className='bg1-cont'>
-          <img className='bg-txt11' src={bg1} alt="" />
+          <img className='bg-txt11' src={bg1} alt="performance marketing in coimbatore" />
         </div>
         <div className='bg2-cont' >
-          <img className='bg-txt2' src={bg2} alt="" />
+          <img className='bg-txt2' src={bg2} alt="graphic design company in coimbatore" />
         </div>
         <Exampless />
       </div>
 
       <div className="ab-section7">
         <div className='bg1-cont'>
-          <img className='bg-txt11' src={greybg} alt="" />
+          <img className='bg-txt11' src={greybg} alt="video production company in coimbatore" />
         </div>
         <div className='community-head'>
             <div className='community-hd1' data-aos="zoom-in"

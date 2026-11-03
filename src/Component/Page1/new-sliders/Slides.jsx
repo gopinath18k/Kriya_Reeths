@@ -13,6 +13,17 @@ import sl23 from "../../../images/sl-23.webp";
 import sl24 from "../../../images/sl-24.webp";
 
 
+const altKeywords = [
+  "digital marketing company in coimbatore",
+  "seo services in coimbatore",
+  "social media marketing coimbatore",
+  "website development company in coimbatore",
+  "branding agency in coimbatore",
+  "performance marketing in coimbatore",
+  "graphic design company in coimbatore",
+  "video production company in coimbatore"
+];
+
 const Slidesnew = () => {
   const images = [sl22, sl23, sl24, sl1, sl2, sl3, sl4, sl5, sl6, sl7, sl8, sl9, sl1, sl2, sl3, sl4, sl5, sl6, sl7, sl8, sl9,sl1, sl2, sl3, sl4, sl5, sl6, sl7, sl8, sl9, ];
   
@@ -21,11 +32,11 @@ const Slidesnew = () => {
       <div className="slider">
         <div className="items">
           {images.map((src, index) => (
-            <img key={index} src={src} className="item" alt={`Slide ${index + 1}`} />
+            <img key={index} src={src} className="item" alt={altKeywords[index % altKeywords.length]} />
           ))}
           {/* Duplicate images for continuous loop */}
           {images.map((src, index) => (
-            <img key={index + images.length} src={src} className="item" alt={`Slide ${index + 1}`} />
+            <img key={index + images.length} src={src} className="item" alt={altKeywords[index % altKeywords.length]} />
           ))}
         </div>
       </div>

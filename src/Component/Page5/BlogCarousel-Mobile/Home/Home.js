@@ -172,12 +172,12 @@ export const Homese = () => {
               </div>
             )}
             <div className="col-12 col-sm-12 col-md-12 blog-content">
-              <img src={blog.image} alt="" className='blogs-img'/>
+              <img src={blog.image} alt="digital marketing company in coimbatore" className='blogs-img'/>
               <p className="sml-head">{blog.smallHead}</p>
               <h3 className="large-head">{blog.head}</h3>
               <p className="blogs-para">{blog.paragraph}</p>
               <div className="blog-image-contain">
-                <img src={blog.personImage} alt="" className='person-img'/>
+                <img src={blog.personImage} alt="Kriya & Reeths" className='person-img'/>
                 <p className="person-namee">{blog.personName} <br/><span className="person-discrip">{blog.personDescription}</span></p>
               </div>
             </div>

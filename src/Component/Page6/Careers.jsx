@@ -32,17 +32,17 @@ const Careers = () => {
       </div>
       <div className="service-exampless">
         <div className="bg1-cont">
-          <img className="bg-txt11" src={bg1} alt="" />
+          <img className="bg-txt11" src={bg1} alt="website development company in coimbatore" />
         </div>
         <div className="bg2-cont">
-          <img className="bg-txt2" src={bg2} alt="" />
+          <img className="bg-txt2" src={bg2} alt="branding agency in coimbatore" />
         </div>
         <Examplesscr />
       </div>
 
       <div className="ab-section7">
         <div className="bg1-cont">
-          <img className="bg-txt11" src={greybg} alt="" />
+          <img className="bg-txt11" src={greybg} alt="performance marketing in coimbatore" />
         </div>
 
         <div className="community">

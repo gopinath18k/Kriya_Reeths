@@ -18,20 +18,20 @@ const DigitalMarketingPeelamedu = () => {
             <div className="row">
                 <div className="col-8 ">
                     <div className="beer1-head">
-                        <img className="beer1" src={Digital_Marketing_Company_in_Peelamedu} alt="" />
+                        <img className="beer1" src={Digital_Marketing_Company_in_Peelamedu} alt="digital marketing company in coimbatore" />
                     </div>
                 </div>
                 <div className="col-3 beer2-head">
                     <div className="tony-headb">
                         <div>
-                            <img className="tonyb" src={tony} alt="" />
+                            <img className="tonyb" src={tony} alt="Kriya & Reeths" />
                         </div>
                         <div className="tony-textb ">
                             <h6>Kriya & Reeths</h6>
                             <p>Coimbatore</p>
                         </div>
                     </div>
-                    <img className="beer2" src={Digital_Marketing_Company_in_Peelamedu} alt="" />
+                    <img className="beer2" src={Digital_Marketing_Company_in_Peelamedu} alt="digital marketing company in coimbatore" />
                 </div>
             </div>
 
@@ -279,7 +279,7 @@ const DigitalMarketingPeelamedu = () => {
 
             <div className="section6 mt-5">
                 <div className="bg1-cont">
-                    <img className="bg-txt11" src={bg1} alt="" />
+                    <img className="bg-txt11" src={bg1} alt="video production company in coimbatore" />
                 </div>
                 <div className="community-head">
                     <div className="community-hd1">
@@ -296,7 +296,7 @@ const DigitalMarketingPeelamedu = () => {
                     <div className="com-but">Submit</div>
                 </div>
                 <div className="bg2-cont">
-                    <img className="bg-txt2" src={bg2} alt="" />
+                    <img className="bg-txt2" src={bg2} alt="digital marketing company in coimbatore" />
                 </div>
             </div>
             <Footere />

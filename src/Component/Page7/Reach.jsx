@@ -97,10 +97,10 @@ const Reachus = () => {
 
             <div className="Reach-sec2">
                 <div className='bg1-cont'>
-                    <img className='bg-txt11' src={bg1} alt="" />
+                    <img className='bg-txt11' src={bg1} alt="graphic design company in coimbatore" />
                 </div>
                 <div className='bg2-cont'>
-                    <img className='bg-txt2' src={bg2} alt="" />
+                    <img className='bg-txt2' src={bg2} alt="video production company in coimbatore" />
                 </div>
                 <div className="row reachus-row">
                     <div data-aos="fade-right"
@@ -109,7 +109,7 @@ const Reachus = () => {
                         onMouseEnter={handleMouseEnter}
                         onMouseLeave={handleMouseLeave}
                     >
-                        {!mapVisible && <img className='out-map' src={map} alt="Map" />}
+                        {!mapVisible && <img className='out-map' src={map} alt="digital marketing company in coimbatore location map" />}
                         <iframe
                             className={`mapee ${mapVisible ? 'visible' : ''}`}
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.0612230211805!2d76.89752997369968!3d11.034033554392035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x275489eeb28f2419%3A0x5b9b13955026b9d!2sKriya%20%26%20Reeths!5e0!3m2!1sen!2sin!4v1722408690065!5m2!1sen!2sin"
@@ -147,7 +147,7 @@ const Reachus = () => {
             </div>
             <div className="ab-section7">
                 <div className='bg1-cont'>
-                    <img className='bg-txt11' src={greybg} alt="" />
+                    <img className='bg-txt11' src={greybg} alt="digital marketing company in coimbatore" />
                 </div>
 
                 <div className='community-head'>

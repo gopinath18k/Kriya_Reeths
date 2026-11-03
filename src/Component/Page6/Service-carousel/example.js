@@ -26,7 +26,7 @@ let slides = [
         <div className="col-0 col-lg-1"></div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5  all-images" data-aos="fade-right"
         data-aos-duration="1300">
-          <img src={carrer} alt="" className='service-images'/>
+          <img src={carrer} alt="digital marketing company in coimbatore" className='service-images'/>
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-6 career-all"  data-aos="fade-left"
         data-aos-duration="1300">
@@ -60,7 +60,7 @@ let slides = [
         <div className="col-0 col-lg-1"></div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5  all-images" data-aos="fade-right"
         data-aos-duration="1300">
-          <img src={intern} alt="" className='service-images'/>
+          <img src={intern} alt="social media marketing coimbatore" className='service-images'/>
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-6  career-all" data-aos="fade-left"
         data-aos-duration="1300">
@@ -91,7 +91,7 @@ let slides = [
         <div className="col-0 col-lg-1"></div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 all-images" data-aos="fade-right"
         data-aos-duration="1300">
-          <img src={workshop} alt="" className='service-images'/>
+          <img src={workshop} alt="seo services in coimbatore" className='service-images'/>
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-6 career-all" data-aos="fade-left"
         data-aos-duration="1300">
@@ -123,7 +123,7 @@ let slides = [
         <div className="col-0 col-lg-1"></div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5  all-images" data-aos="fade-right"
         data-aos-duration="1300">
-          <img src={digital} alt="" className='service-images'/>
+          <img src={digital} alt="website development company in coimbatore" className='service-images'/>
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-6 career-all" data-aos="fade-left"
         data-aos-duration="1300">

@@ -226,10 +226,10 @@ const GraphicDesign = () => {
     <div className="smm-page-wrapper">
       {/* Background text watermarks */}
       <div className="smm-bg-watermark-left">
-        <img className="smm-bg-img" src={bg1} alt="" />
+        <img className="smm-bg-img" src={bg1} alt="graphic design company in coimbatore" />
       </div>
       <div className="smm-bg-watermark-right">
-        <img className="smm-bg-img" src={bg2} alt="" />
+        <img className="smm-bg-img" src={bg2} alt="branding agency in coimbatore" />
       </div>
 
       {/* ====================================================
@@ -323,7 +323,7 @@ const GraphicDesign = () => {
             <div className="smm-showcase-card">
               <img
                 src={designImg}
-                alt="Graphic Design & Branding Showcase"
+                alt="graphic design company in coimbatore"
                 className="smm-showcase-img"
               />
             </div>
@@ -483,7 +483,7 @@ const GraphicDesign = () => {
       <section className="smm-contact-section">
         <div className="ab-section7">
           <div className="bg1-cont">
-            <img className="bg-txt11" src={greybg} alt="" />
+            <img className="bg-txt11" src={greybg} alt="digital marketing company in coimbatore" />
           </div>
           <div className="community-head">
             <div className="community-hd1" data-aos="zoom-in" data-aos-duration="1300">

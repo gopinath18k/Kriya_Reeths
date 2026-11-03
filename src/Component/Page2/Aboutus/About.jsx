@@ -110,10 +110,10 @@
 
           <div className="ab-section2 row">
             <div className='bg1-cont'>
-              <img className='bg-txt11' src={bg1} alt="" />
+              <img className='bg-txt11' src={bg1} alt="social media marketing coimbatore" />
             </div>
             <div className='bg2-cont' >
-              <img className='bg-txt2' src={bg2} alt="" />
+              <img className='bg-txt2' src={bg2} alt="performance marketing in coimbatore" />
             </div>
             <div className="leader-head col-12 col-sm-5 " data-aos="fade-right"
               data-aos-duration="1300">
@@ -126,10 +126,10 @@
               data-aos-duration="1300">
               <div className='founder-box'>
 
-                <img className='founder2' src={founder2} alt="" />
-                <img className='founder1' src={founder1} alt="" />
-                <img className='keer' src={keer} alt="" />
-                <img className='reva' src={reva} alt="" />
+                <img className='founder2' src={founder2} alt="digital marketing company in coimbatore - Founder" />
+                <img className='founder1' src={founder1} alt="branding agency in coimbatore - Founder" />
+                <img className='keer' src={keer} alt="Kriya & Reeths Team" />
+                <img className='reva' src={reva} alt="Kriya & Reeths Team" />
 
 
               </div>
@@ -138,16 +138,16 @@
 
           <div className='ab-section3 row'>
             <div className='bg1-cont'>
-              <img className='bg-txt11' src={greybg} alt="" />
+              <img className='bg-txt11' src={greybg} alt="digital marketing company in coimbatore" />
             </div>
             <div className="col-12 col-sm-6  wedo-mg-head" data-aos="zoom-in"
               data-aos-duration="1300">
               <div className='wedo-sub-head'>
-                <img className='wedo-img' src={wedo} alt="" />
-                <img src={plat1} alt="" className="platforms1" />
-                <img src={plat2} alt="" className="platforms2" />
-                <img src={plat3} alt="" className="platforms3" />
-                <img src={plat4} alt="" className="platforms4" />
+                <img className='wedo-img' src={wedo} alt="digital marketing company in coimbatore" />
+                <img src={plat1} alt="social media marketing coimbatore" className="platforms1" />
+                <img src={plat2} alt="performance marketing in coimbatore" className="platforms2" />
+                <img src={plat3} alt="seo services in coimbatore" className="platforms3" />
+                <img src={plat4} alt="branding agency in coimbatore" className="platforms4" />
               </div>
             </div>
             <div className="col col-12 col-sm-6 " data-aos="fade-left"
@@ -167,10 +167,10 @@
 
           <div className="ab-section4">
             <div className='bg1-cont'>
-              <img className='bg-txt11' src={bg1} alt="" />
+              <img className='bg-txt11' src={bg1} alt="website development company in coimbatore" />
             </div>
             <div className='bg2-cont' >
-              <img className='bg-txt2' src={bg2} alt="" />
+              <img className='bg-txt2' src={bg2} alt="graphic design company in coimbatore" />
             </div>
             <div className='creativ-head' data-aos="zoom-in"
               data-aos-duration="1300">
@@ -186,7 +186,7 @@
 
           <div className='ab-section5'>
             <div className='bg1-cont'>
-              <img className='bg-txt11' src={greybg} alt="" />
+              <img className='bg-txt11' src={greybg} alt="seo services in coimbatore" />
             </div>
 
             <div className="val-head" data-aos="zoom-in"
@@ -206,7 +206,7 @@
 
               <div className="vbdy-frame col-12 col-sm-5 order-1 order-sm-2">
                 <div className='vbdy-frame-sub'>
-                  <img src={polio} alt="" />
+                  <img src={polio} alt="digital marketing company in coimbatore team event" />
                 </div>
               </div>
             </div>
@@ -223,7 +223,7 @@
 
               <div className="vbdy-frame col-12 col-sm-5 order-1 order-sm-2">
                 <div className='vbdy-frame-sub'>
-                  <img src={Onam} alt="" />
+                  <img src={Onam} alt="Onam Celebration at Kriya & Reeths" />
                 </div>
               </div>
             </div>
@@ -239,7 +239,7 @@
 
               <div className="vbdy-frame col-12 col-sm-5 order-1 order-sm-2">
                 <div className='vbdy-frame-sub'>
-                  <img src={Diwali} alt="" />
+                  <img src={Diwali} alt="Diwali Celebration at Kriya & Reeths" />
                 </div>
               </div>
             </div>
@@ -255,7 +255,7 @@
 
               <div className="vbdy-frame col-12 col-sm-5 order-1 order-sm-2">
                 <div className='vbdy-frame-sub'>
-                  <img src={NewYear} alt="" />
+                  <img src={NewYear} alt="New Year Celebration at Kriya & Reeths" />
                 </div>
               </div>
             </div>
@@ -272,7 +272,7 @@
 
               <div className="vbdy-frame col-12 col-sm-5 order-1 order-sm-2">
                 <div className='vbdy-frame-sub'>
-                  <img src={TeamOut} alt="" />
+                  <img src={TeamOut} alt="Team Outing at Kriya & Reeths" />
                 </div>
               </div>
             </div>
@@ -284,10 +284,10 @@
 
           <div className="ab-section6">
             <div className='bg1-cont'>
-              <img className='bg-txt11' src={bg1} alt="" />
+              <img className='bg-txt11' src={bg1} alt="branding agency in coimbatore" />
             </div>
             <div className='bg2-cont' >
-              <img className='bg-txt2' src={bg2} alt="" />
+              <img className='bg-txt2' src={bg2} alt="video production company in coimbatore" />
             </div>
             <div className="row">
 
@@ -307,7 +307,7 @@
 
           <div className="ab-section7">
             <div className='bg1-cont'>
-              <img className='bg-txt11' src={greybg} alt="" />
+              <img className='bg-txt11' src={greybg} alt="social media marketing coimbatore" />
             </div>
             <div className='community-head'>
               <div className='community-hd1' data-aos="zoom-in"

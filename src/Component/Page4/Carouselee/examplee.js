@@ -120,150 +120,150 @@ const slides = [
         <div className="webdesign-section">
           <div className="row first-row">
             <div className="col-6 col-sm-3 order-sm-2 order-1 poster-padding-col">
-              <img className="web-img" src={trimaia1} />
+              <img className="web-img" src={trimaia1} alt="website development company in coimbatore" />
             </div>
             <div className="col-12 col-sm-6 order-sm-1 order-2 posters-col">
-              <img className="web-img" src={trimaia2} />
+              <img className="web-img" src={trimaia2} alt="website development company in coimbatore" />
             </div>
             <div className="col-6 col-sm-3 poster-padding-col">
-              <img className="web-img" src={trimaia3} />
+              <img className="web-img" src={trimaia3} alt="website development company in coimbatore" />
             </div>
           </div>
           <div className="row second-row">
             <div className="col-8 poster-padding-col">
-              <img className="design-img" src={nss1} />
+              <img className="design-img" src={nss1} alt="graphic design company in coimbatore" />
             </div>
             <div className="col-4 poster-padding-col">
-              <img className="design-img" src={nss2} />
+              <img className="design-img" src={nss2} alt="graphic design company in coimbatore" />
             </div>
           </div>
           <div className="row first-row">
             <div className="col-4  poster-padding-col">
-              <img className="design-img" src={allione} />
+              <img className="design-img" src={allione} alt="graphic design company in coimbatore" />
             </div>
             <div className="col-4 poster-padding-col">
-              <img className="design-img" src={allitwo} />
+              <img className="design-img" src={allitwo} alt="graphic design company in coimbatore" />
             </div>
             <div className="col-4 poster-padding-col">
-              <img className="design-img" src={allithree} />
+              <img className="design-img" src={allithree} alt="graphic design company in coimbatore" />
             </div>
           </div>
           <div className="row second-row">
             <div className="col-8 poster-padding-col">
-              <img className="design-img" src={allifour} />
+              <img className="design-img" src={allifour} alt="graphic design company in coimbatore" />
             </div>
             <div className="col-4 poster-padding-col">
-              <img className="design-img" src={allifive} />
+              <img className="design-img" src={allifive} alt="graphic design company in coimbatore" />
             </div>
           </div>
           <div className="row second-row">
             <div className="col-4  poster-padding-col">
-              <img className="design-img" src={osho2} />
+              <img className="design-img" src={osho2} alt="graphic design company in coimbatore" />
             </div>
             <div className="col-4 poster-padding-col">
-              <img className="design-img" src={osho1} />
+              <img className="design-img" src={osho1} alt="graphic design company in coimbatore" />
             </div>
             <div className="col-4 poster-padding-col">
-              <img className="design-img" src={osho3} />
+              <img className="design-img" src={osho3} alt="graphic design company in coimbatore" />
             </div>
           </div>
           <div className="row second-row">
             <div className="col-8 poster-padding-col">
-              <img className="design-img" src={osho4} />
+              <img className="design-img" src={osho4} alt="graphic design company in coimbatore" />
             </div>
             <div className="col-4 poster-padding-col">
-              <img className="design-img" src={osho5} />
+              <img className="design-img" src={osho5} alt="graphic design company in coimbatore" />
             </div>
           </div>
           <div className="row first-row">
             <div className="col-4 poster-padding-col">
-              <img className="design-img" src={maz1} />
+              <img className="design-img" src={maz1} alt="graphic design company in coimbatore" />
             </div>
             <div className="col-8 poster-padding-col">
-              <img className="design-img" src={maz2} />
+              <img className="design-img" src={maz2} alt="graphic design company in coimbatore" />
             </div>
           </div>
           <div className="row second-row">
             <div className="col-7 poster-padding-col">
-              <img className="design-img" src={wise1} />
+              <img className="design-img" src={wise1} alt="graphic design company in coimbatore" />
             </div>
             <div className="col-3 poster-padding-col">
-              <img className="design-img" src={wise2} />
+              <img className="design-img" src={wise2} alt="graphic design company in coimbatore" />
             </div>
             <div className="col-2 poster-padding-col">
-              <img className="design-img" src={wise3} />
+              <img className="design-img" src={wise3} alt="graphic design company in coimbatore" />
             </div>
           </div>
           <div className="row first-row">
             <div className="col-4 poster-padding-col">
-              <img className="design-img" src={mahatwo} />
+              <img className="design-img" src={mahatwo} alt="graphic design company in coimbatore" />
             </div>
             <div className="col-8 poster-padding-col">
-              <img className="design-img" src={mahaone} />
+              <img className="design-img" src={mahaone} alt="graphic design company in coimbatore" />
             </div>
           </div>
           <div className="row second-row">
             <div className="col-4  poster-padding-col">
-              <img className="design-img" src={swasthik1} />
+              <img className="design-img" src={swasthik1} alt="graphic design company in coimbatore" />
             </div>
             <div className="col-4 poster-padding-col">
-              <img className="design-img" src={swasthik2} />
+              <img className="design-img" src={swasthik2} alt="graphic design company in coimbatore" />
             </div>
             <div className="col-4 poster-padding-col">
-              <img className="design-img" src={swasthik3} />
+              <img className="design-img" src={swasthik3} alt="graphic design company in coimbatore" />
             </div>
           </div>
           <div className="row second-row">
             <div className="col-8 poster-padding-col">
-              <img className="design-img" src={disha1} />
+              <img className="design-img" src={disha1} alt="graphic design company in coimbatore" />
             </div>
             <div className="col-4 poster-padding-col">
-              <img className="design-img" src={disha2} />
+              <img className="design-img" src={disha2} alt="graphic design company in coimbatore" />
             </div>
           </div>
           <div className="row first-row">
             <div className="col-4 poster-padding-col">
-              <img className="design-img" src={jat1} />
+              <img className="design-img" src={jat1} alt="graphic design company in coimbatore" />
             </div>
             <div className="col-8 poster-padding-col">
-              <img className="design-img" src={jat2} />
+              <img className="design-img" src={jat2} alt="graphic design company in coimbatore" />
             </div>
           </div>
           <div className="row second-row">
             <div className="col-4  poster-padding-col">
-              <img className="design-img" src={cosmos1} />
+              <img className="design-img" src={cosmos1} alt="graphic design company in coimbatore" />
             </div>
             <div className="col-4 poster-padding-col">
-              <img className="design-img" src={cosmos2} />
+              <img className="design-img" src={cosmos2} alt="graphic design company in coimbatore" />
             </div>
             <div className="col-4 poster-padding-col">
-              <img className="design-img" src={cosmos3} />
+              <img className="design-img" src={cosmos3} alt="graphic design company in coimbatore" />
             </div>
           </div>
           <div className="row first-row">
             <div className="col-4 poster-padding-col">
-              <img className="design-img" src={vesat1} />
+              <img className="design-img" src={vesat1} alt="graphic design company in coimbatore" />
             </div>
             <div className="col-8 poster-padding-col">
-              <img className="design-img" src={vesat2} />
+              <img className="design-img" src={vesat2} alt="graphic design company in coimbatore" />
             </div>
           </div>
           
           <div className="row second-row">
             <div className="col-8 poster-padding-col">
-              <img className="design-img" src={ssv1} />
+              <img className="design-img" src={ssv1} alt="graphic design company in coimbatore" />
             </div>
             <div className="col-4 poster-padding-col">
-              <img className="design-img" src={ssv2} />
+              <img className="design-img" src={ssv2} alt="graphic design company in coimbatore" />
             </div>
           </div>
           
           <div className="row first-row">
             <div className="col-6 poster-padding-col">
-              <img className="design-img" src={gr1} />
+              <img className="design-img" src={gr1} alt="graphic design company in coimbatore" />
             </div>
             <div className="col-6 poster-padding-col">
-              <img className="design-img" src={gr2} />
+              <img className="design-img" src={gr2} alt="graphic design company in coimbatore" />
             </div>
           </div>
           
@@ -281,7 +281,7 @@ const slides = [
           <div className="row web-sec Gw-head">
             <div className="col-12">
               <Link target="_blank" to="https://gowthamarchitects.com/">
-                <img className="web-img" src={web5} />
+                <img className="web-img" src={web5} alt="website development company in coimbatore" />
               </Link>
             </div>
             <div className="col-12 osho-text">
@@ -301,7 +301,7 @@ const slides = [
           <div className="row web-sec">
             <div className="col-12">
               <Link target="_blank"  to="https://jattechno.com/">
-                <img className="web-img" src={web3} />
+                <img className="web-img" src={web3} alt="website development company in coimbatore" />
               </Link>
             </div>
             <div className="col-12 mr-text">
@@ -320,7 +320,7 @@ const slides = [
           <div className="row web-sec">
             <div className="col-12">
               <Link target="_blank"  to="https://www.rrthoranammahal.com/">
-                <img className="web-img" src={web4} />
+                <img className="web-img" src={web4} alt="website development company in coimbatore" />
               </Link>
             </div>
             <div className="col-12 osho-text">
@@ -340,7 +340,7 @@ const slides = [
           <div className="row web-sec">
             <div className="col-12">
               <Link target="_blank"  to="https://www.oshobodybuilders.in/">
-                <img className="web-img" src={web1} />
+                <img className="web-img" src={web1} alt="website development company in coimbatore" />
               </Link>
             </div>
             <div className="col-12 mr-text">
@@ -359,7 +359,7 @@ const slides = [
           <div className="row web-sec">
             <div className="col-12">
               <Link target="_blank"  to="https://mrdistributionservicescbe.com/">
-                <img className="web-img" src={web2} />
+                <img className="web-img" src={web2} alt="website development company in coimbatore" />
               </Link>
             </div>
             <div className="col-12 osho-text">
@@ -383,7 +383,7 @@ const slides = [
           <div className="row web-sec">
             <div className="col-12">
               <Link target="_blank"  to="https://bankvallet.com/">
-                <img className="web-img" src={web6} />
+                <img className="web-img" src={web6} alt="website development company in coimbatore" />
               </Link>
             </div>
             <div className="col-12 mr-text">
@@ -403,7 +403,7 @@ const slides = [
           <div className="row web-sec">
             <div className="col-12">
               <Link target="_blank"  to="https://srimurugavilassweets.in/">
-                <img className="web-img" src={web7} />
+                <img className="web-img" src={web7} alt="website development company in coimbatore" />
               </Link>
             </div>
             <div className="col-12 osho-text pb-5">
@@ -423,7 +423,7 @@ const slides = [
           <div className="row web-sec">
             <div className="col-12">
               <Link target="_blank"  to="https://gearsandpiston.com/">
-                <img className="web-img" src={web8} />
+                <img className="web-img" src={web8} alt="website development company in coimbatore" />
               </Link>
             </div>
             <div className="col-12 mr-text">
@@ -442,7 +442,7 @@ const slides = [
           <div className="row web-sec">
             <div className="col-12">
               <Link target="_blank"  to="https://silverbees.co.in/">
-                <img className="web-img" src={silverbees} />
+                <img className="web-img" src={silverbees} alt="website development company in coimbatore" />
               </Link>
             </div>
             <div className="col-12 osho-text pb-5">
@@ -458,7 +458,7 @@ const slides = [
           <div className="row web-sec">
             <div className="col-12">
               <Link target="_blank"  to="https://disharealty.com/">
-                <img className="web-img" src={dishareal} />
+                <img className="web-img" src={dishareal} alt="website development company in coimbatore" />
               </Link>
             </div>
             <div className="col-12 mr-text">
@@ -474,7 +474,7 @@ const slides = [
           <div className="row web-sec">
             <div className="col-12">
               <Link target="_blank"  to="https://thedivineharvest.in/">
-                <img className="web-img" src={divine} />
+                <img className="web-img" src={divine} alt="website development company in coimbatore" />
               </Link>
             </div>
             <div className="col-12 osho-text pb-5">
@@ -490,7 +490,7 @@ const slides = [
           <div className="row web-sec">
             <div className="col-12">
               <Link target="_blank"  to="https://virginvalleyresort.com/">
-                <img className="web-img" src={virgin} />
+                <img className="web-img" src={virgin} alt="website development company in coimbatore" />
               </Link>
             </div>
             <div className="col-12 mr-text">
@@ -506,7 +506,7 @@ const slides = [
           <div className="row web-sec">
             <div className="col-12">
               <Link target="_blank"  to="https://sumanjewellery.in/">
-                <img className="web-img" src={Suman} />
+                <img className="web-img" src={Suman} alt="website development company in coimbatore" />
               </Link>
             </div>
             <div className="col-12 osho-text pb-5">
@@ -522,7 +522,7 @@ const slides = [
           <div className="row web-sec">
             <div className="col-12">
               <Link target="_blank"  to="https://goodlookhomedecor.com/">
-                <img className="web-img" src={GoodHome} />
+                <img className="web-img" src={GoodHome} alt="website development company in coimbatore" />
               </Link>
             </div>
             <div className="col-12 mr-text">
@@ -538,7 +538,7 @@ const slides = [
           <div className="row web-sec">
             <div className="col-12">
               <Link target="_blank"  to="https://marsautomotivedesigners.com/">
-                <img className="web-img" src={Mars} />
+                <img className="web-img" src={Mars} alt="website development company in coimbatore" />
               </Link>
             </div>
             <div className="col-12 osho-text pb-5">
@@ -566,7 +566,7 @@ const slides = [
           <div className="row pay-per-main  pay-vid-pd">
             <div className="col-0 col-sm-1"></div>
             <div className="col-12 col-sm-5 order-2  order-sm-1 pay-text-col">
-              <img className="pay-per-logo" src={perL1} />
+              <img className="pay-per-logo" src={perL1} alt="performance marketing in coimbatore" />
               <h3 className="pay-per-head">Traffic ad </h3>
               <p className="pay-per-para">
               Swasthik Architectural Studio specializes in providing innovative architectural and interior design solutions that transform spaces. Through our digital marketing efforts, we’ve elevated their brand visibility, generated quality leads, and connected them with clients seeking creative design excellence.
@@ -587,7 +587,7 @@ const slides = [
               </div>
             </div>
             <div className="col-12 col-sm-6 order-1  order-sm-2 pay-per-img-head2">
-              <img className="pay-per-img2" src={per5} />
+              <img className="pay-per-img2" src={per5} alt="performance marketing in coimbatore" />
             </div>
           </div>
 
@@ -597,7 +597,7 @@ const slides = [
           <div className="row pay-per-main  pay-vid-pd ">
             <div className="col-0 col-sm-1"></div>
             <div className="col-12 col-sm-5  order-2  order-sm-1 pay-text-col">
-              <img className="pay-per-logo" src={perL4} />
+              <img className="pay-per-logo" src={perL4} alt="performance marketing in coimbatore" />
               <h3 className="pay-per-head">Lead ad</h3>
               <p className="pay-per-para">
                 Zyme Restaurant aimed to increase foot traffic and drive
@@ -621,7 +621,7 @@ const slides = [
               </div>
             </div>
             <div className="col-12 col-sm-6  order-1  order-sm-2  pay-per-img-head2">
-              <img className="pay-per-img2" src={per4} />
+              <img className="pay-per-img2" src={per4} alt="performance marketing in coimbatore" />
             </div>
           </div>
 
@@ -633,7 +633,7 @@ const slides = [
           <div className="row pay-per-main  pay-vid-pd ">
             <div className="col-0 col-sm-1"></div>
             <div className="col-12 col-sm-5  order-2  order-sm-1 pay-text-col">
-              <img className="pay-per-logo" src={uyirorg} />
+              <img className="pay-per-logo" src={uyirorg} alt="performance marketing in coimbatore" />
               <h3 className="pay-per-head">Lead ad</h3>
               <p className="pay-per-para">
               Our focused approach to digital marketing has helped Uyir achieve exceptional growth in website traffic, creating a strong online presence for their organic products.
@@ -654,7 +654,7 @@ const slides = [
               </div>
             </div>
             <div className="col-12 col-sm-6  order-1  order-sm-2  pay-per-img-head2">
-              <img className="pay-per-img2" src={per6} />
+              <img className="pay-per-img2" src={per6} alt="performance marketing in coimbatore" />
             </div>
           </div>
 
@@ -665,7 +665,7 @@ const slides = [
           <div className="row pay-per-main  pay-vid-pd ">
             <div className="col-0 col-sm-1"></div>
             <div className="col-12 col-sm-5  order-2  order-sm-1 pay-text-col">
-              <img className="pay-per-logo" src={town} />
+              <img className="pay-per-logo" src={town} alt="performance marketing in coimbatore" />
               <h3 className="pay-per-head">Lead ad</h3>
               <p className="pay-per-para">
               Through strategic digital marketing, we’ve helped Little Town Waffle expand their franchise network, connecting with aspiring entrepreneurs and driving significant business growth.
@@ -686,7 +686,7 @@ const slides = [
               </div>
             </div>
             <div className="col-12 col-sm-6  order-1  order-sm-2  pay-per-img-head2">
-              <img className="pay-per-img2" src={per7} />
+              <img className="pay-per-img2" src={per7} alt="performance marketing in coimbatore" />
             </div>
           </div>
 
@@ -697,7 +697,7 @@ const slides = [
           <div className="row pay-per-main  pay-vid-pd ">
             <div className="col-0 col-sm-1"></div>
             <div className="col-12 col-sm-5  order-2  order-sm-1 pay-text-col">
-              <img className="pay-per-logo" src={myvillagelogo} />
+              <img className="pay-per-logo" src={myvillagelogo} alt="performance marketing in coimbatore" />
               <h3 className="pay-per-head">Lead ad</h3>
               <p className="pay-per-para">
               My Village Eco Rural Resort offers a unique countryside escape with family friendly activities, traditional village experiences, and nature inspired stays. Through our targeted Meta lead generation campaign, we reached families and travelers looking for memorable getaways, generating high-quality inquiries at an efficient cost and boosting bookings for the resort.
@@ -718,7 +718,7 @@ const slides = [
               </div>
             </div>
             <div className="col-12 col-sm-6  order-1  order-sm-2  pay-per-img-head2">
-              <img className="pay-per-img2" src={myvillage} />
+              <img className="pay-per-img2" src={myvillage} alt="performance marketing in coimbatore" />
             </div>
           </div>
 
@@ -730,7 +730,7 @@ const slides = [
           <div className="row pay-per-main  pay-vid-pd ">
             <div className="col-0 col-sm-1"></div>
             <div className="col-12 col-sm-5  order-2  order-sm-1 pay-text-col">
-              <img className="pay-per-logo" src={skykapturelogo} />
+              <img className="pay-per-logo" src={skykapturelogo} alt="performance marketing in coimbatore" />
               <h3 className="pay-per-head">Lead ad</h3>
               <p className="pay-per-para">
               Sky Kapture specializes in premium architectural, residential, and commercial interior design solutions, creating functional spaces with modern aesthetics. Through our targeted Meta lead generation campaign, we connected with homeowners and businesses planning interior transformations, generating high-intent inquiries while strengthening the brand's digital presence.
@@ -751,7 +751,7 @@ const slides = [
               </div>
             </div>
             <div className="col-12 col-sm-6  order-1  order-sm-2  pay-per-img-head2">
-              <img className="pay-per-img2" src={skykapture} />
+              <img className="pay-per-img2" src={skykapture} alt="performance marketing in coimbatore" />
             </div>
           </div>
 
@@ -783,10 +783,10 @@ const slides = [
           <div className="col-12">
             <div className="row">
               <div className="col-8">
-                <img className="ev1" src={cor2} />
+                <img className="ev1" src={cor2} alt="video production company in coimbatore" />
               </div>
               <div className="col-4">
-                <img className="ev2" src={cor1} />
+                <img className="ev2" src={cor1} alt="video production company in coimbatore" />
               </div>
             </div>
           </div>
@@ -803,10 +803,10 @@ const slides = [
           <div className="col-12">
             <div className="row">
               <div className="col-8">
-                <img className="ev1" src={ev1} />
+                <img className="ev1" src={ev1} alt="video production company in coimbatore" />
               </div>
               <div className="col-4">
-                <img className="ev2" src={ev2} />
+                <img className="ev2" src={ev2} alt="video production company in coimbatore" />
               </div>
             </div>
           </div>
@@ -826,10 +826,10 @@ const slides = [
           <div className="col-12">
             <div className="row">
               <div className="col-8">
-                <img className="ev1" src={ev5} />
+                <img className="ev1" src={ev5} alt="video production company in coimbatore" />
               </div>
               <div className="col-4">
-                <img className="ev2" src={ev6} />
+                <img className="ev2" src={ev6} alt="video production company in coimbatore" />
               </div>
             </div>
           </div>
@@ -837,7 +837,7 @@ const slides = [
 
         <div className="row ev-contain ev-top ev-bottom">
           <div className="bg2-cont">
-            <img className="bg-txt2" src={bg2} alt="" />
+            <img className="bg-txt2" src={bg2} alt="digital marketing company in coimbatore" />
           </div>
           <div className="col-12 ev-text-head">
             <h3>Birthday Parties</h3>
@@ -849,10 +849,10 @@ const slides = [
           <div className="col-12">
             <div className="row">
               <div className="col-8">
-                <img className="ev1" src={birthday1} />
+                <img className="ev1" src={birthday1} alt="video production company in coimbatore" />
               </div>
               <div className="col-4">
-                <img className="ev2" src={birthday2} />
+                <img className="ev2" src={birthday2} alt="video production company in coimbatore" />
               </div>
             </div>
           </div>
@@ -882,36 +882,36 @@ const slides = [
                   <div className="webdesign-section">
                     <div className="row first-row">
                       <div className="col-6 col-sm-3  poster-padding-col">
-                        <img className="web-img" src={pv1} />
+                        <img className="web-img" src={pv1} alt="website development company in coimbatore" />
                       </div>
                       <div className="col-12 col-sm-6 order-3 order-sm-2 posters-col">
-                        <img className="web-img" src={pv2} />
+                        <img className="web-img" src={pv2} alt="website development company in coimbatore" />
                       </div>
                       <div className="col-6 col-sm-3 order-2 order-sm-3 poster-padding-col">
-                        <img className="web-img" src={pv3} />
+                        <img className="web-img" src={pv3} alt="website development company in coimbatore" />
                       </div>
                     </div>
                     
                     <div className="row second-row">
                       <div className="col-12 col-sm-5 poster-padding-col">
-                        <img className="design-img" src={pv4} />
+                        <img className="design-img" src={pv4} alt="graphic design company in coimbatore" />
                       </div>
                       <div className="col-6 col-sm-3 poster-padding-col">
-                        <img className="design-img2 mt-2 mt-sm-0" src={pv5} />
+                        <img className="design-img2 mt-2 mt-sm-0" src={pv5} alt="graphic design company in coimbatore" />
                       </div>
                       <div className="col-6 col-sm-4 poster-padding-col">
-                        <img className="design-img mt-2 mt-sm-0" src={pv6} />
+                        <img className="design-img mt-2 mt-sm-0" src={pv6} alt="graphic design company in coimbatore" />
                       </div>
                     </div>
                     <div className="row first-row">
                       <div className="col-6 col-sm-3  poster-padding-col">
-                        <img className="design-img" src={pv7} />
+                        <img className="design-img" src={pv7} alt="graphic design company in coimbatore" />
                       </div>
                       <div className="col-6 col-sm-3 poster-padding-col">
-                        <img className="design-img" src={pv8} />
+                        <img className="design-img" src={pv8} alt="graphic design company in coimbatore" />
                       </div>
                       <div className="col-12 col-sm-6 poster-padding-col">
-                        <img className="design-img mt-2 mt-sm-0" src={pv9} />
+                        <img className="design-img mt-2 mt-sm-0" src={pv9} alt="graphic design company in coimbatore" />
                       </div>
                     </div>
                     

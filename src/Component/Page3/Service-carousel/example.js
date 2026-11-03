@@ -29,7 +29,7 @@ let slides = [
           </p>
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-image-wrapper">
-          <img src={smm} alt="Social Media Marketing" className="service-image-element" />
+          <img src={smm} alt="social media marketing coimbatore" className="service-image-element" />
         </div>
         <div className="col-0 col-lg-1"></div>
       </div>
@@ -51,7 +51,7 @@ let slides = [
           </p>
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-image-wrapper">
-          <img src={ppc} alt="Pay-Per-Click Advertising" className="service-image-element" />
+          <img src={ppc} alt="performance marketing in coimbatore" className="service-image-element" />
         </div>
         <div className="col-0 col-lg-1"></div>
       </div>
@@ -73,7 +73,7 @@ let slides = [
           </p>
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-image-wrapper">
-          <img src={develop} alt="Website Development" className="service-image-element" />
+          <img src={develop} alt="website development company in coimbatore" className="service-image-element" />
         </div>
         <div className="col-0 col-lg-1"></div>
       </div>
@@ -95,7 +95,7 @@ let slides = [
           </p>
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-image-wrapper">
-          <img src={seo} alt="Event Management" className="service-image-element" />
+          <img src={seo} alt="seo services in coimbatore" className="service-image-element" />
         </div>
         <div className="col-0 col-lg-1"></div>
       </div>
@@ -117,7 +117,7 @@ let slides = [
           </p>
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-image-wrapper">
-          <img src={VideoEditing} alt="Video and Photo Shoots" className="service-image-element" />
+          <img src={VideoEditing} alt="branding agency in coimbatore" className="service-image-element" />
         </div>
         <div className="col-0 col-lg-1"></div>
       </div>
@@ -139,7 +139,7 @@ let slides = [
           </p>
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-image-wrapper">
-          <img src={design} alt="Graphic Design" className="service-image-element" />
+          <img src={design} alt="graphic design company in coimbatore" className="service-image-element" />
         </div>
         <div className="col-0 col-lg-0"></div>
       </div>
@@ -161,7 +161,7 @@ let slides = [
           </p>
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 service-image-wrapper">
-          <img src={shoot} alt="SEO & AEO & GEO" className="service-image-element" />
+          <img src={shoot} alt="video production company in coimbatore" className="service-image-element" />
         </div>
         <div className="col-0 col-lg-0"></div>
       </div>
