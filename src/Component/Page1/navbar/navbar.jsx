@@ -50,7 +50,7 @@ const Navbare = () => {
       <div className="nav-container">
         <div className='nav-main-cont'>
           <div>
-            <Link to='/'><img className='nav-logo' src={logo} alt="digital marketing company in coimbatore" /></Link>
+            <Link to='/'><img className='nav-logo' src={logo} alt="kriyareeths" /></Link>
           </div>
           <div className='navigation-cont'>
             <ul>
